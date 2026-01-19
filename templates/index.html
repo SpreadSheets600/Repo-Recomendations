@@ -58,7 +58,7 @@
       ::-webkit-scrollbar-thumb:hover { background: var(--border-light); }
 
       /* --- Layout --- */
-      .app-layout { display: flex; width: 100%; height: 100%; }
+      .app-layout { display: flex; width: 100%; height: 100%; position: relative; }
 
       /* --- Sidebar --- */
       .sidebar {
@@ -68,6 +68,7 @@
         display: flex;
         flex-direction: column;
         flex-shrink: 0;
+        transition: transform 0.3s ease;
       }
 
       .sidebar-header {
@@ -79,7 +80,7 @@
         color: var(--text-primary);
         display: flex;
         align-items: center;
-        gap: 8px;
+        justify-content: space-between;
       }
 
       .nav-list {
@@ -144,6 +145,27 @@
         position: sticky;
         top: 0;
         z-index: 10;
+      }
+
+      .menu-btn {
+        display: none; /* Hidden on desktop */
+        background: transparent;
+        border: 1px solid var(--border);
+        color: var(--text-primary);
+        padding: 8px;
+        border-radius: 6px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .close-sidebar-btn {
+        display: none; /* Hidden on desktop */
+        background: transparent;
+        border: none;
+        color: var(--text-tertiary);
+        cursor: pointer;
+        padding: 4px;
       }
 
       .search-wrapper {
@@ -376,11 +398,6 @@
         border-radius: 50%;
       }
       
-      /* Helper for responsive languages */
-      .hidden-desktop {
-        display: none;
-      }
-
       /* --- Card Footer --- */
       .card-footer {
         display: flex;
@@ -413,9 +430,45 @@
 
       .hidden { display: none !important; }
 
+      /* Mobile Overlay */
+      .sidebar-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 40;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+
+      .sidebar-overlay.active {
+        opacity: 1;
+      }
+
       /* Mobile */
       @media (max-width: 768px) {
-        .sidebar { display: none; }
+        /* Sidebar hidden by default, slide in on active */
+        .sidebar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 100%;
+          z-index: 50;
+          transform: translateX(-100%);
+          box-shadow: 4px 0 24px rgba(0,0,0,0.5);
+        }
+        
+        .sidebar.active {
+          transform: translateX(0);
+        }
+
+        .sidebar-overlay.active { display: block; }
+        .menu-btn { display: flex; }
+        .close-sidebar-btn { display: block; }
+
         .top-bar { 
           height: auto; 
           flex-direction: column; 
@@ -423,12 +476,20 @@
           padding: 16px; 
           gap: 12px;
         }
+
+        /* Header row for mobile top bar to hold Menu button + Badge */
+        .top-bar-row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+        }
+
         .search-wrapper { max-width: none; }
-        .user-badge { margin-left: 0; align-self: flex-start; }
+        .user-badge { margin: 0; }
+        
         .content { padding: 24px 16px; }
         .grid { grid-template-columns: 1fr; }
-        
-        .hidden-desktop { display: flex; }
       }
     </style>
   </head>
@@ -447,6 +508,12 @@
       <symbol id="icon-git-fork" viewBox="0 0 16 16">
          <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
       </symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+      </symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+      </symbol>
     </svg>
 
     <!-- Jinja Macro for Languages -->
@@ -462,11 +529,14 @@
           {% endfor %}
         </div>
         <div class="lang-legend">
+          {# Strictly display top 3 #}
           {% for lang, pct in languages.items() %}
-            <div class="legend-item {% if loop.index > 4 %}hidden-desktop{% endif %}">
+            {% if loop.index <= 3 %}
+            <div class="legend-item">
               <span class="legend-dot" style="background-color: var(--lang-{{ loop.index0 % 8 }});"></span>
               {{ lang }} {{ pct }}
             </div>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -474,11 +544,19 @@
     {% endmacro %}
 
     <div class="app-layout">
+      <!-- Overlay for mobile sidebar -->
+      <div class="sidebar-overlay" id="overlay"></div>
+
       <!-- Sidebar -->
-      <aside class="sidebar">
+      <aside class="sidebar" id="sidebar">
         <div class="sidebar-header">
-           <svg style="width:20px; height:20px; fill:var(--accent);"><use href="#icon-search"/></svg>
-           Repo Discovery
+           <div style="display:flex; align-items:center; gap:8px;">
+             <svg style="width:20px; height:20px; fill:var(--accent);"><use href="#icon-search"/></svg>
+             Repo Discovery
+           </div>
+           <button class="close-sidebar-btn" id="sidebar-close">
+             <svg style="width:20px; height:20px;"><use href="#icon-close"/></svg>
+           </button>
         </div>
         <div class="nav-list" id="nav">
           {% for group in results %}
@@ -495,11 +573,20 @@
       <!-- Main Content -->
       <main class="main">
         <header class="top-bar">
+          
+          <!-- Mobile Header Row -->
+          <div class="top-bar-row">
+             <button class="menu-btn" id="menu-toggle">
+               <svg style="width:20px; height:20px;"><use href="#icon-menu"/></svg>
+             </button>
+             <div class="user-badge">{{ username }}</div>
+          </div>
+
           <div class="search-wrapper">
             <svg class="search-icon"><use href="#icon-search"/></svg>
             <input type="text" id="search" class="search-input" placeholder="Filter recommendations..." />
           </div>
-          <div class="user-badge">{{ username }}</div>
+          
         </header>
 
         <div class="content" id="content">
@@ -587,6 +674,26 @@
         const groups = Array.from(document.querySelectorAll("[data-group]"));
         const searchInput = document.getElementById("search");
         const content = document.getElementById("content");
+        
+        // Mobile Sidebar Logic
+        const menuBtn = document.getElementById("menu-toggle");
+        const closeBtn = document.getElementById("sidebar-close");
+        const sidebar = document.getElementById("sidebar");
+        const overlay = document.getElementById("overlay");
+
+        const toggleSidebar = (show) => {
+           if(show) {
+             sidebar.classList.add("active");
+             overlay.classList.add("active");
+           } else {
+             sidebar.classList.remove("active");
+             overlay.classList.remove("active");
+           }
+        };
+
+        if(menuBtn) menuBtn.addEventListener("click", () => toggleSidebar(true));
+        if(closeBtn) closeBtn.addEventListener("click", () => toggleSidebar(false));
+        if(overlay) overlay.addEventListener("click", () => toggleSidebar(false));
 
         let activeIdx = 0;
 
@@ -603,6 +710,11 @@
           }
           if(groups[activeIdx]) groups[activeIdx].classList.remove("hidden");
           content.scrollTop = 0;
+          
+          // Close sidebar on mobile after selection
+          if(window.innerWidth <= 768) {
+            toggleSidebar(false);
+          }
         };
         
         // Initialize
