@@ -62,8 +62,6 @@ jobs:
                       content = content.rstrip() + "\n\n## Automation\n" \
                           + "- Last recommendations run: <!-- RECO_TS_START -->not yet run<!-- RECO_TS_END -->\n" \
                           + "- Latest recommendations file: <!-- RECO_FILE_START -->n/a<!-- RECO_FILE_END -->\n" \
-                          + "- Last Pages deploy: <!-- PAGES_TS_START -->not yet run<!-- PAGES_TS_END -->\n" \
-                          + "- Pages source JSON: <!-- PAGES_JSON_START -->n/a<!-- PAGES_JSON_END -->\n"
 
                   replacements = {
                       "RECO_TS": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
