@@ -375,6 +375,11 @@
         height: 6px;
         border-radius: 50%;
       }
+      
+      /* Helper for responsive languages */
+      .hidden-desktop {
+        display: none;
+      }
 
       /* --- Card Footer --- */
       .card-footer {
@@ -411,9 +416,19 @@
       /* Mobile */
       @media (max-width: 768px) {
         .sidebar { display: none; }
-        .top-bar { padding: 0 20px; }
+        .top-bar { 
+          height: auto; 
+          flex-direction: column; 
+          align-items: stretch;
+          padding: 16px; 
+          gap: 12px;
+        }
+        .search-wrapper { max-width: none; }
+        .user-badge { margin-left: 0; align-self: flex-start; }
         .content { padding: 24px 16px; }
         .grid { grid-template-columns: 1fr; }
+        
+        .hidden-desktop { display: flex; }
       }
     </style>
   </head>
@@ -448,16 +463,11 @@
         </div>
         <div class="lang-legend">
           {% for lang, pct in languages.items() %}
-            {% if loop.index <= 4 %}
-            <div class="legend-item">
+            <div class="legend-item {% if loop.index > 4 %}hidden-desktop{% endif %}">
               <span class="legend-dot" style="background-color: var(--lang-{{ loop.index0 % 8 }});"></span>
               {{ lang }} {{ pct }}
             </div>
-            {% endif %}
           {% endfor %}
-          {% if languages|length > 4 %}
-            <div class="legend-item" title="More...">+{{ languages|length - 4 }}</div>
-          {% endif %}
         </div>
       </div>
       {% endif %}
