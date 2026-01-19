@@ -6,3 +6,4 @@ python-dotenv
 pyyaml
 requests
 urllib3
+bs4
