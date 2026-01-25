@@ -12,5 +12,4 @@ paths:
   recommendations_dir: "recommendations"
   latest_json: "recommendations/latest.json"
 
-user:
-  login: "SpreadSheets600"
+

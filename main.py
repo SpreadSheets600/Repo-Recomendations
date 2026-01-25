@@ -24,7 +24,6 @@ def load_settings():
 
     cfg.setdefault("clickhouse", {})
     cfg.setdefault("processing", {})
-    cfg.setdefault("user", {})
     cfg.setdefault("paths", {})
 
     ch = cfg["clickhouse"]
@@ -48,9 +47,9 @@ def load_settings():
 
     pr["max_workers"] = int(os.getenv("MAX_WORKERS", pr.get("max_workers", 4)))
 
-    cfg["user"]["login"] = os.getenv("GH_USER") or cfg["user"].get("login")
+    cfg["user"] = {"login": os.getenv("GH_USER")}
     if not cfg["user"]["login"]:
-        raise RuntimeError("GitHub username missing")
+        raise RuntimeError("GitHub username missing. Set GH_USER env var.")
 
     return cfg
 
