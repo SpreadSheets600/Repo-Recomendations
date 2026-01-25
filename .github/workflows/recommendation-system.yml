@@ -12,7 +12,8 @@ permissions:
 jobs:
     recommend:
         runs-on: ubuntu-latest
-
+        permissions:
+           contents: write
         steps:
             - name: Checkout
               uses: actions/checkout@v4
@@ -32,6 +33,7 @@ jobs:
             - name: Generate recommendations
               env:
                   PYTHONUNBUFFERED: "1"
+                  GH_USER: ${{ github.repository_owner }}
               run: python main.py
 
             - name: Find latest recommendations file
@@ -83,18 +85,11 @@ jobs:
                   PY
 
             - name: Commit and push changes
-              env:
-                  GH_PAT: ${{ secrets.GH_PAT }}
               run: |
                   set -euo pipefail
                   if git status --porcelain | grep .; then
                     git config user.name "github-actions[bot]"
                     git config user.email "github-actions[bot]@users.noreply.github.com"
-
-                    if [ -n "${GH_PAT:-}" ]; then
-                      git remote set-url origin "https://${GH_PAT}@github.com/${GITHUB_REPOSITORY}"
-                    fi
-
                     git add README.md recommendations index.html
                     git commit -m "chore: automated recommendations update"
                     git push
