@@ -64,6 +64,8 @@ RECOMMENDATIONS_DIR = Path(settings["paths"]["recommendations_dir"])
 LATEST_JSON = Path(settings["paths"]["latest_json"])
 TEMPLATES_DIR = Path("templates")
 OUTPUT_HTML = Path("index.html")
+OVERVIEW_HTML = Path("overview.html")
+TAGCLOUD_HTML = Path("tagcloud.html")
 
 
 CLICKHOUSE_URL = settings["clickhouse"]["url"]
@@ -437,19 +439,32 @@ def render_html_output(username: str, results, generated_at: datetime):
         else "recommendations/latest.json"
     )
 
+    context = {
+        "username": username,
+        "results": results,
+        "generated_at": generated_at,
+        "generated_at_display": generated_at.strftime("%Y-%m-%d %H:%M UTC"),
+        "repo_count": repo_count,
+        "total_recommendations": total_recs,
+        "analytics": analytics,
+        "analytics_json": json.dumps(analytics, separators=(",", ":")),
+        "data_url": data_url,
+    }
+
+    # Generate main recommendations page
     template = env.get_template("index.html")
-    OUTPUT_HTML.write_text(
-        template.render(
-            username=username,
-            results=results,
-            generated_at=generated_at,
-            generated_at_display=generated_at.strftime("%Y-%m-%d %H:%M UTC"),
-            repo_count=repo_count,
-            total_recommendations=total_recs,
-            analytics=analytics,
-            analytics_json=json.dumps(analytics, separators=(",", ":")),
-            data_url=data_url,
-        )
+    OUTPUT_HTML.write_text(template.render(**context))
+
+    # Generate overview page
+    overview_template = env.get_template("overview.html")
+    OVERVIEW_HTML.write_text(overview_template.render(**context))
+
+    # Generate tag cloud page
+    tagcloud_template = env.get_template("tagcloud.html")
+    TAGCLOUD_HTML.write_text(tagcloud_template.render(**context))
+
+    print(
+        f"[INFO] Generated 3 HTML pages: {OUTPUT_HTML}, {OVERVIEW_HTML}, {TAGCLOUD_HTML}"
     )
 
 
