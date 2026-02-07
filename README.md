@@ -14,7 +14,7 @@ Generate GitHub repository recommendations based on your starred repositories an
 <summary>Show architecture diagram</summary>
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Start: python main.py] --> B[Load settings from config/settings.yml and env]
     B --> C[Fetch starred repos from GitHub API]
     C --> D{RECENT_REPOS_LIMIT set?}
