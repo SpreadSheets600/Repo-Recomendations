@@ -53,6 +53,9 @@ The script will:
 
 ## Architecture Diagram
 
+<details>
+<summary>Show architecture diagram</summary>
+
 ```mermaid
 flowchart TD
     A[Start: python main.py] --> B[Load settings from config/settings.yml and env]
@@ -79,6 +82,8 @@ flowchart TD
     Q --> R[Render index.html from templates/index.html with analytics]
     R --> S[[DONE]]
 ```
+
+</details>
 
 ## Recommendation Data Fields
 
