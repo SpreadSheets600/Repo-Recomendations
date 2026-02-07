@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-06T14:24:01.857675+00:00",
+  "generated_at": "2026-02-07T08:00:31.039503+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -329,8 +329,8 @@
           "CSS": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 222,
+      "total_forks": 26
     },
     {
       "repo": "Moulberry/PandoraLauncher",
@@ -553,8 +553,8 @@
           "Other": "1.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 171,
+      "total_forks": 11
     },
     {
       "repo": "openclaw/openclaw",
@@ -883,8 +883,8 @@
           "openclaw"
         ],
         "languages": {
-          "TypeScript": "83.7%",
-          "Swift": "12.4%",
+          "TypeScript": "83.8%",
+          "Swift": "12.3%",
           "Kotlin": "1.7%",
           "Shell": "0.8%",
           "CSS": "0.5%",
@@ -892,8 +892,8 @@
           "Other": "0.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 22232,
+      "total_forks": 4346
     },
     {
       "repo": "serverless-dns/serverless-dns",
@@ -1154,8 +1154,8 @@
           "Dockerfile": "0.8%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 2723,
+      "total_forks": 3261
     },
     {
       "repo": "warreth/OpenlibExtended",
@@ -1407,8 +1407,8 @@
           "Other": "0.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 88,
+      "total_forks": 3
     },
     {
       "repo": "Dominux/Pentaract",
@@ -1753,8 +1753,8 @@
           "Other": "1.5%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 773,
+      "total_forks": 98
     },
     {
       "repo": "narcisbugeag/vscord",
@@ -1995,8 +1995,8 @@
           "JavaScript": "1.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 17,
+      "total_forks": 4
     },
     {
       "repo": "ClickHouse/ClickHouse",
@@ -2279,17 +2279,17 @@
           "lakehouse"
         ],
         "languages": {
-          "C++": "71.8%",
+          "C++": "71.9%",
           "Python": "9.4%",
-          "Assembly": "8.9%",
+          "Assembly": "8.8%",
           "Shell": "4.1%",
           "C": "2.2%",
           "Jinja": "1.4%",
           "Other": "2.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 37031,
+      "total_forks": 7604
     },
     {
       "repo": "coderdiaz/cvfolio",
@@ -2506,8 +2506,8 @@
           "CSS": "6.8%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 14,
+      "total_forks": 11
     },
     {
       "repo": "tursodatabase/libsql",
@@ -2834,8 +2834,8 @@
           "Other": "1.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 11048,
+      "total_forks": 372
     },
     {
       "repo": "ThomasJClark/elden-ring-weapon-calculator",
@@ -3041,8 +3041,8 @@
           "HTML": "0.9%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 79,
+      "total_forks": 15
     },
     {
       "repo": "SpreadSheets600/Anilist-Wrapped",
@@ -3098,7 +3098,7 @@
           "CSS": "5.5%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 7,
       "total_forks": 0
     },
     {
@@ -3344,8 +3344,8 @@
           "CSS": "1.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 560,
+      "total_forks": 89
     },
     {
       "repo": "hunvreus/basecoat",
@@ -3652,8 +3652,8 @@
           "Nunjucks": "21.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 2183,
+      "total_forks": 59
     },
     {
       "repo": "Ansh-Vortex/Readme-Maker",
@@ -3693,7 +3693,7 @@
           "Other": "0.1%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 32,
       "total_forks": 0
     },
     {
@@ -3728,7 +3728,7 @@
           "JavaScript": "0.3%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 14,
       "total_forks": 0
     },
     {
@@ -3763,7 +3763,7 @@
           "Other": "0.2%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 12,
       "total_forks": 0
     },
     {
@@ -3908,8 +3908,8 @@
           "JavaScript": "2.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 38,
+      "total_forks": 1
     },
     {
       "repo": "agnivo988/Repo-lyzer",
@@ -4124,8 +4124,8 @@
           "Go": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 16,
+      "total_forks": 15
     },
     {
       "repo": "EveningLantern/velvet-ideas",
@@ -4159,7 +4159,7 @@
           "Other": "0.9%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 20,
       "total_forks": 0
     },
     {
@@ -4362,8 +4362,8 @@
           "Other": "16.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 129,
+      "total_forks": 60
     },
     {
       "repo": "BeardOverflow/msi-ec",
@@ -4608,8 +4608,8 @@
           "Makefile": "2.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 285,
+      "total_forks": 96
     },
     {
       "repo": "Arefin994/excuse-as-a-service",
@@ -4637,7 +4637,7 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 25,
       "total_forks": 0
     },
     {
@@ -4666,7 +4666,7 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 9,
       "total_forks": 0
     },
     {
@@ -4697,7 +4697,7 @@
           "Other": "0.9%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 20,
       "total_forks": 0
     },
     {
@@ -4730,7 +4730,7 @@
           "Other": "0.8%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 17,
       "total_forks": 0
     },
     {
@@ -4759,7 +4759,7 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 14,
       "total_forks": 0
     },
     {
@@ -4788,7 +4788,7 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 24,
       "total_forks": 0
     },
     {
@@ -5060,8 +5060,8 @@
           "HLSL": "14.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 39,
+      "total_forks": 7
     },
     {
       "repo": "Abs6187/ReelsPro",
@@ -5122,8 +5122,8 @@
           "CSS": "0.7%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 32,
+      "total_forks": 2
     },
     {
       "repo": "Discord-Client-Encyclopedia-Management/Discord3rdparties",
@@ -5369,8 +5369,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1927,
+      "total_forks": 128
     },
     {
       "repo": "ai-for-developers/awesome-vibe-coding",
@@ -5675,8 +5675,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 152,
+      "total_forks": 26
     },
     {
       "repo": "ai-for-developers/awesome-ai-coding-tools",
@@ -5937,13 +5937,13 @@
           "awesome-list",
           "cursor",
           "bolt",
-          "windsurf",
           "awesome-ai",
           "ai-security",
-          "lovable",
           "ai-code-generator",
           "ai-tools",
+          "ai-development-tools",
           "ai-development",
+          "ai-developer",
           "ai-code-generation",
           "ai-developer-tools",
           "ai-coding-tools",
@@ -5955,8 +5955,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 482,
+      "total_forks": 55
     },
     {
       "repo": "best-of-ai/ai-directories",
@@ -6261,8 +6261,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 556,
+      "total_forks": 245
     },
     {
       "repo": "AndyMik90/Auto-Claude",
@@ -6541,13 +6541,13 @@
         "description": "Autonomous multi-session AI coding",
         "topics": [],
         "languages": {
-          "TypeScript": "58.2%",
-          "Python": "40.2%",
+          "TypeScript": "58.4%",
+          "Python": "40.0%",
           "Other": "1.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 4445,
+      "total_forks": 635
     },
     {
       "repo": "Lainmode/InstagramEmbed-vxinstagram",
@@ -6581,7 +6581,7 @@
           "JavaScript": "0.1%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 26,
       "total_forks": 0
     },
     {
@@ -6943,8 +6943,8 @@
           "cockroachdb"
         ],
         "languages": {
-          "TypeScript": "55.9%",
-          "Vue": "26.4%",
+          "TypeScript": "56.0%",
+          "Vue": "26.3%",
           "JavaScript": "9.4%",
           "SCSS": "7.1%",
           "Shell": "0.7%",
@@ -6952,8 +6952,8 @@
           "Other": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 21584,
+      "total_forks": 1570
     },
     {
       "repo": "lingyicute/beekeeper-studio-ultimate",
@@ -7027,8 +7027,8 @@
           "Other": "0.9%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 12,
+      "total_forks": 1
     },
     {
       "repo": "rustdesk/rustdesk",
@@ -7341,8 +7341,8 @@
           "Other": "2.4%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 99299,
+      "total_forks": 24267
     },
     {
       "repo": "udit-001/vibe",
@@ -7709,8 +7709,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 4256,
+      "total_forks": 533
     },
     {
       "repo": "SanjulaGanepola/github-local-actions",
@@ -8019,8 +8019,8 @@
           "JavaScript": "1.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 428,
+      "total_forks": 13
     },
     {
       "repo": "tom-draper/api-analytics",
@@ -8387,8 +8387,8 @@
           "Other": "9.8%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 409,
+      "total_forks": 51
     },
     {
       "repo": "alam00000/bentopdf",
@@ -8686,8 +8686,8 @@
           "Dockerfile": "0.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 4173,
+      "total_forks": 225
     },
     {
       "repo": "SleepyCatHey/CozyPixels",
@@ -8907,8 +8907,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 325,
+      "total_forks": 26
     },
     {
       "repo": "j4wg/interview-coder-withoupaywall-opensource",
@@ -9166,8 +9166,8 @@
           "Other": "4.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 164,
+      "total_forks": 63
     },
     {
       "repo": "github/awesome-copilot",
@@ -9478,8 +9478,8 @@
           "Other": "3.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 9150,
+      "total_forks": 864
     },
     {
       "repo": "upptime/upptime",
@@ -9759,8 +9759,8 @@
           "YAML": "4.9%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 16845,
+      "total_forks": 1825
     },
     {
       "repo": "ZeroLu/awesome-gemini-ai",
@@ -10002,8 +10002,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 225,
+      "total_forks": 7
     },
     {
       "repo": "christiankyle-ching/DigitalWellbeingForWindows",
@@ -10285,8 +10285,8 @@
           "C#": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 189,
+      "total_forks": 17
     },
     {
       "repo": "is-a-good-dev/register",
@@ -10541,8 +10541,8 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 451,
+      "total_forks": 725
     },
     {
       "repo": "Team-BANERUS/poketwo-Autocatcher",
@@ -10804,8 +10804,8 @@
           "Batchfile": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 2357,
+      "total_forks": 1916
     },
     {
       "repo": "Lumos-Labs-HQ/flash",
@@ -11031,17 +11031,17 @@
           "dirzzle-orm"
         ],
         "languages": {
-          "Go": "56.7%",
-          "JavaScript": "28.0%",
-          "CSS": "8.0%",
-          "HTML": "4.9%",
+          "Go": "57.7%",
+          "JavaScript": "27.8%",
+          "CSS": "7.1%",
+          "HTML": "5.0%",
           "Python": "1.1%",
           "Makefile": "0.8%",
           "Other": "0.5%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 5,
+      "total_forks": 1
     },
     {
       "repo": "ChrisTitusTech/winutil",
@@ -11344,8 +11344,8 @@
           "Other": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 39487,
+      "total_forks": 2720
     },
     {
       "repo": "Raphire/Win11Debloat",
@@ -11640,8 +11640,8 @@
           "Batchfile": "1.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 27333,
+      "total_forks": 1059
     },
     {
       "repo": "troxler/awesome-css-frameworks",
@@ -11904,8 +11904,8 @@
           "CSS": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 9234,
+      "total_forks": 618
     },
     {
       "repo": "Lumos-Labs-HQ/wtop",
@@ -12121,8 +12121,8 @@
           "Other": "1.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1,
+      "total_forks": 1
     },
     {
       "repo": "chrisant996/clink",
@@ -12457,8 +12457,8 @@
           "Other": "2.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 4541,
+      "total_forks": 186
     },
     {
       "repo": "gsass1/NTop",
@@ -12754,8 +12754,8 @@
           "Other": "1.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1282,
+      "total_forks": 84
     },
     {
       "repo": "nushell/nushell",
@@ -13019,8 +13019,8 @@
           "Dockerfile": "0.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 38815,
+      "total_forks": 2523
     },
     {
       "repo": "SleepyCatHey/Ultimate-Win11-Setup",
@@ -13257,8 +13257,8 @@
           "PowerShell": "7.4%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 146,
+      "total_forks": 9
     },
     {
       "repo": "anthropics/prompt-eng-interactive-tutorial",
@@ -13527,8 +13527,8 @@
           "Python": "1.9%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 15282,
+      "total_forks": 1420
     },
     {
       "repo": "anuraghazra/github-readme-stats",
@@ -13762,8 +13762,8 @@
           "Shell": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 80470,
+      "total_forks": 41206
     },
     {
       "repo": "NovatraX/exam-countdown-extension",
@@ -14014,8 +14014,8 @@
           "Other": "1.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 6,
+      "total_forks": 13
     },
     {
       "repo": "alight659/ClipBin",
@@ -14312,8 +14312,8 @@
           "Makefile": "0.7%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 28,
+      "total_forks": 28
     },
     {
       "repo": "imputnet/helium",
@@ -14641,8 +14641,8 @@
           "Other": "0.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 4045,
+      "total_forks": 60
     },
     {
       "repo": "imputnet/helium-windows",
@@ -14852,8 +14852,8 @@
           "Shell": "3.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 312,
+      "total_forks": 10
     },
     {
       "repo": "OpenCut-app/OpenCut",
@@ -15198,8 +15198,8 @@
           "Other": "0.7%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 25912,
+      "total_forks": 2543
     },
     {
       "repo": "njraladdin/recaptcha-v2-solver",
@@ -15417,8 +15417,8 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 29,
+      "total_forks": 3
     },
     {
       "repo": "penpot/penpot",
@@ -15780,8 +15780,8 @@
           "Other": "2.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 39820,
+      "total_forks": 2270
     },
     {
       "repo": "discord-userdoccers/discord-userdoccers",
@@ -16013,8 +16013,8 @@
           "Other": "0.5%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 329,
+      "total_forks": 65
     },
     {
       "repo": "PrismarineJS/mineflayer",
@@ -16236,8 +16236,8 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 6413,
+      "total_forks": 1773
     },
     {
       "repo": "heroui-inc/heroui",
@@ -16599,8 +16599,8 @@
           "Other": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 3855,
+      "total_forks": 398
     },
     {
       "repo": "Markonis/slim",
@@ -16626,11 +16626,11 @@
         "description": "An opinionated minimal library not dissimilar to HTMX",
         "topics": [],
         "languages": {
-          "TypeScript": "95.5%",
-          "HTML": "4.5%"
+          "TypeScript": "95.6%",
+          "HTML": "4.4%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 16,
       "total_forks": 0
     },
     {
@@ -16853,8 +16853,8 @@
           "JavaScript": "2.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 10,
+      "total_forks": 1
     },
     {
       "repo": "masaladosai/cheatercock",
@@ -16882,8 +16882,8 @@
           "Rust": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 11,
+      "total_forks": 1
     },
     {
       "repo": "viu-media/viu",
@@ -17116,8 +17116,8 @@
           "Other": "0.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 79,
+      "total_forks": 12
     },
     {
       "repo": "AnishLohiya/DSA",
@@ -17385,8 +17385,8 @@
           "C": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 73,
+      "total_forks": 15
     },
     {
       "repo": "comfort-mode-toolkit/cm-colors",
@@ -17645,8 +17645,8 @@
           "CSS": "1.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 14,
+      "total_forks": 5
     },
     {
       "repo": "vivekkushalch/BypassCTF",
@@ -17703,8 +17703,8 @@
           "HTML": "1.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 3,
+      "total_forks": 1
     },
     {
       "repo": "a-k-14/time_keeper",
@@ -17732,7 +17732,7 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 2,
       "total_forks": 0
     },
     {
@@ -17981,8 +17981,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 224,
+      "total_forks": 5
     },
     {
       "repo": "microsoft/generative-ai-for-beginners",
@@ -18288,8 +18288,8 @@
           "PowerShell": "0.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 94591,
+      "total_forks": 49426
     },
     {
       "repo": "google-gemini/gemini-cli",
@@ -18581,13 +18581,13 @@
           "mcp-client"
         ],
         "languages": {
-          "TypeScript": "98.1%",
-          "JavaScript": "1.8%",
+          "TypeScript": "98.2%",
+          "JavaScript": "1.7%",
           "Other": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 53035,
+      "total_forks": 5838
     },
     {
       "repo": "vinceliuice/Colloid-gtk-theme",
@@ -18817,8 +18817,8 @@
           "Shell": "6.9%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1435,
+      "total_forks": 141
     },
     {
       "repo": "vinceliuice/Orchis-theme",
@@ -19042,8 +19042,8 @@
           "Shell": "4.4%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 3965,
+      "total_forks": 386
     },
     {
       "repo": "udit-001/Collaboration-For-Beginners",
@@ -19283,8 +19283,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 272,
+      "total_forks": 336
     },
     {
       "repo": "roshancodespace/ShonenX",
@@ -19548,17 +19548,17 @@
           "hianime"
         ],
         "languages": {
-          "Dart": "66.8%",
-          "C++": "11.2%",
-          "C": "10.1%",
+          "Dart": "67.1%",
+          "C++": "11.1%",
+          "C": "10.0%",
           "CMake": "5.9%",
-          "HTML": "5.6%",
+          "HTML": "5.5%",
           "Swift": "0.2%",
           "Other": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 20,
+      "total_forks": 6
     },
     {
       "repo": "Zulko/moviepy",
@@ -19840,8 +19840,8 @@
           "Dockerfile": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 14883,
+      "total_forks": 2330
     },
     {
       "repo": "excalidraw/excalidraw",
@@ -20176,8 +20176,8 @@
           "CSS": "0.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 107111,
+      "total_forks": 11992
     },
     {
       "repo": "YashjitPal/Arc-2.0",
@@ -20379,8 +20379,8 @@
           "CSS": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 318,
+      "total_forks": 13
     },
     {
       "repo": "LadybirdBrowser/ladybird",
@@ -20665,8 +20665,8 @@
           "Other": "0.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 47427,
+      "total_forks": 2145
     },
     {
       "repo": "mharrish7/Youtube_Automator",
@@ -20909,8 +20909,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 23,
+      "total_forks": 7
     },
     {
       "repo": "FujiwaraChoki/MoneyPrinter",
@@ -21214,8 +21214,8 @@
           "Dockerfile": "1.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 12319,
+      "total_forks": 1695
     },
     {
       "repo": "elebumm/RedditVideoMakerBot",
@@ -21518,8 +21518,8 @@
           "Other": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 8060,
+      "total_forks": 2570
     },
     {
       "repo": "MALSync/MALSync",
@@ -21741,8 +21741,8 @@
           "HTML": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 2494,
+      "total_forks": 399
     },
     {
       "repo": "FreeTubeApp/FreeTube",
@@ -22061,8 +22061,8 @@
           "EJS": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 19797,
+      "total_forks": 1617
     },
     {
       "repo": "xhyrom/zed-discord-presence",
@@ -22325,8 +22325,8 @@
           "Shell": "2.7%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 260,
+      "total_forks": 17
     },
     {
       "repo": "jpochyla/psst",
@@ -22571,8 +22571,8 @@
           "Shell": "0.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 9431,
+      "total_forks": 335
     },
     {
       "repo": "Jeet-programmer/Deployer",
@@ -22610,7 +22610,7 @@
           "Dockerfile": "11.4%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 3,
       "total_forks": 0
     },
     {
@@ -22639,7 +22639,7 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 16,
       "total_forks": 0
     },
     {
@@ -22684,7 +22684,7 @@
           "JavaScript": "0.6%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 3,
       "total_forks": 0
     },
     {
@@ -23004,8 +23004,8 @@
           "Batchfile": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 565,
+      "total_forks": 32
     },
     {
       "repo": "ChetSpinnyEyes/CursedBopIt",
@@ -23039,7 +23039,7 @@
           "HTML": "5.0%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 1,
       "total_forks": 0
     },
     {
@@ -23320,8 +23320,8 @@
           "Other": "0.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 689,
+      "total_forks": 48
     },
     {
       "repo": "astral-sh/ty",
@@ -23610,8 +23610,8 @@
           "Dockerfile": "10.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 11757,
+      "total_forks": 135
     },
     {
       "repo": "5rahim/seanime",
@@ -23911,8 +23911,8 @@
           "Batchfile": "0.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1563,
+      "total_forks": 117
     },
     {
       "repo": "Alex313031/thorium",
@@ -24209,8 +24209,8 @@
           "Other": "1.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 6426,
+      "total_forks": 250
     },
     {
       "repo": "Legcord/Legcord",
@@ -24550,8 +24550,8 @@
           "HTML": "2.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1337,
+      "total_forks": 48
     },
     {
       "repo": "amnweb/yasb",
@@ -24832,8 +24832,8 @@
           "Other": "0.4%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 2938,
+      "total_forks": 140
     },
     {
       "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
@@ -25138,8 +25138,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 74758,
+      "total_forks": 18734
     },
     {
       "repo": "Equicord/Equidroid",
@@ -25334,8 +25334,8 @@
           "JavaScript": "11.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 16,
+      "total_forks": 3
     },
     {
       "repo": "Equicord/Equicord",
@@ -25554,8 +25554,8 @@
           "Other": "0.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 847,
+      "total_forks": 241
     },
     {
       "repo": "Vencord/Vendroid",
@@ -25762,8 +25762,8 @@
           "JavaScript": "11.7%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 523,
+      "total_forks": 59
     },
     {
       "repo": "Vendicated/Vencord",
@@ -26010,8 +26010,8 @@
           "HTML": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 12092,
+      "total_forks": 2605
     },
     {
       "repo": "Vencord/Vesktop",
@@ -26241,8 +26241,8 @@
           "Other": "0.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 6553,
+      "total_forks": 422
     },
     {
       "repo": "SesameAILabs/csm",
@@ -26529,8 +26529,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 13084,
+      "total_forks": 1216
     },
     {
       "repo": "zauberzeug/nicegui",
@@ -26856,8 +26856,8 @@
           "Other": "1.7%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 13635,
+      "total_forks": 876
     },
     {
       "repo": "eythaann/Seelen-UI",
@@ -27238,8 +27238,8 @@
           "Other": "0.9%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 11721,
+      "total_forks": 400
     },
     {
       "repo": "buildwithmalik/PythonCheatSheet",
@@ -27478,8 +27478,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 306,
+      "total_forks": 49
     },
     {
       "repo": "PaulleDemon/PyUIBuilder",
@@ -27772,8 +27772,8 @@
           "Python": "0.7%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1413,
+      "total_forks": 92
     },
     {
       "repo": "aayush2622/Dartotsu",
@@ -28026,8 +28026,8 @@
           "Other": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 236,
+      "total_forks": 23
     },
     {
       "repo": "helallao/perplexity-ai",
@@ -28395,8 +28395,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 971,
+      "total_forks": 154
     },
     {
       "repo": "mtdvio/every-programmer-should-know",
@@ -28663,8 +28663,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 65105,
+      "total_forks": 6181
     },
     {
       "repo": "antfu-collective/icones",
@@ -28993,8 +28993,8 @@
           "Other": "0.8%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 2149,
+      "total_forks": 102
     },
     {
       "repo": "FujiwaraChoki/MoneyPrinterV2",
@@ -29290,8 +29290,8 @@
           "Shell": "0.9%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 12023,
+      "total_forks": 1201
     },
     {
       "repo": "Mail-0/Zero",
@@ -29624,8 +29624,8 @@
           "Other": "1.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 4981,
+      "total_forks": 799
     },
     {
       "repo": "D4Vinci/Scrapling",
@@ -29940,8 +29940,8 @@
           "Dockerfile": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 6480,
+      "total_forks": 387
     },
     {
       "repo": "linera-io/linera-protocol",
@@ -30182,8 +30182,8 @@
           "Other": "2.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 29502,
+      "total_forks": 1866
     },
     {
       "repo": "public-apis/public-apis",
@@ -30470,8 +30470,8 @@
           "Shell": "3.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 329678,
+      "total_forks": 36937
     },
     {
       "repo": "Multiverse-of-Projects/NewsAI",
@@ -30746,8 +30746,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 35,
+      "total_forks": 39
     },
     {
       "repo": "scriptlabs-cc/slashy-beta",
@@ -31050,8 +31050,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1039,
+      "total_forks": 342
     },
     {
       "repo": "namidaco/namida",
@@ -31390,8 +31390,8 @@
           "C": "0.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 4109,
+      "total_forks": 237
     },
     {
       "repo": "humiaozuzu/awesome-flask",
@@ -31643,8 +31643,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 14223,
+      "total_forks": 2101
     },
     {
       "repo": "saadndm/Dank-Memer-Grinder",
@@ -31704,7 +31704,7 @@
           "Other": "0.3%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 1,
       "total_forks": 0
     },
     {
@@ -31972,8 +31972,8 @@
           "HTML": "1.8%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 9,
+      "total_forks": 4
     },
     {
       "repo": "rudyoactiv/typescribe-handwriting",
@@ -32244,8 +32244,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 74,
+      "total_forks": 5
     },
     {
       "repo": "pyscript/pyscript",
@@ -32547,8 +32547,8 @@
           "Other": "1.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 18901,
+      "total_forks": 1721
     },
     {
       "repo": "PokeAPI/pokeapi",
@@ -32804,8 +32804,8 @@
           "Nix": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 4592,
+      "total_forks": 1334
     },
     {
       "repo": "ekamid/cricbuzz-live",
@@ -32990,8 +32990,8 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 22,
+      "total_forks": 14
     },
     {
       "repo": "Ujjwal-Singh-20/Aether_Touch_Interface",
@@ -33019,7 +33019,7 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 2,
       "total_forks": 0
     },
     {
@@ -33303,8 +33303,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 5009,
+      "total_forks": 1369
     },
     {
       "repo": "subzeroid/instagrapi",
@@ -33633,8 +33633,8 @@
           "Other": "0.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 2834,
+      "total_forks": 412
     },
     {
       "repo": "Domi04151309/AlwaysOn",
@@ -33868,8 +33868,8 @@
           "Kotlin": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 224,
+      "total_forks": 57
     },
     {
       "repo": "revenge-mod/revenge-bundle",
@@ -34110,8 +34110,8 @@
           "HTML": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 723,
+      "total_forks": 30
     },
     {
       "repo": "feathericons/feather",
@@ -34376,8 +34376,8 @@
           "Shell": "3.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 16526,
+      "total_forks": 1458
     },
     {
       "repo": "akash-rajak/Image-Watermark-Remover",
@@ -34669,8 +34669,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 83,
+      "total_forks": 21
     },
     {
       "repo": "patiltrupti6105/DSA-project",
@@ -34698,7 +34698,7 @@
           "Java": "100.0%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 2,
       "total_forks": 0
     },
     {
@@ -35014,8 +35014,8 @@
           "Other": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 407,
+      "total_forks": 58
     },
     {
       "repo": "cloudcommunity/Cloud-Free-Tier-Comparison",
@@ -35254,8 +35254,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 5534,
+      "total_forks": 331
     },
     {
       "repo": "sdmg15/Best-websites-a-programmer-should-visit",
@@ -35532,8 +35532,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 76342,
+      "total_forks": 9056
     },
     {
       "repo": "louislam/uptime-kuma",
@@ -35890,16 +35890,15 @@
         ],
         "languages": {
           "JavaScript": "55.4%",
-          "Vue": "42.5%",
+          "Vue": "42.6%",
           "TypeScript": "1.0%",
           "SCSS": "0.7%",
           "Dockerfile": "0.2%",
-          "Go": "0.1%",
-          "Other": "0.1%"
+          "Go": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 72037,
+      "total_forks": 8326
     },
     {
       "repo": "KalleHallden/lowpy",
@@ -36184,8 +36183,8 @@
           "JavaScript": "12.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 63,
+      "total_forks": 8
     },
     {
       "repo": "iamDyeus/tkreload",
@@ -36461,8 +36460,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 31,
+      "total_forks": 12
     },
     {
       "repo": "rio-labs/rio",
@@ -36749,8 +36748,8 @@
           "JavaScript": "0.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 3116,
+      "total_forks": 133
     },
     {
       "repo": "tomlin7/biscuit",
@@ -37025,11 +37024,12 @@
           "lsp"
         ],
         "languages": {
-          "Python": "100.0%"
+          "Python": "95.1%",
+          "Tree-sitter Query": "4.9%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 108,
+      "total_forks": 20
     },
     {
       "repo": "jina-ai/dev-gpt",
@@ -37351,8 +37351,8 @@
           "Dockerfile": "0.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 989,
+      "total_forks": 124
     },
     {
       "repo": "momegas/megabots",
@@ -37657,8 +37657,8 @@
           "Makefile": "3.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 300,
+      "total_forks": 27
     },
     {
       "repo": "bamos/densenet.pytorch",
@@ -37901,8 +37901,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 948,
+      "total_forks": 228
     },
     {
       "repo": "BigBoiCJ/SteamAutoCracker",
@@ -38182,8 +38182,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1228,
+      "total_forks": 92
     },
     {
       "repo": "hikari-py/hikari",
@@ -38424,8 +38424,8 @@
           "Other": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1004,
+      "total_forks": 187
     },
     {
       "repo": "Shashwatology/IITM-Python-Grpa",
@@ -38632,8 +38632,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 37,
+      "total_forks": 12
     },
     {
       "repo": "UTSAVS26/PyVerse",
@@ -38894,8 +38894,8 @@
           "CSS": "0.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 177,
+      "total_forks": 346
     },
     {
       "repo": "TheAlgorithms/Python",
@@ -39168,8 +39168,8 @@
           "Other": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 230973,
+      "total_forks": 58944
     },
     {
       "repo": "mediar-ai/screenpipe",
@@ -39485,8 +39485,8 @@
           "llm"
         ],
         "languages": {
-          "Rust": "54.2%",
-          "TypeScript": "43.6%",
+          "Rust": "55.0%",
+          "TypeScript": "42.8%",
           "JavaScript": "0.8%",
           "HTML": "0.5%",
           "Shell": "0.4%",
@@ -39775,8 +39775,8 @@
           "Other": "1.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 5674,
+      "total_forks": 4073
     },
     {
       "repo": "UTSAVS26/PySnippets",
@@ -40022,8 +40022,8 @@
           "Other": "0.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 41,
+      "total_forks": 91
     },
     {
       "repo": "keploy/keploy",
@@ -40361,8 +40361,8 @@
           "Dockerfile": "0.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 13628,
+      "total_forks": 1735
     },
     {
       "repo": "ghoshRitesh12/aniwatch-api",
@@ -40627,8 +40627,8 @@
           "Shell": "0.7%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 518,
+      "total_forks": 498
     },
     {
       "repo": "amvstrm/api",
@@ -40897,8 +40897,8 @@
           "TypeScript": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 129,
+      "total_forks": 95
     },
     {
       "repo": "reflex-dev/reflex",
@@ -41228,8 +41228,8 @@
           "Dockerfile": "0.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 16575,
+      "total_forks": 1097
     },
     {
       "repo": "doggybootsy/hidden-disc-docs",
@@ -41481,8 +41481,8 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 176,
+      "total_forks": 16
     },
     {
       "repo": "appu1232/Discord-Selfbot",
@@ -41737,8 +41737,8 @@
           "Other": "1.5%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 764,
+      "total_forks": 1006
     },
     {
       "repo": "Mintplex-Labs/anything-llm",
@@ -42128,8 +42128,8 @@
           "Go Template": "0.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 47909,
+      "total_forks": 5238
     },
     {
       "repo": "supr1yo/url-shortener",
@@ -42175,7 +42175,7 @@
           "HTML": "3.7%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 1,
       "total_forks": 0
     },
     {
@@ -42390,8 +42390,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 24,
+      "total_forks": 11
     },
     {
       "repo": "modelscope/DiffSynth-Studio",
@@ -42677,8 +42677,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 9276,
+      "total_forks": 892
     },
     {
       "repo": "neurokitti/Arc_Palette",
@@ -42887,8 +42887,8 @@
           "Batchfile": "7.4%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 83,
+      "total_forks": 5
     },
     {
       "repo": "HumanDuck23/froggo-grinder-v2",
@@ -43077,8 +43077,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 14,
+      "total_forks": 13
     },
     {
       "repo": "evan-larsen/Dank-Memer-Auto-Farm-Software",
@@ -43369,8 +43369,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 93281,
+      "total_forks": 12524
     },
     {
       "repo": "NixonXC/cord-music",
@@ -43655,8 +43655,8 @@
           "CSS": "26.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 20,
+      "total_forks": 6
     },
     {
       "repo": "zed-industries/zed",
@@ -44003,17 +44003,17 @@
           "gpui"
         ],
         "languages": {
-          "Rust": "97.9%",
+          "Rust": "98.0%",
           "Inno Setup": "0.5%",
           "Tree-sitter Query": "0.4%",
-          "Shell": "0.3%",
+          "Shell": "0.2%",
           "WGSL": "0.1%",
           "Metal": "0.1%",
           "Other": "0.7%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 68876,
+      "total_forks": 6013
     },
     {
       "repo": "zen-browser/desktop",
@@ -44296,8 +44296,8 @@
           "Other": "0.9%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 35855,
+      "total_forks": 1374
     },
     {
       "repo": "sayaarcodes/pokefier",
@@ -44535,8 +44535,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 190,
+      "total_forks": 15
     },
     {
       "repo": "paramkhodiyar/weather-app",
@@ -44568,7 +44568,7 @@
           "HTML": "15.3%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 1,
       "total_forks": 0
     },
     {
@@ -44843,8 +44843,8 @@
           "Jupyter Notebook": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 40,
+      "total_forks": 42
     },
     {
       "repo": "EbookFoundation/free-programming-books",
@@ -45142,8 +45142,8 @@
           "HTML": "1.1%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 310829,
+      "total_forks": 54491
     },
     {
       "repo": "camenduru/text-to-video-synthesis-colab",
@@ -45388,8 +45388,8 @@
           "Jupyter Notebook": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1465,
+      "total_forks": 180
     },
     {
       "repo": "lllyasviel/Fooocus",
@@ -45679,8 +45679,8 @@
           "Other": "0.5%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 45336,
+      "total_forks": 7301
     },
     {
       "repo": "Fechin/reference",
@@ -45976,8 +45976,8 @@
           "Dockerfile": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 8415,
+      "total_forks": 1084
     },
     {
       "repo": "kevle1/Discord-IP-Lookup",
@@ -46218,8 +46218,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 30,
+      "total_forks": 20
     },
     {
       "repo": "ParthJadhav/Tkinter-Designer",
@@ -46531,8 +46531,8 @@
           "Makefile": "3.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 10379,
+      "total_forks": 1113
     },
     {
       "repo": "CodeWithHarry/Sigma-Web-Dev-Course",
@@ -46735,8 +46735,8 @@
           "EJS": "1.4%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 11125,
+      "total_forks": 3666
     },
     {
       "repo": "Khanhtran47/Sora",
@@ -47018,8 +47018,8 @@
           "Other": "0.8%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 534,
+      "total_forks": 279
     },
     {
       "repo": "Sitois/Nuclear-V2",
@@ -47268,8 +47268,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 38,
+      "total_forks": 26
     },
     {
       "repo": "Thinkright20/Profile-Badges",
@@ -47537,8 +47537,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 3325,
+      "total_forks": 450
     },
     {
       "repo": "ChocoMeow/Vocard",
@@ -47868,8 +47868,8 @@
           "Dockerfile": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 411,
+      "total_forks": 131
     },
     {
       "repo": "OpenHands/OpenHands",
@@ -48245,8 +48245,8 @@
           "claude-ai"
         ],
         "languages": {
-          "Python": "75.4%",
-          "TypeScript": "22.4%",
+          "Python": "75.5%",
+          "TypeScript": "22.3%",
           "Go Template": "0.8%",
           "Jinja": "0.7%",
           "JavaScript": "0.3%",
@@ -48254,8 +48254,8 @@
           "Other": "0.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1312,
+      "total_forks": 196
     },
     {
       "repo": "Discord-Oxygen/Discord-Console-hacks",
@@ -48515,8 +48515,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 215,
+      "total_forks": 51
     },
     {
       "repo": "stitionai/devika",
@@ -48846,8 +48846,8 @@
           "Other": "0.7%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 19669,
+      "total_forks": 2754
     },
     {
       "repo": "lulu5239/view-loggers",
@@ -49110,8 +49110,8 @@
           "TypeScript": "20.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 585,
+      "total_forks": 302
     },
     {
       "repo": "SaverinOnRails/Dynamo",
@@ -49206,8 +49206,8 @@
           "C#": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 2,
+      "total_forks": 2
     },
     {
       "repo": "abi/screenshot-to-code",
@@ -49547,8 +49547,8 @@
           "Other": "1.4%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 70069,
+      "total_forks": 8609
     },
     {
       "repo": "KMohZaid/awesome-cheatsheets",
@@ -49586,7 +49586,7 @@
           "Python": "1.4%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 3,
       "total_forks": 0
     },
     {
@@ -49615,7 +49615,7 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 3,
       "total_forks": 0
     },
     {
@@ -49662,7 +49662,7 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 0,
+      "total_stars": 12,
       "total_forks": 0
     },
     {
@@ -49922,8 +49922,8 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 4145,
+      "total_forks": 413
     },
     {
       "repo": "abhinavk99/jikanpy",
@@ -50188,8 +50188,8 @@
           "Makefile": "0.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 171,
+      "total_forks": 29
     },
     {
       "repo": "microsoft/PowerToys",
@@ -50486,8 +50486,8 @@
           "JavaScript": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 135526,
+      "total_forks": 9744
     },
     {
       "repo": "AsmrProg-YT/100-days-of-javascript",
@@ -50717,8 +50717,8 @@
           "HTML": "18.7%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 2281,
+      "total_forks": 1116
     },
     {
       "repo": "openinterpreter/open-interpreter",
@@ -51022,8 +51022,8 @@
           "Other": "1.6%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 1171,
+      "total_forks": 131
     },
     {
       "repo": "kyan0045/pokehint",
@@ -51290,8 +51290,8 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 20,
+      "total_forks": 15
     },
     {
       "repo": "kyan0045/CatchTwo",
@@ -51538,8 +51538,8 @@
           "Batchfile": "0.4%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 182,
+      "total_forks": 199
     },
     {
       "repo": "OpnTec/open-spectrometer-python",
@@ -51754,8 +51754,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 690,
+      "total_forks": 10
     },
     {
       "repo": "tushargithub44/SpendMate",
@@ -51939,8 +51939,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 21,
+      "total_forks": 2
     },
     {
       "repo": "TomSchimansky/CustomTkinter",
@@ -52242,8 +52242,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 13380,
+      "total_forks": 1526
     },
     {
       "repo": "tldraw/tldraw",
@@ -52601,8 +52601,8 @@
           "Other": "0.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 43043,
+      "total_forks": 3024
     },
     {
       "repo": "scriptlabs-cc/slashy",
@@ -52909,8 +52909,8 @@
           "HTML": "3.5%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 70,
+      "total_forks": 14
     },
     {
       "repo": "AKATSUKI4481/AI_Council",
@@ -53286,8 +53286,8 @@
           "Other": "1.0%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 28425,
+      "total_forks": 1737
     },
     {
       "repo": "badlogic/pi-mono",
@@ -53583,8 +53583,8 @@
           "Other": "1.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 2602,
+      "total_forks": 248
     },
     {
       "repo": "HKUDS/nanobot",
@@ -53876,14 +53876,14 @@
         "description": "\"\ud83d\udc08 nanobot: The Ultra-Lightweight Clawdbot\"",
         "topics": [],
         "languages": {
-          "Python": "91.9%",
+          "Python": "92.0%",
           "TypeScript": "3.6%",
-          "Shell": "3.3%",
+          "Shell": "3.2%",
           "Other": "1.2%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 3356,
+      "total_forks": 458
     },
     {
       "repo": "screenpipe/screenpipe",
@@ -54086,8 +54086,8 @@
           "llm"
         ],
         "languages": {
-          "Rust": "54.2%",
-          "TypeScript": "43.6%",
+          "Rust": "55.0%",
+          "TypeScript": "42.8%",
           "JavaScript": "0.8%",
           "HTML": "0.5%",
           "Shell": "0.4%",
@@ -54095,8 +54095,368 @@
           "Other": "0.3%"
         }
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 29,
+      "total_forks": 4
+    },
+    {
+      "repo": "osmoscraft/osmosmemo",
+      "recommendations": [
+        {
+          "repo": "fatedier/frp",
+          "count": 6,
+          "metadata": {
+            "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+            "topics": [
+              "go",
+              "tunnel",
+              "proxy",
+              "firewall",
+              "nat",
+              "p2p",
+              "http-proxy",
+              "reverse-proxy",
+              "expose",
+              "frp"
+            ],
+            "languages": {
+              "Go": "86.9%",
+              "Vue": "10.2%",
+              "TypeScript": "1.7%",
+              "CSS": "0.6%",
+              "Shell": "0.4%",
+              "Makefile": "0.1%",
+              "Other": "0.1%"
+            }
+          },
+          "total_stars": 103462,
+          "total_forks": 17514,
+          "score": 5.8e-05
+        },
+        {
+          "repo": "n8n-io/n8n",
+          "count": 6,
+          "metadata": {
+            "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+            "topics": [
+              "cli",
+              "workflow",
+              "integrations",
+              "development",
+              "automation",
+              "typescript",
+              "ai",
+              "mcp",
+              "data-flow",
+              "self-hosted",
+              "ipaas",
+              "apis",
+              "workflow-automation",
+              "low-code",
+              "no-code",
+              "integration-framework",
+              "n8n",
+              "low-code-platform",
+              "mcp-server",
+              "mcp-client"
+            ],
+            "languages": {
+              "TypeScript": "90.9%",
+              "Vue": "7.6%",
+              "SCSS": "0.6%",
+              "Python": "0.4%",
+              "JavaScript": "0.4%",
+              "Handlebars": "0.1%"
+            }
+          },
+          "total_stars": 135041,
+          "total_forks": 42685,
+          "score": 4.4e-05
+        },
+        {
+          "repo": "discourse/discourse",
+          "count": 5,
+          "metadata": {
+            "description": "A platform for community discussion. Free, open, simple.",
+            "topics": [
+              "javascript",
+              "ruby",
+              "rails",
+              "ember",
+              "postgresql",
+              "forum",
+              "discourse"
+            ],
+            "languages": {
+              "Ruby": "62.5%",
+              "JavaScript": "31.3%",
+              "HTML": "3.1%",
+              "SCSS": "3.0%",
+              "Mustache": "0.1%",
+              "CSS": "0.0%"
+            }
+          },
+          "total_stars": 50019,
+          "total_forks": 13839,
+          "score": 0.0001
+        },
+        {
+          "repo": "logseq/logseq",
+          "count": 5,
+          "metadata": {
+            "description": "A privacy-first, open-source platform for knowledge management and collaboration. Download link: http://github.com/logseq/logseq/releases. roadmap: https://discuss.logseq.com/t/logseq-product-roadmap/34267",
+            "topics": [
+              "git",
+              "markdown",
+              "clojure",
+              "graph",
+              "clojurescript",
+              "knowledge-graph",
+              "org-mode",
+              "note-taking",
+              "knowledge-base",
+              "pkm",
+              "local-first"
+            ],
+            "languages": {
+              "Clojure": "66.3%",
+              "CSS": "12.8%",
+              "JavaScript": "9.4%",
+              "TypeScript": "5.0%",
+              "Swift": "3.1%",
+              "Kotlin": "1.6%",
+              "Other": "1.8%"
+            }
+          },
+          "total_stars": 40822,
+          "total_forks": 2956,
+          "score": 0.000122
+        },
+        {
+          "repo": "awesome-selfhosted/awesome-selfhosted",
+          "count": 5,
+          "metadata": {
+            "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+            "topics": [
+              "awesome",
+              "cloud",
+              "privacy",
+              "selfhosted",
+              "hosting",
+              "self-hosted",
+              "free-software",
+              "awesome-list"
+            ],
+            "languages": {}
+          },
+          "total_stars": 221884,
+          "total_forks": 10608,
+          "score": 2.3e-05
+        },
+        {
+          "repo": "Pythagora-io/gpt-pilot",
+          "count": 5,
+          "metadata": {
+            "description": "The first real AI developer",
+            "topics": [
+              "ai",
+              "developer-tools",
+              "research-project",
+              "codegen",
+              "coding-assistant",
+              "gpt-4"
+            ],
+            "languages": {
+              "Python": "64.9%",
+              "TypeScript": "27.6%",
+              "JavaScript": "4.7%",
+              "Smarty": "0.9%",
+              "CSS": "0.5%",
+              "Shell": "0.5%",
+              "Other": "0.9%"
+            }
+          },
+          "total_stars": 33704,
+          "total_forks": 3499,
+          "score": 0.000148
+        },
+        {
+          "repo": "ArchiveBox/ArchiveBox",
+          "count": 5,
+          "metadata": {
+            "description": "\ud83d\uddc3 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...",
+            "topics": [
+              "python",
+              "rss",
+              "backups",
+              "firefox",
+              "pinboard",
+              "youtube-dl",
+              "chromium",
+              "self-hosted",
+              "wget",
+              "pocket",
+              "browser-bookmarks",
+              "warc",
+              "web-archiving",
+              "wayback-machine",
+              "digipres",
+              "singlefile",
+              "headless-browser",
+              "bookmark-archiver",
+              "internet-archiving",
+              "archivebox"
+            ],
+            "languages": {
+              "Python": "71.8%",
+              "HTML": "10.0%",
+              "JavaScript": "8.0%",
+              "TypeScript": "7.4%",
+              "Shell": "1.7%",
+              "CSS": "0.6%",
+              "Other": "0.5%"
+            }
+          },
+          "total_stars": 18182,
+          "total_forks": 1048,
+          "score": 0.000275
+        },
+        {
+          "repo": "infiniflow/ragflow",
+          "count": 5,
+          "metadata": {
+            "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+            "topics": [
+              "agent",
+              "ai",
+              "deep-learning",
+              "mcp",
+              "multi-agent",
+              "openai",
+              "document-parser",
+              "ai-search",
+              "rag",
+              "document-understanding",
+              "llm",
+              "agentic",
+              "retrieval-augmented-generation",
+              "ollama",
+              "deepseek",
+              "graphrag",
+              "agentic-workflow",
+              "agentic-ai",
+              "deepseek-r1",
+              "deep-research"
+            ],
+            "languages": {
+              "Python": "55.1%",
+              "TypeScript": "43.7%",
+              "Less": "0.4%",
+              "Shell": "0.3%",
+              "CSS": "0.2%",
+              "JavaScript": "0.1%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 61887,
+          "total_forks": 6530,
+          "score": 8.1e-05
+        },
+        {
+          "repo": "DIYgod/RSSHub",
+          "count": 5,
+          "metadata": {
+            "description": "\ud83e\udde1 Everything is RSSible",
+            "topics": [
+              "rss",
+              "spotify",
+              "instagram",
+              "youtube",
+              "twitter",
+              "telegram",
+              "dribbble",
+              "zhihu",
+              "wechat",
+              "bilibili",
+              "weibo",
+              "pixiv",
+              "douban",
+              "v2ex",
+              "lofter",
+              "ximalaya",
+              "rsshub",
+              "tiktok"
+            ],
+            "languages": {
+              "TypeScript": "91.9%",
+              "JavaScript": "7.9%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 40621,
+          "total_forks": 14804,
+          "score": 0.000123
+        },
+        {
+          "repo": "siyuan-note/siyuan",
+          "count": 5,
+          "metadata": {
+            "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+            "topics": [
+              "electron",
+              "markdown",
+              "pdf",
+              "ocr",
+              "s3",
+              "webdav",
+              "self-hosted",
+              "openai",
+              "note-taking",
+              "evernote",
+              "anki",
+              "knowledge-base",
+              "obsidian",
+              "notion",
+              "notes-app",
+              "local-first",
+              "chatgpt",
+              "ollama",
+              "deepseek"
+            ],
+            "languages": {
+              "TypeScript": "56.5%",
+              "Go": "30.3%",
+              "JavaScript": "8.7%",
+              "SCSS": "2.6%",
+              "HTML": "1.2%",
+              "Python": "0.2%",
+              "Other": "0.5%"
+            }
+          },
+          "total_stars": 39135,
+          "total_forks": 2659,
+          "score": 0.000128
+        }
+      ],
+      "metadata": {
+        "description": "Turn GitHub into a bookmark manager",
+        "topics": [
+          "chrome-extension",
+          "typescript",
+          "bookmark",
+          "browser-extension",
+          "knowledge-base",
+          "bookmarks-manager",
+          "knowledge-management"
+        ],
+        "languages": {
+          "TypeScript": "74.9%",
+          "HTML": "12.0%",
+          "CSS": "8.8%",
+          "JavaScript": "4.3%"
+        }
+      },
+      "total_stars": 487,
+      "total_forks": 22
     }
   ]
 }
