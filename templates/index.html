@@ -1,740 +1,609 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Repo Discovery</title>
-    <style>
-      :root {
-        /* Palette: Zinc/Slate-ish Dark Theme - Brighter Text */
-        --bg-app: #09090b;       
-        --bg-sidebar: #101012;   
-        --bg-card: #18181b;      
-        --bg-card-hover: #202023;
-        
-        --border: #27272a;       
-        --border-light: #3f3f46;
-        
-        --text-primary: #ffffff;    /* Pure white */
-        --text-secondary: #e4e4e7;  /* Zinc-200 - Very light grey */
-        --text-tertiary: #a1a1aa;   /* Zinc-400 - Light grey */
-        
-        --accent: #fafafa;
-        
-        /* Language Colors (Cyclic Palette) */
-        --lang-0: #3b82f6; 
-        --lang-1: #10b981; 
-        --lang-2: #f59e0b; 
-        --lang-3: #ef4444; 
-        --lang-4: #8b5cf6; 
-        --lang-5: #ec4899; 
-        --lang-6: #06b6d4; 
-        --lang-7: #84cc16; 
-        
-        --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      }
+    <title>Repo Recommendations for {{ username }}</title>
+    <meta name="description" content="Repository recommendations for {{ username }}." />
 
-      * { box-sizing: border-box; }
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
-      body {
-        margin: 0;
-        background-color: var(--bg-app);
-        color: var(--text-primary);
-        font-family: var(--font-sans);
-        height: 100vh;
-        display: flex;
-        overflow: hidden;
-        font-size: 13px;
-        line-height: 1.5;
-        -webkit-font-smoothing: antialiased;
-      }
-
-      a { text-decoration: none; color: inherit; transition: color 0.2s; }
-      
-      /* Scrollbar */
-      ::-webkit-scrollbar { width: 6px; height: 6px; }
-      ::-webkit-scrollbar-track { background: transparent; }
-      ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-      ::-webkit-scrollbar-thumb:hover { background: var(--border-light); }
-
-      /* --- Layout --- */
-      .app-layout { display: flex; width: 100%; height: 100%; position: relative; }
-
-      /* --- Sidebar --- */
-      .sidebar {
-        width: 280px;
-        background: var(--bg-sidebar);
-        border-right: 1px solid var(--border);
-        display: flex;
-        flex-direction: column;
-        flex-shrink: 0;
-        transition: transform 0.3s ease;
-      }
-
-      .sidebar-header {
-        padding: 24px;
-        font-weight: 600;
-        font-size: 14px;
-        letter-spacing: -0.01em;
-        border-bottom: 1px solid var(--border);
-        color: var(--text-primary);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-
-      .nav-list {
-        flex: 1;
-        overflow-y: auto;
-        padding: 12px;
-      }
-
-      .nav-item {
-        padding: 10px 12px;
-        border-radius: 6px;
-        cursor: pointer;
-        color: var(--text-tertiary);
-        transition: all 0.15s ease;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 2px;
-        font-weight: 500;
-        font-size: 13px;
-      }
-
-      .nav-item:hover {
-        background: var(--bg-card);
-        color: var(--text-primary);
-      }
-
-      .nav-item.active {
-        background: var(--bg-card-hover);
-        color: var(--text-primary);
-        box-shadow: 0 0 0 1px var(--border);
-      }
-
-      .nav-count {
-        font-size: 11px;
-        color: var(--text-tertiary);
-        background: rgba(255,255,255,0.05);
-        padding: 2px 8px;
-        border-radius: 12px;
-        min-width: 24px;
-        text-align: center;
-      }
-
-      /* --- Main Area --- */
-      .main {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        min-width: 0;
-        background: var(--bg-app);
-      }
-
-      .top-bar {
-        height: 64px;
-        border-bottom: 1px solid var(--border);
-        display: flex;
-        align-items: center;
-        padding: 0 40px;
-        gap: 20px;
-        background: rgba(9, 9, 11, 0.8);
-        backdrop-filter: blur(8px);
-        position: sticky;
-        top: 0;
-        z-index: 10;
-      }
-
-      .menu-btn {
-        display: none; /* Hidden on desktop */
-        background: transparent;
-        border: 1px solid var(--border);
-        color: var(--text-primary);
-        padding: 8px;
-        border-radius: 6px;
-        cursor: pointer;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .close-sidebar-btn {
-        display: none; /* Hidden on desktop */
-        background: transparent;
-        border: none;
-        color: var(--text-tertiary);
-        cursor: pointer;
-        padding: 4px;
-      }
-
-      .search-wrapper {
-        position: relative;
-        flex: 1;
-        max-width: 400px;
-      }
-
-      .search-icon {
-        position: absolute;
-        left: 12px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 14px;
-        height: 14px;
-        color: var(--text-tertiary);
-        pointer-events: none;
-      }
-
-      .search-input {
-        background: var(--bg-sidebar);
-        border: 1px solid var(--border);
-        color: var(--text-primary);
-        font-size: 13px;
-        width: 100%;
-        outline: none;
-        padding: 8px 12px 8px 36px;
-        border-radius: 6px;
-        transition: border-color 0.2s;
-      }
-
-      .search-input:focus {
-        border-color: var(--text-tertiary);
-      }
-      
-      .search-input::placeholder { color: var(--text-tertiary); }
-
-      .user-badge {
-        font-size: 12px;
-        color: var(--text-tertiary);
-        margin-left: auto;
-        border: 1px solid var(--border);
-        padding: 4px 10px;
-        border-radius: 20px;
-      }
-
-      .content {
-        flex: 1;
-        overflow-y: auto;
-        padding: 40px;
-      }
-
-      .section-container {
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-
-      /* --- Header Section --- */
-      .repo-header {
-        margin-bottom: 48px;
-        padding-bottom: 32px;
-        border-bottom: 1px solid var(--border);
-      }
-
-      .repo-title {
-        font-size: 24px;
-        font-weight: 600;
-        letter-spacing: -0.02em;
-        margin: 0 0 12px 0;
-        color: var(--text-primary);
-      }
-      
-      .repo-title a:hover {
-        text-decoration: underline;
-        text-decoration-color: var(--text-tertiary);
-      }
-
-      .repo-desc {
-        font-size: 15px;
-        color: var(--text-secondary);
-        line-height: 1.6;
-        margin-bottom: 24px;
-        max-width: 800px;
-      }
-
-      /* --- Stats Row --- */
-      .stats-row {
-        display: flex;
-        gap: 24px;
-        margin-bottom: 24px;
-        color: var(--text-secondary);
-        font-size: 13px;
-      }
-      
-      .stat-item {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-      }
-
-      .icon-svg {
-        width: 16px;
-        height: 16px;
-        fill: currentColor;
-        opacity: 0.8;
-      }
-
-      /* --- Grid --- */
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-        gap: 20px;
-      }
-
-      .card {
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: 10px;
-        padding: 24px;
-        display: flex;
-        flex-direction: column;
-        transition: all 0.2s ease;
-        position: relative;
-        overflow: hidden;
-      }
-
-      .card:hover {
-        border-color: var(--border-light);
-        transform: translateY(-2px);
-        box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-      }
-
-      .card-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-bottom: 12px;
-      }
-
-      .card-title {
-        font-size: 15px;
-        font-weight: 600;
-        color: var(--text-primary);
-        word-break: break-all;
-      }
-
-      .card-desc {
-        color: var(--text-secondary);
-        font-size: 13px;
-        line-height: 1.5;
-        margin-bottom: 20px;
-        flex-grow: 1;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
-
-      /* --- Topics --- */
-      .topic-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-        margin-bottom: 20px;
-      }
-
-      .topic-tag {
-        font-size: 10px;
-        color: var(--text-secondary);
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid var(--border);
-        padding: 1px 6px;
-        border-radius: 4px;
-        transition: 0.1s;
-        text-transform: capitalize;
-        white-space: nowrap;
-      }
-      
-      .topic-tag:hover {
-        border-color: var(--text-tertiary);
-        background: rgba(255, 255, 255, 0.06);
-        color: var(--text-primary);
-      }
-      
-      /* --- Meta Container (Languages + Footer) --- */
-      .card-meta-container {
-        margin-top: auto;
-        display: flex;
-        flex-direction: column;
-      }
-
-      /* --- Language Bar --- */
-      .lang-section {
-        padding-top: 12px;
-        margin-top: 12px;
-        border-top: 1px solid var(--border);
-      }
-
-      .lang-bar {
-        display: flex;
-        height: 6px;
-        border-radius: 3px;
-        overflow: hidden;
-        background: var(--border);
-        margin-bottom: 8px;
-        width: 100%;
-      }
-
-      .lang-segment {
-        height: 100%;
-      }
-
-      .lang-legend {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-      }
-
-      .legend-item {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        font-size: 11px;
-        color: var(--text-tertiary);
-      }
-
-      .legend-dot {
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-      }
-      
-      /* --- Card Footer --- */
-      .card-footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 12px;
-        margin-top: 12px;
-        border-top: 1px solid var(--border);
-        font-size: 11px;
-        color: var(--text-tertiary);
-      }
-
-      .footer-stats {
-        display: flex;
-        gap: 12px;
-      }
-      
-      .relevance-score {
-        display: flex;
-        align-items: center;
-        gap: 4px;
-        color: var(--text-secondary);
-        font-weight: 600;
-        background: var(--bg-sidebar);
-        padding: 1px 6px;
-        border-radius: 4px;
-        font-family: monospace;
-        font-size: 10px;
-      }
-
-      .hidden { display: none !important; }
-
-      /* Mobile Overlay */
-      .sidebar-overlay {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0,0,0,0.5);
-        z-index: 40;
-        opacity: 0;
-        transition: opacity 0.3s;
-      }
-
-      .sidebar-overlay.active {
-        opacity: 1;
-      }
-
-      /* Mobile */
-      @media (max-width: 768px) {
-        /* Sidebar hidden by default, slide in on active */
-        .sidebar {
-          position: fixed;
-          top: 0;
-          left: 0;
-          height: 100%;
-          z-index: 50;
-          transform: translateX(-100%);
-          box-shadow: 4px 0 24px rgba(0,0,0,0.5);
-        }
-        
-        .sidebar.active {
-          transform: translateX(0);
-        }
-
-        .sidebar-overlay.active { display: block; }
-        .menu-btn { display: flex; }
-        .close-sidebar-btn { display: block; }
-
-        .top-bar { 
-          height: auto; 
-          flex-direction: column; 
-          align-items: stretch;
-          padding: 16px; 
-          gap: 12px;
-        }
-
-        /* Header row for mobile top bar to hold Menu button + Badge */
-        .top-bar-row {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          width: 100%;
-        }
-
-        .search-wrapper { max-width: none; }
-        .user-badge { margin: 0; }
-        
-        .content { padding: 24px 16px; }
-        .grid { grid-template-columns: 1fr; }
-      }
-    </style>
-  </head>
-  <body>
-    <!-- SVG Icons -->
-    <svg style="display: none;">
-      <symbol id="icon-search" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M21.71 20.29l-5.01-5.01C17.54 13.68 18 11.91 18 10c0-4.41-3.59-8-8-8S2 5.59 2 10s3.59 8 8 8c1.91 0 3.68-.46 5.28-1.28l5.01 5.01c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/>
-      </symbol>
+    <!-- SVG Icons (hidden sprite) -->
+    <svg style="display:none">
       <symbol id="icon-star" viewBox="0 0 24 24">
         <path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
       </symbol>
-      <symbol id="icon-fork" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z"/>
+      <symbol id="icon-fork" viewBox="0 0 16 16">
+        <path fill="currentColor" fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/>
       </symbol>
-      <symbol id="icon-git-fork" viewBox="0 0 16 16">
-         <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
-      </symbol>
-      <symbol id="icon-menu" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-      </symbol>
-      <symbol id="icon-close" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+      <symbol id="icon-github" viewBox="0 0 16 16">
+        <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
       </symbol>
     </svg>
 
-    <!-- Jinja Macro for Languages -->
-    {% macro render_languages(languages) %}
-      {% if languages %}
-      <div class="lang-section">
-        <div class="lang-bar">
-          {% for lang, pct in languages.items() %}
-            <div class="lang-segment" 
-                 style="width: {{ pct }}; background-color: var(--lang-{{ loop.index0 % 8 }});" 
-                 title="{{ lang }}: {{ pct }}">
-            </div>
-          {% endfor %}
-        </div>
-        <div class="lang-legend">
-          {# Strictly display top 3 #}
-          {% for lang, pct in languages.items() %}
-            {% if loop.index <= 3 %}
-            <div class="legend-item">
-              <span class="legend-dot" style="background-color: var(--lang-{{ loop.index0 % 8 }});"></span>
-              {{ lang }} {{ pct }}
-            </div>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-      {% endif %}
-    {% endmacro %}
+    <style>
+      :root {
+        --lang-0: #3b82f6;
+        --lang-1: #10b981;
+        --lang-2: #f59e0b;
+        --lang-3: #ef4444;
+        --lang-4: #8b5cf6;
+        --lang-5: #ec4899;
+        --lang-6: #06b6d4;
+        --lang-7: #84cc16;
+      }
+      ::-webkit-scrollbar { width: 5px; height: 5px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: oklch(0.3 0 0); border-radius: 9999px; }
+      ::-webkit-scrollbar-thumb:hover { background: oklch(0.4 0 0); }
+    </style>
+  </head>
 
-    <div class="app-layout">
-      <!-- Overlay for mobile sidebar -->
-      <div class="sidebar-overlay" id="overlay"></div>
+  <body class="bg-base-300 text-base-content overflow-hidden h-screen">
 
-      <!-- Sidebar -->
-      <aside class="sidebar" id="sidebar">
-        <div class="sidebar-header">
-           <div style="display:flex; align-items:center; gap:8px;">
-             <svg style="width:20px; height:20px; fill:var(--accent);"><use href="#icon-search"/></svg>
-             Repo Discovery
-           </div>
-           <button class="close-sidebar-btn" id="sidebar-close">
-             <svg style="width:20px; height:20px;"><use href="#icon-close"/></svg>
-           </button>
-        </div>
-        <div class="nav-list" id="nav">
-          {% for group in results %}
-          <div class="nav-item {% if loop.first %}active{% endif %}" data-nav="{{ loop.index0 }}">
-            <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 180px;">
-              {{ group.repo.split('/')[-1] }}
-            </span>
-            <span class="nav-count">{{ group.recommendations | length }}</span>
+    <!-- Mobile overlay -->
+    <div id="sidebar-overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity duration-200"></div>
+
+    <!-- App layout -->
+    <div class="flex h-screen w-full overflow-hidden">
+
+      <!-- SIDEBAR -->
+      <aside
+        id="sidebar"
+        class="fixed inset-y-0 left-0 z-50 w-72 -translate-x-full bg-base-200 border-r border-base-content/10 flex flex-col transition-transform duration-200 ease-out md:static md:translate-x-0 md:z-auto"
+      >
+        <!-- Header -->
+        <div class="flex items-center justify-between px-6 h-16 shrink-0 border-b border-base-content/10">
+          <div class="flex items-center gap-2.5">
+            <svg class="size-5 text-base-content" viewBox="0 0 16 16"><use href="#icon-github"/></svg>
+            <span class="text-sm font-semibold tracking-tight">Repo Discovery</span>
           </div>
-          {% endfor %}
+          <button id="sidebar-close" class="btn btn-ghost btn-xs btn-square md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+
+        <!-- Nav list -->
+        <nav class="flex-1 overflow-y-auto overflow-x-hidden min-h-0 p-3">
+          <ul id="sidebar-nav" class="flex flex-col gap-0.5">
+            {% for group in results %}
+            <li>
+              <a
+                class="sidebar-link group flex items-center justify-between rounded-lg px-3 py-2.5 text-[13px] font-medium cursor-pointer transition-all duration-150 {% if loop.first %}active bg-base-300 text-base-content shadow-sm shadow-base-300/50{% else %}text-base-content/50 hover:bg-base-300/60 hover:text-base-content{% endif %}"
+                data-panel="{{ loop.index0 }}"
+              >
+                <span class="flex-1 min-w-0 truncate">{{ group.repo.split('/')[-1] }}</span>
+                <span class="text-[11px] text-base-content/40 bg-base-content/5 px-2 py-0.5 rounded-full tabular-nums min-w-[28px] text-center">{{ group.recommendations | length }}</span>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+
+        <!-- Footer -->
+        <div class="shrink-0 border-t border-base-content/10 px-6 py-4">
+          <div class="flex items-center justify-between text-[11px] text-base-content/35 font-mono">
+            <span class="truncate">{{ username }}</span>
+            <span class="tabular-nums">{{ repo_count }} sources</span>
+          </div>
         </div>
       </aside>
 
-      <!-- Main Content -->
-      <main class="main">
-        <header class="top-bar">
-          
-          <!-- Mobile Header Row -->
-          <div class="top-bar-row">
-             <button class="menu-btn" id="menu-toggle">
-               <svg style="width:20px; height:20px;"><use href="#icon-menu"/></svg>
-             </button>
-             <div class="user-badge">{{ username }}</div>
+      <!-- MAIN AREA -->
+      <div class="flex-1 flex flex-col min-w-0 overflow-hidden">
+
+        <!-- Top bar -->
+        <header class="h-16 min-h-16 shrink-0 border-b border-base-content/10 bg-base-200/80 backdrop-blur-md px-4 flex items-center gap-4 md:px-10">
+          <button id="menu-toggle" class="btn btn-ghost btn-sm btn-square md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+
+          <div class="relative flex-1 max-w-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-3 top-1/2 -translate-y-1/2 size-3.5 text-base-content/40 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <input
+              id="search"
+              type="text"
+              class="input input-sm input-bordered w-full pl-9 bg-base-300/60 text-sm"
+              placeholder="Search source + recommendations..."
+              autocomplete="off"
+            />
+            <div id="search-results" class="absolute left-0 right-0 top-[calc(100%+0.5rem)] hidden rounded-lg border border-base-content/10 bg-base-200 shadow-xl shadow-black/25 z-30"></div>
           </div>
 
-          <div class="search-wrapper">
-            <svg class="search-icon"><use href="#icon-search"/></svg>
-            <input type="text" id="search" class="search-input" placeholder="Filter recommendations..." />
+          <div class="ml-auto text-xs text-base-content/50 border border-base-content/10 px-3 py-1.5 rounded-full hidden md:block">
+            {{ username }}
           </div>
-          
         </header>
 
-        <div class="content" id="content">
-          {% for group in results %}
-          <div class="section-container {% if not loop.first %}hidden{% endif %}" data-group="{{ loop.index0 }}">
-            
-            <div class="repo-header">
-              <h1 class="repo-title">
-                <a href="https://github.com/{{ group.repo }}" target="_blank">{{ group.repo }}</a>
-              </h1>
-              <p class="repo-desc">{{ group.metadata.description or "No description available." }}</p>
-              
-              <div class="stats-row">
-                <div class="stat-item" title="Stars">
-                  <svg class="icon-svg"><use href="#icon-star"/></svg>
-                  {{ group.total_stars | compact }}
+        <!-- Scrollable content -->
+        <div class="flex-1 overflow-y-auto" id="content">
+          <section class="max-w-[1200px] mx-auto px-4 pt-8 md:px-10">
+            <div class="rounded-2xl border border-base-content/10 bg-base-200 p-5 md:p-6">
+              <div class="flex items-end justify-between gap-4 mb-5">
+                <div>
+                  <p class="text-xs uppercase tracking-[0.18em] text-base-content/40 mb-1">Dashboard</p>
+                  <h2 class="text-xl font-semibold tracking-tight">Repository Network Snapshot</h2>
                 </div>
-                <div class="stat-item" title="Forks">
-                  <svg class="icon-svg"><use href="#icon-git-fork"/></svg>
-                  {{ group.total_forks | compact }}
+                <p class="text-xs text-base-content/45">Updated {{ generated_at_display }}</p>
+              </div>
+
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+                <div class="rounded-lg border border-base-content/10 bg-base-300/30 p-3">
+                  <p class="text-[11px] text-base-content/45 uppercase tracking-wide">Source repos</p>
+                  <p class="text-2xl font-semibold mt-1">{{ repo_count }}</p>
+                </div>
+                <div class="rounded-lg border border-base-content/10 bg-base-300/30 p-3">
+                  <p class="text-[11px] text-base-content/45 uppercase tracking-wide">Recommendations</p>
+                  <p class="text-2xl font-semibold mt-1">{{ total_recommendations | compact }}</p>
+                </div>
+                <div class="rounded-lg border border-base-content/10 bg-base-300/30 p-3">
+                  <p class="text-[11px] text-base-content/45 uppercase tracking-wide">Distinct repos</p>
+                  <p class="text-2xl font-semibold mt-1">{{ analytics.distinct_recommendations | compact }}</p>
+                </div>
+                <div class="rounded-lg border border-base-content/10 bg-base-300/30 p-3">
+                  <p class="text-[11px] text-base-content/45 uppercase tracking-wide">Avg / source</p>
+                  <p class="text-2xl font-semibold mt-1">{{ analytics.avg_recommendations_per_repo }}</p>
                 </div>
               </div>
 
-              {{ render_languages(group.metadata.languages) }}
-              
-              {% if group.metadata.topics %}
-              <div class="topic-list" style="margin-top: 16px;">
-                {% for topic in group.metadata.topics %}
-                <span class="topic-tag">{{ topic.replace('-', ' ') }}</span>
-                {% endfor %}
-              </div>
-              {% endif %}
-            </div>
-
-            <div class="grid">
-              {% for rec in group.recommendations %}
-              <div class="card" data-card data-search="{{ (rec.repo ~ ' ' ~ group.repo) | lower }}">
-                <div class="card-header">
-                  <a href="https://github.com/{{ rec.repo }}" target="_blank" class="card-title">{{ rec.repo }}</a>
-                </div>
-                
-                <p class="card-desc">{{ rec.metadata.description or "No description available." }}</p>
-
-                {% if rec.metadata.topics %}
-                <div class="topic-list">
-                  {% for topic in rec.metadata.topics[:5] %}
-                  <span class="topic-tag">{{ topic.replace('-', ' ') }}</span>
-                  {% endfor %}
-                </div>
-                {% endif %}
-
-                <div class="card-meta-container">
-                  {{ render_languages(rec.metadata.languages) }}
-                  
-                  <div class="card-footer">
-                    <div class="footer-stats">
-                      <div class="stat-item" title="Stars">
-                        <svg class="icon-svg" style="width:14px; height:14px;"><use href="#icon-star"/></svg>
-                        {{ rec.total_stars | compact }}
-                      </div>
-                      <div class="stat-item" title="Forks">
-                        <svg class="icon-svg" style="width:14px; height:14px;"><use href="#icon-git-fork"/></svg>
-                        {{ rec.total_forks | compact }}
-                      </div>
-                    </div>
-                    <div class="relevance-score" title="Common Forkers">
-                      <span>{{ rec.count }}</span>
-                    </div>
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <div class="rounded-xl border border-base-content/10 bg-base-300/20 p-4">
+                  <h3 class="text-sm font-semibold mb-3">Top Languages</h3>
+                  <div class="h-64">
+                    <canvas id="languages-chart" aria-label="Top languages chart"></canvas>
                   </div>
                 </div>
-
+                <div class="rounded-xl border border-base-content/10 bg-base-300/20 p-4">
+                  <h3 class="text-sm font-semibold mb-3">Top Overlap Recommendations</h3>
+                  <div class="h-64">
+                    <canvas id="overlap-chart" aria-label="Top overlap recommendations chart"></canvas>
+                  </div>
+                </div>
               </div>
-              {% endfor %}
             </div>
+          </section>
 
-          </div>
-          {% endfor %}
+          <section id="repo-section" class="max-w-[1200px] mx-auto px-4 py-10 md:px-10"></section>
+
         </div>
-      </main>
+      </div>
     </div>
 
+    <script id="analytics-payload" type="application/json">{{ analytics_json | safe }}</script>
     <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const navItems = Array.from(document.querySelectorAll("[data-nav]"));
-        const groups = Array.from(document.querySelectorAll("[data-group]"));
-        const searchInput = document.getElementById("search");
-        const content = document.getElementById("content");
-        
-        // Mobile Sidebar Logic
-        const menuBtn = document.getElementById("menu-toggle");
-        const closeBtn = document.getElementById("sidebar-close");
-        const sidebar = document.getElementById("sidebar");
-        const overlay = document.getElementById("overlay");
+    document.addEventListener("DOMContentLoaded", () => {
+      const analyticsNode = document.getElementById("analytics-payload");
+      const analytics = analyticsNode ? JSON.parse(analyticsNode.textContent || "{}") : {};
+      const dataUrl = "{{ data_url }}";
+      let searchIndex = [];
+      let results = [];
 
-        const toggleSidebar = (show) => {
-           if(show) {
-             sidebar.classList.add("active");
-             overlay.classList.add("active");
-           } else {
-             sidebar.classList.remove("active");
-             overlay.classList.remove("active");
-           }
-        };
+      const sidebar  = document.getElementById("sidebar");
+      const overlay  = document.getElementById("sidebar-overlay");
+      const menuBtn  = document.getElementById("menu-toggle");
+      const closeBtn = document.getElementById("sidebar-close");
+      const md       = window.matchMedia("(min-width: 768px)");
 
-        if(menuBtn) menuBtn.addEventListener("click", () => toggleSidebar(true));
-        if(closeBtn) closeBtn.addEventListener("click", () => toggleSidebar(false));
-        if(overlay) overlay.addEventListener("click", () => toggleSidebar(false));
+      function openMobile()  { sidebar.classList.remove("-translate-x-full"); overlay.classList.remove("hidden"); }
+      function closeMobile() { sidebar.classList.add("-translate-x-full"); overlay.classList.add("hidden"); }
 
-        let activeIdx = 0;
+      menuBtn?.addEventListener("click", openMobile);
+      closeBtn?.addEventListener("click", closeMobile);
+      overlay?.addEventListener("click", closeMobile);
+      md.addEventListener("change", () => { if (md.matches) closeMobile(); });
 
-        const setActive = (idx) => {
-          if(navItems[activeIdx]) navItems[activeIdx].classList.remove("active");
-          if(groups[activeIdx]) groups[activeIdx].classList.add("hidden");
-          
-          activeIdx = idx;
-          
-          if(navItems[activeIdx]) {
-             navItems[activeIdx].classList.add("active");
-             // ensure sidebar view scrolls to active
-             navItems[activeIdx].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-          }
-          if(groups[activeIdx]) groups[activeIdx].classList.remove("hidden");
-          content.scrollTop = 0;
-          
-          // Close sidebar on mobile after selection
-          if(window.innerWidth <= 768) {
-            toggleSidebar(false);
-          }
-        };
-        
-        // Initialize
-        if(navItems.length > 0) setActive(0);
+      const links   = Array.from(document.querySelectorAll(".sidebar-link"));
+      const content = document.getElementById("content");
+      const repoSection = document.getElementById("repo-section");
+      let activeIdx = 0;
+      const groupHtmlCache = new Map();
+      const languageColors = ["#3b82f6", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6", "#ec4899", "#06b6d4", "#84cc16"];
 
-        navItems.forEach((item, idx) => {
-          item.addEventListener("click", () => setActive(idx));
-        });
+      function escapeHtml(value) {
+        return String(value || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
 
-        searchInput.addEventListener("input", () => {
-          const term = searchInput.value.toLowerCase();
-          if(!groups[activeIdx]) return;
-          
-          const cards = Array.from(groups[activeIdx].querySelectorAll("[data-card]"));
-          cards.forEach(card => {
-            const visible = !term || card.dataset.search.includes(term);
-            card.style.display = visible ? "flex" : "none";
+      function compactNumber(value) {
+        const num = Number(value) || 0;
+        if (Math.abs(num) < 1000) return `${Math.trunc(num)}`;
+        const units = ["K", "M", "B", "T"];
+        let val = num;
+        let idx = -1;
+        while (Math.abs(val) >= 1000 && idx < units.length - 1) {
+          val /= 1000;
+          idx += 1;
+        }
+        return `${val.toFixed(1).replace(/\.0$/, "")}${units[idx]}`;
+      }
+
+      function renderTopicPills(topics, maxCount, className) {
+        if (!topics || !topics.length) return "";
+        return topics.slice(0, maxCount).map((topic) => {
+          const label = escapeHtml(String(topic).replace(/-/g, " "));
+          return `<span class="${className}">${label}</span>`;
+        }).join("");
+      }
+
+      function renderLanguages(languages, compact = false) {
+        const entries = Object.entries(languages || {});
+        if (!entries.length) return "";
+        const bars = entries.map(([lang, pct], idx) => (
+          `<div style="width: ${escapeHtml(pct)}; background-color: ${languageColors[idx % languageColors.length]};" title="${escapeHtml(lang)}: ${escapeHtml(pct)}"></div>`
+        )).join("");
+        const limit = compact ? 3 : 4;
+        const labels = entries.slice(0, limit).map(([lang, pct], idx) => (
+          `<span class="flex items-center gap-1.5 ${compact ? "text-[11px]" : "text-xs"} text-base-content/50">
+            <span class="${compact ? "w-1.5 h-1.5" : "w-2 h-2"} rounded-full shrink-0" style="background-color: ${languageColors[idx % languageColors.length]};"></span>
+            ${escapeHtml(lang)} ${escapeHtml(pct)}
+          </span>`
+        )).join("");
+        const containerClass = compact ? "pt-3 mt-3" : "max-w-md";
+        const labelGapClass = compact ? "flex flex-wrap gap-x-3 gap-y-1" : "flex flex-wrap gap-x-4 gap-y-1";
+        return `
+          <div class="${containerClass}">
+            <div class="flex h-1.5 rounded-full overflow-hidden bg-base-300 mb-2 w-full">${bars}</div>
+            <div class="${labelGapClass}">${labels}</div>
+          </div>
+        `;
+      }
+
+      function buildGroupHtml(group, groupIndex) {
+        const meta = group.metadata || {};
+        const topics = meta.topics || [];
+        const languages = meta.languages || {};
+        const recommendations = group.recommendations || [];
+        const sourceStats = (group.total_stars || group.total_forks)
+          ? `
+            <div class="flex items-center gap-6 mb-5 text-sm text-base-content/60">
+              ${group.total_stars ? `<span class="flex items-center gap-1.5" title="Stars"><svg class="size-4 opacity-70"><use href="#icon-star"/></svg>${compactNumber(group.total_stars)}</span>` : ""}
+              ${group.total_forks ? `<span class="flex items-center gap-1.5" title="Forks"><svg class="size-4 opacity-70"><use href="#icon-fork"/></svg>${compactNumber(group.total_forks)}</span>` : ""}
+            </div>
+          `
+          : "";
+        const sourceTopics = topics.length
+          ? `<div class="flex flex-wrap gap-1.5 mt-5">${renderTopicPills(topics, topics.length, "text-[10px] text-base-content/60 bg-base-content/[0.03] border border-base-content/10 px-2 py-0.5 rounded capitalize transition-colors hover:border-base-content/25 hover:bg-base-content/[0.06] hover:text-base-content/80")}</div>`
+          : "";
+        const cards = recommendations.map((rec, recIndex) => {
+          const recMeta = rec.metadata || {};
+          const recTopics = recMeta.topics || [];
+          const stats = (rec.total_stars || rec.total_forks)
+            ? `
+              ${rec.total_stars ? `<span class="flex items-center gap-1" title="Stars"><svg class="size-3.5 opacity-70"><use href="#icon-star"/></svg>${compactNumber(rec.total_stars)}</span>` : ""}
+              ${rec.total_forks ? `<span class="flex items-center gap-1" title="Forks"><svg class="size-3.5 opacity-70"><use href="#icon-fork"/></svg>${compactNumber(rec.total_forks)}</span>` : ""}
+            `
+            : `<span class="text-base-content/20">&mdash;</span>`;
+          return `
+            <a
+              href="https://github.com/${encodeURI(rec.repo)}"
+              target="_blank"
+              rel="noreferrer"
+              class="rec-card group flex flex-col rounded-xl bg-base-200 border border-base-content/10 p-5 transition-all duration-200 hover:border-base-content/20 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-black/20"
+              id="rec-${groupIndex}-${recIndex}"
+            >
+              <div class="flex items-start justify-between gap-2 mb-2.5">
+                <h3 class="text-[15px] font-semibold text-base-content break-all leading-snug">${escapeHtml(rec.repo)}</h3>
+              </div>
+              <p class="text-[13px] text-base-content/55 leading-relaxed flex-1 line-clamp-3 mb-4">${escapeHtml(recMeta.description || "No description available.")}</p>
+              ${recTopics.length ? `<div class="flex flex-wrap gap-1.5 mb-4">${renderTopicPills(recTopics, 5, "text-[10px] text-base-content/55 bg-base-content/[0.03] border border-base-content/10 px-1.5 py-px rounded capitalize")}</div>` : ""}
+              <div class="mt-auto flex flex-col">
+                ${renderLanguages(recMeta.languages || {}, true)}
+                <div class="flex items-center justify-between pt-3 mt-3 text-[11px] text-base-content/40 tabular-nums">
+                  <div class="flex items-center gap-3">${stats}</div>
+                  <span class="flex items-center gap-1 text-base-content/60 font-semibold bg-base-300 px-1.5 py-0.5 rounded font-mono text-[10px]" title="Common Forkers">${escapeHtml(rec.count || 0)}</span>
+                </div>
+              </div>
+            </a>
+          `;
+        }).join("");
+
+        const cardsArea = cards
+          ? `<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">${cards}</div>`
+          : `<div class="rounded-xl bg-base-200 border border-base-content/10 p-12 text-center"><p class="text-sm text-base-content/40">No recommendations found for this repository.</p></div>`;
+
+        return `
+          <div class="section-container">
+            <div id="source-${groupIndex}" class="pb-8 mb-8 border-b border-base-content/10 scroll-mt-20">
+              <h1 class="text-2xl font-semibold tracking-tight mb-3">
+                <a href="https://github.com/${encodeURI(group.repo)}" target="_blank" rel="noreferrer" class="hover:underline hover:decoration-base-content/30 underline-offset-4">${escapeHtml(group.repo)}</a>
+              </h1>
+              <p class="text-[15px] text-base-content/60 leading-relaxed mb-6 max-w-3xl">${escapeHtml(meta.description || "No description available.")}</p>
+              ${sourceStats}
+              ${renderLanguages(languages, false)}
+              ${sourceTopics}
+            </div>
+            ${cardsArea}
+          </div>
+        `;
+      }
+
+      function renderGroup(idx, targetAnchor = "") {
+        const group = results[idx];
+        if (!group || !repoSection) return;
+
+        if (!groupHtmlCache.has(idx)) {
+          groupHtmlCache.set(idx, buildGroupHtml(group, idx));
+        }
+        repoSection.innerHTML = groupHtmlCache.get(idx);
+
+        if (targetAnchor) {
+          requestAnimationFrame(() => {
+            const target = document.getElementById(targetAnchor);
+            if (target) {
+              target.scrollIntoView({ behavior: "auto", block: "start" });
+            }
+          });
+        }
+      }
+
+      function setActive(idx, targetAnchor = "") {
+        if (links[activeIdx]) {
+          links[activeIdx].classList.remove("active", "bg-base-300", "text-base-content", "shadow-sm", "shadow-base-300/50");
+          links[activeIdx].classList.add("text-base-content/50");
+        }
+
+        activeIdx = idx;
+
+        if (links[activeIdx]) {
+          links[activeIdx].classList.add("active", "bg-base-300", "text-base-content", "shadow-sm", "shadow-base-300/50");
+          links[activeIdx].classList.remove("text-base-content/50");
+          links[activeIdx].scrollIntoView({ block: "nearest", behavior: "auto" });
+        }
+        renderGroup(activeIdx, targetAnchor);
+        content.scrollTop = 0;
+
+        if (!md.matches) closeMobile();
+      }
+
+      if (links.length > 0) setActive(0);
+
+      links.forEach((a, i) => a.addEventListener("click", (e) => {
+        e.preventDefault();
+        setActive(i);
+      }));
+
+      const searchInput = document.getElementById("search");
+      const resultsPanel = document.getElementById("search-results");
+      const makeOptions = {
+        includeScore: true,
+        threshold: 0.35,
+        ignoreLocation: true,
+        keys: [
+          { name: "repo", weight: 0.45 },
+          { name: "description", weight: 0.25 },
+          { name: "topics", weight: 0.15 },
+          { name: "parent_repo", weight: 0.15 }
+        ]
+      };
+      let fuse = null;
+      let activeSearchIndex = -1;
+      let currentSearchResults = [];
+
+      function buildSearchIndex(data) {
+        const items = [];
+        data.forEach((group, groupIndex) => {
+          const groupMeta = group.metadata || {};
+          items.push({
+            type: "source",
+            repo: group.repo || "",
+            description: groupMeta.description || "",
+            topics: groupMeta.topics || [],
+            group_index: groupIndex,
+            parent_repo: group.repo || "",
+            anchor: `source-${groupIndex}`
+          });
+          (group.recommendations || []).forEach((rec, recIndex) => {
+            const recMeta = rec.metadata || {};
+            items.push({
+              type: "recommendation",
+              repo: rec.repo || "",
+              description: recMeta.description || "",
+              topics: recMeta.topics || [],
+              group_index: groupIndex,
+              parent_repo: group.repo || "",
+              anchor: `rec-${groupIndex}-${recIndex}`
+            });
           });
         });
+        return items;
+      }
+
+      async function loadResultsData() {
+        if (repoSection) {
+          repoSection.innerHTML = '<div class="rounded-xl bg-base-200 border border-base-content/10 p-8 text-sm text-base-content/50">Loading repositories...</div>';
+        }
+        try {
+          const response = await fetch(dataUrl, { cache: "no-store" });
+          if (!response.ok) throw new Error(`Failed to load data (${response.status})`);
+          const data = await response.json();
+          results = data.results || [];
+          searchIndex = buildSearchIndex(results);
+          fuse = window.Fuse ? new Fuse(searchIndex, makeOptions) : null;
+          renderGroup(activeIdx);
+        } catch (error) {
+          if (repoSection) {
+            repoSection.innerHTML = '<div class="rounded-xl bg-base-200 border border-base-content/10 p-8 text-sm text-error">Failed to load recommendations data.</div>';
+          }
+        }
+      }
+
+      function hideSearchResults() {
+        activeSearchIndex = -1;
+        currentSearchResults = [];
+        if (resultsPanel) {
+          resultsPanel.innerHTML = "";
+          resultsPanel.classList.add("hidden");
+        }
+      }
+
+      function goToSearchItem(item) {
+        if (!item) return;
+        const index = Number(item.group_index || 0);
+        const anchor = item.anchor || "";
+        setActive(index, anchor);
+        hideSearchResults();
+      }
+
+      function updateSearchHighlight() {
+        if (!resultsPanel) return;
+        Array.from(resultsPanel.querySelectorAll("[data-search-row]")).forEach((row, idx) => {
+          const isActive = idx === activeSearchIndex;
+          row.classList.toggle("bg-base-300", isActive);
+          row.classList.toggle("text-base-content", isActive);
+        });
+      }
+
+      function renderSearchResults(term) {
+        if (!resultsPanel || !term || !fuse) {
+          hideSearchResults();
+          return;
+        }
+
+        const hits = fuse.search(term, { limit: 10 });
+        currentSearchResults = hits.map((result) => result.item);
+        activeSearchIndex = currentSearchResults.length ? 0 : -1;
+
+        if (!currentSearchResults.length) {
+          resultsPanel.innerHTML = '<p class="px-3 py-2 text-xs text-base-content/50">No matches found.</p>';
+          resultsPanel.classList.remove("hidden");
+          return;
+        }
+
+        resultsPanel.innerHTML = currentSearchResults.map((item, idx) => {
+          const kind = item.type === "source" ? "Source" : "Recommendation";
+          return `
+            <button
+              type="button"
+              data-search-row="${idx}"
+              class="w-full text-left px-3 py-2 border-b border-base-content/10 last:border-b-0 hover:bg-base-300/70 transition-colors"
+            >
+              <div class="flex items-center justify-between gap-2">
+                <span class="text-sm truncate">${escapeHtml(item.repo)}</span>
+                <span class="text-[10px] px-1.5 py-0.5 rounded bg-base-content/10 text-base-content/60">${kind}</span>
+              </div>
+              <p class="text-[11px] text-base-content/50 truncate">${escapeHtml(item.parent_repo)}</p>
+            </button>
+          `;
+        }).join("");
+
+        resultsPanel.classList.remove("hidden");
+        updateSearchHighlight();
+      }
+
+      let searchDebounceTimer = null;
+      searchInput?.addEventListener("input", () => {
+        window.clearTimeout(searchDebounceTimer);
+        searchDebounceTimer = window.setTimeout(() => {
+          renderSearchResults(searchInput.value.trim());
+        }, 80);
       });
+
+      searchInput?.addEventListener("keydown", (event) => {
+        if (!currentSearchResults.length) return;
+
+        if (event.key === "ArrowDown") {
+          event.preventDefault();
+          activeSearchIndex = Math.min(activeSearchIndex + 1, currentSearchResults.length - 1);
+          updateSearchHighlight();
+        }
+
+        if (event.key === "ArrowUp") {
+          event.preventDefault();
+          activeSearchIndex = Math.max(activeSearchIndex - 1, 0);
+          updateSearchHighlight();
+        }
+
+        if (event.key === "Enter") {
+          event.preventDefault();
+          const item = activeSearchIndex >= 0 ? currentSearchResults[activeSearchIndex] : currentSearchResults[0];
+          goToSearchItem(item);
+        }
+
+        if (event.key === "Escape") {
+          hideSearchResults();
+        }
+      });
+
+      document.addEventListener("click", (event) => {
+        if (!resultsPanel || !searchInput) return;
+        if (event.target !== searchInput && !resultsPanel.contains(event.target)) {
+          hideSearchResults();
+        }
+      });
+
+      resultsPanel?.addEventListener("click", (event) => {
+        const row = event.target.closest("[data-search-row]");
+        if (!row) return;
+        const idx = Number(row.dataset.searchRow);
+        goToSearchItem(currentSearchResults[idx]);
+      });
+
+      const langCanvas = document.getElementById("languages-chart");
+      const overlapCanvas = document.getElementById("overlap-chart");
+      const languageBreakdown = analytics.language_breakdown || [];
+      const topRecommendations = analytics.top_recommendations || [];
+
+      if (window.Chart && langCanvas) {
+        new Chart(langCanvas, {
+          type: "doughnut",
+          data: {
+            labels: languageBreakdown.map((x) => x.language),
+            datasets: [{
+              data: languageBreakdown.map((x) => x.value),
+              backgroundColor: ["#3b82f6", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6", "#ec4899", "#06b6d4", "#84cc16"],
+              borderWidth: 0
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: false,
+            plugins: {
+              legend: { position: "bottom", labels: { color: "rgba(255,255,255,0.75)", boxWidth: 10, boxHeight: 10 } }
+            }
+          }
+        });
+      }
+
+      if (window.Chart && overlapCanvas) {
+        new Chart(overlapCanvas, {
+          type: "bar",
+          data: {
+            labels: topRecommendations.slice(0, 8).map((x) => x.repo.split("/")[1] || x.repo),
+            datasets: [{
+              label: "Overlap",
+              data: topRecommendations.slice(0, 8).map((x) => x.overlap),
+              borderRadius: 6,
+              backgroundColor: "rgba(59,130,246,0.75)"
+            }]
+          },
+          options: {
+            indexAxis: "y",
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: false,
+            plugins: {
+              legend: { display: false }
+            },
+            scales: {
+              x: { ticks: { color: "rgba(255,255,255,0.65)" }, grid: { color: "rgba(255,255,255,0.08)" } },
+              y: { ticks: { color: "rgba(255,255,255,0.75)" }, grid: { display: false } }
+            }
+          }
+        });
+      }
+
+      loadResultsData();
+    });
     </script>
   </body>
 </html>
