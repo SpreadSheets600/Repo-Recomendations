@@ -63,6 +63,7 @@ settings = load_settings()
 RECOMMENDATIONS_DIR = Path(settings["paths"]["recommendations_dir"])
 LATEST_JSON = Path(settings["paths"]["latest_json"])
 TEMPLATES_DIR = Path("templates")
+
 OUTPUT_HTML = Path("index.html")
 OVERVIEW_HTML = Path("overview.html")
 TAGCLOUD_HTML = Path("tagcloud.html")
