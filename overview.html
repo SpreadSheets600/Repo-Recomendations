@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overview - Repo Recommendations for SpreadSheets600</title>
+    <meta name="description" content="Repository recommendations overview for SpreadSheets600." />
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      :root {
+        --lang-0: #3b82f6;
+        --lang-1: #10b981;
+        --lang-2: #f59e0b;
+        --lang-3: #ef4444;
+        --lang-4: #8b5cf6;
+        --lang-5: #ec4899;
+        --lang-6: #06b6d4;
+        --lang-7: #84cc16;
+      }
+    </style>
+  </head>
+
+  <body class="bg-base-300 text-base-content">
+    <!-- Top Navigation -->
+    <nav class="bg-base-100 border-b border-base-300 sticky top-0 z-50">
+      <div class="navbar">
+        <div class="flex-1">
+          <a href="index.html" class="btn btn-ghost normal-case text-xl">
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            Repo Discovery
+          </a>
+        </div>
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex gap-2">
+          <a href="overview.html" class="btn btn-ghost btn-sm btn-active">Overview</a>
+          <a href="tagcloud.html" class="btn btn-ghost btn-sm">Tag Cloud</a>
+          <a href="index.html" class="btn btn-ghost btn-sm">Recommendations</a>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="badge badge-primary">SpreadSheets600</div>
+        </div>
+      </div>
+      <!-- Mobile Navigation Row -->
+      <div class="md:hidden flex gap-2 px-4 p-2 border-t border-base-300">
+        <a href="overview.html" class="btn btn-ghost btn-sm btn-active flex-1">Overview</a>
+        <a href="tagcloud.html" class="btn btn-ghost btn-sm flex-1">Tag Cloud</a>
+        <a href="index.html" class="btn btn-ghost btn-sm flex-1">Recommendations</a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+      <!-- Header -->
+      <div class="mb-8">
+        <h1 class="text-3xl font-bold tracking-tight mb-2">Repository Network Overview</h1>
+        <p class="text-xs text-base-content/45 mt-2">Last Updated : 2026-02-07 08:00 UTC</p>
+      </div>
+
+      <!-- Stats Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        <div class="stat bg-base-200 rounded-xl border border-base-content/10 p-5">
+          <div class="stat-title text-xs text-base-content/50 uppercase tracking-wide mb-2">Source Repositories</div>
+          <div class="stat-value text-3xl font-bold text-base-content">227</div>
+          <div class="stat-desc text-xs text-base-content/40 mt-1">Starred repos analyzed</div>
+        </div>
+
+        <div class="stat bg-base-200 rounded-xl border border-base-content/10 p-5">
+          <div class="stat-title text-xs text-base-content/50 uppercase tracking-wide mb-2">Total Recommendations</div>
+          <div class="stat-value text-3xl font-bold text-primary">1.9K</div>
+          <div class="stat-desc text-xs text-base-content/40 mt-1">Generated suggestions</div>
+        </div>
+
+        <div class="stat bg-base-200 rounded-xl border border-base-content/10 p-5">
+          <div class="stat-title text-xs text-base-content/50 uppercase tracking-wide mb-2">Unique Repos</div>
+          <div class="stat-value text-3xl font-bold text-secondary">1.1K</div>
+          <div class="stat-desc text-xs text-base-content/40 mt-1">Distinct recommendations</div>
+        </div>
+
+        <div class="stat bg-base-200 rounded-xl border border-base-content/10 p-5">
+          <div class="stat-title text-xs text-base-content/50 uppercase tracking-wide mb-2">Average per Source</div>
+          <div class="stat-value text-3xl font-bold text-accent">8.6</div>
+          <div class="stat-desc text-xs text-base-content/40 mt-1">Recommendations each</div>
+        </div>
+      </div>
+
+      <!-- Charts Section -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+        <!-- Language Distribution Chart -->
+        <div class="bg-base-200 rounded-xl border border-base-content/10 p-6">
+          <h2 class="text-lg font-semibold mb-4">Language Distribution</h2>
+          <div class="h-80">
+            <canvas id="languages-chart" aria-label="Language distribution chart"></canvas>
+          </div>
+        </div>
+
+        <!-- Top Overlap Chart -->
+        <div class="bg-base-200 rounded-xl border border-base-content/10 p-6">
+          <h2 class="text-lg font-semibold mb-4">Most Recommended Repositories</h2>
+          <div class="h-80">
+            <canvas id="overlap-chart" aria-label="Most recommended repositories chart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Top Languages Table -->
+      <div class="bg-base-200 rounded-xl border border-base-content/10 p-6 mb-8">
+        <h2 class="text-lg font-semibold mb-4">Top Languages Breakdown</h2>
+        <div class="overflow-x-auto">
+          <table class="table w-full">
+            <thead>
+              <tr class="border-b border-base-content/10">
+                <th class="text-left text-xs text-base-content/50 font-medium uppercase tracking-wide">Language</th>
+                <th class="text-right text-xs text-base-content/50 font-medium uppercase tracking-wide">Usage Score</th>
+                <th class="text-left text-xs text-base-content/50 font-medium uppercase tracking-wide">Distribution</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+              <tr class="border-b border-base-content/5">
+                <td class="py-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full" style="background-color: var(--lang-0)"></span>
+                    <span class="font-medium">Python</span>
+                  </div>
+                </td>
+                <td class="text-right font-mono text-sm">59830.4</td>
+                <td>
+                  <div class="w-full bg-base-300 rounded-full h-2">
+                    <div class="h-2 rounded-full transition-all" style="width: 100.0%; background-color: var(--lang-0)"></div>
+                  </div>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5">
+                <td class="py-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full" style="background-color: var(--lang-1)"></span>
+                    <span class="font-medium">TypeScript</span>
+                  </div>
+                </td>
+                <td class="text-right font-mono text-sm">36399.8</td>
+                <td>
+                  <div class="w-full bg-base-300 rounded-full h-2">
+                    <div class="h-2 rounded-full transition-all" style="width: 61.0%; background-color: var(--lang-1)"></div>
+                  </div>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5">
+                <td class="py-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full" style="background-color: var(--lang-2)"></span>
+                    <span class="font-medium">JavaScript</span>
+                  </div>
+                </td>
+                <td class="text-right font-mono text-sm">25795.9</td>
+                <td>
+                  <div class="w-full bg-base-300 rounded-full h-2">
+                    <div class="h-2 rounded-full transition-all" style="width: 43.0%; background-color: var(--lang-2)"></div>
+                  </div>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5">
+                <td class="py-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full" style="background-color: var(--lang-3)"></span>
+                    <span class="font-medium">Jupyter Notebook</span>
+                  </div>
+                </td>
+                <td class="text-right font-mono text-sm">7207.0</td>
+                <td>
+                  <div class="w-full bg-base-300 rounded-full h-2">
+                    <div class="h-2 rounded-full transition-all" style="width: 12.0%; background-color: var(--lang-3)"></div>
+                  </div>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5">
+                <td class="py-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full" style="background-color: var(--lang-4)"></span>
+                    <span class="font-medium">HTML</span>
+                  </div>
+                </td>
+                <td class="text-right font-mono text-sm">6821.5</td>
+                <td>
+                  <div class="w-full bg-base-300 rounded-full h-2">
+                    <div class="h-2 rounded-full transition-all" style="width: 11.0%; background-color: var(--lang-4)"></div>
+                  </div>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5">
+                <td class="py-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full" style="background-color: var(--lang-5)"></span>
+                    <span class="font-medium">Rust</span>
+                  </div>
+                </td>
+                <td class="text-right font-mono text-sm">6110.0</td>
+                <td>
+                  <div class="w-full bg-base-300 rounded-full h-2">
+                    <div class="h-2 rounded-full transition-all" style="width: 10.0%; background-color: var(--lang-5)"></div>
+                  </div>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5">
+                <td class="py-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full" style="background-color: var(--lang-6)"></span>
+                    <span class="font-medium">C++</span>
+                  </div>
+                </td>
+                <td class="text-right font-mono text-sm">5164.3</td>
+                <td>
+                  <div class="w-full bg-base-300 rounded-full h-2">
+                    <div class="h-2 rounded-full transition-all" style="width: 9.0%; background-color: var(--lang-6)"></div>
+                  </div>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5">
+                <td class="py-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full" style="background-color: var(--lang-7)"></span>
+                    <span class="font-medium">C</span>
+                  </div>
+                </td>
+                <td class="text-right font-mono text-sm">4400.1</td>
+                <td>
+                  <div class="w-full bg-base-300 rounded-full h-2">
+                    <div class="h-2 rounded-full transition-all" style="width: 7.0%; background-color: var(--lang-7)"></div>
+                  </div>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Top Recommendations Table -->
+      <div class="bg-base-200 rounded-xl border border-base-content/10 p-6">
+        <h2 class="text-lg font-semibold mb-4">Top Recommended Repositories</h2>
+        <div class="overflow-x-auto">
+          <table class="table w-full">
+            <thead>
+              <tr class="border-b border-base-content/10">
+                <th class="text-left text-xs text-base-content/50 font-medium uppercase tracking-wide">Rank</th>
+                <th class="text-left text-xs text-base-content/50 font-medium uppercase tracking-wide">Repository</th>
+                <th class="text-right text-xs text-base-content/50 font-medium uppercase tracking-wide">Overlap Count</th>
+                <th class="text-center text-xs text-base-content/50 font-medium uppercase tracking-wide">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+              <tr class="border-b border-base-content/5 hover:bg-base-300/30 transition-colors">
+                <td class="py-3">
+                  <span class="font-bold text-base-content/40">#1</span>
+                </td>
+                <td>
+                  <div class="font-medium text-base-content">jwasham/coding-interview-university</div>
+                </td>
+                <td class="text-right">
+                  <span class="badge badge-primary font-mono">24986</span>
+                </td>
+                <td class="text-center">
+                  <a href="https://github.com/jwasham/coding-interview-university" target="_blank" rel="noreferrer" class="btn btn-xs btn-ghost">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5 hover:bg-base-300/30 transition-colors">
+                <td class="py-3">
+                  <span class="font-bold text-base-content/40">#2</span>
+                </td>
+                <td>
+                  <div class="font-medium text-base-content">donnemartin/system-design-primer</div>
+                </td>
+                <td class="text-right">
+                  <span class="badge badge-primary font-mono">20482</span>
+                </td>
+                <td class="text-center">
+                  <a href="https://github.com/donnemartin/system-design-primer" target="_blank" rel="noreferrer" class="btn btn-xs btn-ghost">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5 hover:bg-base-300/30 transition-colors">
+                <td class="py-3">
+                  <span class="font-bold text-base-content/40">#3</span>
+                </td>
+                <td>
+                  <div class="font-medium text-base-content">kamranahmedse/developer-roadmap</div>
+                </td>
+                <td class="text-right">
+                  <span class="badge badge-primary font-mono">20450</span>
+                </td>
+                <td class="text-center">
+                  <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank" rel="noreferrer" class="btn btn-xs btn-ghost">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5 hover:bg-base-300/30 transition-colors">
+                <td class="py-3">
+                  <span class="font-bold text-base-content/40">#4</span>
+                </td>
+                <td>
+                  <div class="font-medium text-base-content">EbookFoundation/free-programming-books</div>
+                </td>
+                <td class="text-right">
+                  <span class="badge badge-primary font-mono">18745</span>
+                </td>
+                <td class="text-center">
+                  <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noreferrer" class="btn btn-xs btn-ghost">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5 hover:bg-base-300/30 transition-colors">
+                <td class="py-3">
+                  <span class="font-bold text-base-content/40">#5</span>
+                </td>
+                <td>
+                  <div class="font-medium text-base-content">public-apis/public-apis</div>
+                </td>
+                <td class="text-right">
+                  <span class="badge badge-primary font-mono">14588</span>
+                </td>
+                <td class="text-center">
+                  <a href="https://github.com/public-apis/public-apis" target="_blank" rel="noreferrer" class="btn btn-xs btn-ghost">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5 hover:bg-base-300/30 transition-colors">
+                <td class="py-3">
+                  <span class="font-bold text-base-content/40">#6</span>
+                </td>
+                <td>
+                  <div class="font-medium text-base-content">sindresorhus/awesome</div>
+                </td>
+                <td class="text-right">
+                  <span class="badge badge-primary font-mono">12373</span>
+                </td>
+                <td class="text-center">
+                  <a href="https://github.com/sindresorhus/awesome" target="_blank" rel="noreferrer" class="btn btn-xs btn-ghost">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5 hover:bg-base-300/30 transition-colors">
+                <td class="py-3">
+                  <span class="font-bold text-base-content/40">#7</span>
+                </td>
+                <td>
+                  <div class="font-medium text-base-content">trekhleb/javascript-algorithms</div>
+                </td>
+                <td class="text-right">
+                  <span class="badge badge-primary font-mono">10563</span>
+                </td>
+                <td class="text-center">
+                  <a href="https://github.com/trekhleb/javascript-algorithms" target="_blank" rel="noreferrer" class="btn btn-xs btn-ghost">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5 hover:bg-base-300/30 transition-colors">
+                <td class="py-3">
+                  <span class="font-bold text-base-content/40">#8</span>
+                </td>
+                <td>
+                  <div class="font-medium text-base-content">TheAlgorithms/Python</div>
+                </td>
+                <td class="text-right">
+                  <span class="badge badge-primary font-mono">9550</span>
+                </td>
+                <td class="text-center">
+                  <a href="https://github.com/TheAlgorithms/Python" target="_blank" rel="noreferrer" class="btn btn-xs btn-ghost">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5 hover:bg-base-300/30 transition-colors">
+                <td class="py-3">
+                  <span class="font-bold text-base-content/40">#9</span>
+                </td>
+                <td>
+                  <div class="font-medium text-base-content">vinta/awesome-python</div>
+                </td>
+                <td class="text-right">
+                  <span class="badge badge-primary font-mono">7913</span>
+                </td>
+                <td class="text-center">
+                  <a href="https://github.com/vinta/awesome-python" target="_blank" rel="noreferrer" class="btn btn-xs btn-ghost">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              
+              <tr class="border-b border-base-content/5 hover:bg-base-300/30 transition-colors">
+                <td class="py-3">
+                  <span class="font-bold text-base-content/40">#10</span>
+                </td>
+                <td>
+                  <div class="font-medium text-base-content">n8n-io/n8n</div>
+                </td>
+                <td class="text-right">
+                  <span class="badge badge-primary font-mono">7539</span>
+                </td>
+                <td class="text-center">
+                  <a href="https://github.com/n8n-io/n8n" target="_blank" rel="noreferrer" class="btn btn-xs btn-ghost">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <script id="analytics-payload" type="application/json">{"avg_recommendations_per_repo":8.6,"distinct_recommendations":1059,"language_breakdown":[{"language":"Python","value":59830.4},{"language":"TypeScript","value":36399.8},{"language":"JavaScript","value":25795.9},{"language":"Jupyter Notebook","value":7207.0},{"language":"HTML","value":6821.5},{"language":"Rust","value":6110.0},{"language":"C++","value":5164.3},{"language":"C","value":4400.1}],"top_recommendations":[{"repo":"jwasham/coding-interview-university","overlap":24986},{"repo":"donnemartin/system-design-primer","overlap":20482},{"repo":"kamranahmedse/developer-roadmap","overlap":20450},{"repo":"EbookFoundation/free-programming-books","overlap":18745},{"repo":"public-apis/public-apis","overlap":14588},{"repo":"sindresorhus/awesome","overlap":12373},{"repo":"trekhleb/javascript-algorithms","overlap":10563},{"repo":"TheAlgorithms/Python","overlap":9550},{"repo":"vinta/awesome-python","overlap":7913},{"repo":"n8n-io/n8n","overlap":7539}]}</script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const analyticsNode = document.getElementById("analytics-payload");
+        const analytics = analyticsNode ? JSON.parse(analyticsNode.textContent || "{}") : {};
+        
+        const languageBreakdown = analytics.language_breakdown || [];
+        const topRecommendations = analytics.top_recommendations || [];
+
+        // Language Distribution Chart
+        const langCanvas = document.getElementById("languages-chart");
+        if (window.Chart && langCanvas) {
+          new Chart(langCanvas, {
+            type: "doughnut",
+            data: {
+              labels: languageBreakdown.map(x => x.language),
+              datasets: [{
+                data: languageBreakdown.map(x => x.value),
+                backgroundColor: ["#3b82f6", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6", "#ec4899", "#06b6d4", "#84cc16"],
+                borderWidth: 2,
+                borderColor: "#1a1a1a"
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: {
+                  position: "bottom",
+                  labels: {
+                    color: "rgba(255,255,255,0.75)",
+                    boxWidth: 12,
+                    boxHeight: 12,
+                    padding: 15,
+                    font: { size: 12 }
+                  }
+                },
+                tooltip: {
+                  backgroundColor: "rgba(0,0,0,0.8)",
+                  padding: 12,
+                  titleFont: { size: 13 },
+                  bodyFont: { size: 12 }
+                }
+              }
+            }
+          });
+        }
+
+        // Top Overlap Chart
+        const overlapCanvas = document.getElementById("overlap-chart");
+        if (window.Chart && overlapCanvas) {
+          new Chart(overlapCanvas, {
+            type: "bar",
+            data: {
+              labels: topRecommendations.slice(0, 10).map(x => x.repo.split("/")[1] || x.repo),
+              datasets: [{
+                label: "Overlap Count",
+                data: topRecommendations.slice(0, 10).map(x => x.overlap),
+                borderRadius: 6,
+                backgroundColor: "rgba(59,130,246,0.75)",
+                borderColor: "rgba(59,130,246,1)",
+                borderWidth: 1
+              }]
+            },
+            options: {
+              indexAxis: "y",
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  backgroundColor: "rgba(0,0,0,0.8)",
+                  padding: 12,
+                  titleFont: { size: 13 },
+                  bodyFont: { size: 12 }
+                }
+              },
+              scales: {
+                x: {
+                  ticks: { color: "rgba(255,255,255,0.65)" },
+                  grid: { color: "rgba(255,255,255,0.08)" }
+                },
+                y: {
+                  ticks: { color: "rgba(255,255,255,0.75)", font: { size: 11 } },
+                  grid: { display: false }
+                }
+              }
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

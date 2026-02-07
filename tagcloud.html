@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tag Cloud - Repo Recommendations for SpreadSheets600</title>
+    <meta name="description" content="Repository topic tags for SpreadSheets600." />
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="bg-base-300 text-base-content">
+    <!-- Top Navigation -->
+    <nav class="bg-base-100 border-b border-base-300 sticky top-0 z-50">
+      <div class="navbar">
+        <div class="flex-1">
+          <a href="index.html" class="btn btn-ghost normal-case text-xl">
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            Repo Discovery
+          </a>
+        </div>
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex gap-2">
+          <a href="overview.html" class="btn btn-ghost btn-sm">Overview</a>
+          <a href="tagcloud.html" class="btn btn-ghost btn-sm btn-active">Tag Cloud</a>
+          <a href="index.html" class="btn btn-ghost btn-sm">Recommendations</a>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="badge badge-primary">SpreadSheets600</div>
+        </div>
+      </div>
+      <!-- Mobile Navigation Row -->
+      <div class="md:hidden flex gap-2 px-4 p-2 border-t border-base-300">
+        <a href="overview.html" class="btn btn-ghost btn-sm flex-1">Overview</a>
+        <a href="tagcloud.html" class="btn btn-ghost btn-sm btn-active flex-1">Tag Cloud</a>
+        <a href="index.html" class="btn btn-ghost btn-sm flex-1">Recommendations</a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+      <!-- Header -->
+      <div class="mb-8">
+        <h1 class="text-3xl font-bold tracking-tight mb-2">Topic Tags</h1>
+        <p class="text-base-content/60">All topics from source repositories and recommendations</p>
+      </div>
+
+      <!-- Controls -->
+      <div class="bg-base-200 rounded-xl border border-base-content/10 p-6 mb-8">
+        <div class="flex flex-col md:flex-row gap-4 items-center justify-between">
+          <div class="flex-1 w-full md:max-w-md">
+            <label class="text-sm font-medium text-base-content/70 mb-2 block">Search Tags</label>
+            <input
+              type="text"
+              id="tag-filter"
+              placeholder="Filter by name..."
+              class="input input-bordered w-full bg-base-300"
+            />
+          </div>
+          <div class="flex gap-3">
+            <div class="form-control">
+              <label class="label cursor-pointer gap-2">
+                <span class="label-text text-sm">Source Repos</span>
+                <input type="checkbox" id="show-source" class="checkbox checkbox-sm" checked />
+              </label>
+            </div>
+            <div class="form-control">
+              <label class="label cursor-pointer gap-2">
+                <span class="label-text text-sm">Recommendations</span>
+                <input type="checkbox" id="show-recs" class="checkbox checkbox-sm" checked />
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        <div class="stat bg-base-200 rounded-xl border border-base-content/10 p-5">
+          <div class="stat-title text-xs text-base-content/50">Total Unique Topics</div>
+          <div class="stat-value text-2xl" id="total-tags">0</div>
+        </div>
+        <div class="stat bg-base-200 rounded-xl border border-base-content/10 p-5">
+          <div class="stat-title text-xs text-base-content/50">Most Popular</div>
+          <div class="stat-value text-lg line-clamp-1" id="top-tag">-</div>
+          <div class="stat-desc" id="top-tag-count"></div>
+        </div>
+        <div class="stat bg-base-200 rounded-xl border border-base-content/10 p-5">
+          <div class="stat-title text-xs text-base-content/50">Visible Tags</div>
+          <div class="stat-value text-2xl" id="visible-tags">0</div>
+        </div>
+      </div>
+
+      <!-- All Tags -->
+      <div class="bg-base-200 rounded-xl border border-base-content/10 p-6">
+        <div class="flex items-center justify-between mb-6">
+          <h2 class="text-xl font-bold">All Tags</h2>
+          <button id="toggle-list" class="btn btn-sm btn-ghost gap-2">
+            <span id="toggle-text">Hide List</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4" id="toggle-icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+          </button>
+        </div>
+        
+        <div id="tags-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+          <div class="text-center text-base-content/40 py-8 col-span-full">Loading tags...</div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      const dataUrl = "recommendations/latest.json";
+      let allTags = new Map();
+
+      async function loadData() {
+        try {
+          const response = await fetch(dataUrl, { cache: "no-store" });
+          if (!response.ok) throw new Error("Failed to load data");
+          const data = await response.json();
+          processData(data.results || []);
+          renderTags();
+        } catch (error) {
+          document.getElementById("tags-table-body").innerHTML = 
+            '<tr><td colspan="5" class="text-center text-error">Failed to load tag data</td></tr>';
+          console.error(error);
+        }
+      }
+
+      function processData(results) {
+        results.forEach((group) => {
+          const sourceTopics = (group.metadata?.topics || []);
+          sourceTopics.forEach(topic => {
+            const key = topic.toLowerCase();
+            if (!allTags.has(key)) {
+              allTags.set(key, { display: topic, sourceCount: 0, recCount: 0 });
+            }
+            const entry = allTags.get(key);
+            entry.sourceCount++;
+          });
+
+          (group.recommendations || []).forEach(rec => {
+            const recTopics = (rec.metadata?.topics || []);
+            recTopics.forEach(topic => {
+              const key = topic.toLowerCase();
+              if (!allTags.has(key)) {
+                allTags.set(key, { display: topic, sourceCount: 0, recCount: 0 });
+              }
+              const entry = allTags.get(key);
+              entry.recCount++;
+            });
+          });
+        });
+      }
+
+      function getFilteredTags(filter = "", showSource = true, showRecs = true) {
+        return Array.from(allTags.entries())
+          .filter(([key, data]) => {
+            const matchesFilter = !filter || key.includes(filter.toLowerCase());
+            const matchesType = (showSource && data.sourceCount > 0) || 
+                               (showRecs && data.recCount > 0);
+            return matchesFilter && matchesType;
+          })
+          .map(([key, data]) => ({
+            ...data,
+            total: data.sourceCount + data.recCount
+          }))
+          .sort((a, b) => b.total - a.total);
+      }
+
+      function renderTags() {
+        const filter = document.getElementById("tag-filter").value;
+        const showSource = document.getElementById("show-source").checked;
+        const showRecs = document.getElementById("show-recs").checked;
+        
+        const tags = getFilteredTags(filter, showSource, showRecs);
+
+        // Update stats
+        document.getElementById("total-tags").textContent = allTags.size;
+        document.getElementById("visible-tags").textContent = tags.length;
+        
+        if (tags.length > 0) {
+          document.getElementById("top-tag").textContent = tags[0].display;
+          document.getElementById("top-tag-count").textContent = `${tags[0].total} repositories`;
+        } else {
+          document.getElementById("top-tag").textContent = "-";
+          document.getElementById("top-tag-count").textContent = "";
+        }
+
+        const grid = document.getElementById("tags-grid");
+        
+        if (tags.length === 0) {
+          grid.innerHTML = '<div class="text-center text-base-content/40 py-8 col-span-full">No tags found</div>';
+          return;
+        }
+
+        const html = tags.map((tag) => {
+          return `
+            <div class="flex items-center justify-between p-3 bg-base-300/50 rounded-lg hover:bg-base-300 transition-colors">
+              <span class="font-medium text-base-content">${escapeHtml(tag.display)}</span>
+              <span class="badge badge-primary badge-sm">${tag.total}</span>
+            </div>
+          `;
+        }).join('');
+
+        grid.innerHTML = html;
+      }
+
+      function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+      }
+
+      // Event listeners
+      document.getElementById("tag-filter").addEventListener("input", renderTags);
+      document.getElementById("show-source").addEventListener("change", renderTags);
+      document.getElementById("show-recs").addEventListener("change", renderTags);
+
+      // Toggle list visibility
+      document.getElementById("toggle-list").addEventListener("click", () => {
+        const grid = document.getElementById("tags-grid");
+        const toggleText = document.getElementById("toggle-text");
+        const toggleIcon = document.getElementById("toggle-icon");
+        
+        if (grid.classList.contains("hidden")) {
+          grid.classList.remove("hidden");
+          toggleText.textContent = "Hide List";
+          toggleIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />';
+        } else {
+          grid.classList.add("hidden");
+          toggleText.textContent = "Show List";
+          toggleIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />';
+        }
+      });
+
+      // Load data on page load
+      loadData();
+    </script>
+  </body>
+</html>

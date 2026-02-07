@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Repo Recommendations for SpreadSheets600</title>
+    <title>Recommendations - Repo Recommendations for SpreadSheets600</title>
     <meta name="description" content="Repository recommendations for SpreadSheets600." />
 
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- SVG Icons (hidden sprite) -->
     <svg style="display:none">
@@ -45,28 +45,52 @@
   </head>
 
   <body class="bg-base-300 text-base-content overflow-hidden h-screen">
+    
+    <!-- Top Navigation -->
+    <nav class="bg-base-100 border-b border-base-300 sticky top-0 z-50">
+      <div class="navbar">
+        <div class="flex-1">
+          <button id="mobile-menu-btn" class="btn btn-ghost btn-square md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+          <a href="index.html" class="btn btn-ghost normal-case text-xl">
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            Repo Discovery
+          </a>
+        </div>
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex gap-2">
+          <a href="overview.html" class="btn btn-ghost btn-sm">Overview</a>
+          <a href="tagcloud.html" class="btn btn-ghost btn-sm">Tag Cloud</a>
+          <a href="index.html" class="btn btn-ghost btn-sm btn-active">Recommendations</a>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="badge badge-primary">SpreadSheets600</div>
+        </div>
+      </div>
+      <!-- Mobile Navigation Row -->
+      <div class="md:hidden flex gap-2 px-4 p-2 border-t border-base-300">
+        <a href="overview.html" class="btn btn-ghost btn-sm flex-1">Overview</a>
+        <a href="tagcloud.html" class="btn btn-ghost btn-sm flex-1">Tag Cloud</a>
+        <a href="index.html" class="btn btn-ghost btn-sm btn-active flex-1">Recommendations</a>
+      </div>
+    </nav>
 
     <!-- Mobile overlay -->
     <div id="sidebar-overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity duration-200"></div>
 
     <!-- App layout -->
-    <div class="flex h-screen w-full overflow-hidden">
+    <div class="flex h-[calc(100vh-4rem)] w-full overflow-hidden">
 
       <!-- SIDEBAR -->
       <aside
         id="sidebar"
         class="fixed inset-y-0 left-0 z-50 w-72 -translate-x-full bg-base-200 border-r border-base-content/10 flex flex-col transition-transform duration-200 ease-out md:static md:translate-x-0 md:z-auto"
       >
-        <!-- Header -->
-        <div class="flex items-center justify-between px-6 h-16 shrink-0 border-b border-base-content/10">
-          <div class="flex items-center gap-2.5">
-            <svg class="size-5 text-base-content" viewBox="0 0 16 16"><use href="#icon-github"/></svg>
-            <span class="text-sm font-semibold tracking-tight">Repo Discovery</span>
-          </div>
-          <button id="sidebar-close" class="btn btn-ghost btn-xs btn-square md:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-          </button>
-        </div>
 
         <!-- Nav list -->
         <nav class="flex-1 overflow-y-auto overflow-x-hidden min-h-0 p-3">
@@ -2359,9 +2383,6 @@
 
         <!-- Top bar -->
         <header class="h-16 min-h-16 shrink-0 border-b border-base-content/10 bg-base-200/80 backdrop-blur-md px-4 flex items-center gap-4 md:px-10">
-          <button id="menu-toggle" class="btn btn-ghost btn-sm btn-square md:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
-          </button>
 
           <div class="relative flex-1 max-w-sm">
             <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-3 top-1/2 -translate-y-1/2 size-3.5 text-base-content/40 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
@@ -2375,60 +2396,11 @@
             <div id="search-results" class="absolute left-0 right-0 top-[calc(100%+0.5rem)] hidden rounded-lg border border-base-content/10 bg-base-200 shadow-xl shadow-black/25 z-30"></div>
           </div>
 
-          <div class="ml-auto text-xs text-base-content/50 border border-base-content/10 px-3 py-1.5 rounded-full hidden md:block">
-            SpreadSheets600
-          </div>
         </header>
 
         <!-- Scrollable content -->
         <div class="flex-1 overflow-y-auto" id="content">
-          <section class="max-w-[1200px] mx-auto px-4 pt-8 md:px-10">
-            <div class="rounded-2xl border border-base-content/10 bg-base-200 p-5 md:p-6">
-              <div class="flex items-end justify-between gap-4 mb-5">
-                <div>
-                  <p class="text-xs uppercase tracking-[0.18em] text-base-content/40 mb-1">Dashboard</p>
-                  <h2 class="text-xl font-semibold tracking-tight">Repository Network Snapshot</h2>
-                </div>
-                <p class="text-xs text-base-content/45">Updated 2026-02-07 08:00 UTC</p>
-              </div>
-
-              <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
-                <div class="rounded-lg border border-base-content/10 bg-base-300/30 p-3">
-                  <p class="text-[11px] text-base-content/45 uppercase tracking-wide">Source repos</p>
-                  <p class="text-2xl font-semibold mt-1">227</p>
-                </div>
-                <div class="rounded-lg border border-base-content/10 bg-base-300/30 p-3">
-                  <p class="text-[11px] text-base-content/45 uppercase tracking-wide">Recommendations</p>
-                  <p class="text-2xl font-semibold mt-1">1.9K</p>
-                </div>
-                <div class="rounded-lg border border-base-content/10 bg-base-300/30 p-3">
-                  <p class="text-[11px] text-base-content/45 uppercase tracking-wide">Distinct repos</p>
-                  <p class="text-2xl font-semibold mt-1">1.1K</p>
-                </div>
-                <div class="rounded-lg border border-base-content/10 bg-base-300/30 p-3">
-                  <p class="text-[11px] text-base-content/45 uppercase tracking-wide">Avg / source</p>
-                  <p class="text-2xl font-semibold mt-1">8.6</p>
-                </div>
-              </div>
-
-              <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                <div class="rounded-xl border border-base-content/10 bg-base-300/20 p-4">
-                  <h3 class="text-sm font-semibold mb-3">Top Languages</h3>
-                  <div class="h-64">
-                    <canvas id="languages-chart" aria-label="Top languages chart"></canvas>
-                  </div>
-                </div>
-                <div class="rounded-xl border border-base-content/10 bg-base-300/20 p-4">
-                  <h3 class="text-sm font-semibold mb-3">Top Overlap Recommendations</h3>
-                  <div class="h-64">
-                    <canvas id="overlap-chart" aria-label="Top overlap recommendations chart"></canvas>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="repo-section" class="max-w-[1200px] mx-auto px-4 py-10 md:px-10"></section>
+          <section id="repo-section" class="max-w-[1200px] mx-auto px-4 py-8 md:px-10"></section>
 
         </div>
       </div>
@@ -2445,7 +2417,7 @@
 
       const sidebar  = document.getElementById("sidebar");
       const overlay  = document.getElementById("sidebar-overlay");
-      const menuBtn  = document.getElementById("menu-toggle");
+      const menuBtn  = document.getElementById("mobile-menu-btn");
       const closeBtn = document.getElementById("sidebar-close");
       const md       = window.matchMedia("(min-width: 768px)");
 
@@ -2806,61 +2778,6 @@
         const idx = Number(row.dataset.searchRow);
         goToSearchItem(currentSearchResults[idx]);
       });
-
-      const langCanvas = document.getElementById("languages-chart");
-      const overlapCanvas = document.getElementById("overlap-chart");
-      const languageBreakdown = analytics.language_breakdown || [];
-      const topRecommendations = analytics.top_recommendations || [];
-
-      if (window.Chart && langCanvas) {
-        new Chart(langCanvas, {
-          type: "doughnut",
-          data: {
-            labels: languageBreakdown.map((x) => x.language),
-            datasets: [{
-              data: languageBreakdown.map((x) => x.value),
-              backgroundColor: ["#3b82f6", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6", "#ec4899", "#06b6d4", "#84cc16"],
-              borderWidth: 0
-            }]
-          },
-          options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            animation: false,
-            plugins: {
-              legend: { position: "bottom", labels: { color: "rgba(255,255,255,0.75)", boxWidth: 10, boxHeight: 10 } }
-            }
-          }
-        });
-      }
-
-      if (window.Chart && overlapCanvas) {
-        new Chart(overlapCanvas, {
-          type: "bar",
-          data: {
-            labels: topRecommendations.slice(0, 8).map((x) => x.repo.split("/")[1] || x.repo),
-            datasets: [{
-              label: "Overlap",
-              data: topRecommendations.slice(0, 8).map((x) => x.overlap),
-              borderRadius: 6,
-              backgroundColor: "rgba(59,130,246,0.75)"
-            }]
-          },
-          options: {
-            indexAxis: "y",
-            responsive: true,
-            maintainAspectRatio: false,
-            animation: false,
-            plugins: {
-              legend: { display: false }
-            },
-            scales: {
-              x: { ticks: { color: "rgba(255,255,255,0.65)" }, grid: { color: "rgba(255,255,255,0.08)" } },
-              y: { ticks: { color: "rgba(255,255,255,0.75)" }, grid: { display: false } }
-            }
-          }
-        });
-      }
 
       loadResultsData();
     });
