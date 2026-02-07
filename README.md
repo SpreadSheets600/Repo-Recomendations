@@ -4,9 +4,15 @@ Generate GitHub repository recommendations based on your starred repositories an
 
 ## Screenshots
 
-| ![preview](.github/images/preview-new.png)             |
+| ![preview](.github/images/recomendations.png)             |
 | -------------------------------------------------- |
 | Preview of the pusblished site of recomened repos  |
+| ![preview](.github/images/tagcloud.png)             |
+| -------------------------------------------------- |
+| Preview of the tag cloud page  |
+| ![preview](.github/images/overview.png)             |
+| -------------------------------------------------- |
+| Preview of the tag overview page  |
 
 ## Architecture Diagram
 
