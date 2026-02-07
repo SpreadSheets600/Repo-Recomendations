@@ -4,9 +4,43 @@ Generate GitHub repository recommendations based on your starred repositories an
 
 ## Screenshots
 
-| ![preview](.github/images/preview.png)             |
+| ![preview](.github/images/preview-new.png)             |
 | -------------------------------------------------- |
 | Preview of the pusblished site of recomened repos  |
+
+## Architecture Diagram
+
+<details>
+<summary>Show architecture diagram</summary>
+
+```mermaid
+flowchart TD
+    A[Start: python main.py] --> B[Load settings from config/settings.yml and env]
+    B --> C[Fetch starred repos from GitHub API]
+    C --> D{RECENT_REPOS_LIMIT set?}
+    D -->|Yes| E[Trim starred repos]
+    D -->|No| F[Use full starred list]
+    E --> G[Load existing data from latest.json]
+    F --> G
+    G --> H[Find new repos not already processed]
+    H --> I{Any new repos?}
+
+    I -->|Yes| J[Fetch source repo stars/forks from ClickHouse]
+    J --> K[Generate recommendations per repo via ForkEvent overlap query]
+    K --> L[Merge new results with existing results]
+
+    I -->|No| L
+
+    L --> M[Collect all recommended repo names]
+    M --> N[Fetch recommended repo stars/forks from ClickHouse]
+    N --> O[Fetch GitHub HTML metadata in parallel: description, topics, languages]
+    O --> P[Enrich source and recommendation records and compute score]
+    P --> Q[Write recommendations/latest.json]
+    Q --> R[Render index.html from templates/index.html with analytics]
+    R --> S[[DONE]]
+```
+
+</details>
 
 ## Configuration
 
@@ -50,40 +84,6 @@ The script will:
 3. Generate recommendations based on co-stargazing patterns
 4. Save results to `data/recommendations/latest.json`
 5. Render a static `index.html` using the Jinja template in `templates/index.html`
-
-## Architecture Diagram
-
-<details>
-<summary>Show architecture diagram</summary>
-
-```mermaid
-flowchart TD
-    A[Start: python main.py] --> B[Load settings from config/settings.yml and env]
-    B --> C[Fetch starred repos from GitHub API]
-    C --> D{RECENT_REPOS_LIMIT set?}
-    D -->|Yes| E[Trim starred repos]
-    D -->|No| F[Use full starred list]
-    E --> G[Load existing data from latest.json]
-    F --> G
-    G --> H[Find new repos not already processed]
-    H --> I{Any new repos?}
-
-    I -->|Yes| J[Fetch source repo stars/forks from ClickHouse]
-    J --> K[Generate recommendations per repo via ForkEvent overlap query]
-    K --> L[Merge new results with existing results]
-
-    I -->|No| L
-
-    L --> M[Collect all recommended repo names]
-    M --> N[Fetch recommended repo stars/forks from ClickHouse]
-    N --> O[Fetch GitHub HTML metadata in parallel: description, topics, languages]
-    O --> P[Enrich source and recommendation records and compute score]
-    P --> Q[Write recommendations/latest.json]
-    Q --> R[Render index.html from templates/index.html with analytics]
-    R --> S[[DONE]]
-```
-
-</details>
 
 ## Recommendation Data Fields
 
