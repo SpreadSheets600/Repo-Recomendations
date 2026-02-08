@@ -133,7 +133,7 @@
               placeholder="Search source + recommendations..."
               autocomplete="off"
             />
-            <div id="search-results" class="absolute left-0 right-0 top-[calc(100%+0.5rem)] hidden rounded-lg border border-base-content/10 bg-base-200 shadow-xl shadow-black/25 z-30"></div>
+            <div id="search-results" class="absolute left-0 right-0 top-[calc(100%+0.5rem)] hidden rounded-lg border border-base-content/10 bg-base-200 shadow-xl shadow-black/25 z-60"></div>
           </div>
 
         </header>
@@ -362,28 +362,35 @@
 
       function buildSearchIndex(data) {
         const items = [];
+        const seen = new Set();
         data.forEach((group, groupIndex) => {
           const groupMeta = group.metadata || {};
-          items.push({
-            type: "source",
-            repo: group.repo || "",
-            description: groupMeta.description || "",
-            topics: groupMeta.topics || [],
-            group_index: groupIndex,
-            parent_repo: group.repo || "",
-            anchor: `source-${groupIndex}`
-          });
-          (group.recommendations || []).forEach((rec, recIndex) => {
-            const recMeta = rec.metadata || {};
+          if (!seen.has(group.repo)) {
+            seen.add(group.repo);
             items.push({
-              type: "recommendation",
-              repo: rec.repo || "",
-              description: recMeta.description || "",
-              topics: recMeta.topics || [],
+              type: "source",
+              repo: group.repo || "",
+              description: groupMeta.description || "",
+              topics: groupMeta.topics || [],
               group_index: groupIndex,
               parent_repo: group.repo || "",
-              anchor: `rec-${groupIndex}-${recIndex}`
+              anchor: `source-${groupIndex}`
             });
+          }
+          (group.recommendations || []).forEach((rec, recIndex) => {
+            const recMeta = rec.metadata || {};
+            if (!seen.has(rec.repo)) {
+              seen.add(rec.repo);
+              items.push({
+                type: "recommendation",
+                repo: rec.repo || "",
+                description: recMeta.description || "",
+                topics: recMeta.topics || [],
+                group_index: groupIndex,
+                parent_repo: group.repo || "",
+                anchor: `rec-${groupIndex}-${recIndex}`
+              });
+            }
           });
         });
         return items;
