@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:13:15.080002+00:00",
+  "generated_at": "2026-02-22T01:09:42.375020+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -299,7 +299,7 @@
         }
       ],
       "metadata": {
-        "description": "a.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy.",
+        "description": null,
         "topics": [
           "open-source",
           "machine-learning",
@@ -321,16 +321,16 @@
           "prompts-chat"
         ],
         "languages": {
-          "HTML": "48.5%",
-          "MDX": "36.4%",
+          "HTML": "48.6%",
+          "MDX": "36.3%",
           "TypeScript": "14.7%",
           "JavaScript": "0.2%",
           "Shell": "0.1%",
           "CSS": "0.1%"
         }
       },
-      "total_stars": 403,
-      "total_forks": 55
+      "total_stars": 776,
+      "total_forks": 105
     },
     {
       "repo": "Moulberry/PandoraLauncher",
@@ -546,15 +546,15 @@
         }
       ],
       "metadata": {
-        "description": "Pandora is a modern Minecraft launcher that balances ease-of-use with powerful instance management features",
+        "description": null,
         "topics": [],
         "languages": {
           "Rust": "98.9%",
           "Other": "1.1%"
         }
       },
-      "total_stars": 178,
-      "total_forks": 16
+      "total_stars": 185,
+      "total_forks": 17
     },
     {
       "repo": "openclaw/openclaw",
@@ -872,7 +872,7 @@
         }
       ],
       "metadata": {
-        "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+        "description": null,
         "topics": [
           "ai",
           "personal",
@@ -883,17 +883,17 @@
           "openclaw"
         ],
         "languages": {
-          "TypeScript": "83.8%",
-          "Swift": "12.1%",
-          "Kotlin": "1.7%",
-          "Shell": "1.0%",
+          "TypeScript": "84.6%",
+          "Swift": "11.4%",
+          "Kotlin": "1.5%",
+          "Shell": "0.9%",
+          "JavaScript": "0.6%",
           "CSS": "0.5%",
-          "JavaScript": "0.4%",
           "Other": "0.5%"
         }
       },
-      "total_stars": 29722,
-      "total_forks": 6262
+      "total_stars": 36852,
+      "total_forks": 8651
     },
     {
       "repo": "serverless-dns/serverless-dns",
@@ -1130,7 +1130,7 @@
         }
       ],
       "metadata": {
-        "description": "The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io",
+        "description": null,
         "topics": [
           "nodejs",
           "serverless",
@@ -1154,8 +1154,8 @@
           "Dockerfile": "0.8%"
         }
       },
-      "total_stars": 2730,
-      "total_forks": 3265
+      "total_stars": 2734,
+      "total_forks": 3268
     },
     {
       "repo": "warreth/OpenlibExtended",
@@ -1383,7 +1383,7 @@
         }
       ],
       "metadata": {
-        "description": "An Open source app to download and read books from shadow library (Anna\u2019s Archive)",
+        "description": null,
         "topics": [
           "pdf",
           "books",
@@ -1407,7 +1407,7 @@
           "Other": "0.3%"
         }
       },
-      "total_stars": 93,
+      "total_stars": 96,
       "total_forks": 3
     },
     {
@@ -1733,7 +1733,7 @@
         }
       ],
       "metadata": {
-        "description": "Unlimited file cloud storage based on using Telegram API",
+        "description": null,
         "topics": [
           "javascript",
           "docker",
@@ -1753,8 +1753,8 @@
           "Other": "1.5%"
         }
       },
-      "total_stars": 782,
-      "total_forks": 101
+      "total_stars": 785,
+      "total_forks": 102
     },
     {
       "repo": "narcisbugeag/vscord",
@@ -1974,7 +1974,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\ude0e Fully customizable VS Code extension to get Discord Rich Presence integration.",
+        "description": null,
         "topics": [
           "visual-studio",
           "discord",
@@ -1995,7 +1995,7 @@
           "JavaScript": "1.6%"
         }
       },
-      "total_stars": 18,
+      "total_stars": 20,
       "total_forks": 4
     },
     {
@@ -2258,7 +2258,7 @@
         }
       ],
       "metadata": {
-        "description": "ClickHouse\u00ae is a real-time analytics database management system",
+        "description": null,
         "topics": [
           "rust",
           "embedded",
@@ -2279,17 +2279,17 @@
           "lakehouse"
         ],
         "languages": {
-          "C++": "71.8%",
-          "Python": "9.6%",
-          "Assembly": "8.8%",
-          "Shell": "4.1%",
+          "C++": "71.6%",
+          "Python": "9.7%",
+          "Assembly": "8.7%",
+          "Shell": "4.2%",
           "C": "2.1%",
           "Jinja": "1.4%",
-          "Other": "2.2%"
+          "Other": "2.3%"
         }
       },
-      "total_stars": 37088,
-      "total_forks": 7616
+      "total_stars": 37133,
+      "total_forks": 7626
     },
     {
       "repo": "coderdiaz/cvfolio",
@@ -2488,7 +2488,7 @@
         }
       ],
       "metadata": {
-        "description": "Minimalist, clean and aesthetic personal site inspired by ReadCV. Built with Astro.",
+        "description": null,
         "topics": [
           "react",
           "seo",
@@ -2816,7 +2816,7 @@
         }
       ],
       "metadata": {
-        "description": "libSQL is a fork of SQLite that is both Open Source, and Open Contributions.",
+        "description": null,
         "topics": [
           "rust",
           "database",
@@ -2834,7 +2834,7 @@
           "Other": "1.6%"
         }
       },
-      "total_stars": 11063,
+      "total_stars": 11076,
       "total_forks": 373
     },
     {
@@ -3026,7 +3026,7 @@
         }
       ],
       "metadata": {
-        "description": "Build calculator for Elden Ring",
+        "description": null,
         "topics": [
           "react",
           "game",
@@ -3078,7 +3078,7 @@
         }
       ],
       "metadata": {
-        "description": "Generates beautiful visualizations of your anime and manga consumption throughout the year",
+        "description": null,
         "topics": [
           "anime",
           "anilist",
@@ -3326,7 +3326,7 @@
         }
       ],
       "metadata": {
-        "description": "Proxy that exposes Antigravity provided claude / gemini models, so we can use them in Claude Code and OpenClaw (Clawdbot)",
+        "description": null,
         "topics": [
           "proxy",
           "gemini",
@@ -3339,13 +3339,13 @@
           "openclaw"
         ],
         "languages": {
-          "JavaScript": "76.4%",
-          "HTML": "22.7%",
+          "JavaScript": "76.5%",
+          "HTML": "22.6%",
           "CSS": "0.9%"
         }
       },
-      "total_stars": 630,
-      "total_forks": 102
+      "total_stars": 653,
+      "total_forks": 104
     },
     {
       "repo": "hunvreus/basecoat",
@@ -3628,7 +3628,7 @@
         }
       ],
       "metadata": {
-        "description": "A components library built with Tailwind CSS that works with any web stack.",
+        "description": null,
         "topics": [
           "javascript",
           "html",
@@ -3652,7 +3652,7 @@
           "Nunjucks": "21.2%"
         }
       },
-      "total_stars": 2198,
+      "total_stars": 2210,
       "total_forks": 59
     },
     {
@@ -3681,7 +3681,7 @@
         }
       ],
       "metadata": {
-        "description": "Create a professional, Clean, Coustomizable GitHub profile README effortlessly.",
+        "description": null,
         "topics": [
           "github",
           "readme-generator",
@@ -3719,7 +3719,7 @@
         }
       ],
       "metadata": {
-        "description": "A forum where answers expire unless they\u2019re still true.",
+        "description": null,
         "topics": [],
         "languages": {
           "TypeScript": "90.1%",
@@ -3728,7 +3728,7 @@
           "JavaScript": "0.3%"
         }
       },
-      "total_stars": 20,
+      "total_stars": 26,
       "total_forks": 0
     },
     {
@@ -3754,7 +3754,7 @@
         }
       ],
       "metadata": {
-        "description": "RepoShield-AI is a powerful, deterministic security analysis engine designed to identify malicious patterns, exposed secrets, and risky code execution in GitHub repositories. Built with a \"Safety First\" philosophy, it performs deep static analysis without ever executing a line of third-party code.",
+        "description": null,
         "topics": [],
         "languages": {
           "JavaScript": "92.6%",
@@ -3891,25 +3891,12 @@
         }
       ],
       "metadata": {
-        "description": "GeForce Eternity \u2014 A community-driven app that enhances the GeForce NOW experience.",
-        "topics": [
-          "electron",
-          "linux",
-          "cross-platform",
-          "contributions-welcome",
-          "cloud-gaming",
-          "game-streaming",
-          "geforce-now"
-        ],
-        "languages": {
-          "TypeScript": "63.7%",
-          "HTML": "19.4%",
-          "CSS": "14.9%",
-          "JavaScript": "2.0%"
-        }
+        "description": null,
+        "topics": [],
+        "languages": {}
       },
-      "total_stars": 38,
-      "total_forks": 1
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "agnivo988/Repo-lyzer",
@@ -4118,13 +4105,13 @@
         }
       ],
       "metadata": {
-        "description": "Repo-lyzer is a developer-focused CLI tool built in Go language that analyzes and compares GitHub repositories to help understand code structure, quality, and changes efficiently. It provides insights like file tree analysis, repository comparison, and actionable metrics, making it easier for developers and recruiters to evaluate projects quickly.",
+        "description": null,
         "topics": [],
         "languages": {
           "Go": "100.0%"
         }
       },
-      "total_stars": 17,
+      "total_stars": 19,
       "total_forks": 16
     },
     {
@@ -4159,7 +4146,7 @@
           "Other": "0.9%"
         }
       },
-      "total_stars": 23,
+      "total_stars": 25,
       "total_forks": 0
     },
     {
@@ -4339,7 +4326,7 @@
         }
       ],
       "metadata": {
-        "description": "SortVision is a web-based sorting algorithm visualizer \ud83d\udda5\ufe0f that lets users explore and compare algorithms like Bubble, Quick, Merge, and more \ud83d\udd04. Easily adjust speed \u26a1 and array size \ud83d\udcca to watch the sorting process in real-time. Perfect for students and enthusiasts looking to understand sorting mechanics!",
+        "description": null,
         "topics": [
           "react",
           "reactjs",
@@ -4362,7 +4349,7 @@
           "Other": "16.3%"
         }
       },
-      "total_stars": 132,
+      "total_stars": 133,
       "total_forks": 60
     },
     {
@@ -4608,7 +4595,7 @@
           "Makefile": "2.0%"
         }
       },
-      "total_stars": 285,
+      "total_stars": 288,
       "total_forks": 96
     },
     {
@@ -4631,7 +4618,7 @@
         }
       ],
       "metadata": {
-        "description": "A simple API that generates context-aware excuses. Need a creative excuse for any situation? This has you covered.",
+        "description": null,
         "topics": [],
         "languages": {
           "JavaScript": "100.0%"
@@ -4660,7 +4647,7 @@
         }
       ],
       "metadata": {
-        "description": "visualise molecules in 2D and 3D , do customizations and many features....",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "100.0%"
@@ -4690,7 +4677,7 @@
         }
       ],
       "metadata": {
-        "description": "A high-performance URL shortener built with Go",
+        "description": null,
         "topics": [],
         "languages": {
           "Go": "99.1%",
@@ -4730,7 +4717,7 @@
           "Other": "0.8%"
         }
       },
-      "total_stars": 20,
+      "total_stars": 23,
       "total_forks": 0
     },
     {
@@ -4753,7 +4740,7 @@
         }
       ],
       "metadata": {
-        "description": "A powerful streaming API for real-time data processing and delivery",
+        "description": null,
         "topics": [],
         "languages": {
           "JavaScript": "100.0%"
@@ -4782,7 +4769,7 @@
         }
       ],
       "metadata": {
-        "description": "Automatically generates backdated Git commits",
+        "description": null,
         "topics": [],
         "languages": {
           "JavaScript": "100.0%"
@@ -5046,7 +5033,7 @@
         }
       ],
       "metadata": {
-        "description": "This application can render fractals by putting the IFS code.",
+        "description": null,
         "topics": [
           "cross-platform",
           "unity3d",
@@ -5060,7 +5047,7 @@
           "HLSL": "14.1%"
         }
       },
-      "total_stars": 43,
+      "total_stars": 48,
       "total_forks": 7
     },
     {
@@ -5113,7 +5100,7 @@
         }
       ],
       "metadata": {
-        "description": "ReelsPro is an AI-powered platform for short videos. Get creative ideas from our AI assistant and enjoy a safe community with automatic content moderation. Our Chrome Extension lets you instantly share content from anywhere on the web directly to your account, making creation fast and seamless.",
+        "description": null,
         "topics": [],
         "languages": {
           "TypeScript": "41.5%",
@@ -5122,7 +5109,7 @@
           "CSS": "0.7%"
         }
       },
-      "total_stars": 32,
+      "total_stars": 36,
       "total_forks": 2
     },
     {
@@ -5357,7 +5344,7 @@
         }
       ],
       "metadata": {
-        "description": "A non-exhaustive collection of third-party clients and mods for Discord.",
+        "description": null,
         "topics": [
           "discord",
           "discord-library",
@@ -5369,7 +5356,7 @@
         ],
         "languages": {}
       },
-      "total_stars": 1933,
+      "total_stars": 1938,
       "total_forks": 128
     },
     {
@@ -5656,7 +5643,7 @@
         }
       ],
       "metadata": {
-        "description": "A hand-picked collection of tools and resources for Vibe Coding",
+        "description": null,
         "topics": [
           "ai",
           "awesome-list",
@@ -5675,8 +5662,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 159,
-      "total_forks": 28
+      "total_stars": 179,
+      "total_forks": 31
     },
     {
       "repo": "ai-for-developers/awesome-ai-coding-tools",
@@ -5930,7 +5917,7 @@
         }
       ],
       "metadata": {
-        "description": "A curated list of AI-powered coding tools",
+        "description": null,
         "topics": [
           "workflow",
           "awesome",
@@ -5955,8 +5942,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 492,
-      "total_forks": 61
+      "total_stars": 495,
+      "total_forks": 67
     },
     {
       "repo": "best-of-ai/ai-directories",
@@ -6236,7 +6223,7 @@
         }
       ],
       "metadata": {
-        "description": "An awesome list of best top AI directories to submit your ai tools",
+        "description": null,
         "topics": [
           "awesome-list",
           "directories",
@@ -6261,8 +6248,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 558,
-      "total_forks": 247
+      "total_stars": 560,
+      "total_forks": 248
     },
     {
       "repo": "AndyMik90/Auto-Claude",
@@ -6538,16 +6525,16 @@
         }
       ],
       "metadata": {
-        "description": "Autonomous multi-session AI coding",
+        "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "53.8%",
-          "Python": "44.7%",
-          "Other": "1.5%"
+          "TypeScript": "54.3%",
+          "Python": "44.3%",
+          "Other": "1.4%"
         }
       },
-      "total_stars": 4613,
-      "total_forks": 662
+      "total_stars": 4713,
+      "total_forks": 676
     },
     {
       "repo": "Lainmode/InstagramEmbed-vxinstagram",
@@ -6581,7 +6568,7 @@
           "JavaScript": "0.1%"
         }
       },
-      "total_stars": 27,
+      "total_stars": 28,
       "total_forks": 0
     },
     {
@@ -6923,7 +6910,7 @@
         }
       ],
       "metadata": {
-        "description": "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
+        "description": null,
         "topics": [
           "electron",
           "mysql",
@@ -6943,17 +6930,17 @@
           "cockroachdb"
         ],
         "languages": {
-          "TypeScript": "56.1%",
-          "Vue": "26.3%",
-          "JavaScript": "9.3%",
+          "TypeScript": "56.2%",
+          "Vue": "26.1%",
+          "JavaScript": "9.4%",
           "SCSS": "7.1%",
           "Shell": "0.7%",
           "CSS": "0.3%",
           "Other": "0.2%"
         }
       },
-      "total_stars": 21610,
-      "total_forks": 1575
+      "total_stars": 21633,
+      "total_forks": 1576
     },
     {
       "repo": "lingyicute/beekeeper-studio-ultimate",
@@ -7017,7 +7004,7 @@
         }
       ],
       "metadata": {
-        "description": "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
+        "description": null,
         "topics": [],
         "languages": {
           "TypeScript": "50.3%",
@@ -7309,7 +7296,7 @@
         }
       ],
       "metadata": {
-        "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+        "description": null,
         "topics": [
           "android",
           "windows",
@@ -7341,8 +7328,8 @@
           "Other": "2.4%"
         }
       },
-      "total_stars": 99451,
-      "total_forks": 24322
+      "total_stars": 99589,
+      "total_forks": 24355
     },
     {
       "repo": "udit-001/vibe",
@@ -7685,7 +7672,7 @@
         }
       ],
       "metadata": {
-        "description": "Useful tool to track location or mobile number",
+        "description": null,
         "topics": [
           "python",
           "linux",
@@ -7711,7 +7698,7 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 4269,
+      "total_stars": 4288,
       "total_forks": 535
     },
     {
@@ -8007,7 +7994,7 @@
         }
       ],
       "metadata": {
-        "description": "\u2728 Run your GitHub Actions locally in VS Code!",
+        "description": null,
         "topics": [
           "github",
           "devops",
@@ -8021,7 +8008,7 @@
           "JavaScript": "1.1%"
         }
       },
-      "total_stars": 429,
+      "total_stars": 431,
       "total_forks": 13
     },
     {
@@ -8356,7 +8343,7 @@
         }
       ],
       "metadata": {
-        "description": "Effortless monitoring and analytics for API frameworks.",
+        "description": null,
         "topics": [
           "api",
           "flask",
@@ -8389,7 +8376,7 @@
           "Other": "9.8%"
         }
       },
-      "total_stars": 410,
+      "total_stars": 411,
       "total_forks": 52
     },
     {
@@ -8656,7 +8643,7 @@
         }
       ],
       "metadata": {
-        "description": "A Privacy First PDF Toolkit",
+        "description": null,
         "topics": [
           "javascript",
           "docker",
@@ -8680,16 +8667,16 @@
           "pdf-ocr"
         ],
         "languages": {
-          "JavaScript": "48.9%",
+          "JavaScript": "48.8%",
           "Fluent": "21.7%",
-          "HTML": "14.1%",
+          "HTML": "14.2%",
           "TypeScript": "11.5%",
           "CSS": "3.6%",
           "Shell": "0.2%"
         }
       },
-      "total_stars": 4217,
-      "total_forks": 236
+      "total_stars": 4257,
+      "total_forks": 244
     },
     {
       "repo": "SleepyCatHey/CozyPixels",
@@ -8896,7 +8883,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83c\udfa8 Aesthetic wallpaper collection gathered over a year! Catppuccin, Nord, One Dark themes & cozy vibes. Free for everyone to enjoy \ud83c\udf1f",
+        "description": null,
         "topics": [
           "windows",
           "linux",
@@ -8909,7 +8896,7 @@
         ],
         "languages": {}
       },
-      "total_stars": 331,
+      "total_stars": 334,
       "total_forks": 27
     },
     {
@@ -9161,14 +9148,14 @@
         }
       ],
       "metadata": {
-        "description": "interview-coder-withoupaywall-opensource",
+        "description": null,
         "topics": [],
         "languages": {
           "TypeScript": "96.0%",
           "Other": "4.0%"
         }
       },
-      "total_stars": 168,
+      "total_stars": 172,
       "total_forks": 64
     },
     {
@@ -9463,7 +9450,7 @@
         }
       ],
       "metadata": {
-        "description": "Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.",
+        "description": null,
         "topics": [
           "ai",
           "hacktoberfest",
@@ -9471,17 +9458,17 @@
           "prompt-engineering"
         ],
         "languages": {
-          "JavaScript": "32.7%",
-          "TypeScript": "26.7%",
-          "Python": "16.9%",
-          "Astro": "8.1%",
-          "CSS": "6.5%",
-          "Go": "4.1%",
-          "Other": "5.0%"
+          "JavaScript": "28.5%",
+          "TypeScript": "27.6%",
+          "Python": "17.4%",
+          "Astro": "8.3%",
+          "CSS": "6.6%",
+          "Go": "4.2%",
+          "Other": "7.4%"
         }
       },
-      "total_stars": 9358,
-      "total_forks": 894
+      "total_stars": 9592,
+      "total_forks": 919
     },
     {
       "repo": "upptime/upptime",
@@ -9746,7 +9733,7 @@
         }
       ],
       "metadata": {
-        "description": "\u2b06\ufe0f GitHub Actions uptime monitor & status page by @AnandChowdhary",
+        "description": null,
         "topics": [
           "status",
           "statuspage",
@@ -9761,8 +9748,8 @@
           "YAML": "4.9%"
         }
       },
-      "total_stars": 16854,
-      "total_forks": 1825
+      "total_stars": 16861,
+      "total_forks": 1827
     },
     {
       "repo": "ZeroLu/awesome-gemini-ai",
@@ -9990,7 +9977,7 @@
         }
       ],
       "metadata": {
-        "description": "The ultimate collection of Awesome Gemini Prompts, use cases, and examples. Curated from X (Twitter), Reddit, and top prompt engineers. Includes prompts for coding, agents, design, and productivity using Google Gemini 1.5 Pro and Ultra.",
+        "description": null,
         "topics": [
           "gemini",
           "prompt-engineering",
@@ -10004,7 +9991,7 @@
         ],
         "languages": {}
       },
-      "total_stars": 232,
+      "total_stars": 234,
       "total_forks": 7
     },
     {
@@ -10272,7 +10259,7 @@
         }
       ],
       "metadata": {
-        "description": "An App Usage tracker for Windows 10 PC similar to Digital Wellbeing for Android",
+        "description": null,
         "topics": [
           "csharp",
           "wpf",
@@ -10528,7 +10515,7 @@
         }
       ],
       "metadata": {
-        "description": "Register for your is-a-good.dev domain!",
+        "description": null,
         "topics": [
           "domain",
           "domains",
@@ -10543,8 +10530,8 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 452,
-      "total_forks": 727
+      "total_stars": 453,
+      "total_forks": 729
     },
     {
       "repo": "Team-BANERUS/poketwo-Autocatcher",
@@ -10781,7 +10768,7 @@
         }
       ],
       "metadata": {
-        "description": "Banerus poketwo autocatcher (Pokemon) is an innovative and user-friendly tool, equipped with a wide array of features. Setting it up with just one click allows you to effortlessly catch Pok\u00e9mon, utilize a market sniper, level up, engage in mass trading, and more. It seamlessly works across various bots like PokeTwo, Pokemon and Mewbot.",
+        "description": null,
         "topics": [
           "pokemon",
           "discord",
@@ -10806,8 +10793,8 @@
           "Batchfile": "0.2%"
         }
       },
-      "total_stars": 2357,
-      "total_forks": 1917
+      "total_stars": 2359,
+      "total_forks": 1918
     },
     {
       "repo": "Lumos-Labs-HQ/flash",
@@ -11012,7 +10999,7 @@
         }
       ],
       "metadata": {
-        "description": "A powerful, database-agnostic ORM built in Go that provides Prisma-like functionality with multi-database support and type-safe code generation for Go, JavaScript, and TypeScript.",
+        "description": null,
         "topics": [
           "nodejs",
           "javascript",
@@ -11033,10 +11020,10 @@
           "dirzzle-orm"
         ],
         "languages": {
-          "Go": "57.7%",
-          "JavaScript": "27.8%",
-          "CSS": "7.1%",
-          "HTML": "5.0%",
+          "Go": "57.4%",
+          "JavaScript": "27.9%",
+          "CSS": "7.4%",
+          "HTML": "4.9%",
           "Python": "1.1%",
           "Makefile": "0.8%",
           "Other": "0.5%"
@@ -11339,15 +11326,15 @@
         }
       ],
       "metadata": {
-        "description": "Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates",
+        "description": null,
         "topics": [],
         "languages": {
           "PowerShell": "99.9%",
           "Other": "0.1%"
         }
       },
-      "total_stars": 39659,
-      "total_forks": 2731
+      "total_stars": 39813,
+      "total_forks": 2747
     },
     {
       "repo": "Raphire/Win11Debloat",
@@ -11614,7 +11601,7 @@
         }
       ],
       "metadata": {
-        "description": "A simple, lightweight PowerShell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+        "description": null,
         "topics": [
           "windows",
           "cli",
@@ -11638,12 +11625,12 @@
           "windows11"
         ],
         "languages": {
-          "PowerShell": "98.9%",
-          "Batchfile": "1.1%"
+          "PowerShell": "99.0%",
+          "Batchfile": "1.0%"
         }
       },
-      "total_stars": 27484,
-      "total_forks": 1065
+      "total_stars": 27649,
+      "total_forks": 1070
     },
     {
       "repo": "troxler/awesome-css-frameworks",
@@ -11891,7 +11878,7 @@
         }
       ],
       "metadata": {
-        "description": "List of awesome CSS frameworks in 2026",
+        "description": null,
         "topics": [
           "css",
           "list",
@@ -11906,7 +11893,7 @@
           "CSS": "100.0%"
         }
       },
-      "total_stars": 9242,
+      "total_stars": 9246,
       "total_forks": 618
     },
     {
@@ -12111,7 +12098,7 @@
         }
       ],
       "metadata": {
-        "description": "htop for windows",
+        "description": null,
         "topics": [
           "golang",
           "unix",
@@ -12447,7 +12434,7 @@
         }
       ],
       "metadata": {
-        "description": "Bash's powerful command line editing in cmd.exe",
+        "description": null,
         "topics": [],
         "languages": {
           "C++": "71.9%",
@@ -12459,8 +12446,8 @@
           "Other": "2.6%"
         }
       },
-      "total_stars": 4548,
-      "total_forks": 186
+      "total_stars": 4552,
+      "total_forks": 187
     },
     {
       "repo": "gsass1/NTop",
@@ -12742,7 +12729,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\udcbb htop-like system-monitor for Windows with Vi-keybindings.",
+        "description": null,
         "topics": [
           "c",
           "windows",
@@ -13006,7 +12993,7 @@
         }
       ],
       "metadata": {
-        "description": "A new type of shell",
+        "description": null,
         "topics": [
           "shell",
           "rust",
@@ -13021,8 +13008,8 @@
           "Dockerfile": "0.0%"
         }
       },
-      "total_stars": 38872,
-      "total_forks": 2527
+      "total_stars": 38915,
+      "total_forks": 2528
     },
     {
       "repo": "SleepyCatHey/Ultimate-Win11-Setup",
@@ -13247,7 +13234,7 @@
         }
       ],
       "metadata": {
-        "description": "My full Windows 11 setup \u2014 from YASB bar to tiny tweaks. Fonts, mods, configs, and guides, all in one repo.",
+        "description": null,
         "topics": [
           "config",
           "customization",
@@ -13259,7 +13246,7 @@
           "PowerShell": "4.0%"
         }
       },
-      "total_stars": 149,
+      "total_stars": 151,
       "total_forks": 9
     },
     {
@@ -13522,15 +13509,15 @@
         }
       ],
       "metadata": {
-        "description": "Anthropic's Interactive Prompt Engineering Tutorial",
+        "description": null,
         "topics": [],
         "languages": {
           "Jupyter Notebook": "98.1%",
           "Python": "1.9%"
         }
       },
-      "total_stars": 15397,
-      "total_forks": 1439
+      "total_stars": 15488,
+      "total_forks": 1462
     },
     {
       "repo": "anuraghazra/github-readme-stats",
@@ -13751,7 +13738,7 @@
         }
       ],
       "metadata": {
-        "description": "\u26a1 Dynamically generated stats for your github readmes",
+        "description": null,
         "topics": [
           "serverless",
           "dynamic",
@@ -13764,8 +13751,8 @@
           "Shell": "0.1%"
         }
       },
-      "total_stars": 80514,
-      "total_forks": 41323
+      "total_stars": 80559,
+      "total_forks": 41424
     },
     {
       "repo": "NovatraX/exam-countdown-extension",
@@ -14288,7 +14275,7 @@
         }
       ],
       "metadata": {
-        "description": "ClipBin - The Secure, Simplest, Fast and Anonymous way of saving and sharing your code or anything that is in form of text or text file. Host it locally or access from the web.",
+        "description": null,
         "topics": [
           "python",
           "api",
@@ -14625,7 +14612,7 @@
         }
       ],
       "metadata": {
-        "description": "Private, fast, and honest web browser",
+        "description": null,
         "topics": [
           "privacy",
           "browser",
@@ -14633,13 +14620,13 @@
           "web-browser"
         ],
         "languages": {
-          "C++": "90.8%",
-          "Python": "8.9%",
-          "Other": "0.3%"
+          "C++": "92.7%",
+          "Python": "7.2%",
+          "Other": "0.1%"
         }
       },
-      "total_stars": 4121,
-      "total_forks": 63
+      "total_stars": 4221,
+      "total_forks": 70
     },
     {
       "repo": "imputnet/helium-windows",
@@ -14841,16 +14828,16 @@
         }
       ],
       "metadata": {
-        "description": "Helium Browser for Windows (no auto-updates yet)",
+        "description": null,
         "topics": [],
         "languages": {
-          "C++": "69.9%",
-          "Python": "26.9%",
-          "Shell": "3.2%"
+          "C++": "70.3%",
+          "Python": "26.6%",
+          "Shell": "3.1%"
         }
       },
-      "total_stars": 315,
-      "total_forks": 10
+      "total_stars": 331,
+      "total_forks": 11
     },
     {
       "repo": "OpenCut-app/OpenCut",
@@ -15184,7 +15171,7 @@
         }
       ],
       "metadata": {
-        "description": "The open-source CapCut alternative",
+        "description": null,
         "topics": [
           "editor",
           "oss",
@@ -15195,8 +15182,8 @@
           "Other": "0.8%"
         }
       },
-      "total_stars": 26001,
-      "total_forks": 2568
+      "total_stars": 26047,
+      "total_forks": 2577
     },
     {
       "repo": "njraladdin/recaptcha-v2-solver",
@@ -15402,7 +15389,7 @@
         }
       ],
       "metadata": {
-        "description": "ReCaptcha v2 bypass solution using three methods: Audio transcription with wit.ai (70-80% success, free), 2Captcha service (95%+ success, paid), and experimental Visual AI solving with Gemini. Built with Puppeteer, includes stealth configs, proxy support, and detailed success tracking.",
+        "description": null,
         "topics": [
           "recaptcha",
           "captcha",
@@ -15757,7 +15744,7 @@
         }
       ],
       "metadata": {
-        "description": "Penpot: The open-source design tool for design and code collaboration",
+        "description": null,
         "topics": [
           "design",
           "clojure",
@@ -15768,17 +15755,17 @@
           "ux-design"
         ],
         "languages": {
-          "Clojure": "74.7%",
+          "Clojure": "74.5%",
           "JavaScript": "8.2%",
-          "SCSS": "5.4%",
+          "SCSS": "5.6%",
           "Rust": "5.3%",
           "TypeScript": "2.4%",
           "HTML": "1.9%",
           "Other": "2.1%"
         }
       },
-      "total_stars": 39865,
-      "total_forks": 2276
+      "total_stars": 39897,
+      "total_forks": 2285
     },
     {
       "repo": "discord-userdoccers/discord-userdoccers",
@@ -15997,7 +15984,7 @@
         }
       ],
       "metadata": {
-        "description": "Unofficial Discord User API Documentation",
+        "description": null,
         "topics": [
           "discord",
           "discordapp",
@@ -16010,8 +15997,8 @@
           "Other": "0.5%"
         }
       },
-      "total_stars": 331,
-      "total_forks": 65
+      "total_stars": 332,
+      "total_forks": 66
     },
     {
       "repo": "PrismarineJS/mineflayer",
@@ -16220,7 +16207,7 @@
         }
       ],
       "metadata": {
-        "description": "Create Minecraft bots with a powerful, stable, and high level JavaScript API.",
+        "description": null,
         "topics": [
           "nodejs",
           "bot",
@@ -16233,8 +16220,8 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 6421,
-      "total_forks": 1779
+      "total_stars": 6427,
+      "total_forks": 1780
     },
     {
       "repo": "heroui-inc/heroui",
@@ -16581,7 +16568,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\ude80 Beautiful, fast and modern React UI library. (Previously NextUI)",
+        "description": null,
         "topics": [
           "components",
           "library",
@@ -16590,14 +16577,14 @@
         ],
         "languages": {
           "TypeScript": "63.6%",
-          "MDX": "28.6%",
-          "CSS": "4.8%",
-          "JavaScript": "2.9%",
+          "MDX": "28.8%",
+          "CSS": "4.9%",
+          "JavaScript": "2.6%",
           "Other": "0.1%"
         }
       },
-      "total_stars": 3876,
-      "total_forks": 399
+      "total_stars": 3898,
+      "total_forks": 400
     },
     {
       "repo": "Markonis/slim",
@@ -16620,7 +16607,7 @@
         }
       ],
       "metadata": {
-        "description": "An opinionated minimal library not dissimilar to HTMX",
+        "description": null,
         "topics": [],
         "languages": {
           "TypeScript": "95.6%",
@@ -16830,7 +16817,7 @@
         }
       ],
       "metadata": {
-        "description": "nhentai app is a modern and lightweight android client for nhentai",
+        "description": null,
         "topics": [
           "android",
           "open-source",
@@ -16873,7 +16860,7 @@
         }
       ],
       "metadata": {
-        "description": "Note- This Software is just for educational purposes to save time during competitions(where using Ai is allowed). never use it for *academic malpractice* and *cheating in exams*. Developers will not be responsible for any malpractice",
+        "description": null,
         "topics": [],
         "languages": {
           "Rust": "100.0%"
@@ -17094,7 +17081,7 @@
         }
       ],
       "metadata": {
-        "description": "Your browser anime experience from the terminal",
+        "description": null,
         "topics": [
           "python",
           "api",
@@ -17113,7 +17100,7 @@
           "Other": "0.6%"
         }
       },
-      "total_stars": 84,
+      "total_stars": 86,
       "total_forks": 13
     },
     {
@@ -17370,7 +17357,7 @@
         }
       ],
       "metadata": {
-        "description": "Data Structures and Algorithms in C Language.",
+        "description": null,
         "topics": [
           "c",
           "data-structures",
@@ -17626,7 +17613,7 @@
         }
       ],
       "metadata": {
-        "description": "You pick the colors. We make them readable.",
+        "description": null,
         "topics": [
           "design",
           "accessibility",
@@ -17677,7 +17664,7 @@
         }
       ],
       "metadata": {
-        "description": "The most interactive CTF (capture the flag) game with applied CyberSec;",
+        "description": null,
         "topics": [
           "osint",
           "crypto",
@@ -17957,7 +17944,7 @@
         }
       ],
       "metadata": {
-        "description": "Things to do after installing Fedora 43",
+        "description": null,
         "topics": [
           "linux",
           "battery",
@@ -17978,8 +17965,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 238,
-      "total_forks": 6
+      "total_stars": 245,
+      "total_forks": 7
     },
     {
       "repo": "microsoft/generative-ai-for-beginners",
@@ -18259,7 +18246,7 @@
         }
       ],
       "metadata": {
-        "description": "21 Lessons, Get Started Building with Generative AI",
+        "description": null,
         "topics": [
           "ai",
           "azure",
@@ -18285,8 +18272,8 @@
           "PowerShell": "0.0%"
         }
       },
-      "total_stars": 94693,
-      "total_forks": 49491
+      "total_stars": 94797,
+      "total_forks": 49568
     },
     {
       "repo": "google-gemini/gemini-cli",
@@ -18567,7 +18554,7 @@
         }
       ],
       "metadata": {
-        "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+        "description": null,
         "topics": [
           "cli",
           "ai",
@@ -18578,13 +18565,13 @@
           "mcp-client"
         ],
         "languages": {
-          "TypeScript": "98.2%",
-          "JavaScript": "1.7%",
+          "TypeScript": "98.3%",
+          "JavaScript": "1.6%",
           "Other": "0.1%"
         }
       },
-      "total_stars": 53284,
-      "total_forks": 5895
+      "total_stars": 53525,
+      "total_forks": 5974
     },
     {
       "repo": "vinceliuice/Colloid-gtk-theme",
@@ -18806,7 +18793,7 @@
         }
       ],
       "metadata": {
-        "description": "Colloid gtk theme for linux",
+        "description": null,
         "topics": [],
         "languages": {
           "SCSS": "79.6%",
@@ -19031,7 +19018,7 @@
         }
       ],
       "metadata": {
-        "description": "Orchis is a [Material Design](https://material.io) theme for GNOME/GTK based desktop environments.",
+        "description": null,
         "topics": [],
         "languages": {
           "CSS": "58.0%",
@@ -19039,7 +19026,7 @@
           "Shell": "4.4%"
         }
       },
-      "total_stars": 3973,
+      "total_stars": 3979,
       "total_forks": 386
     },
     {
@@ -19266,7 +19253,7 @@
         }
       ],
       "metadata": {
-        "description": "A Beginner's Guide to Contributing in an Open Source Project.",
+        "description": null,
         "topics": [
           "github",
           "open-source",
@@ -19280,8 +19267,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 275,
-      "total_forks": 336
+      "total_stars": 276,
+      "total_forks": 337
     },
     {
       "repo": "roshancodespace/ShonenX",
@@ -19524,7 +19511,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\udcf1 A modern anime streaming app built with Flutter, designed for speed, beauty, and real anime fans. Enjoy smooth HD playback, intuitive genre discovery, and offline viewing, all wrapped in a sleek, thoughtfully crafted UI. \ud83c\udfac The app already delivers a fully functional anime streaming experience, with ongoing development of AniList and MyAnimeList",
+        "description": null,
         "topics": [
           "android",
           "dart",
@@ -19545,16 +19532,16 @@
           "hianime"
         ],
         "languages": {
-          "Dart": "61.3%",
-          "C++": "9.8%",
-          "Kotlin": "9.5%",
-          "C": "8.6%",
-          "CMake": "5.3%",
-          "HTML": "5.0%",
+          "Dart": "62.5%",
+          "C++": "9.7%",
+          "Kotlin": "9.3%",
+          "C": "8.5%",
+          "CMake": "5.2%",
+          "HTML": "4.3%",
           "Other": "0.5%"
         }
       },
-      "total_stars": 29,
+      "total_stars": 30,
       "total_forks": 6
     },
     {
@@ -19822,7 +19809,7 @@
         }
       ],
       "metadata": {
-        "description": "Video editing with Python",
+        "description": null,
         "topics": [
           "python",
           "video",
@@ -19837,8 +19824,8 @@
           "Dockerfile": "0.1%"
         }
       },
-      "total_stars": 14891,
-      "total_forks": 2332
+      "total_stars": 14898,
+      "total_forks": 2333
     },
     {
       "repo": "excalidraw/excalidraw",
@@ -20154,7 +20141,7 @@
         }
       ],
       "metadata": {
-        "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+        "description": null,
         "topics": [
           "productivity",
           "drawing",
@@ -20173,8 +20160,8 @@
           "CSS": "0.0%"
         }
       },
-      "total_stars": 107289,
-      "total_forks": 12025
+      "total_stars": 107451,
+      "total_forks": 12052
     },
     {
       "repo": "YashjitPal/Arc-2.0",
@@ -20370,7 +20357,7 @@
         }
       ],
       "metadata": {
-        "description": "Arc which receives non-chromium updates every 1-2 weeks! (iykyk)",
+        "description": null,
         "topics": [],
         "languages": {
           "CSS": "100.0%"
@@ -20647,23 +20634,23 @@
         }
       ],
       "metadata": {
-        "description": "Truly independent web browser",
+        "description": null,
         "topics": [
           "browser",
           "browser-engine"
         ],
         "languages": {
           "C++": "60.2%",
-          "HTML": "25.7%",
-          "JavaScript": "12.3%",
+          "HTML": "25.8%",
+          "JavaScript": "12.4%",
           "CMake": "0.6%",
           "Python": "0.4%",
           "Objective-C++": "0.3%",
-          "Other": "0.5%"
+          "Other": "0.3%"
         }
       },
-      "total_stars": 47474,
-      "total_forks": 2155
+      "total_stars": 47520,
+      "total_forks": 2162
     },
     {
       "repo": "mharrish7/Youtube_Automator",
@@ -21197,7 +21184,7 @@
         }
       ],
       "metadata": {
-        "description": "Automate Creation of YouTube Shorts using MoviePy.",
+        "description": null,
         "topics": [
           "python",
           "automation",
@@ -21211,8 +21198,8 @@
           "Dockerfile": "1.2%"
         }
       },
-      "total_stars": 12321,
-      "total_forks": 1696
+      "total_stars": 12322,
+      "total_forks": 1697
     },
     {
       "repo": "elebumm/RedditVideoMakerBot",
@@ -21506,7 +21493,7 @@
         }
       ],
       "metadata": {
-        "description": "Create Reddit Videos with just\u2728 one command \u2728",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "66.2%",
@@ -21515,8 +21502,8 @@
           "Other": "0.2%"
         }
       },
-      "total_stars": 8064,
-      "total_forks": 2572
+      "total_stars": 8067,
+      "total_forks": 2573
     },
     {
       "repo": "MALSync/MALSync",
@@ -21711,7 +21698,7 @@
         }
       ],
       "metadata": {
-        "description": "Integrates MyAnimeList/AniList/Kitsu/Simkl into various sites, with auto episode tracking.",
+        "description": null,
         "topics": [
           "sync",
           "scrobble",
@@ -21732,13 +21719,13 @@
         ],
         "languages": {
           "TypeScript": "67.2%",
-          "Vue": "16.9%",
-          "JavaScript": "11.7%",
+          "Vue": "17.2%",
+          "JavaScript": "11.4%",
           "Less": "4.1%",
           "HTML": "0.1%"
         }
       },
-      "total_stars": 2496,
+      "total_stars": 2497,
       "total_forks": 399
     },
     {
@@ -22041,7 +22028,7 @@
         }
       ],
       "metadata": {
-        "description": "An Open Source YouTube app for privacy",
+        "description": null,
         "topics": [
           "youtube",
           "privacy",
@@ -22051,15 +22038,15 @@
           "freetube"
         ],
         "languages": {
-          "JavaScript": "45.5%",
-          "Vue": "44.0%",
+          "JavaScript": "45.6%",
+          "Vue": "43.9%",
           "CSS": "8.2%",
           "SCSS": "2.2%",
           "EJS": "0.1%"
         }
       },
-      "total_stars": 19817,
-      "total_forks": 1618
+      "total_stars": 19831,
+      "total_forks": 1621
     },
     {
       "repo": "xhyrom/zed-discord-presence",
@@ -22304,7 +22291,7 @@
         }
       ],
       "metadata": {
-        "description": "extension for zed that adds support for discord rich presence using lsp",
+        "description": null,
         "topics": [
           "language",
           "rust",
@@ -22561,14 +22548,14 @@
         }
       ],
       "metadata": {
-        "description": "Fast and multi-platform Spotify client with native GUI",
+        "description": null,
         "topics": [],
         "languages": {
           "Rust": "99.7%",
           "Shell": "0.3%"
         }
       },
-      "total_stars": 9433,
+      "total_stars": 9437,
       "total_forks": 336
     },
     {
@@ -22596,7 +22583,7 @@
         }
       ],
       "metadata": {
-        "description": "Universal Dockerfile Generator",
+        "description": null,
         "topics": [
           "python",
           "docker",
@@ -22630,7 +22617,7 @@
         }
       ],
       "metadata": {
-        "description": "Overall DIscord documentation for user accounts automation. Unofficial and not affliated with Discord.",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "100.0%"
@@ -22667,7 +22654,7 @@
         }
       ],
       "metadata": {
-        "description": "Here we generate normal certificates",
+        "description": null,
         "topics": [
           "jspdf",
           "html2canvas",
@@ -22981,7 +22968,7 @@
         }
       ],
       "metadata": {
-        "description": "A modern, privacy-focused browser with a minimalistic design.",
+        "description": null,
         "topics": [
           "electron",
           "react",
@@ -23001,7 +22988,7 @@
           "Batchfile": "0.2%"
         }
       },
-      "total_stars": 571,
+      "total_stars": 573,
       "total_forks": 32
     },
     {
@@ -23027,7 +23014,7 @@
         }
       ],
       "metadata": {
-        "description": "World's most cursed 3d Bop It browser game",
+        "description": null,
         "topics": [],
         "languages": {
           "TypeScript": "57.9%",
@@ -23296,7 +23283,7 @@
         }
       ],
       "metadata": {
-        "description": "An Open Source app for Tracking Multi Service (AL, MAL, SIMKL)",
+        "description": null,
         "topics": [
           "android",
           "windows",
@@ -23308,16 +23295,16 @@
           "anymex"
         ],
         "languages": {
-          "Dart": "96.6%",
-          "C++": "1.2%",
-          "CMake": "0.7%",
-          "Shell": "0.6%",
-          "Python": "0.4%",
-          "Swift": "0.2%",
+          "Dart": "97.1%",
+          "C++": "1.0%",
+          "CMake": "0.6%",
+          "Shell": "0.5%",
+          "Python": "0.3%",
+          "Kotlin": "0.2%",
           "Other": "0.3%"
         }
       },
-      "total_stars": 694,
+      "total_stars": 702,
       "total_forks": 48
     },
     {
@@ -23599,7 +23586,7 @@
         }
       ],
       "metadata": {
-        "description": "An extremely fast Python type checker and language server, written in Rust.",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "78.3%",
@@ -23607,8 +23594,8 @@
           "Dockerfile": "10.0%"
         }
       },
-      "total_stars": 11804,
-      "total_forks": 138
+      "total_stars": 11840,
+      "total_forks": 139
     },
     {
       "repo": "5rahim/seanime",
@@ -23881,7 +23868,7 @@
         }
       ],
       "metadata": {
-        "description": "Open-source media server with a web interface and desktop app for anime and manga.",
+        "description": null,
         "topics": [
           "react",
           "go",
@@ -23900,16 +23887,16 @@
           "anime-library"
         ],
         "languages": {
-          "Go": "53.6%",
-          "TypeScript": "44.9%",
-          "CSS": "0.8%",
-          "JavaScript": "0.5%",
-          "Rust": "0.2%",
+          "Go": "53.3%",
+          "TypeScript": "44.5%",
+          "JavaScript": "2.0%",
+          "CSS": "0.2%",
+          "HTML": "0.0%",
           "Batchfile": "0.0%"
         }
       },
-      "total_stars": 1638,
-      "total_forks": 122
+      "total_stars": 1644,
+      "total_forks": 123
     },
     {
       "repo": "Alex313031/thorium",
@@ -24173,7 +24160,7 @@
         }
       ],
       "metadata": {
-        "description": "Chromium fork named after radioactive element No. 90. Source code and Linux releases. Windows/MacOS/ARM builds served in different repos, links are towards the top of the README.md.",
+        "description": null,
         "topics": [
           "linux",
           "chrome",
@@ -24197,17 +24184,17 @@
           "thoriumos"
         ],
         "languages": {
-          "C++": "77.9%",
+          "C++": "77.8%",
           "HTML": "7.3%",
-          "Python": "5.6%",
+          "Python": "5.7%",
           "Shell": "3.9%",
           "C": "2.7%",
           "JavaScript": "1.3%",
           "Other": "1.3%"
         }
       },
-      "total_stars": 6439,
-      "total_forks": 251
+      "total_stars": 6450,
+      "total_forks": 252
     },
     {
       "repo": "Legcord/Legcord",
@@ -24526,7 +24513,7 @@
         }
       ],
       "metadata": {
-        "description": "Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight.",
+        "description": null,
         "topics": [
           "electron",
           "nodejs",
@@ -24541,13 +24528,13 @@
           "legcord"
         ],
         "languages": {
-          "TypeScript": "77.5%",
-          "CSS": "15.1%",
-          "JavaScript": "5.5%",
+          "TypeScript": "78.0%",
+          "CSS": "14.8%",
+          "JavaScript": "5.3%",
           "HTML": "1.9%"
         }
       },
-      "total_stars": 1340,
+      "total_stars": 1343,
       "total_forks": 48
     },
     {
@@ -24809,7 +24796,7 @@
         }
       ],
       "metadata": {
-        "description": "A highly configurable Windows status bar written in Python.",
+        "description": null,
         "topics": [
           "python",
           "windows",
@@ -24829,8 +24816,8 @@
           "Other": "0.4%"
         }
       },
-      "total_stars": 2952,
-      "total_forks": 140
+      "total_stars": 2969,
+      "total_forks": 141
     },
     {
       "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
@@ -25110,7 +25097,7 @@
         }
       ],
       "metadata": {
-        "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+        "description": null,
         "topics": [
           "open-source",
           "ai",
@@ -25135,8 +25122,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 75115,
-      "total_forks": 18793
+      "total_stars": 75515,
+      "total_forks": 18896
     },
     {
       "repo": "Equicord/Equidroid",
@@ -25324,7 +25311,7 @@
         }
       ],
       "metadata": {
-        "description": "Equicord on Android as a proof of concept",
+        "description": null,
         "topics": [],
         "languages": {
           "Java": "88.4%",
@@ -25542,7 +25529,7 @@
         }
       ],
       "metadata": {
-        "description": "The other cutest Discord client mod",
+        "description": null,
         "topics": [],
         "languages": {
           "TypeScript": "93.8%",
@@ -25551,8 +25538,8 @@
           "Other": "0.3%"
         }
       },
-      "total_stars": 852,
-      "total_forks": 242
+      "total_stars": 862,
+      "total_forks": 244
     },
     {
       "repo": "Vencord/Vendroid",
@@ -25752,14 +25739,14 @@
         }
       ],
       "metadata": {
-        "description": "Vencord Android app",
+        "description": null,
         "topics": [],
         "languages": {
           "Java": "88.3%",
           "JavaScript": "11.7%"
         }
       },
-      "total_stars": 525,
+      "total_stars": 526,
       "total_forks": 59
     },
     {
@@ -25991,7 +25978,7 @@
         }
       ],
       "metadata": {
-        "description": "The cutest Discord modification",
+        "description": null,
         "topics": [
           "discord",
           "mod",
@@ -26007,8 +25994,8 @@
           "HTML": "0.1%"
         }
       },
-      "total_stars": 12121,
-      "total_forks": 2617
+      "total_stars": 12136,
+      "total_forks": 2625
     },
     {
       "repo": "Vencord/Vesktop",
@@ -26226,7 +26213,7 @@
         }
       ],
       "metadata": {
-        "description": "Vesktop is a custom Discord App aiming to give you better performance and improve linux support",
+        "description": null,
         "topics": [],
         "languages": {
           "TypeScript": "84.3%",
@@ -26238,8 +26225,8 @@
           "Other": "0.6%"
         }
       },
-      "total_stars": 6576,
-      "total_forks": 423
+      "total_stars": 6590,
+      "total_forks": 424
     },
     {
       "repo": "SesameAILabs/csm",
@@ -26520,14 +26507,14 @@
         }
       ],
       "metadata": {
-        "description": "A Conversational Speech Generation Model",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "100.0%"
         }
       },
-      "total_stars": 13088,
-      "total_forks": 1216
+      "total_stars": 13096,
+      "total_forks": 1218
     },
     {
       "repo": "zauberzeug/nicegui",
@@ -26833,7 +26820,7 @@
         }
       ],
       "metadata": {
-        "description": "Create web-based user interfaces with Python. The nice way.",
+        "description": null,
         "topics": [
           "python",
           "website",
@@ -26848,13 +26835,13 @@
           "interfaces"
         ],
         "languages": {
-          "Python": "90.5%",
+          "Python": "90.4%",
           "JavaScript": "7.9%",
-          "Other": "1.6%"
+          "Other": "1.7%"
         }
       },
-      "total_stars": 13660,
-      "total_forks": 878
+      "total_stars": 13682,
+      "total_forks": 879
     },
     {
       "repo": "eythaann/Seelen-UI",
@@ -27203,7 +27190,7 @@
         }
       ],
       "metadata": {
-        "description": "The Fully Customizable Desktop Environment for Windows 10/11.",
+        "description": null,
         "topics": [
           "windows",
           "wallpaper",
@@ -27226,17 +27213,17 @@
           "seelen"
         ],
         "languages": {
-          "Rust": "54.6%",
-          "TypeScript": "30.4%",
+          "Rust": "54.9%",
+          "TypeScript": "30.2%",
           "Svelte": "6.9%",
           "CSS": "3.3%",
-          "SCSS": "2.5%",
+          "SCSS": "2.4%",
           "NSIS": "1.5%",
           "Other": "0.8%"
         }
       },
-      "total_stars": 11770,
-      "total_forks": 402
+      "total_stars": 11798,
+      "total_forks": 405
     },
     {
       "repo": "buildwithmalik/PythonCheatSheet",
@@ -27471,11 +27458,11 @@
         }
       ],
       "metadata": {
-        "description": "A Cheat Sheet \ud83d\udcdc to revise Python syntax. Particularly useful for solving Data Structure and Algorithmic problems with Python.",
+        "description": null,
         "topics": [],
         "languages": {}
       },
-      "total_stars": 309,
+      "total_stars": 311,
       "total_forks": 51
     },
     {
@@ -27748,7 +27735,7 @@
         }
       ],
       "metadata": {
-        "description": "Python GUI builder. GUI builder for Tkinter, CustomTkinter, Kivy(upcoming) and PySide",
+        "description": null,
         "topics": [
           "python",
           "gui",
@@ -27769,7 +27756,7 @@
           "Python": "0.7%"
         }
       },
-      "total_stars": 1420,
+      "total_stars": 1433,
       "total_forks": 92
     },
     {
@@ -27996,7 +27983,7 @@
         }
       ],
       "metadata": {
-        "description": "A multiplatform tracking client based on Dantotsu",
+        "description": null,
         "topics": [
           "android",
           "windows",
@@ -28023,7 +28010,7 @@
           "Other": "0.2%"
         }
       },
-      "total_stars": 238,
+      "total_stars": 243,
       "total_forks": 23
     },
     {
@@ -28377,7 +28364,7 @@
         }
       ],
       "metadata": {
-        "description": "Unofficial API Wrapper for Perplexity.ai + Account Generator with Web Interface",
+        "description": null,
         "topics": [
           "api",
           "ai",
@@ -28392,8 +28379,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 977,
-      "total_forks": 155
+      "total_stars": 982,
+      "total_forks": 156
     },
     {
       "repo": "mtdvio/every-programmer-should-know",
@@ -28650,7 +28637,7 @@
         }
       ],
       "metadata": {
-        "description": "A collection of (mostly) technical things every software developer should know about",
+        "description": null,
         "topics": [
           "computer-science",
           "collection",
@@ -28660,8 +28647,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 65144,
-      "total_forks": 6182
+      "total_stars": 65170,
+      "total_forks": 6183
     },
     {
       "repo": "antfu-collective/icones",
@@ -28974,7 +28961,7 @@
         }
       ],
       "metadata": {
-        "description": "\u26a1\ufe0f Icon Explorer with Instant searching, powered by Iconify",
+        "description": null,
         "topics": [
           "icons",
           "searching",
@@ -28990,7 +28977,7 @@
           "Other": "0.8%"
         }
       },
-      "total_stars": 2149,
+      "total_stars": 2151,
       "total_forks": 102
     },
     {
@@ -29271,7 +29258,7 @@
         }
       ],
       "metadata": {
-        "description": "Automate the process of making money online.",
+        "description": null,
         "topics": [
           "python",
           "cli",
@@ -29287,8 +29274,8 @@
           "Shell": "0.9%"
         }
       },
-      "total_stars": 12027,
-      "total_forks": 1202
+      "total_stars": 12030,
+      "total_forks": 1205
     },
     {
       "repo": "Mail-0/Zero",
@@ -29609,7 +29596,7 @@
         }
       ],
       "metadata": {
-        "description": "Experience email the way you want with Mail0 \u2013 the first open source email app that puts your privacy and safety first. Join the discord: https://mail0.link/discord",
+        "description": null,
         "topics": [
           "security",
           "privacy",
@@ -29621,8 +29608,8 @@
           "Other": "1.1%"
         }
       },
-      "total_stars": 4985,
-      "total_forks": 801
+      "total_stars": 4989,
+      "total_forks": 805
     },
     {
       "repo": "D4Vinci/Scrapling",
@@ -29908,7 +29895,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\udd77\ufe0f An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be!",
+        "description": null,
         "topics": [
           "python",
           "crawler",
@@ -29932,13 +29919,13 @@
           "mcp-server"
         ],
         "languages": {
-          "Python": "97.7%",
-          "JavaScript": "2.1%",
+          "Python": "98.2%",
+          "JavaScript": "1.6%",
           "Dockerfile": "0.2%"
         }
       },
-      "total_stars": 6490,
-      "total_forks": 391
+      "total_stars": 6543,
+      "total_forks": 397
     },
     {
       "repo": "linera-io/linera-protocol",
@@ -30163,7 +30150,7 @@
         }
       ],
       "metadata": {
-        "description": "Main repository for the Linera protocol",
+        "description": null,
         "topics": [
           "rust",
           "blockchain",
@@ -30179,8 +30166,8 @@
           "Other": "2.0%"
         }
       },
-      "total_stars": 29524,
-      "total_forks": 1866
+      "total_stars": 29544,
+      "total_forks": 1870
     },
     {
       "repo": "public-apis/public-apis",
@@ -30446,7 +30433,7 @@
         }
       ],
       "metadata": {
-        "description": "A collective list of free APIs",
+        "description": null,
         "topics": [
           "api",
           "lists",
@@ -30467,8 +30454,8 @@
           "Shell": "3.2%"
         }
       },
-      "total_stars": 330602,
-      "total_forks": 37061
+      "total_stars": 330955,
+      "total_forks": 37103
     },
     {
       "repo": "Multiverse-of-Projects/NewsAI",
@@ -30727,21 +30714,9 @@
         }
       ],
       "metadata": {
-        "description": "A dynamic NewsAI dashboard that uses NLP to analyze news articles, visualize sentiment trends, and extract insights through interactive data visualizations.",
-        "topics": [
-          "nlp",
-          "sentiment-analysis",
-          "data-visualization",
-          "newsapi",
-          "hacktoberfest",
-          "streamlit-webapp",
-          "hacktoberfest-accepted",
-          "nlp-dashboard",
-          "newsagg"
-        ],
-        "languages": {
-          "Python": "100.0%"
-        }
+        "description": null,
+        "topics": [],
+        "languages": {}
       },
       "total_stars": 35,
       "total_forks": 39
@@ -30767,12 +30742,9 @@
         }
       ],
       "metadata": {
-        "description": "beta slashy",
+        "description": null,
         "topics": [],
-        "languages": {
-          "JavaScript": "91.2%",
-          "Python": "8.8%"
-        }
+        "languages": {}
       },
       "total_stars": 0,
       "total_forks": 0
@@ -31034,7 +31006,7 @@
         }
       ],
       "metadata": {
-        "description": "A fork of the popular discord.py for user accounts",
+        "description": null,
         "topics": [
           "discord",
           "discord-bot",
@@ -31047,8 +31019,8 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 1040,
-      "total_forks": 343
+      "total_stars": 1044,
+      "total_forks": 344
     },
     {
       "repo": "namidaco/namida",
@@ -31355,7 +31327,7 @@
         }
       ],
       "metadata": {
-        "description": "A Beautiful and Feature-rich Music & Video Player with Youtube Support, Built in Flutter",
+        "description": null,
         "topics": [
           "android",
           "music",
@@ -31387,7 +31359,7 @@
           "C": "0.0%"
         }
       },
-      "total_stars": 4121,
+      "total_stars": 4137,
       "total_forks": 238
     },
     {
@@ -31632,7 +31604,7 @@
         }
       ],
       "metadata": {
-        "description": "A curated list of awesome Flask resources and plugins",
+        "description": null,
         "topics": [
           "flask",
           "awesome",
@@ -31679,7 +31651,7 @@
         }
       ],
       "metadata": {
-        "description": "Dank Memer Grinder is the most advanced self-bot with a clean GUI and captcha solver",
+        "description": null,
         "topics": [
           "bot",
           "golang",
@@ -31953,7 +31925,7 @@
         }
       ],
       "metadata": {
-        "description": "Google Chrome extension built with React.",
+        "description": null,
         "topics": [
           "react",
           "javascript",
@@ -32228,7 +32200,7 @@
         }
       ],
       "metadata": {
-        "description": "\u26a1 Create handwritten documents from text with a Neural Network!",
+        "description": null,
         "topics": [
           "machine-learning",
           "desktop-application",
@@ -32530,7 +32502,7 @@
         }
       ],
       "metadata": {
-        "description": "PyScript is an open source platform for Python in the browser. Try PyScript: https://pyscript.com Examples: https://tinyurl.com/pyscript-examples Community: https://discord.gg/HxvBtukrg2",
+        "description": null,
         "topics": [
           "javascript",
           "python",
@@ -32544,7 +32516,7 @@
           "Other": "1.1%"
         }
       },
-      "total_stars": 18902,
+      "total_stars": 18906,
       "total_forks": 1721
     },
     {
@@ -32782,7 +32754,7 @@
         }
       ],
       "metadata": {
-        "description": "The Pok\u00e9mon API",
+        "description": null,
         "topics": [
           "api",
           "graphql",
@@ -32801,8 +32773,8 @@
           "Nix": "0.1%"
         }
       },
-      "total_stars": 4594,
-      "total_forks": 1335
+      "total_stars": 4596,
+      "total_forks": 1336
     },
     {
       "repo": "ekamid/cricbuzz-live",
@@ -32974,7 +32946,7 @@
         }
       ],
       "metadata": {
-        "description": "Unofficial API for data fetching from Cricbuzz.com",
+        "description": null,
         "topics": [
           "cheerio",
           "cricket",
@@ -32988,7 +32960,7 @@
         }
       },
       "total_stars": 22,
-      "total_forks": 16
+      "total_forks": 17
     },
     {
       "repo": "Ujjwal-Singh-20/Aether_Touch_Interface",
@@ -33010,7 +32982,7 @@
         }
       ],
       "metadata": {
-        "description": "An intuitive application that blends physical and virtual interactions for seamless task control. Featuring gesture-based commands, a virtual cursor, customizable shortcuts, and more, it offers a practical and innovative solution for everyday convenience.",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "100.0%"
@@ -33278,7 +33250,7 @@
         }
       ],
       "metadata": {
-        "description": "Get PROXY List that gets updated everyday",
+        "description": null,
         "topics": [
           "http",
           "proxy",
@@ -33300,8 +33272,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 5014,
-      "total_forks": 1369
+      "total_stars": 5022,
+      "total_forks": 1372
     },
     {
       "repo": "subzeroid/instagrapi",
@@ -33602,7 +33574,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\udd25 The fastest and powerful Python library for Instagram Private API 2026 with HikerAPI SaaS",
+        "description": null,
         "topics": [
           "instagram-client",
           "instagram",
@@ -33630,7 +33602,7 @@
           "Other": "0.3%"
         }
       },
-      "total_stars": 2841,
+      "total_stars": 2851,
       "total_forks": 413
     },
     {
@@ -33851,7 +33823,7 @@
         }
       ],
       "metadata": {
-        "description": "AlwaysOn is an app for every device with an OLED display. It adds an always-on display with various customization options regarding watch face, behavior, and background.",
+        "description": null,
         "topics": [
           "android",
           "kotlin",
@@ -34092,7 +34064,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\udc4a Discord, your way. Revenge is a client modification for Discord mobile.",
+        "description": null,
         "topics": [
           "android",
           "react-native",
@@ -34107,7 +34079,7 @@
           "HTML": "0.2%"
         }
       },
-      "total_stars": 725,
+      "total_stars": 726,
       "total_forks": 30
     },
     {
@@ -34362,7 +34334,7 @@
         }
       ],
       "metadata": {
-        "description": "Simply beautiful open-source icons",
+        "description": null,
         "topics": [
           "javascript",
           "svg",
@@ -34373,7 +34345,7 @@
           "Shell": "3.6%"
         }
       },
-      "total_stars": 16530,
+      "total_stars": 16532,
       "total_forks": 1459
     },
     {
@@ -34653,7 +34625,7 @@
         }
       ],
       "metadata": {
-        "description": "Python script to remove watermark from any image with watermark in it.",
+        "description": null,
         "topics": [
           "gui",
           "python3",
@@ -34998,7 +34970,7 @@
         }
       ],
       "metadata": {
-        "description": "Customizable new tab extension for Chrome and Firefox",
+        "description": null,
         "topics": [
           "chrome-extension",
           "new-tab",
@@ -35011,7 +34983,7 @@
           "Other": "0.1%"
         }
       },
-      "total_stars": 407,
+      "total_stars": 411,
       "total_forks": 58
     },
     {
@@ -35228,7 +35200,7 @@
         }
       ],
       "metadata": {
-        "description": "Comparing the free tier offers of the major cloud providers like AWS, Azure, GCP, Oracle etc.",
+        "description": null,
         "topics": [
           "aws",
           "cloud",
@@ -35251,8 +35223,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 5545,
-      "total_forks": 331
+      "total_stars": 5559,
+      "total_forks": 334
     },
     {
       "repo": "sdmg15/Best-websites-a-programmer-should-visit",
@@ -35518,7 +35490,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\udd17 Some useful websites for programmers.",
+        "description": null,
         "topics": [
           "links",
           "books",
@@ -35529,8 +35501,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 76386,
-      "total_forks": 9062
+      "total_stars": 76411,
+      "total_forks": 9064
     },
     {
       "repo": "louislam/uptime-kuma",
@@ -35870,7 +35842,7 @@
         }
       ],
       "metadata": {
-        "description": "A fancy self-hosted monitoring tool",
+        "description": null,
         "topics": [
           "docker",
           "monitor",
@@ -35886,16 +35858,16 @@
           "uptime-monitoring"
         ],
         "languages": {
-          "JavaScript": "55.4%",
-          "Vue": "42.6%",
+          "JavaScript": "55.7%",
+          "Vue": "42.4%",
           "TypeScript": "1.0%",
-          "SCSS": "0.7%",
+          "SCSS": "0.6%",
           "Dockerfile": "0.2%",
           "Go": "0.1%"
         }
       },
-      "total_stars": 72151,
-      "total_forks": 8342
+      "total_stars": 72237,
+      "total_forks": 8360
     },
     {
       "repo": "KalleHallden/lowpy",
@@ -36173,7 +36145,7 @@
         }
       ],
       "metadata": {
-        "description": "VS Code Inline code execution for Python",
+        "description": null,
         "topics": [],
         "languages": {
           "TypeScript": "87.4%",
@@ -36441,7 +36413,7 @@
         }
       ],
       "metadata": {
-        "description": "auto reloads your python tkinter app whenever file changes are detected \ud83d\udc0d",
+        "description": null,
         "topics": [
           "python",
           "gui",
@@ -36722,7 +36694,7 @@
         }
       ],
       "metadata": {
-        "description": "WebApps in pure Python. No JavaScript, HTML and CSS needed",
+        "description": null,
         "topics": [
           "python",
           "app",
@@ -36745,7 +36717,7 @@
           "JavaScript": "0.0%"
         }
       },
-      "total_stars": 3116,
+      "total_stars": 3118,
       "total_forks": 133
     },
     {
@@ -37005,7 +36977,7 @@
         }
       ],
       "metadata": {
-        "description": "Native Code Editor with Agents and Extensions <20 MB in Size",
+        "description": null,
         "topics": [
           "debugger",
           "ai",
@@ -37025,7 +36997,7 @@
           "Tree-sitter Query": "4.9%"
         }
       },
-      "total_stars": 108,
+      "total_stars": 109,
       "total_forks": 20
     },
     {
@@ -37340,7 +37312,7 @@
         }
       ],
       "metadata": {
-        "description": "Your Virtual Development Team",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "97.5%",
@@ -37631,7 +37603,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83e\udd16 State-of-the-art, production ready LLM apps made mega-easy, so you don't have to build them from scratch \ud83e\udd2f Create a bot, now \ud83e\udef5",
+        "description": null,
         "topics": [
           "python",
           "nlp",
@@ -37888,7 +37860,7 @@
         }
       ],
       "metadata": {
-        "description": "A PyTorch implementation of DenseNet.",
+        "description": null,
         "topics": [
           "deep-learning",
           "pytorch",
@@ -38169,7 +38141,7 @@
         }
       ],
       "metadata": {
-        "description": "An open-source script that automatically Cracks (removes DRM from) Steam games",
+        "description": null,
         "topics": [
           "steam",
           "drm",
@@ -38179,7 +38151,7 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 1231,
+      "total_stars": 1232,
       "total_forks": 92
     },
     {
@@ -38403,7 +38375,7 @@
         }
       ],
       "metadata": {
-        "description": "A Discord API wrapper for Python and asyncio built on good intentions.",
+        "description": null,
         "topics": [
           "python",
           "bot",
@@ -38611,7 +38583,7 @@
         }
       ],
       "metadata": {
-        "description": "This repository hosts the Python Graded Programming Assessments (GRPA) for the IIT Madras BS Data Science \"Introduction to Python\" course, created by Shashwat Upadhyay.",
+        "description": null,
         "topics": [
           "python",
           "repository",
@@ -38861,7 +38833,7 @@
         }
       ],
       "metadata": {
-        "description": "PyVerse is an open-source collection of diverse Python projects, tools, and scripts, ranging from beginner to advanced, across various domains like machine learning, web development, and automation.",
+        "description": null,
         "topics": [
           "python",
           "data-science",
@@ -39143,7 +39115,7 @@
         }
       ],
       "metadata": {
-        "description": "All Algorithms implemented in Python",
+        "description": null,
         "topics": [
           "python",
           "education",
@@ -39165,8 +39137,8 @@
           "Other": "0.2%"
         }
       },
-      "total_stars": 231054,
-      "total_forks": 58972
+      "total_stars": 231134,
+      "total_forks": 58990
     },
     {
       "repo": "mediar-ai/screenpipe",
@@ -39469,7 +39441,7 @@
         }
       ],
       "metadata": {
-        "description": "screenpipe turns your computer into a personal AI that knows everything you've done. record. search. automate. all local, all private, all yours.",
+        "description": null,
         "topics": [
           "machine-learning",
           "ai",
@@ -39482,13 +39454,13 @@
           "llm"
         ],
         "languages": {
-          "Rust": "54.9%",
-          "TypeScript": "41.4%",
-          "JavaScript": "2.3%",
-          "Shell": "0.5%",
+          "Rust": "57.9%",
+          "TypeScript": "39.0%",
+          "JavaScript": "2.0%",
           "HTML": "0.4%",
+          "Shell": "0.3%",
           "CSS": "0.2%",
-          "Other": "0.3%"
+          "Other": "0.2%"
         }
       },
       "total_stars": 0,
@@ -39753,7 +39725,7 @@
         }
       ],
       "metadata": {
-        "description": "A multi-function Discord bot",
+        "description": null,
         "topics": [
           "python",
           "music",
@@ -39772,8 +39744,8 @@
           "Other": "1.1%"
         }
       },
-      "total_stars": 5675,
-      "total_forks": 4075
+      "total_stars": 5680,
+      "total_forks": 4077
     },
     {
       "repo": "UTSAVS26/PySnippets",
@@ -39997,7 +39969,7 @@
         }
       ],
       "metadata": {
-        "description": "Collection of reusable Python code snippets for all.",
+        "description": null,
         "topics": [
           "python",
           "open-source",
@@ -40019,7 +39991,7 @@
           "Other": "0.6%"
         }
       },
-      "total_stars": 41,
+      "total_stars": 42,
       "total_forks": 91
     },
     {
@@ -40335,7 +40307,7 @@
         }
       ],
       "metadata": {
-        "description": "API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!",
+        "description": null,
         "topics": [
           "testing",
           "mock",
@@ -40358,8 +40330,8 @@
           "Dockerfile": "0.1%"
         }
       },
-      "total_stars": 13658,
-      "total_forks": 1740
+      "total_stars": 13685,
+      "total_forks": 1747
     },
     {
       "repo": "ghoshRitesh12/aniwatch-api",
@@ -40608,7 +40580,7 @@
         }
       ],
       "metadata": {
-        "description": "API serving anime data from hianime.to",
+        "description": null,
         "topics": [
           "api",
           "scraper",
@@ -40624,8 +40596,8 @@
           "Shell": "0.7%"
         }
       },
-      "total_stars": 520,
-      "total_forks": 502
+      "total_stars": 521,
+      "total_forks": 504
     },
     {
       "repo": "amvstrm/api",
@@ -40883,7 +40855,7 @@
         }
       ],
       "metadata": {
-        "description": "Open source anime streaming provider API",
+        "description": null,
         "topics": [
           "api",
           "anime",
@@ -41208,7 +41180,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\udd78\ufe0f Web apps in pure Python \ud83d\udc0d",
+        "description": null,
         "topics": [
           "python",
           "open-source",
@@ -41225,7 +41197,7 @@
           "Dockerfile": "0.3%"
         }
       },
-      "total_stars": 16586,
+      "total_stars": 16597,
       "total_forks": 1100
     },
     {
@@ -41457,7 +41429,7 @@
         }
       ],
       "metadata": {
-        "description": "Notes and hacks relating to Discord and its API.",
+        "description": null,
         "topics": [
           "javascript",
           "python",
@@ -41717,7 +41689,7 @@
         }
       ],
       "metadata": {
-        "description": "Discord selfbot made with Python using discord.py",
+        "description": null,
         "topics": [
           "bot",
           "selfbot",
@@ -42094,7 +42066,7 @@
         }
       ],
       "metadata": {
-        "description": "The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility, and more.",
+        "description": null,
         "topics": [
           "mcp",
           "web-scraping",
@@ -42125,8 +42097,8 @@
           "Go Template": "0.0%"
         }
       },
-      "total_stars": 48014,
-      "total_forks": 5257
+      "total_stars": 48095,
+      "total_forks": 5275
     },
     {
       "repo": "supr1yo/url-shortener",
@@ -42157,7 +42129,7 @@
         }
       ],
       "metadata": {
-        "description": "A simple full-stack URL shortener application.",
+        "description": null,
         "topics": [
           "typescript",
           "mongodb",
@@ -42375,7 +42347,7 @@
         }
       ],
       "metadata": {
-        "description": "This is a Python-based Discord bot for the IIT Madras BS Students Discord server.",
+        "description": null,
         "topics": [
           "discord-bot",
           "python3",
@@ -42668,14 +42640,14 @@
         }
       ],
       "metadata": {
-        "description": "Enjoy the magic of Diffusion models!",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "100.0%"
         }
       },
-      "total_stars": 9295,
-      "total_forks": 898
+      "total_stars": 9301,
+      "total_forks": 900
     },
     {
       "repo": "neurokitti/Arc_Palette",
@@ -42875,7 +42847,7 @@
         }
       ],
       "metadata": {
-        "description": "A community made Color Picker to add gradients to Arc on Windows",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "67.5%",
@@ -43068,7 +43040,7 @@
         }
       ],
       "metadata": {
-        "description": "Advanced Dank Memer Selfbot!",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "100.0%"
@@ -43352,7 +43324,7 @@
         }
       ],
       "metadata": {
-        "description": "A Collection of application ideas which can be used to improve your coding skills.",
+        "description": null,
         "topics": [
           "javascript",
           "css",
@@ -43366,8 +43338,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 93376,
-      "total_forks": 12534
+      "total_stars": 93441,
+      "total_forks": 12538
     },
     {
       "repo": "NixonXC/cord-music",
@@ -43645,7 +43617,7 @@
         }
       ],
       "metadata": {
-        "description": "Music cog for discord bots. Supports YouTube, YoutubeMusic, SoundCloud and Spotify.",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "74.0%",
@@ -43992,7 +43964,7 @@
         }
       ],
       "metadata": {
-        "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+        "description": null,
         "topics": [
           "rust-lang",
           "text-editor",
@@ -44000,17 +43972,17 @@
           "gpui"
         ],
         "languages": {
-          "Rust": "97.9%",
+          "Rust": "97.8%",
           "Inno Setup": "0.5%",
           "Tree-sitter Query": "0.4%",
           "Shell": "0.3%",
+          "Python": "0.2%",
           "WGSL": "0.1%",
-          "Metal": "0.1%",
           "Other": "0.7%"
         }
       },
-      "total_stars": 69041,
-      "total_forks": 6048
+      "total_stars": 69172,
+      "total_forks": 6079
     },
     {
       "repo": "zen-browser/desktop",
@@ -44276,7 +44248,7 @@
         }
       ],
       "metadata": {
-        "description": "Welcome to a calmer internet",
+        "description": null,
         "topics": [
           "firefox",
           "firefox-browser",
@@ -44284,17 +44256,17 @@
           "zen-browser"
         ],
         "languages": {
-          "JavaScript": "32.2%",
-          "Fluent": "30.3%",
-          "C++": "29.5%",
-          "CSS": "5.1%",
+          "JavaScript": "33.0%",
+          "Fluent": "29.8%",
+          "C++": "29.3%",
+          "CSS": "5.0%",
           "HTML": "1.1%",
           "Python": "0.9%",
           "Other": "0.9%"
         }
       },
-      "total_stars": 35904,
-      "total_forks": 1378
+      "total_stars": 35955,
+      "total_forks": 1384
     },
     {
       "repo": "sayaarcodes/pokefier",
@@ -44526,7 +44498,7 @@
         }
       ],
       "metadata": {
-        "description": "the best free ai powered poketwo autocatcher",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "100.0%"
@@ -44834,7 +44806,7 @@
         }
       ],
       "metadata": {
-        "description": "Code repository for Coding Minutes Python Programming Master course.",
+        "description": null,
         "topics": [],
         "languages": {
           "Jupyter Notebook": "100.0%"
@@ -45126,7 +45098,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\udcda Freely available programming books",
+        "description": null,
         "topics": [
           "education",
           "list",
@@ -45139,8 +45111,8 @@
           "HTML": "1.1%"
         }
       },
-      "total_stars": 310987,
-      "total_forks": 54513
+      "total_stars": 311104,
+      "total_forks": 54526
     },
     {
       "repo": "camenduru/text-to-video-synthesis-colab",
@@ -45373,7 +45345,7 @@
         }
       ],
       "metadata": {
-        "description": "Text To Video Synthesis Colab",
+        "description": null,
         "topics": [
           "colab",
           "colaboratory",
@@ -45668,7 +45640,7 @@
         }
       ],
       "metadata": {
-        "description": "Focus on prompting and generating",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "96.7%",
@@ -45676,8 +45648,8 @@
           "Other": "0.5%"
         }
       },
-      "total_stars": 45350,
-      "total_forks": 7307
+      "total_stars": 45370,
+      "total_forks": 7309
     },
     {
       "repo": "Fechin/reference",
@@ -45948,7 +45920,7 @@
         }
       ],
       "metadata": {
-        "description": "\u2b55 Share quick reference cheat sheet for developers.",
+        "description": null,
         "topics": [
           "css",
           "python",
@@ -45973,8 +45945,8 @@
           "Dockerfile": "0.2%"
         }
       },
-      "total_stars": 8425,
-      "total_forks": 1088
+      "total_stars": 8446,
+      "total_forks": 1091
     },
     {
       "repo": "kevle1/Discord-IP-Lookup",
@@ -46209,7 +46181,7 @@
         }
       ],
       "metadata": {
-        "description": "Checks for messages sent to Discord server containing an IP and looks up according information, sending embed containing results.",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "100.0%"
@@ -46500,7 +46472,7 @@
         }
       ],
       "metadata": {
-        "description": "An easy and fast way to create a Python GUI \ud83d\udc0d",
+        "description": null,
         "topics": [
           "python",
           "fast",
@@ -46528,7 +46500,7 @@
           "Makefile": "3.3%"
         }
       },
-      "total_stars": 10382,
+      "total_stars": 10385,
       "total_forks": 1114
     },
     {
@@ -46723,7 +46695,7 @@
         }
       ],
       "metadata": {
-        "description": "Source Code for Sigma Web Development Course",
+        "description": null,
         "topics": [],
         "languages": {
           "JavaScript": "49.3%",
@@ -46732,8 +46704,8 @@
           "EJS": "1.4%"
         }
       },
-      "total_stars": 11144,
-      "total_forks": 3670
+      "total_stars": 11155,
+      "total_forks": 3675
     },
     {
       "repo": "Khanhtran47/Sora",
@@ -46996,7 +46968,7 @@
         }
       ],
       "metadata": {
-        "description": "A web app for exploring movies, tv shows and anime built with Remix and NextUI",
+        "description": null,
         "topics": [
           "react",
           "i18n",
@@ -47250,7 +47222,7 @@
         }
       ],
       "metadata": {
-        "description": "Discord SelfBot using discord.py-self (use only for educationnal purpose) | Nuclear V2 is a remake of Nuclear with a lot of new commands AND WITH ZERO RANDOM ERRORS !!.",
+        "description": null,
         "topics": [
           "discord",
           "discord-selfbot",
@@ -47511,7 +47483,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\udee1\ufe0f A list of all profile badges and how to obtain each one \ud83d\udee1\ufe0f",
+        "description": null,
         "topics": [
           "github",
           "badge",
@@ -47841,7 +47813,7 @@
         }
       ],
       "metadata": {
-        "description": "Vocard is a simple music bot. It leads to a comfortable experience which is user-friendly, It supports Youtube, Soundcloud, Spotify, Twitch and more!",
+        "description": null,
         "topics": [
           "python",
           "music",
@@ -47865,7 +47837,7 @@
           "Dockerfile": "0.2%"
         }
       },
-      "total_stars": 412,
+      "total_stars": 413,
       "total_forks": 131
     },
     {
@@ -48229,7 +48201,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\ude4c OpenHands: AI-Driven Development",
+        "description": null,
         "topics": [
           "agent",
           "cli",
@@ -48242,17 +48214,17 @@
           "claude-ai"
         ],
         "languages": {
-          "Python": "75.5%",
-          "TypeScript": "22.3%",
-          "Go Template": "0.8%",
+          "Python": "75.9%",
+          "TypeScript": "22.0%",
+          "Go Template": "0.7%",
           "Jinja": "0.7%",
           "JavaScript": "0.3%",
           "Makefile": "0.1%",
           "Other": "0.3%"
         }
       },
-      "total_stars": 1414,
-      "total_forks": 218
+      "total_stars": 1485,
+      "total_forks": 226
     },
     {
       "repo": "Discord-Oxygen/Discord-Console-hacks",
@@ -48497,7 +48469,7 @@
         }
       ],
       "metadata": {
-        "description": "A collection of JavaScript Codes I've made to enhance the User Experience of Discord and some other Discord related stuff",
+        "description": null,
         "topics": [
           "javascript",
           "exploit",
@@ -48831,7 +48803,7 @@
         }
       ],
       "metadata": {
-        "description": "Devika is the first open-source implementation of an Agentic Software Engineer. Initially started as an open-source alternative to Devin.",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "57.5%",
@@ -48844,7 +48816,7 @@
         }
       },
       "total_stars": 19672,
-      "total_forks": 2754
+      "total_forks": 2755
     },
     {
       "repo": "lulu5239/view-loggers",
@@ -49107,7 +49079,7 @@
           "TypeScript": "20.0%"
         }
       },
-      "total_stars": 587,
+      "total_stars": 588,
       "total_forks": 303
     },
     {
@@ -49536,16 +49508,16 @@
         }
       ],
       "metadata": {
-        "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+        "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "51.2%",
-          "Python": "47.4%",
-          "Other": "1.4%"
+          "TypeScript": "58.6%",
+          "Python": "39.7%",
+          "Other": "1.7%"
         }
       },
-      "total_stars": 70104,
-      "total_forks": 8617
+      "total_stars": 70122,
+      "total_forks": 8619
     },
     {
       "repo": "KMohZaid/awesome-cheatsheets",
@@ -49572,7 +49544,7 @@
         }
       ],
       "metadata": {
-        "description": "\ud83d\udc69\u200d\ud83d\udcbb\ud83d\udc68\u200d\ud83d\udcbb Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.",
+        "description": null,
         "topics": [],
         "languages": {
           "JavaScript": "52.3%",
@@ -49606,7 +49578,7 @@
         }
       ],
       "metadata": {
-        "description": "Scrap from Toonily.net",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "100.0%"
@@ -49644,7 +49616,7 @@
         }
       ],
       "metadata": {
-        "description": "A collection of Discord hacks, exploits & tools that is completely made using NodeJS.",
+        "description": null,
         "topics": [
           "tools",
           "discord",
@@ -49903,7 +49875,7 @@
         }
       ],
       "metadata": {
-        "description": "A collaborative list of public APIs for developers",
+        "description": null,
         "topics": [
           "lists",
           "open-source",
@@ -49919,8 +49891,8 @@
           "JavaScript": "100.0%"
         }
       },
-      "total_stars": 4169,
-      "total_forks": 414
+      "total_stars": 4188,
+      "total_forks": 415
     },
     {
       "repo": "abhinavk99/jikanpy",
@@ -50170,7 +50142,7 @@
         }
       ],
       "metadata": {
-        "description": "Python wrapper for the Jikan API",
+        "description": null,
         "topics": [
           "python",
           "api",
@@ -50459,7 +50431,7 @@
         }
       ],
       "metadata": {
-        "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+        "description": null,
         "topics": [
           "windows",
           "color-picker",
@@ -50483,8 +50455,8 @@
           "JavaScript": "0.2%"
         }
       },
-      "total_stars": 135756,
-      "total_forks": 9754
+      "total_stars": 135845,
+      "total_forks": 9760
     },
     {
       "repo": "AsmrProg-YT/100-days-of-javascript",
@@ -50706,7 +50678,7 @@
         }
       ],
       "metadata": {
-        "description": "AsmrProg Youtube Channel 100 days of javascript codes collection",
+        "description": null,
         "topics": [],
         "languages": {
           "JavaScript": "50.1%",
@@ -51005,7 +50977,7 @@
         }
       ],
       "metadata": {
-        "description": "A natural language interface for computers",
+        "description": null,
         "topics": [
           "nodejs",
           "javascript",
@@ -51019,8 +50991,8 @@
           "Other": "1.6%"
         }
       },
-      "total_stars": 1218,
-      "total_forks": 137
+      "total_stars": 1273,
+      "total_forks": 147
     },
     {
       "repo": "kyan0045/pokehint",
@@ -51273,7 +51245,7 @@
         }
       ],
       "metadata": {
-        "description": "NPM package to automatically solve hints & check the rarity of pokemon, made for pokemon discord bots like Pok\u00e9two",
+        "description": null,
         "topics": [
           "poketwo",
           "poketwo-name",
@@ -51511,7 +51483,7 @@
         }
       ],
       "metadata": {
-        "description": "The ultimate open-source Pok\u00e9two autocatcher. Featuring advanced logic, multi-account support, and extensive customization. Free to use, easy to set up, we're gonna catch them all!",
+        "description": null,
         "topics": [
           "nodejs",
           "open-source",
@@ -51535,7 +51507,7 @@
           "Batchfile": "0.4%"
         }
       },
-      "total_stars": 183,
+      "total_stars": 185,
       "total_forks": 200
     },
     {
@@ -51745,7 +51717,7 @@
         }
       ],
       "metadata": {
-        "description": "Open Source Spectrometer Python Scripts",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "100.0%"
@@ -51922,7 +51894,7 @@
         }
       ],
       "metadata": {
-        "description": "The ultimate tool for managing your personal Expenses, Budget, Analysis and for tracking your future savings.",
+        "description": null,
         "topics": [
           "pandas",
           "python3",
@@ -52212,7 +52184,7 @@
         }
       ],
       "metadata": {
-        "description": "A modern and customizable python UI-library based on Tkinter",
+        "description": null,
         "topics": [
           "python",
           "windows",
@@ -52239,7 +52211,7 @@
           "Python": "100.0%"
         }
       },
-      "total_stars": 13384,
+      "total_stars": 13388,
       "total_forks": 1527
     },
     {
@@ -52573,7 +52545,7 @@
         }
       ],
       "metadata": {
-        "description": "very good whiteboard infinite canvas SDK",
+        "description": null,
         "topics": [
           "react",
           "drawing",
@@ -52591,15 +52563,15 @@
         "languages": {
           "TypeScript": "86.8%",
           "MDX": "7.6%",
-          "CSS": "2.5%",
-          "HTML": "1.5%",
+          "CSS": "2.4%",
+          "HTML": "1.4%",
           "JavaScript": "1.2%",
-          "PLpgSQL": "0.2%",
-          "Other": "0.2%"
+          "Shell": "0.3%",
+          "Other": "0.3%"
         }
       },
-      "total_stars": 43080,
-      "total_forks": 3030
+      "total_stars": 43113,
+      "total_forks": 3035
     },
     {
       "repo": "scriptlabs-cc/slashy",
@@ -52632,7 +52604,7 @@
         }
       ],
       "metadata": {
-        "description": "Undetectable Dank Memer (Selfbot) Farmer / Grinder with slash commands support which grinds 24/7 has and random delays to avoid any suspicion.",
+        "description": null,
         "topics": [
           "discord-bot",
           "dank",
@@ -52877,7 +52849,7 @@
         }
       ],
       "metadata": {
-        "description": "A GitHub profile stats generator built on top of @AnuragHazar's Readme Stats. Includes Stats Card, Repo Card, Streak Card, Gist Card, Top Languages Card, and WakaTime Card with cache_seconds = 60 by default, ensuring every update is reflected instantly without delay.",
+        "description": null,
         "topics": [
           "profile-stats",
           "user-stats",
@@ -52906,8 +52878,8 @@
           "HTML": "3.5%"
         }
       },
-      "total_stars": 73,
-      "total_forks": 14
+      "total_stars": 74,
+      "total_forks": 16
     },
     {
       "repo": "AKATSUKI4481/AI_Council",
@@ -53262,7 +53234,7 @@
         }
       ],
       "metadata": {
-        "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+        "description": null,
         "topics": [
           "open-source",
           "self-hosted",
@@ -53274,17 +53246,17 @@
           "localai"
         ],
         "languages": {
-          "TypeScript": "73.7%",
-          "Rust": "18.7%",
-          "Python": "2.7%",
-          "Swift": "2.3%",
+          "TypeScript": "75.0%",
+          "Rust": "19.0%",
+          "Python": "2.0%",
+          "Swift": "1.3%",
           "JavaScript": "1.1%",
           "Shell": "0.6%",
-          "Other": "0.9%"
+          "Other": "1.0%"
         }
       },
-      "total_stars": 28459,
-      "total_forks": 1742
+      "total_stars": 28503,
+      "total_forks": 1746
     },
     {
       "repo": "badlogic/pi-mono",
@@ -53572,7 +53544,7 @@
         }
       ],
       "metadata": {
-        "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+        "description": null,
         "topics": [],
         "languages": {
           "TypeScript": "96.5%",
@@ -53580,8 +53552,8 @@
           "Other": "1.3%"
         }
       },
-      "total_stars": 3982,
-      "total_forks": 386
+      "total_stars": 4724,
+      "total_forks": 474
     },
     {
       "repo": "HKUDS/nanobot",
@@ -53870,17 +53842,17 @@
         }
       ],
       "metadata": {
-        "description": "\"\ud83d\udc08 nanobot: The Ultra-Lightweight OpenClaw\"",
+        "description": null,
         "topics": [],
         "languages": {
-          "Python": "94.9%",
-          "TypeScript": "2.4%",
-          "Shell": "1.9%",
-          "Other": "0.8%"
+          "Python": "95.6%",
+          "TypeScript": "2.1%",
+          "Shell": "1.7%",
+          "Other": "0.6%"
         }
       },
-      "total_stars": 5704,
-      "total_forks": 874
+      "total_stars": 6883,
+      "total_forks": 1114
     },
     {
       "repo": "screenpipe/screenpipe",
@@ -54070,7 +54042,7 @@
         }
       ],
       "metadata": {
-        "description": "screenpipe turns your computer into a personal AI that knows everything you've done. record. search. automate. all local, all private, all yours.",
+        "description": null,
         "topics": [
           "machine-learning",
           "ai",
@@ -54083,17 +54055,17 @@
           "llm"
         ],
         "languages": {
-          "Rust": "54.9%",
-          "TypeScript": "41.4%",
-          "JavaScript": "2.3%",
-          "Shell": "0.5%",
+          "Rust": "57.9%",
+          "TypeScript": "39.0%",
+          "JavaScript": "2.0%",
           "HTML": "0.4%",
+          "Shell": "0.3%",
           "CSS": "0.2%",
-          "Other": "0.3%"
+          "Other": "0.2%"
         }
       },
-      "total_stars": 59,
-      "total_forks": 12
+      "total_stars": 91,
+      "total_forks": 18
     },
     {
       "repo": "osmoscraft/osmosmemo",
@@ -54435,7 +54407,7 @@
         }
       ],
       "metadata": {
-        "description": "Turn GitHub into a bookmark manager",
+        "description": null,
         "topics": [
           "chrome-extension",
           "typescript",
@@ -54713,7 +54685,7 @@
         }
       ],
       "metadata": {
-        "description": "Open-source, production-grade web scraping engine built for LLMs. Scrape and crawl the entire web, clean markdown, ready for your agents.",
+        "description": null,
         "topics": [
           "nodejs",
           "markdown",
@@ -54741,8 +54713,8 @@
           "JavaScript": "7.2%"
         }
       },
-      "total_stars": 86,
-      "total_forks": 4
+      "total_stars": 132,
+      "total_forks": 8
     },
     {
       "repo": "UWUplus/flask-cloudflared",
@@ -54990,7 +54962,7 @@
         }
       ],
       "metadata": {
-        "description": "Run a TryCloudflare tunnel to your flask app right from code.",
+        "description": null,
         "topics": [],
         "languages": {
           "Python": "100.0%"
@@ -55213,7 +55185,7 @@
         }
       ],
       "metadata": {
-        "description": "A complete Getting Things Done (GTD) productivity system for desktop and mobile.",
+        "description": null,
         "topics": [
           "productivity",
           "cross-platform",
@@ -55228,15 +55200,15 @@
         ],
         "languages": {
           "TypeScript": "95.3%",
-          "Rust": "2.8%",
-          "JavaScript": "1.2%",
-          "Shell": "0.4%",
-          "CSS": "0.3%",
+          "Rust": "2.5%",
+          "JavaScript": "1.3%",
+          "Shell": "0.7%",
+          "CSS": "0.2%",
           "Dockerfile": "0.0%"
         }
       },
-      "total_stars": 144,
-      "total_forks": 4
+      "total_stars": 203,
+      "total_forks": 8
     },
     {
       "repo": "CapSoftware/Cap",
@@ -55594,7 +55566,7 @@
         }
       ],
       "metadata": {
-        "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
+        "description": null,
         "topics": [
           "react",
           "rust",
@@ -55618,17 +55590,17 @@
           "nextjs15"
         ],
         "languages": {
-          "TypeScript": "48.2%",
-          "Rust": "46.7%",
-          "JavaScript": "2.7%",
+          "TypeScript": "48.8%",
+          "Rust": "46.3%",
+          "JavaScript": "2.6%",
           "MDX": "1.1%",
           "WGSL": "0.5%",
           "CSS": "0.3%",
-          "Other": "0.5%"
+          "Other": "0.4%"
         }
       },
-      "total_stars": 11155,
-      "total_forks": 749
+      "total_stars": 11189,
+      "total_forks": 756
     },
     {
       "repo": "google-gemini/gemini-skills",
@@ -55876,7 +55848,7 @@
         }
       ],
       "metadata": {
-        "description": "Skills for the Gemini API, SDK and model/agent interactions",
+        "description": null,
         "topics": [
           "skills",
           "gemini",
@@ -55884,8 +55856,8 @@
         ],
         "languages": {}
       },
-      "total_stars": 416,
-      "total_forks": 20
+      "total_stars": 512,
+      "total_forks": 30
     },
     {
       "repo": "TrustAI-laboratory/Learn-Prompt-Hacking",
@@ -56132,7 +56104,7 @@
         }
       ],
       "metadata": {
-        "description": "This is The most comprehensive prompt hacking course available, which record our progress on a prompt engineering and prompt hacking course.",
+        "description": null,
         "topics": [
           "jailbreak",
           "security-ctf",
@@ -56149,7 +56121,7 @@
           "Jupyter Notebook": "100.0%"
         }
       },
-      "total_stars": 128,
+      "total_stars": 132,
       "total_forks": 16
     },
     {
@@ -56464,7 +56436,7 @@
         }
       ],
       "metadata": {
-        "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+        "description": null,
         "topics": [
           "python",
           "nlp",
@@ -56483,8 +56455,8 @@
           "Other": "0.4%"
         }
       },
-      "total_stars": 14800,
-      "total_forks": 976
+      "total_stars": 15153,
+      "total_forks": 997
     },
     {
       "repo": "conaticus/FileExplorer",
@@ -56743,7 +56715,7 @@
         }
       ],
       "metadata": {
-        "description": "Fast file explorer written with Tauri and React.",
+        "description": null,
         "topics": [],
         "languages": {
           "Rust": "50.3%",
@@ -56752,8 +56724,8 @@
           "Other": "1.1%"
         }
       },
-      "total_stars": 1131,
-      "total_forks": 113
+      "total_stars": 1172,
+      "total_forks": 115
     },
     {
       "repo": "0x7c13/Notepads",
@@ -57060,7 +57032,7 @@
         }
       ],
       "metadata": {
-        "description": "A modern, lightweight text editor with a minimalist design.",
+        "description": null,
         "topics": [
           "windows",
           "markdown",
@@ -57075,7 +57047,7 @@
           "C#": "100.0%"
         }
       },
-      "total_stars": 3937,
+      "total_stars": 3943,
       "total_forks": 275
     },
     {
@@ -57393,15 +57365,15 @@
         }
       ],
       "metadata": {
-        "description": "Web & Mobile UI for Claude Code & Codex . Launch sessions, stream responses, approve tools. All from your browser / mobile",
+        "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "98.5%",
-          "Other": "1.5%"
+          "TypeScript": "98.8%",
+          "Other": "1.2%"
         }
       },
-      "total_stars": 403,
-      "total_forks": 49
+      "total_stars": 462,
+      "total_forks": 57
     },
     {
       "repo": "dbalabka/chrome-wsl",
@@ -57577,7 +57549,7 @@
         }
       ],
       "metadata": {
-        "description": "Simplifies Chrome DevTools MCP setup for WSL and Docker by automating Chrome remote debugging and network proxy bridging.",
+        "description": null,
         "topics": [
           "debugging",
           "chrome",
@@ -57814,7 +57786,7 @@
         }
       ],
       "metadata": {
-        "description": "Check all your AI subscription quotas in one command. Supports OpenAI, Zhipu AI, and Google Antigravity. More platforms coming soon.",
+        "description": null,
         "topics": [
           "opencode",
           "opencode-plugins",
@@ -57825,8 +57797,8 @@
           "JavaScript": "1.8%"
         }
       },
-      "total_stars": 65,
-      "total_forks": 3
+      "total_stars": 66,
+      "total_forks": 4
     },
     {
       "repo": "ozwaldorf/lutgen-rs",
@@ -58090,7 +58062,7 @@
         }
       ],
       "metadata": {
-        "description": "Blazingly fast interpolated LUT generator and applicator for arbitrary and popular color palettes.",
+        "description": null,
         "topics": [
           "rust",
           "cli",
@@ -58113,6 +58085,2587 @@
       },
       "total_stars": 429,
       "total_forks": 24
+    },
+    {
+      "repo": "Developer-Y/Scalable-Software-Architecture",
+      "recommendations": [
+        {
+          "repo": "donnemartin/system-design-primer",
+          "count": 174,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "design",
+              "development",
+              "programming",
+              "web",
+              "system",
+              "design-patterns",
+              "interview",
+              "web-application",
+              "webapp",
+              "interview-practice",
+              "interview-questions",
+              "design-system"
+            ],
+            "languages": {
+              "Python": "98.0%",
+              "Shell": "2.0%"
+            }
+          },
+          "total_stars": 334202,
+          "total_forks": 54712,
+          "score": 0.000521
+        },
+        {
+          "repo": "Developer-Y/cs-video-courses",
+          "count": 165,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "computer-science",
+              "security",
+              "machine-learning",
+              "bioinformatics",
+              "web-development",
+              "reinforcement-learning",
+              "computer-vision",
+              "deep-learning",
+              "algorithms",
+              "robotics",
+              "computational-biology",
+              "databases",
+              "embedded-systems",
+              "systems",
+              "computational-physics",
+              "quantum-computing",
+              "computer-architecture",
+              "database-systems"
+            ],
+            "languages": {}
+          },
+          "total_stars": 74497,
+          "total_forks": 10302,
+          "score": 0.002215
+        },
+        {
+          "repo": "jwasham/coding-interview-university",
+          "count": 108,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "computer-science",
+              "algorithm",
+              "algorithms",
+              "interview",
+              "data-structures",
+              "software-engineering",
+              "coding-interviews",
+              "study-plan",
+              "interview-prep",
+              "interview-preparation",
+              "coding-interview",
+              "programming-interviews"
+            ],
+            "languages": {}
+          },
+          "total_stars": 324106,
+          "total_forks": 84857,
+          "score": 0.000333
+        },
+        {
+          "repo": "Developer-Y/technical-interviews",
+          "count": 95,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 1237,
+          "total_forks": 341,
+          "score": 0.076799
+        },
+        {
+          "repo": "kamranahmedse/developer-roadmap",
+          "count": 89,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "computer-science",
+              "roadmap",
+              "python-roadmap",
+              "developer-roadmap",
+              "devops-roadmap",
+              "react-roadmap",
+              "frontend-roadmap",
+              "java-roadmap",
+              "backend-roadmap",
+              "go-roadmap",
+              "angular-roadmap",
+              "nodejs-roadmap",
+              "dba-roadmap",
+              "javascript-roadmap",
+              "vue-roadmap",
+              "blockchain-roadmap",
+              "qa-roadmap",
+              "software-architect-roadmap"
+            ],
+            "languages": {
+              "TypeScript": "84.5%",
+              "Astro": "10.9%",
+              "JavaScript": "3.1%",
+              "CSS": "1.3%",
+              "Shell": "0.2%"
+            }
+          },
+          "total_stars": 362399,
+          "total_forks": 50044,
+          "score": 0.000246
+        },
+        {
+          "repo": "sindresorhus/awesome",
+          "count": 88,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "lists",
+              "awesome",
+              "unicorns",
+              "resources",
+              "awesome-list"
+            ],
+            "languages": {}
+          },
+          "total_stars": 443844,
+          "total_forks": 39586,
+          "score": 0.000198
+        },
+        {
+          "repo": "binhnguyennus/awesome-scalability",
+          "count": 87,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "computer-science",
+              "lists",
+              "devops",
+              "distributed-systems",
+              "machine-learning",
+              "awesome",
+              "web-development",
+              "programming",
+              "big-data",
+              "system",
+              "backend",
+              "architecture",
+              "scalability",
+              "resources",
+              "design-patterns",
+              "interview",
+              "awesome-list",
+              "interview-practice",
+              "interview-questions",
+              "system-design"
+            ],
+            "languages": {}
+          },
+          "total_stars": 67356,
+          "total_forks": 6844,
+          "score": 0.001292
+        },
+        {
+          "repo": "checkcheckzz/system-design-interview",
+          "count": 77,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "design-systems",
+              "system",
+              "interview",
+              "interview-questions",
+              "interview-preparation",
+              "system-design"
+            ],
+            "languages": {}
+          },
+          "total_stars": 23360,
+          "total_forks": 5278,
+          "score": 0.003296
+        },
+        {
+          "repo": "EbookFoundation/free-programming-books",
+          "count": 72,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "education",
+              "list",
+              "books",
+              "resource",
+              "hacktoberfest"
+            ],
+            "languages": {
+              "Python": "98.9%",
+              "HTML": "1.1%"
+            }
+          },
+          "total_stars": 311104,
+          "total_forks": 54526,
+          "score": 0.000231
+        },
+        {
+          "repo": "prakhar1989/awesome-courses",
+          "count": 69,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "computer-science",
+              "awesome",
+              "courses",
+              "awesome-list"
+            ],
+            "languages": {}
+          },
+          "total_stars": 69123,
+          "total_forks": 9577,
+          "score": 0.000998
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 2175,
+      "total_forks": 458
+    },
+    {
+      "repo": "Developer-Y/cs-video-courses",
+      "recommendations": [
+        {
+          "repo": "jwasham/coding-interview-university",
+          "count": 1427,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "computer-science",
+              "algorithm",
+              "algorithms",
+              "interview",
+              "data-structures",
+              "software-engineering",
+              "coding-interviews",
+              "study-plan",
+              "interview-prep",
+              "interview-preparation",
+              "coding-interview",
+              "programming-interviews"
+            ],
+            "languages": {}
+          },
+          "total_stars": 324106,
+          "total_forks": 84857,
+          "score": 0.004403
+        },
+        {
+          "repo": "donnemartin/system-design-primer",
+          "count": 1179,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "design",
+              "development",
+              "programming",
+              "web",
+              "system",
+              "design-patterns",
+              "interview",
+              "web-application",
+              "webapp",
+              "interview-practice",
+              "interview-questions",
+              "design-system"
+            ],
+            "languages": {
+              "Python": "98.0%",
+              "Shell": "2.0%"
+            }
+          },
+          "total_stars": 334202,
+          "total_forks": 54712,
+          "score": 0.003528
+        },
+        {
+          "repo": "EbookFoundation/free-programming-books",
+          "count": 1122,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "education",
+              "list",
+              "books",
+              "resource",
+              "hacktoberfest"
+            ],
+            "languages": {
+              "Python": "98.9%",
+              "HTML": "1.1%"
+            }
+          },
+          "total_stars": 311104,
+          "total_forks": 54526,
+          "score": 0.003607
+        },
+        {
+          "repo": "ossu/computer-science",
+          "count": 1116,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "computer-science",
+              "curriculum",
+              "courses",
+              "awesome-list"
+            ],
+            "languages": {
+              "HTML": "100.0%"
+            }
+          },
+          "total_stars": 180524,
+          "total_forks": 25136,
+          "score": 0.006182
+        },
+        {
+          "repo": "TheAlgorithms/Python",
+          "count": 942,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "education",
+              "algorithm",
+              "practice",
+              "interview",
+              "sorting-algorithms",
+              "learn",
+              "algos",
+              "algorithm-competitions",
+              "sorts",
+              "hacktoberfest",
+              "algorithms-implemented",
+              "community-driven",
+              "searches"
+            ],
+            "languages": {
+              "Python": "99.8%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 231134,
+          "total_forks": 58990,
+          "score": 0.004076
+        },
+        {
+          "repo": "kamranahmedse/developer-roadmap",
+          "count": 899,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "computer-science",
+              "roadmap",
+              "python-roadmap",
+              "developer-roadmap",
+              "devops-roadmap",
+              "react-roadmap",
+              "frontend-roadmap",
+              "java-roadmap",
+              "backend-roadmap",
+              "go-roadmap",
+              "angular-roadmap",
+              "nodejs-roadmap",
+              "dba-roadmap",
+              "javascript-roadmap",
+              "vue-roadmap",
+              "blockchain-roadmap",
+              "qa-roadmap",
+              "software-architect-roadmap"
+            ],
+            "languages": {
+              "TypeScript": "84.5%",
+              "Astro": "10.9%",
+              "JavaScript": "3.1%",
+              "CSS": "1.3%",
+              "Shell": "0.2%"
+            }
+          },
+          "total_stars": 362399,
+          "total_forks": 50044,
+          "score": 0.002481
+        },
+        {
+          "repo": "sindresorhus/awesome",
+          "count": 870,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "lists",
+              "awesome",
+              "unicorns",
+              "resources",
+              "awesome-list"
+            ],
+            "languages": {}
+          },
+          "total_stars": 443844,
+          "total_forks": 39586,
+          "score": 0.00196
+        },
+        {
+          "repo": "prakhar1989/awesome-courses",
+          "count": 703,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "computer-science",
+              "awesome",
+              "courses",
+              "awesome-list"
+            ],
+            "languages": {}
+          },
+          "total_stars": 69123,
+          "total_forks": 9577,
+          "score": 0.01017
+        },
+        {
+          "repo": "vinta/awesome-python",
+          "count": 686,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "awesome",
+              "python-library",
+              "collections",
+              "python-framework",
+              "python-resources"
+            ],
+            "languages": {
+              "Python": "92.6%",
+              "Makefile": "7.4%"
+            }
+          },
+          "total_stars": 289408,
+          "total_forks": 32710,
+          "score": 0.00237
+        },
+        {
+          "repo": "trekhleb/javascript-algorithms",
+          "count": 656,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "javascript",
+              "computer-science",
+              "algorithm",
+              "algorithms",
+              "interview",
+              "data-structures",
+              "interview-preparation",
+              "javascript-algorithms"
+            ],
+            "languages": {
+              "JavaScript": "100.0%"
+            }
+          },
+          "total_stars": 207468,
+          "total_forks": 35160,
+          "score": 0.003162
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [
+          "computer-science",
+          "security",
+          "machine-learning",
+          "bioinformatics",
+          "web-development",
+          "reinforcement-learning",
+          "computer-vision",
+          "deep-learning",
+          "algorithms",
+          "robotics",
+          "computational-biology",
+          "databases",
+          "embedded-systems",
+          "systems",
+          "computational-physics",
+          "quantum-computing",
+          "computer-architecture",
+          "database-systems"
+        ],
+        "languages": {}
+      },
+      "total_stars": 74497,
+      "total_forks": 10302
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "recommendations": [
+        {
+          "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "count": 458,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "open-source",
+              "ai",
+              "vscode",
+              "trae",
+              "devin",
+              "cursor",
+              "bolt",
+              "copilot",
+              "v0",
+              "windsurf",
+              "perplexity",
+              "replit",
+              "lovable",
+              "github-copilot",
+              "system-prompts",
+              "cursorai",
+              "windsurf-ai",
+              "trae-ide",
+              "trae-ai",
+              "cluely"
+            ],
+            "languages": {}
+          },
+          "total_stars": 75515,
+          "total_forks": 18896,
+          "score": 0.006065
+        },
+        {
+          "repo": "n8n-io/n8n",
+          "count": 184,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "cli",
+              "workflow",
+              "integrations",
+              "development",
+              "automation",
+              "typescript",
+              "ai",
+              "mcp",
+              "data-flow",
+              "self-hosted",
+              "ipaas",
+              "apis",
+              "workflow-automation",
+              "low-code",
+              "no-code",
+              "integration-framework",
+              "n8n",
+              "low-code-platform",
+              "mcp-server",
+              "mcp-client"
+            ],
+            "languages": {
+              "TypeScript": "91.3%",
+              "Vue": "7.3%",
+              "SCSS": "0.5%",
+              "JavaScript": "0.4%",
+              "Python": "0.4%",
+              "Handlebars": "0.1%"
+            }
+          },
+          "total_stars": 135827,
+          "total_forks": 42887,
+          "score": 0.001355
+        },
+        {
+          "repo": "Shubhamsaboo/awesome-llm-apps",
+          "count": 178,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "agents",
+              "rag",
+              "llms"
+            ],
+            "languages": {
+              "Python": "68.6%",
+              "JavaScript": "23.5%",
+              "TypeScript": "6.6%",
+              "HTML": "0.9%",
+              "CSS": "0.3%",
+              "PLpgSQL": "0.1%"
+            }
+          },
+          "total_stars": 63490,
+          "total_forks": 7620,
+          "score": 0.002804
+        },
+        {
+          "repo": "Zie619/n8n-workflows",
+          "count": 150,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "47.8%",
+              "HTML": "26.0%",
+              "PLpgSQL": "9.4%",
+              "JavaScript": "6.3%",
+              "Shell": "5.7%",
+              "TypeScript": "2.3%",
+              "Other": "2.5%"
+            }
+          },
+          "total_stars": 26613,
+          "total_forks": 7310,
+          "score": 0.005636
+        },
+        {
+          "repo": "langgenius/dify",
+          "count": 144,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "agent",
+              "workflow",
+              "automation",
+              "ai",
+              "mcp",
+              "nextjs",
+              "orchestration",
+              "gemini",
+              "openai",
+              "gpt",
+              "low-code",
+              "no-code",
+              "rag",
+              "gpt-4",
+              "llm",
+              "genai",
+              "agentic-framework",
+              "agentic-workflow",
+              "agentic-ai"
+            ],
+            "languages": {
+              "TypeScript": "50.8%",
+              "Python": "42.8%",
+              "JavaScript": "3.7%",
+              "MDX": "1.6%",
+              "CSS": "0.4%",
+              "HTML": "0.4%",
+              "Other": "0.3%"
+            }
+          },
+          "total_stars": 112787,
+          "total_forks": 18231,
+          "score": 0.001277
+        },
+        {
+          "repo": "browser-use/browser-use",
+          "count": 138,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "browser-automation",
+              "ai-agents",
+              "playwright",
+              "ai-tools",
+              "llm",
+              "browser-use"
+            ],
+            "languages": {
+              "Python": "98.0%",
+              "Shell": "1.2%",
+              "Other": "0.8%"
+            }
+          },
+          "total_stars": 63377,
+          "total_forks": 7608,
+          "score": 0.002177
+        },
+        {
+          "repo": "public-apis/public-apis",
+          "count": 137,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "api",
+              "lists",
+              "open-source",
+              "list",
+              "development",
+              "public",
+              "resources",
+              "dataset",
+              "free",
+              "software",
+              "apis",
+              "public-api",
+              "public-apis"
+            ],
+            "languages": {
+              "Python": "96.8%",
+              "Shell": "3.2%"
+            }
+          },
+          "total_stars": 330955,
+          "total_forks": 37103,
+          "score": 0.000414
+        },
+        {
+          "repo": "microsoft/generative-ai-for-beginners",
+          "count": 136,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ai",
+              "azure",
+              "transformers",
+              "openai",
+              "gpt",
+              "language-model",
+              "semantic-search",
+              "dall-e",
+              "prompt-engineering",
+              "llms",
+              "generative-ai",
+              "generativeai",
+              "chatgpt",
+              "microsoft-for-beginners"
+            ],
+            "languages": {
+              "Jupyter Notebook": "99.7%",
+              "Python": "0.2%",
+              "JavaScript": "0.1%",
+              "TypeScript": "0.0%",
+              "Shell": "0.0%",
+              "PowerShell": "0.0%"
+            }
+          },
+          "total_stars": 94797,
+          "total_forks": 49568,
+          "score": 0.001435
+        },
+        {
+          "repo": "mannaandpoem/OpenManus",
+          "count": 135,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 42701,
+          "total_forks": 7289,
+          "score": 0.003162
+        },
+        {
+          "repo": "open-webui/open-webui",
+          "count": 135,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ui",
+              "ai",
+              "mcp",
+              "openapi",
+              "self-hosted",
+              "openai",
+              "webui",
+              "rag",
+              "llm",
+              "llms",
+              "ollama",
+              "llm-ui",
+              "ollama-webui",
+              "llm-webui",
+              "open-webui"
+            ],
+            "languages": {
+              "Python": "34.1%",
+              "Svelte": "31.0%",
+              "JavaScript": "27.2%",
+              "TypeScript": "4.9%",
+              "CSS": "2.5%",
+              "Shell": "0.1%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 101056,
+          "total_forks": 16015,
+          "score": 0.001336
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [
+          "ai",
+          "gemini",
+          "openai",
+          "chatbots",
+          "prompts",
+          "claude",
+          "google-deepmind",
+          "large-language-models",
+          "llm",
+          "prompt-engineering",
+          "generative-ai",
+          "chatgpt",
+          "prompt-injection",
+          "anthropic"
+        ],
+        "languages": {
+          "HTML": "100.0%"
+        }
+      },
+      "total_stars": 17366,
+      "total_forks": 2865
+    },
+    {
+      "repo": "akarealemil/fluxer-discord-migration",
+      "recommendations": [
+        {
+          "repo": "akarealemil/fluxer-discord-migration",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "100.0%"
+            }
+          },
+          "total_stars": 8,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {
+          "Python": "100.0%"
+        }
+      },
+      "total_stars": 8,
+      "total_forks": 0
+    },
+    {
+      "repo": "fluxerapp/fluxer",
+      "recommendations": [
+        {
+          "repo": "Pythagora-io/gpt-pilot",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ai",
+              "developer-tools",
+              "research-project",
+              "codegen",
+              "coding-assistant",
+              "gpt-4"
+            ],
+            "languages": {
+              "Python": "64.9%",
+              "TypeScript": "27.6%",
+              "JavaScript": "4.7%",
+              "Smarty": "0.9%",
+              "CSS": "0.5%",
+              "Shell": "0.5%",
+              "Other": "0.9%"
+            }
+          },
+          "total_stars": 33720,
+          "total_forks": 3506,
+          "score": 0.000148
+        },
+        {
+          "repo": "mendableai/firecrawl",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "markdown",
+              "crawler",
+              "scraper",
+              "ai",
+              "html-to-markdown",
+              "web-crawler",
+              "scraping",
+              "web-scraper",
+              "web-scraping",
+              "data-extraction",
+              "webscraping",
+              "web-data-extraction",
+              "ai-agents",
+              "web-search",
+              "ai-search",
+              "web-data",
+              "llm",
+              "ai-crawler",
+              "ai-scraping"
+            ],
+            "languages": {
+              "TypeScript": "70.3%",
+              "Python": "19.8%",
+              "Rust": "8.0%",
+              "Astro": "0.6%",
+              "Go": "0.4%",
+              "JavaScript": "0.2%",
+              "Other": "0.7%"
+            }
+          },
+          "total_stars": 43038,
+          "total_forks": 3950,
+          "score": 0.000116
+        },
+        {
+          "repo": "ollama/ollama",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "go",
+              "golang",
+              "llama",
+              "glm",
+              "minimax",
+              "gemma",
+              "mistral",
+              "llm",
+              "llms",
+              "ollama",
+              "qwen",
+              "deepseek",
+              "llama3",
+              "gemma3",
+              "gpt-oss"
+            ],
+            "languages": {
+              "Go": "59.5%",
+              "C": "33.1%",
+              "TypeScript": "4.0%",
+              "C++": "1.4%",
+              "Objective-C": "0.6%",
+              "Shell": "0.5%",
+              "Other": "0.9%"
+            }
+          },
+          "total_stars": 117813,
+          "total_forks": 11317,
+          "score": 4.2e-05
+        },
+        {
+          "repo": "lobehub/lobe-chat",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "agent",
+              "ai",
+              "mcp",
+              "gemini",
+              "openai",
+              "gpt",
+              "knowledge-base",
+              "claude",
+              "chatgpt",
+              "deepseek",
+              "agent-collaboration",
+              "agent-harness"
+            ],
+            "languages": {
+              "TypeScript": "98.8%",
+              "HTML": "0.7%",
+              "JavaScript": "0.2%",
+              "Shell": "0.2%",
+              "Gherkin": "0.1%",
+              "Dockerfile": "0.0%"
+            }
+          },
+          "total_stars": 69128,
+          "total_forks": 19897,
+          "score": 7.2e-05
+        },
+        {
+          "repo": "coollabsio/coolify",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "nodejs",
+              "mysql",
+              "docker",
+              "redis",
+              "php",
+              "postgres",
+              "laravel",
+              "deployment",
+              "server",
+              "docker-compose",
+              "nextjs",
+              "svelte",
+              "databases",
+              "mariadb",
+              "self-hosted",
+              "static-site",
+              "self-hosting",
+              "inertiajs",
+              "coolify",
+              "svelte5"
+            ],
+            "languages": {
+              "PHP": "75.3%",
+              "Blade": "22.1%",
+              "Shell": "1.5%",
+              "Other": "1.1%"
+            }
+          },
+          "total_stars": 45643,
+          "total_forks": 3478,
+          "score": 0.00011
+        },
+        {
+          "repo": "zed-industries/zed",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "rust-lang",
+              "text-editor",
+              "zed",
+              "gpui"
+            ],
+            "languages": {
+              "Rust": "97.8%",
+              "Inno Setup": "0.5%",
+              "Tree-sitter Query": "0.4%",
+              "Shell": "0.3%",
+              "Python": "0.2%",
+              "WGSL": "0.1%",
+              "Other": "0.7%"
+            }
+          },
+          "total_stars": 69172,
+          "total_forks": 6079,
+          "score": 7.2e-05
+        },
+        {
+          "repo": "toeverything/AFFiNE",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "electron",
+              "editor",
+              "markdown",
+              "rust",
+              "app",
+              "wiki",
+              "notes",
+              "table",
+              "rust-language",
+              "workspace",
+              "whiteboard",
+              "tableview",
+              "rust-lang",
+              "crdt",
+              "knowledge-base",
+              "notion",
+              "miro",
+              "notion-alternative"
+            ],
+            "languages": {
+              "TypeScript": "90.4%",
+              "Swift": "4.1%",
+              "Rust": "3.6%",
+              "Kotlin": "1.0%",
+              "JavaScript": "0.4%",
+              "C": "0.2%",
+              "Other": "0.3%"
+            }
+          },
+          "total_stars": 58105,
+          "total_forks": 4462,
+          "score": 8.6e-05
+        },
+        {
+          "repo": "infiniflow/ragflow",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "agent",
+              "ai",
+              "mcp",
+              "openai",
+              "document-parser",
+              "ai-search",
+              "rag",
+              "document-understanding",
+              "llm",
+              "agentic",
+              "retrieval-augmented-generation",
+              "ollama",
+              "context-retrieval",
+              "deepseek",
+              "graphrag",
+              "agentic-workflow",
+              "agentic-ai",
+              "deepseek-r1",
+              "deep-research",
+              "context-engineering"
+            ],
+            "languages": {
+              "Python": "54.2%",
+              "TypeScript": "44.7%",
+              "Less": "0.3%",
+              "Shell": "0.3%",
+              "CSS": "0.2%",
+              "Dockerfile": "0.1%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 62106,
+          "total_forks": 6558,
+          "score": 6.4e-05
+        },
+        {
+          "repo": "ItzCrazyKns/Perplexica",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "search-engine",
+              "machine-learning",
+              "artificial-intelligence",
+              "ai-agents",
+              "rag",
+              "answering-engine",
+              "searxng",
+              "llm",
+              "ai-search-engine",
+              "open-source-ai-search-engine",
+              "perplexica",
+              "searxng-copilot",
+              "self-hosted-ai"
+            ],
+            "languages": {
+              "TypeScript": "98.7%",
+              "Other": "1.3%"
+            }
+          },
+          "total_stars": 24689,
+          "total_forks": 2819,
+          "score": 0.000162
+        },
+        {
+          "repo": "nomic-ai/gpt4all",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ai-chat",
+              "llm-inference"
+            ],
+            "languages": {
+              "C++": "52.0%",
+              "QML": "30.3%",
+              "Python": "7.6%",
+              "CMake": "5.4%",
+              "JavaScript": "3.2%",
+              "C": "0.9%",
+              "Other": "0.6%"
+            }
+          },
+          "total_stars": 74330,
+          "total_forks": 8426,
+          "score": 5.4e-05
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {
+          "TypeScript": "83.0%",
+          "Erlang": "7.5%",
+          "CSS": "5.4%",
+          "MDX": "2.1%",
+          "JavaScript": "0.7%",
+          "Python": "0.4%",
+          "Other": "0.9%"
+        }
+      },
+      "total_stars": 1330,
+      "total_forks": 66
+    },
+    {
+      "repo": "kaisma0/steam-game-idler",
+      "recommendations": [
+        {
+          "repo": "kaisma0/steam-game-idler",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "TypeScript": "77.7%",
+              "Rust": "19.3%",
+              "JavaScript": "1.5%",
+              "CSS": "1.4%",
+              "HTML": "0.1%"
+            }
+          },
+          "total_stars": 2,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {
+          "TypeScript": "77.7%",
+          "Rust": "19.3%",
+          "JavaScript": "1.5%",
+          "CSS": "1.4%",
+          "HTML": "0.1%"
+        }
+      },
+      "total_stars": 2,
+      "total_forks": 0
+    },
+    {
+      "repo": "SuperCmdLabs/SuperCmd",
+      "recommendations": [
+        {
+          "repo": "anomalyco/opencode",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "TypeScript": "51.3%",
+              "MDX": "44.5%",
+              "CSS": "3.2%",
+              "Rust": "0.5%",
+              "Astro": "0.2%",
+              "JavaScript": "0.1%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 22228,
+          "total_forks": 2477,
+          "score": 9e-05
+        },
+        {
+          "repo": "lbjlaq/Antigravity-Manager",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "account-manager",
+              "antigravity"
+            ],
+            "languages": {
+              "Rust": "63.2%",
+              "TypeScript": "34.4%",
+              "HTML": "1.4%",
+              "Shell": "0.6%",
+              "PowerShell": "0.2%",
+              "Dockerfile": "0.1%",
+              "Other": "0.1%"
+            }
+          },
+          "total_stars": 9377,
+          "total_forks": 1031,
+          "score": 0.000213
+        },
+        {
+          "repo": "cline/cline",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "TypeScript": "98.0%",
+              "JavaScript": "1.2%",
+              "Python": "0.3%",
+              "Shell": "0.3%",
+              "CSS": "0.1%",
+              "Roff": "0.1%"
+            }
+          },
+          "total_stars": 42206,
+          "total_forks": 4366,
+          "score": 4.7e-05
+        },
+        {
+          "repo": "langgenius/dify",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "agent",
+              "workflow",
+              "automation",
+              "ai",
+              "mcp",
+              "nextjs",
+              "orchestration",
+              "gemini",
+              "openai",
+              "gpt",
+              "low-code",
+              "no-code",
+              "rag",
+              "gpt-4",
+              "llm",
+              "genai",
+              "agentic-framework",
+              "agentic-workflow",
+              "agentic-ai"
+            ],
+            "languages": {
+              "TypeScript": "50.8%",
+              "Python": "42.8%",
+              "JavaScript": "3.7%",
+              "MDX": "1.6%",
+              "CSS": "0.4%",
+              "HTML": "0.4%",
+              "Other": "0.3%"
+            }
+          },
+          "total_stars": 112787,
+          "total_forks": 18231,
+          "score": 1.8e-05
+        },
+        {
+          "repo": "beikeni/github-runner-dockerfile",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Dockerfile": "62.4%",
+              "Shell": "37.6%"
+            }
+          },
+          "total_stars": 61,
+          "total_forks": 54,
+          "score": 0.016393
+        },
+        {
+          "repo": "AppFlowy-IO/AppFlowy",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "blog",
+              "documentation",
+              "wiki",
+              "project-management",
+              "content-management",
+              "note-taking",
+              "flutter",
+              "task-management",
+              "content-services",
+              "team-collaboration",
+              "notion-alternative",
+              "confluence-alternative"
+            ],
+            "languages": {
+              "Dart": "73.8%",
+              "Rust": "24.1%",
+              "C++": "0.7%",
+              "Shell": "0.5%",
+              "CMake": "0.4%",
+              "HTML": "0.2%",
+              "Other": "0.3%"
+            }
+          },
+          "total_stars": 51951,
+          "total_forks": 4436,
+          "score": 1.9e-05
+        },
+        {
+          "repo": "Jacck/mcp-reasoner",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "TypeScript": "90.8%",
+              "JavaScript": "9.2%"
+            }
+          },
+          "total_stars": 227,
+          "total_forks": 22,
+          "score": 0.004405
+        },
+        {
+          "repo": "LaurieWired/GhidraMCP",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Java": "86.2%",
+              "Python": "13.8%"
+            }
+          },
+          "total_stars": 5623,
+          "total_forks": 398,
+          "score": 0.000178
+        },
+        {
+          "repo": "1hei1/sora-api",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "65.6%",
+              "JavaScript": "20.5%",
+              "HTML": "11.1%",
+              "CSS": "2.6%",
+              "Dockerfile": "0.2%"
+            }
+          },
+          "total_stars": 71,
+          "total_forks": 14,
+          "score": 0.014085
+        },
+        {
+          "repo": "media-kit/libmpv-win32-audio-cmake",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "CMake": "95.5%",
+              "Shell": "4.3%",
+              "Perl": "0.2%"
+            }
+          },
+          "total_stars": 0,
+          "total_forks": 2,
+          "score": 0.0
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {
+          "TypeScript": "97.6%",
+          "Swift": "1.3%",
+          "CSS": "1.1%"
+        }
+      },
+      "total_stars": 186,
+      "total_forks": 6
+    },
+    {
+      "repo": "One-Man-Company/Skills-ContextManager",
+      "recommendations": [
+        {
+          "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "open-source",
+              "ai",
+              "vscode",
+              "trae",
+              "devin",
+              "cursor",
+              "bolt",
+              "copilot",
+              "v0",
+              "windsurf",
+              "perplexity",
+              "replit",
+              "lovable",
+              "github-copilot",
+              "system-prompts",
+              "cursorai",
+              "windsurf-ai",
+              "trae-ide",
+              "trae-ai",
+              "cluely"
+            ],
+            "languages": {}
+          },
+          "total_stars": 75515,
+          "total_forks": 18896,
+          "score": 2.6e-05
+        },
+        {
+          "repo": "yichuan-w/LEANN",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "privacy",
+              "ai",
+              "offline-first",
+              "localstorage",
+              "vectors",
+              "faiss",
+              "rag",
+              "vector-search",
+              "vector-database",
+              "llm",
+              "langchain",
+              "llama-index",
+              "retrieval-augmented-generation",
+              "ollama",
+              "gpt-oss"
+            ],
+            "languages": {
+              "Python": "99.2%",
+              "Other": "0.8%"
+            }
+          },
+          "total_stars": 4556,
+          "total_forks": 373,
+          "score": 0.000439
+        },
+        {
+          "repo": "thedotmack/claude-mem",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ai",
+              "sqlite",
+              "embeddings",
+              "artificial-intelligence",
+              "ai-agents",
+              "claude",
+              "memory-engine",
+              "long-term-memory",
+              "rag",
+              "anthropic",
+              "chromadb",
+              "ai-memory",
+              "mem0",
+              "claude-code",
+              "supermemory",
+              "openmemory",
+              "claude-agents",
+              "claude-agent-sdk",
+              "claude-code-plugin",
+              "claude-skills"
+            ],
+            "languages": {
+              "TypeScript": "80.6%",
+              "JavaScript": "13.1%",
+              "Shell": "3.2%",
+              "HTML": "2.9%",
+              "Python": "0.2%"
+            }
+          },
+          "total_stars": 10380,
+          "total_forks": 646,
+          "score": 0.000193
+        },
+        {
+          "repo": "KalyanKS-NLP/llm-engineer-toolkit",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ai-engineer",
+              "large-language-models",
+              "llms",
+              "generative-ai",
+              "llm-engineer"
+            ],
+            "languages": {}
+          },
+          "total_stars": 6360,
+          "total_forks": 958,
+          "score": 0.000314
+        },
+        {
+          "repo": "unslothai/unsloth",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "agent",
+              "text-to-speech",
+              "reinforcement-learning",
+              "tts",
+              "openai",
+              "llama",
+              "gemma",
+              "mistral",
+              "fine-tuning",
+              "voice-cloning",
+              "llm",
+              "llms",
+              "qwen",
+              "deepseek",
+              "unsloth",
+              "llama3",
+              "deepseek-r1",
+              "gemma3",
+              "qwen3",
+              "gpt-oss"
+            ],
+            "languages": {
+              "Python": "99.9%",
+              "Shell": "0.1%"
+            }
+          },
+          "total_stars": 43436,
+          "total_forks": 3634,
+          "score": 4.6e-05
+        },
+        {
+          "repo": "OpenBMB/MiniCPM-V",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "multi-modal",
+              "minicpm",
+              "minicpm-v"
+            ],
+            "languages": {
+              "Python": "83.2%",
+              "Vue": "14.1%",
+              "JavaScript": "1.7%",
+              "Shell": "0.5%",
+              "Less": "0.3%",
+              "CSS": "0.1%",
+              "Other": "0.1%"
+            }
+          },
+          "total_stars": 13606,
+          "total_forks": 1007,
+          "score": 0.000147
+        },
+        {
+          "repo": "infiniflow/ragflow",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "agent",
+              "ai",
+              "mcp",
+              "openai",
+              "document-parser",
+              "ai-search",
+              "rag",
+              "document-understanding",
+              "llm",
+              "agentic",
+              "retrieval-augmented-generation",
+              "ollama",
+              "context-retrieval",
+              "deepseek",
+              "graphrag",
+              "agentic-workflow",
+              "agentic-ai",
+              "deepseek-r1",
+              "deep-research",
+              "context-engineering"
+            ],
+            "languages": {
+              "Python": "54.2%",
+              "TypeScript": "44.7%",
+              "Less": "0.3%",
+              "Shell": "0.3%",
+              "CSS": "0.2%",
+              "Dockerfile": "0.1%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 62106,
+          "total_forks": 6558,
+          "score": 3.2e-05
+        },
+        {
+          "repo": "lobehub/lobe-chat",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "agent",
+              "ai",
+              "mcp",
+              "gemini",
+              "openai",
+              "gpt",
+              "knowledge-base",
+              "claude",
+              "chatgpt",
+              "deepseek",
+              "agent-collaboration",
+              "agent-harness"
+            ],
+            "languages": {
+              "TypeScript": "98.8%",
+              "HTML": "0.7%",
+              "JavaScript": "0.2%",
+              "Shell": "0.2%",
+              "Gherkin": "0.1%",
+              "Dockerfile": "0.0%"
+            }
+          },
+          "total_stars": 69128,
+          "total_forks": 19897,
+          "score": 2.9e-05
+        },
+        {
+          "repo": "Nagi-ovo/gemini-voyager",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "chrome-extension",
+              "safari-extension",
+              "japanese",
+              "gemini",
+              "spanish",
+              "french",
+              "bun",
+              "chat-management",
+              "edge-addon",
+              "firefox-addons",
+              "ai-studio",
+              "vibe-coding"
+            ],
+            "languages": {
+              "TypeScript": "90.9%",
+              "CSS": "6.3%",
+              "JavaScript": "2.3%",
+              "Other": "0.5%"
+            }
+          },
+          "total_stars": 2533,
+          "total_forks": 80,
+          "score": 0.00079
+        },
+        {
+          "repo": "coze-dev/coze-studio",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "go",
+              "agent",
+              "workflow",
+              "typescript",
+              "chatbot",
+              "studio",
+              "chatbot-framework",
+              "no-code",
+              "rag",
+              "agent-platform",
+              "coze",
+              "generative-ai",
+              "low-code-ai",
+              "ai-plugins",
+              "multimodel-ai",
+              "coze-platform",
+              "kouzi"
+            ],
+            "languages": {
+              "TypeScript": "80.4%",
+              "Go": "13.5%",
+              "Less": "2.7%",
+              "Thrift": "1.4%",
+              "JavaScript": "1.0%",
+              "HTML": "0.5%",
+              "Other": "0.5%"
+            }
+          },
+          "total_stars": 11809,
+          "total_forks": 1602,
+          "score": 0.000169
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {
+          "Python": "57.8%",
+          "JavaScript": "29.9%",
+          "CSS": "7.7%",
+          "HTML": "3.4%",
+          "Shell": "1.2%"
+        }
+      },
+      "total_stars": 15,
+      "total_forks": 5
+    },
+    {
+      "repo": "sickn33/antigravity-awesome-skills",
+      "recommendations": [
+        {
+          "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "count": 59,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "open-source",
+              "ai",
+              "vscode",
+              "trae",
+              "devin",
+              "cursor",
+              "bolt",
+              "copilot",
+              "v0",
+              "windsurf",
+              "perplexity",
+              "replit",
+              "lovable",
+              "github-copilot",
+              "system-prompts",
+              "cursorai",
+              "windsurf-ai",
+              "trae-ide",
+              "trae-ai",
+              "cluely"
+            ],
+            "languages": {}
+          },
+          "total_stars": 75515,
+          "total_forks": 18896,
+          "score": 0.000781
+        },
+        {
+          "repo": "n8n-io/n8n",
+          "count": 47,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "cli",
+              "workflow",
+              "integrations",
+              "development",
+              "automation",
+              "typescript",
+              "ai",
+              "mcp",
+              "data-flow",
+              "self-hosted",
+              "ipaas",
+              "apis",
+              "workflow-automation",
+              "low-code",
+              "no-code",
+              "integration-framework",
+              "n8n",
+              "low-code-platform",
+              "mcp-server",
+              "mcp-client"
+            ],
+            "languages": {
+              "TypeScript": "91.3%",
+              "Vue": "7.3%",
+              "SCSS": "0.5%",
+              "JavaScript": "0.4%",
+              "Python": "0.4%",
+              "Handlebars": "0.1%"
+            }
+          },
+          "total_stars": 135827,
+          "total_forks": 42887,
+          "score": 0.000346
+        },
+        {
+          "repo": "microsoft/generative-ai-for-beginners",
+          "count": 43,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ai",
+              "azure",
+              "transformers",
+              "openai",
+              "gpt",
+              "language-model",
+              "semantic-search",
+              "dall-e",
+              "prompt-engineering",
+              "llms",
+              "generative-ai",
+              "generativeai",
+              "chatgpt",
+              "microsoft-for-beginners"
+            ],
+            "languages": {
+              "Jupyter Notebook": "99.7%",
+              "Python": "0.2%",
+              "JavaScript": "0.1%",
+              "TypeScript": "0.0%",
+              "Shell": "0.0%",
+              "PowerShell": "0.0%"
+            }
+          },
+          "total_stars": 94797,
+          "total_forks": 49568,
+          "score": 0.000454
+        },
+        {
+          "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+          "count": 36,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "react",
+              "ui-design",
+              "html5",
+              "landing-page",
+              "command-line",
+              "uikit",
+              "trae",
+              "copilot",
+              "codex",
+              "mobile-ui",
+              "claude",
+              "tailwindcss",
+              "antigravity",
+              "cursor-ai",
+              "windsurf-ai",
+              "ai-skills",
+              "claude-code",
+              "kiro",
+              "qoder"
+            ],
+            "languages": {
+              "Python": "80.6%",
+              "TypeScript": "18.0%",
+              "JavaScript": "1.4%"
+            }
+          },
+          "total_stars": 12011,
+          "total_forks": 1176,
+          "score": 0.002997
+        },
+        {
+          "repo": "punkpeye/awesome-mcp-servers",
+          "count": 33,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ai",
+              "mcp"
+            ],
+            "languages": {}
+          },
+          "total_stars": 62495,
+          "total_forks": 5198,
+          "score": 0.000528
+        },
+        {
+          "repo": "public-apis/public-apis",
+          "count": 31,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "api",
+              "lists",
+              "open-source",
+              "list",
+              "development",
+              "public",
+              "resources",
+              "dataset",
+              "free",
+              "software",
+              "apis",
+              "public-api",
+              "public-apis"
+            ],
+            "languages": {
+              "Python": "96.8%",
+              "Shell": "3.2%"
+            }
+          },
+          "total_stars": 330955,
+          "total_forks": 37103,
+          "score": 9.4e-05
+        },
+        {
+          "repo": "Shubhamsaboo/awesome-llm-apps",
+          "count": 31,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "agents",
+              "rag",
+              "llms"
+            ],
+            "languages": {
+              "Python": "68.6%",
+              "JavaScript": "23.5%",
+              "TypeScript": "6.6%",
+              "HTML": "0.9%",
+              "CSS": "0.3%",
+              "PLpgSQL": "0.1%"
+            }
+          },
+          "total_stars": 63490,
+          "total_forks": 7620,
+          "score": 0.000488
+        },
+        {
+          "repo": "Zie619/n8n-workflows",
+          "count": 30,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "47.8%",
+              "HTML": "26.0%",
+              "PLpgSQL": "9.4%",
+              "JavaScript": "6.3%",
+              "Shell": "5.7%",
+              "TypeScript": "2.3%",
+              "Other": "2.5%"
+            }
+          },
+          "total_stars": 26613,
+          "total_forks": 7310,
+          "score": 0.001127
+        },
+        {
+          "repo": "langgenius/dify",
+          "count": 30,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "agent",
+              "workflow",
+              "automation",
+              "ai",
+              "mcp",
+              "nextjs",
+              "orchestration",
+              "gemini",
+              "openai",
+              "gpt",
+              "low-code",
+              "no-code",
+              "rag",
+              "gpt-4",
+              "llm",
+              "genai",
+              "agentic-framework",
+              "agentic-workflow",
+              "agentic-ai"
+            ],
+            "languages": {
+              "TypeScript": "50.8%",
+              "Python": "42.8%",
+              "JavaScript": "3.7%",
+              "MDX": "1.6%",
+              "CSS": "0.4%",
+              "HTML": "0.4%",
+              "Other": "0.3%"
+            }
+          },
+          "total_stars": 112787,
+          "total_forks": 18231,
+          "score": 0.000266
+        },
+        {
+          "repo": "vudovn/antigravity-kit",
+          "count": 27,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "TypeScript": "53.7%",
+              "Python": "40.8%",
+              "MDX": "4.8%",
+              "Other": "0.7%"
+            }
+          },
+          "total_stars": 1655,
+          "total_forks": 346,
+          "score": 0.016314
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [
+          "mcp",
+          "ai-agents",
+          "react-patterns",
+          "security-auditing",
+          "antigravity",
+          "claude-code",
+          "autonomous-coding",
+          "agentic-skills"
+        ],
+        "languages": {
+          "Python": "72.4%",
+          "Shell": "14.5%",
+          "JavaScript": "6.2%",
+          "TypeScript": "2.7%",
+          "HTML": "1.9%",
+          "C#": "1.5%",
+          "Other": "0.8%"
+        }
+      },
+      "total_stars": 4292,
+      "total_forks": 769
+    },
+    {
+      "repo": "remorses/playwriter",
+      "recommendations": [
+        {
+          "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "count": 8,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "open-source",
+              "ai",
+              "vscode",
+              "trae",
+              "devin",
+              "cursor",
+              "bolt",
+              "copilot",
+              "v0",
+              "windsurf",
+              "perplexity",
+              "replit",
+              "lovable",
+              "github-copilot",
+              "system-prompts",
+              "cursorai",
+              "windsurf-ai",
+              "trae-ide",
+              "trae-ai",
+              "cluely"
+            ],
+            "languages": {}
+          },
+          "total_stars": 75515,
+          "total_forks": 18896,
+          "score": 0.000106
+        },
+        {
+          "repo": "open-webui/open-webui",
+          "count": 8,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ui",
+              "ai",
+              "mcp",
+              "openapi",
+              "self-hosted",
+              "openai",
+              "webui",
+              "rag",
+              "llm",
+              "llms",
+              "ollama",
+              "llm-ui",
+              "ollama-webui",
+              "llm-webui",
+              "open-webui"
+            ],
+            "languages": {
+              "Python": "34.1%",
+              "Svelte": "31.0%",
+              "JavaScript": "27.2%",
+              "TypeScript": "4.9%",
+              "CSS": "2.5%",
+              "Shell": "0.1%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 101056,
+          "total_forks": 16015,
+          "score": 7.9e-05
+        },
+        {
+          "repo": "asgeirtj/system_prompts_leaks",
+          "count": 7,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ai",
+              "gemini",
+              "openai",
+              "chatbots",
+              "prompts",
+              "claude",
+              "google-deepmind",
+              "large-language-models",
+              "llm",
+              "prompt-engineering",
+              "generative-ai",
+              "chatgpt",
+              "prompt-injection",
+              "anthropic"
+            ],
+            "languages": {
+              "HTML": "100.0%"
+            }
+          },
+          "total_stars": 17366,
+          "total_forks": 2865,
+          "score": 0.000403
+        },
+        {
+          "repo": "deepseek-ai/DeepSeek-V3",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "100.0%"
+            }
+          },
+          "total_stars": 96945,
+          "total_forks": 15676,
+          "score": 6.2e-05
+        },
+        {
+          "repo": "cline/cline",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "TypeScript": "98.0%",
+              "JavaScript": "1.2%",
+              "Python": "0.3%",
+              "Shell": "0.3%",
+              "CSS": "0.1%",
+              "Roff": "0.1%"
+            }
+          },
+          "total_stars": 42206,
+          "total_forks": 4366,
+          "score": 0.000142
+        },
+        {
+          "repo": "comfyanonymous/ComfyUI",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "ai",
+              "pytorch",
+              "comfy",
+              "stable-diffusion",
+              "comfyui"
+            ],
+            "languages": {
+              "Python": "99.5%",
+              "Other": "0.5%"
+            }
+          },
+          "total_stars": 85996,
+          "total_forks": 10177,
+          "score": 7e-05
+        },
+        {
+          "repo": "OthersideAI/self-operating-computer",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "automation",
+              "openai",
+              "pyautogui"
+            ],
+            "languages": {
+              "Python": "100.0%"
+            }
+          },
+          "total_stars": 8976,
+          "total_forks": 1348,
+          "score": 0.000668
+        },
+        {
+          "repo": "EbookFoundation/free-programming-books",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "education",
+              "list",
+              "books",
+              "resource",
+              "hacktoberfest"
+            ],
+            "languages": {
+              "Python": "98.9%",
+              "HTML": "1.1%"
+            }
+          },
+          "total_stars": 311104,
+          "total_forks": 54526,
+          "score": 1.9e-05
+        },
+        {
+          "repo": "commaai/openpilot",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "robotics",
+              "driver-assistance-systems",
+              "advanced-driver-assistance-systems"
+            ],
+            "languages": {
+              "Python": "68.2%",
+              "C++": "23.0%",
+              "C": "2.5%",
+              "Cap'n Proto": "2.3%",
+              "Shell": "1.6%",
+              "Jupyter Notebook": "1.5%",
+              "Other": "0.9%"
+            }
+          },
+          "total_stars": 62609,
+          "total_forks": 13180,
+          "score": 9.6e-05
+        },
+        {
+          "repo": "deepseek-ai/DeepSeek-R1",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 87096,
+          "total_forks": 11291,
+          "score": 6.9e-05
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [
+          "mcp",
+          "playwright"
+        ],
+        "languages": {
+          "HTML": "64.2%",
+          "TypeScript": "34.5%",
+          "Other": "1.3%"
+        }
+      },
+      "total_stars": 1098,
+      "total_forks": 40
+    },
+    {
+      "repo": "ScattrdBlade/bigFileUpload",
+      "recommendations": [
+        {
+          "repo": "D3SOX/vc-notifyUserChanges",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "discord",
+              "discord-plugins",
+              "vencord",
+              "vencord-plugins"
+            ],
+            "languages": {
+              "TypeScript": "100.0%"
+            }
+          },
+          "total_stars": 14,
+          "total_forks": 6,
+          "score": 0.142857
+        },
+        {
+          "repo": "WolfPlugs/HolyNotes-VC",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "TypeScript": "94.6%",
+              "CSS": "5.4%"
+            }
+          },
+          "total_stars": 11,
+          "total_forks": 4,
+          "score": 0.181818
+        },
+        {
+          "repo": "ScattrdBlade/customSounds",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "TypeScript": "97.8%",
+              "CSS": "2.2%"
+            }
+          },
+          "total_stars": 32,
+          "total_forks": 3,
+          "score": 0.0625
+        },
+        {
+          "repo": "",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 7396,
+          "score": 0.0
+        },
+        {
+          "repo": "disgoorg/disgo",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "go",
+              "golang",
+              "oauth2",
+              "discord",
+              "webhook",
+              "voice",
+              "discord-bot",
+              "discord-api",
+              "rpc",
+              "hacktoberfest",
+              "discord-voice",
+              "discord-rpc"
+            ],
+            "languages": {
+              "Go": "100.0%"
+            }
+          },
+          "total_stars": 415,
+          "total_forks": 67,
+          "score": 0.00241
+        },
+        {
+          "repo": "Celerium/SentinelOne-PowerShellWrapper",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "api",
+              "powershell",
+              "restful-api",
+              "s1",
+              "sentinelone"
+            ],
+            "languages": {
+              "PowerShell": "100.0%"
+            }
+          },
+          "total_stars": 10,
+          "total_forks": 2,
+          "score": 0.1
+        },
+        {
+          "repo": "TactileFox/VencordClickerPlugin",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        },
+        {
+          "repo": "hhd-software/hex-editor-localization-pack",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 41,
+          "total_forks": 44,
+          "score": 0.02439
+        },
+        {
+          "repo": "777Vincent/PrivacyScreen",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "TypeScript": "100.0%"
+            }
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        },
+        {
+          "repo": "ve-i/vc-Boo",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "vencord",
+              "vencord-plugins",
+              "userplugins"
+            ],
+            "languages": {
+              "TypeScript": "96.4%",
+              "CSS": "3.6%"
+            }
+          },
+          "total_stars": 7,
+          "total_forks": 2,
+          "score": 0.142857
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {
+          "TypeScript": "97.3%",
+          "CSS": "2.7%"
+        }
+      },
+      "total_stars": 41,
+      "total_forks": 4
     }
   ]
 }
