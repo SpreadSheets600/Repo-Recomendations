@@ -431,5 +431,5 @@ For each recommended repository:
 
 ## Automation
 
-- Last recommendations run: <!-- RECO_TS_START -->2026-03-08 01:12:35 UTC<!-- RECO_TS_END -->
+- Last recommendations run: <!-- RECO_TS_START -->2026-03-15 01:22:52 UTC<!-- RECO_TS_END -->
 - Latest recommendations file: <!-- RECO_FILE_START -->[recommendations/latest.json](recommendations/latest.json)<!-- RECO_FILE_END -->
