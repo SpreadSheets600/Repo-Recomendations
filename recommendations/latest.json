@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T01:51:35.475778+00:00",
+  "generated_at": "2026-05-17T01:57:11.957538+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -884,8 +884,8 @@
         ],
         "languages": {
           "TypeScript": "91.9%",
-          "Swift": "3.8%",
-          "JavaScript": "2.0%",
+          "Swift": "3.7%",
+          "JavaScript": "2.1%",
           "Kotlin": "0.9%",
           "Shell": "0.8%",
           "CSS": "0.4%",
@@ -2280,8 +2280,8 @@
         ],
         "languages": {
           "C++": "70.2%",
-          "Python": "11.1%",
-          "Assembly": "8.1%",
+          "Python": "11.2%",
+          "Assembly": "8.0%",
           "Shell": "4.7%",
           "C": "2.0%",
           "Jinja": "1.3%",
@@ -4347,12 +4347,12 @@
           "sorting-visualizer"
         ],
         "languages": {
-          "TypeScript": "82.3%",
-          "JavaScript": "10.7%",
-          "CSS": "1.5%",
+          "TypeScript": "81.7%",
+          "JavaScript": "10.8%",
+          "CSS": "1.4%",
+          "Shell": "1.0%",
           "Java": "0.4%",
           "C": "0.4%",
-          "C#": "0.4%",
           "Other": "4.3%"
         }
       },
@@ -6948,11 +6948,11 @@
           "cockroachdb"
         ],
         "languages": {
-          "TypeScript": "57.1%",
-          "Vue": "25.7%",
+          "TypeScript": "56.8%",
+          "Vue": "25.8%",
           "JavaScript": "9.6%",
-          "SCSS": "6.3%",
-          "Shell": "0.8%",
+          "SCSS": "6.6%",
+          "Shell": "0.7%",
           "CSS": "0.3%",
           "Other": "0.2%"
         }
@@ -7337,8 +7337,8 @@
           "anydesk"
         ],
         "languages": {
-          "Rust": "66.8%",
-          "Dart": "24.8%",
+          "Rust": "66.9%",
+          "Dart": "24.7%",
           "C++": "2.0%",
           "Python": "1.7%",
           "C": "1.4%",
@@ -8685,9 +8685,9 @@
           "pdf-ocr"
         ],
         "languages": {
-          "JavaScript": "47.0%",
+          "JavaScript": "46.9%",
           "Fluent": "20.8%",
-          "TypeScript": "14.5%",
+          "TypeScript": "14.6%",
           "HTML": "14.0%",
           "CSS": "3.5%",
           "Shell": "0.2%"
@@ -9480,13 +9480,13 @@
           "custom-agents"
         ],
         "languages": {
-          "Python": "68.9%",
-          "HTML": "9.1%",
-          "JavaScript": "6.2%",
-          "TypeScript": "4.5%",
-          "Astro": "4.5%",
-          "CSS": "1.9%",
-          "Other": "4.9%"
+          "Python": "69.2%",
+          "HTML": "8.8%",
+          "JavaScript": "6.8%",
+          "Astro": "4.4%",
+          "TypeScript": "4.3%",
+          "CSS": "1.8%",
+          "Other": "4.7%"
         }
       },
       "total_stars": 11064,
@@ -14642,8 +14642,8 @@
           "web-browser"
         ],
         "languages": {
-          "C++": "91.7%",
-          "Python": "8.2%",
+          "C++": "92.2%",
+          "Python": "7.7%",
           "Other": "0.1%"
         }
       },
@@ -15783,13 +15783,13 @@
           "ux-design"
         ],
         "languages": {
-          "Clojure": "75.0%",
-          "JavaScript": "7.7%",
+          "Clojure": "74.8%",
+          "JavaScript": "7.6%",
           "Rust": "6.0%",
-          "SCSS": "5.2%",
-          "TypeScript": "2.3%",
-          "HTML": "1.8%",
-          "Other": "2.0%"
+          "SCSS": "5.1%",
+          "TypeScript": "2.6%",
+          "HTML": "1.7%",
+          "Other": "2.2%"
         }
       },
       "total_stars": 40110,
@@ -16020,8 +16020,8 @@
           "discord-api"
         ],
         "languages": {
-          "MDX": "90.8%",
-          "TypeScript": "8.5%",
+          "MDX": "90.7%",
+          "TypeScript": "8.6%",
           "CSS": "0.5%",
           "HTML": "0.1%",
           "JavaScript": "0.1%",
@@ -16607,8 +16607,8 @@
           "component-library"
         ],
         "languages": {
-          "TypeScript": "56.6%",
-          "MDX": "35.3%",
+          "TypeScript": "56.1%",
+          "MDX": "35.8%",
           "CSS": "5.7%",
           "JavaScript": "2.3%",
           "Other": "0.1%"
@@ -20394,8 +20394,8 @@
         "description": null,
         "topics": [],
         "languages": {
-          "CSS": "99.4%",
-          "JavaScript": "0.6%"
+          "CSS": "99.3%",
+          "JavaScript": "0.7%"
         }
       },
       "total_stars": 320,
@@ -20675,10 +20675,10 @@
           "browser-engine"
         ],
         "languages": {
-          "C++": "55.3%",
-          "HTML": "26.1%",
-          "JavaScript": "12.6%",
-          "Rust": "3.5%",
+          "C++": "55.0%",
+          "HTML": "25.9%",
+          "JavaScript": "12.5%",
+          "Rust": "4.1%",
           "Python": "0.9%",
           "CMake": "0.6%",
           "Other": "1.0%"
@@ -22074,8 +22074,8 @@
           "freetube"
         ],
         "languages": {
-          "Vue": "45.3%",
-          "JavaScript": "44.2%",
+          "Vue": "45.4%",
+          "JavaScript": "44.1%",
           "CSS": "8.2%",
           "SCSS": "2.2%",
           "EJS": "0.1%"
@@ -27250,10 +27250,10 @@
           "seelen"
         ],
         "languages": {
-          "Rust": "56.4%",
-          "TypeScript": "29.5%",
-          "Svelte": "6.6%",
-          "CSS": "3.2%",
+          "Rust": "55.6%",
+          "TypeScript": "30.1%",
+          "Svelte": "6.7%",
+          "CSS": "3.3%",
           "SCSS": "2.1%",
           "NSIS": "1.4%",
           "Other": "0.8%"
@@ -30193,10 +30193,10 @@
           "wasm"
         ],
         "languages": {
-          "Rust": "88.2%",
+          "Rust": "88.4%",
           "Solidity": "4.6%",
-          "TypeScript": "1.6%",
-          "Vue": "1.4%",
+          "TypeScript": "1.5%",
+          "Vue": "1.3%",
           "CSS": "1.3%",
           "Shell": "1.0%",
           "Other": "1.9%"
@@ -31399,8 +31399,8 @@
           "flutter-music-app"
         ],
         "languages": {
-          "Dart": "97.5%",
-          "Kotlin": "1.7%",
+          "Dart": "97.6%",
+          "Kotlin": "1.6%",
           "Other": "0.8%"
         }
       },
@@ -39468,23 +39468,29 @@
         "description": null,
         "topics": [
           "machine-learning",
+          "privacy",
           "ai",
           "computer-vision",
           "ml",
           "agi",
           "vision",
+          "speech-to-text",
+          "audio-recording",
           "agents",
           "multimodal",
-          "llm"
+          "screen-recording",
+          "local-first",
+          "llm",
+          "local-ai"
         ],
         "languages": {
-          "Rust": "60.7%",
-          "TypeScript": "36.6%",
+          "Rust": "59.9%",
+          "TypeScript": "37.4%",
           "JavaScript": "1.1%",
-          "Swift": "0.8%",
+          "Swift": "0.7%",
           "Python": "0.2%",
           "HTML": "0.2%",
-          "Other": "0.4%"
+          "Other": "0.5%"
         }
       },
       "total_stars": 0,
@@ -39764,8 +39770,8 @@
           "hacktoberfest"
         ],
         "languages": {
-          "Python": "98.9%",
-          "Other": "1.1%"
+          "Python": "99.0%",
+          "Other": "1.0%"
         }
       },
       "total_stars": 5705,
@@ -41206,9 +41212,9 @@
           "fullstack"
         ],
         "languages": {
-          "Python": "97.0%",
+          "Python": "96.9%",
           "CSS": "1.4%",
-          "JavaScript": "1.0%",
+          "JavaScript": "1.1%",
           "PowerShell": "0.2%",
           "Shell": "0.2%",
           "Dockerfile": "0.2%"
@@ -43989,10 +43995,10 @@
           "gpui"
         ],
         "languages": {
-          "Rust": "97.7%",
+          "Rust": "97.8%",
           "Inno Setup": "0.4%",
           "Python": "0.4%",
-          "Tree-sitter Query": "0.4%",
+          "Tree-sitter Query": "0.3%",
           "Shell": "0.3%",
           "WGSL": "0.1%",
           "Other": "0.7%"
@@ -44273,12 +44279,12 @@
           "zen-browser"
         ],
         "languages": {
-          "JavaScript": "36.4%",
-          "Fluent": "27.7%",
-          "C++": "27.0%",
-          "CSS": "5.1%",
-          "HTML": "1.7%",
-          "Python": "0.9%",
+          "JavaScript": "34.4%",
+          "Fluent": "25.8%",
+          "C++": "25.6%",
+          "HTML": "7.5%",
+          "CSS": "4.7%",
+          "Python": "0.8%",
           "Other": "1.2%"
         }
       },
@@ -46511,8 +46517,9 @@
           "tkinter-designer"
         ],
         "languages": {
-          "Python": "96.7%",
-          "Makefile": "3.3%"
+          "Python": "98.1%",
+          "Makefile": "1.5%",
+          "Dockerfile": "0.4%"
         }
       },
       "total_stars": 10399,
@@ -48229,8 +48236,8 @@
           "claude-ai"
         ],
         "languages": {
-          "Python": "62.0%",
-          "TypeScript": "36.2%",
+          "Python": "62.4%",
+          "TypeScript": "35.8%",
           "Go Template": "0.9%",
           "Jinja": "0.2%",
           "Makefile": "0.2%",
@@ -49526,8 +49533,8 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "52.7%",
-          "Python": "46.1%",
+          "TypeScript": "53.4%",
+          "Python": "45.4%",
           "Other": "1.2%"
         }
       },
@@ -50462,8 +50469,8 @@
           "advanced-paste"
         ],
         "languages": {
-          "C#": "59.3%",
-          "C++": "37.8%",
+          "C#": "60.2%",
+          "C++": "36.9%",
           "PowerShell": "1.4%",
           "C": "0.7%",
           "Python": "0.7%",
@@ -52576,8 +52583,8 @@
           "infinite"
         ],
         "languages": {
-          "TypeScript": "86.7%",
-          "MDX": "7.7%",
+          "TypeScript": "86.8%",
+          "MDX": "7.6%",
           "CSS": "2.3%",
           "JavaScript": "1.4%",
           "HTML": "1.3%",
@@ -53261,13 +53268,13 @@
           "localai"
         ],
         "languages": {
-          "TypeScript": "74.0%",
-          "Rust": "21.0%",
+          "TypeScript": "75.2%",
+          "Rust": "19.8%",
           "Swift": "1.5%",
-          "Python": "1.5%",
+          "Python": "1.4%",
           "JavaScript": "0.8%",
           "Shell": "0.5%",
-          "Other": "0.7%"
+          "Other": "0.8%"
         }
       },
       "total_stars": 28817,
@@ -53876,12 +53883,12 @@
           "openclaw"
         ],
         "languages": {
-          "Python": "89.5%",
-          "TypeScript": "9.9%",
+          "Python": "88.6%",
+          "TypeScript": "10.9%",
           "Shell": "0.2%",
-          "HTML": "0.2%",
-          "JavaScript": "0.1%",
-          "CSS": "0.1%"
+          "HTML": "0.1%",
+          "CSS": "0.1%",
+          "JavaScript": "0.1%"
         }
       },
       "total_stars": 10766,
@@ -54078,23 +54085,29 @@
         "description": null,
         "topics": [
           "machine-learning",
+          "privacy",
           "ai",
           "computer-vision",
           "ml",
           "agi",
           "vision",
+          "speech-to-text",
+          "audio-recording",
           "agents",
           "multimodal",
-          "llm"
+          "screen-recording",
+          "local-first",
+          "llm",
+          "local-ai"
         ],
         "languages": {
-          "Rust": "60.7%",
-          "TypeScript": "36.6%",
+          "Rust": "59.9%",
+          "TypeScript": "37.4%",
           "JavaScript": "1.1%",
-          "Swift": "0.8%",
+          "Swift": "0.7%",
           "Python": "0.2%",
           "HTML": "0.2%",
-          "Other": "0.4%"
+          "Other": "0.5%"
         }
       },
       "total_stars": 343,
@@ -55233,12 +55246,12 @@
           "second-brain"
         ],
         "languages": {
-          "TypeScript": "93.3%",
-          "Rust": "2.7%",
-          "JavaScript": "1.9%",
-          "Shell": "0.6%",
+          "TypeScript": "93.0%",
+          "Rust": "3.0%",
+          "JavaScript": "2.0%",
           "Swift": "0.6%",
-          "Objective-C": "0.6%",
+          "Shell": "0.6%",
+          "Objective-C": "0.5%",
           "Other": "0.3%"
         }
       },
@@ -55625,8 +55638,8 @@
           "nextjs15"
         ],
         "languages": {
-          "TypeScript": "49.7%",
-          "Rust": "45.8%",
+          "TypeScript": "50.6%",
+          "Rust": "44.9%",
           "JavaScript": "2.2%",
           "MDX": "1.4%",
           "WGSL": "0.4%",
@@ -58955,20 +58968,22 @@
           "gemini",
           "openai",
           "grok",
+          "codex",
           "claude",
           "xai",
           "perplexity",
-          "large-language-models",
-          "llm",
           "prompt-engineering",
-          "generative-ai",
           "chatgpt",
           "gpt-5",
           "anthropic",
           "system-prompt",
           "system-prompts",
           "claude-code",
-          "ai-transparency"
+          "ai-transparency",
+          "claude-code-cli",
+          "gemini-3-1-pro",
+          "claude-opus-4-7",
+          "gpt-5-5"
         ],
         "languages": {}
       },
@@ -59624,9 +59639,9 @@
           "supercmd"
         ],
         "languages": {
-          "TypeScript": "93.2%",
+          "TypeScript": "93.4%",
           "Swift": "3.9%",
-          "CSS": "2.3%",
+          "CSS": "2.1%",
           "JavaScript": "0.5%",
           "Objective-C++": "0.1%",
           "HTML": "0.0%"
@@ -60294,9 +60309,9 @@
           "cursor-skills"
         ],
         "languages": {
-          "Python": "82.3%",
+          "Python": "82.4%",
           "JavaScript": "7.1%",
-          "Shell": "5.3%",
+          "Shell": "5.2%",
           "TypeScript": "2.9%",
           "HTML": "1.6%",
           "CSS": "0.2%",
@@ -60545,8 +60560,8 @@
           "playwright"
         ],
         "languages": {
-          "HTML": "55.4%",
-          "TypeScript": "41.8%",
+          "HTML": "55.3%",
+          "TypeScript": "41.9%",
           "CSS": "1.4%",
           "Other": "1.4%"
         }
@@ -61309,9 +61324,9 @@
           "context-engineering"
         ],
         "languages": {
-          "JavaScript": "70.9%",
-          "TypeScript": "28.7%",
-          "Shell": "0.4%"
+          "JavaScript": "72.0%",
+          "TypeScript": "27.5%",
+          "Shell": "0.5%"
         }
       },
       "total_stars": 8371,
@@ -62409,9 +62424,9 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "98.4%",
+          "TypeScript": "98.0%",
           "JavaScript": "1.3%",
-          "Other": "0.3%"
+          "Other": "0.7%"
         }
       },
       "total_stars": 2289,
@@ -62699,9 +62714,10 @@
           "cliamp"
         ],
         "languages": {
-          "Go": "90.4%",
-          "HTML": "8.8%",
-          "Other": "0.8%"
+          "Go": "89.1%",
+          "HTML": "8.5%",
+          "QML": "1.7%",
+          "Other": "0.7%"
         }
       },
       "total_stars": 348,
@@ -65647,12 +65663,12 @@
           "playwright"
         ],
         "languages": {
-          "Zig": "74.6%",
-          "HTML": "24.1%",
+          "Zig": "74.7%",
+          "HTML": "23.9%",
           "Rust": "0.7%",
-          "JavaScript": "0.6%",
-          "Makefile": "0.0%",
-          "Dockerfile": "0.0%"
+          "JavaScript": "0.5%",
+          "Nix": "0.1%",
+          "Makefile": "0.1%"
         }
       },
       "total_stars": 12797,
@@ -65949,8 +65965,8 @@
           "wallpaper-app"
         ],
         "languages": {
-          "C++": "94.4%",
-          "CMake": "5.2%",
+          "C++": "94.6%",
+          "CMake": "5.0%",
           "Other": "0.4%"
         }
       },
@@ -66921,8 +66937,8 @@
           "clawhub"
         ],
         "languages": {
-          "Python": "98.9%",
-          "Shell": "1.1%"
+          "Python": "99.1%",
+          "Shell": "0.9%"
         }
       },
       "total_stars": 3733,
@@ -67541,9 +67557,9 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Rust": "96.5%",
-          "Python": "3.0%",
-          "Other": "0.5%"
+          "Rust": "95.1%",
+          "Python": "4.5%",
+          "Other": "0.4%"
         }
       },
       "total_stars": 12954,
@@ -67837,8 +67853,8 @@
           "emdash"
         ],
         "languages": {
-          "TypeScript": "90.7%",
-          "Astro": "7.6%",
+          "TypeScript": "91.2%",
+          "Astro": "7.1%",
           "JavaScript": "0.9%",
           "CSS": "0.4%",
           "HTML": "0.3%",
@@ -68896,12 +68912,12 @@
           "mangowc"
         ],
         "languages": {
-          "QML": "62.5%",
-          "Go": "29.5%",
+          "QML": "63.0%",
+          "Go": "29.0%",
           "CSS": "3.1%",
           "JavaScript": "1.9%",
           "Shell": "1.4%",
-          "Python": "0.4%",
+          "Nix": "0.4%",
           "Other": "1.2%"
         }
       },
@@ -70873,13 +70889,13 @@
           "nous-research"
         ],
         "languages": {
-          "Python": "88.6%",
-          "TypeScript": "7.9%",
-          "TeX": "1.3%",
+          "Python": "88.1%",
+          "TypeScript": "8.8%",
+          "TeX": "1.2%",
           "Shell": "0.6%",
-          "BibTeX Style": "0.5%",
-          "Nix": "0.3%",
-          "Other": "0.8%"
+          "BibTeX Style": "0.4%",
+          "Nix": "0.2%",
+          "Other": "0.7%"
         }
       },
       "total_stars": 16546,
@@ -71199,9 +71215,9 @@
           "whatsapp"
         ],
         "languages": {
-          "Go": "93.0%",
-          "JavaScript": "6.7%",
-          "Swift": "0.3%"
+          "Go": "94.6%",
+          "JavaScript": "5.0%",
+          "Other": "0.4%"
         }
       },
       "total_stars": 0,
@@ -71468,7 +71484,8 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Python": "100.0%"
+          "Python": "98.6%",
+          "Other": "1.4%"
         }
       },
       "total_stars": 392,
@@ -71502,13 +71519,13 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "68.4%",
-          "JavaScript": "15.7%",
-          "Rust": "13.4%",
-          "Python": "1.2%",
-          "CSS": "0.7%",
+          "TypeScript": "69.0%",
+          "JavaScript": "15.0%",
+          "Rust": "13.6%",
+          "Python": "1.1%",
+          "CSS": "0.6%",
           "Vue": "0.4%",
-          "Other": "0.2%"
+          "Other": "0.3%"
         }
       },
       "total_stars": 0,
@@ -72497,9 +72514,9 @@
           "wlroots"
         ],
         "languages": {
-          "C": "95.8%",
-          "Nix": "3.0%",
-          "Other": "1.2%"
+          "C": "95.9%",
+          "Nix": "3.1%",
+          "Other": "1.0%"
         }
       },
       "total_stars": 81,
@@ -72874,8 +72891,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 8078,
-      "total_forks": 545
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "nexu-io/open-design",
@@ -72947,12 +72964,12 @@
           "claude-code-for-design"
         ],
         "languages": {
-          "TypeScript": "54.5%",
-          "HTML": "31.3%",
-          "Python": "6.1%",
-          "CSS": "4.4%",
-          "JavaScript": "3.1%",
-          "Nix": "0.3%",
+          "TypeScript": "53.4%",
+          "HTML": "33.9%",
+          "CSS": "4.7%",
+          "JavaScript": "3.7%",
+          "Python": "3.5%",
+          "Astro": "0.5%",
           "Other": "0.3%"
         }
       },
@@ -73568,10 +73585,10 @@
           "mirroring"
         ],
         "languages": {
-          "C": "63.9%",
-          "Java": "31.8%",
+          "C": "63.1%",
+          "Java": "32.7%",
           "Roff": "1.7%",
-          "Shell": "1.7%",
+          "Shell": "1.6%",
           "Meson": "0.7%",
           "AIDL": "0.2%"
         }
@@ -74450,8 +74467,8 @@
           "better-auth"
         ],
         "languages": {
-          "TypeScript": "99.0%",
-          "Other": "1.0%"
+          "TypeScript": "99.4%",
+          "Other": "0.6%"
         }
       },
       "total_stars": 533,
@@ -74490,9 +74507,9 @@
           "whatsapp"
         ],
         "languages": {
-          "Go": "93.0%",
-          "JavaScript": "6.7%",
-          "Swift": "0.3%"
+          "Go": "94.6%",
+          "JavaScript": "5.0%",
+          "Other": "0.4%"
         }
       },
       "total_stars": 0,
@@ -74793,6 +74810,370 @@
       },
       "total_stars": 570,
       "total_forks": 200
+    },
+    {
+      "repo": "Ademking/SkillPrompts",
+      "recommendations": [
+        {
+          "repo": "Ademking/SkillPrompts",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "chrome-extension",
+              "ai",
+              "firefox-addon",
+              "skills",
+              "browser-extension",
+              "prompts"
+            ],
+            "languages": {
+              "TypeScript": "99.2%",
+              "Other": "0.8%"
+            }
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [
+          "chrome-extension",
+          "ai",
+          "firefox-addon",
+          "skills",
+          "browser-extension",
+          "prompts"
+        ],
+        "languages": {
+          "TypeScript": "99.2%",
+          "Other": "0.8%"
+        }
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "kernalix7/winpodx",
+      "recommendations": [
+        {
+          "repo": "kernalix7/winpodx",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "88.5%",
+              "PowerShell": "6.3%",
+              "Shell": "2.5%",
+              "Batchfile": "1.9%",
+              "Rust": "0.5%",
+              "Nix": "0.2%",
+              "VBScript": "0.1%"
+            }
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {
+          "Python": "88.5%",
+          "PowerShell": "6.3%",
+          "Shell": "2.5%",
+          "Batchfile": "1.9%",
+          "Rust": "0.5%",
+          "Nix": "0.2%",
+          "VBScript": "0.1%"
+        }
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "dmitry-s93/MControlCenter",
+      "recommendations": [
+        {
+          "repo": "BeardOverflow/msi-ec",
+          "count": 13,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "C": "91.4%",
+              "Makefile": "7.0%",
+              "Shell": "1.6%"
+            }
+          },
+          "total_stars": 297,
+          "total_forks": 97,
+          "score": 0.043771
+        },
+        {
+          "repo": "YoyPa/isw",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "isw",
+              "embedded-controller",
+              "msi-laptop",
+              "gs40-6qe"
+            ],
+            "languages": {
+              "Python": "100.0%"
+            }
+          },
+          "total_stars": 444,
+          "total_forks": 114,
+          "score": 0.011261
+        },
+        {
+          "repo": "YoCodingMonster/OpenFreezeCenter",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "81.0%",
+              "Shell": "19.0%"
+            }
+          },
+          "total_stars": 399,
+          "total_forks": 72,
+          "score": 0.010025
+        },
+        {
+          "repo": "microsoft/vscode",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "electron",
+              "microsoft",
+              "editor",
+              "typescript",
+              "visual-studio-code"
+            ],
+            "languages": {
+              "TypeScript": "95.7%",
+              "CSS": "1.4%",
+              "JavaScript": "0.9%",
+              "HTML": "0.6%",
+              "Rust": "0.5%",
+              "Inno Setup": "0.3%",
+              "Other": "0.6%"
+            }
+          },
+          "total_stars": 124475,
+          "total_forks": 37127,
+          "score": 3.2e-05
+        },
+        {
+          "repo": "FaridZelli/ISW-Modern",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "linux",
+              "debian",
+              "ubuntu",
+              "fan-control",
+              "fedora",
+              "opensuse",
+              "msi",
+              "isw",
+              "msi-laptop"
+            ],
+            "languages": {
+              "Python": "59.2%",
+              "C": "35.9%",
+              "Makefile": "3.8%",
+              "Shell": "1.1%"
+            }
+          },
+          "total_stars": 92,
+          "total_forks": 13,
+          "score": 0.043478
+        },
+        {
+          "repo": "NixOS/nixpkgs",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "linux",
+              "nix",
+              "nixos",
+              "nixpkgs",
+              "hacktoberfest"
+            ],
+            "languages": {
+              "Nix": "95.3%",
+              "Shell": "2.0%",
+              "Python": "1.8%",
+              "Rust": "0.3%",
+              "JavaScript": "0.2%",
+              "Perl": "0.2%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 23987,
+          "total_forks": 24077,
+          "score": 0.000167
+        },
+        {
+          "repo": "massgravel/Microsoft-Activation-Scripts",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "microsoft",
+              "windows",
+              "kms",
+              "powershell",
+              "office",
+              "windows-10",
+              "office365",
+              "activator",
+              "hwid",
+              "windows-11",
+              "microsoft365",
+              "kms38",
+              "massgrave",
+              "massgravel",
+              "ohook",
+              "tsforge"
+            ],
+            "languages": {
+              "Batchfile": "100.0%"
+            }
+          },
+          "total_stars": 151825,
+          "total_forks": 15220,
+          "score": 2.6e-05
+        },
+        {
+          "repo": "flathub/flathub",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "flatpak",
+              "flathub"
+            ],
+            "languages": {}
+          },
+          "total_stars": 1474,
+          "total_forks": 4625,
+          "score": 0.002714
+        },
+        {
+          "repo": "anuraghazra/github-readme-stats",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "serverless",
+              "dynamic",
+              "readme-generator",
+              "profile-readme",
+              "readme-stats"
+            ],
+            "languages": {
+              "JavaScript": "99.9%",
+              "Shell": "0.1%"
+            }
+          },
+          "total_stars": 80717,
+          "total_forks": 41857,
+          "score": 3.7e-05
+        },
+        {
+          "repo": "rafaelmardojai/firefox-gnome-theme",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "css",
+              "theme",
+              "firefox",
+              "gtk",
+              "gnome",
+              "userchrome"
+            ],
+            "languages": {
+              "CSS": "87.1%",
+              "Shell": "10.0%",
+              "Python": "2.6%",
+              "JavaScript": "0.3%"
+            }
+          },
+          "total_stars": 4367,
+          "total_forks": 327,
+          "score": 0.000687
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [
+          "linux",
+          "settings",
+          "control",
+          "laptop",
+          "msi",
+          "msi-laptop"
+        ],
+        "languages": {
+          "C++": "94.8%",
+          "CMake": "2.7%",
+          "Shell": "1.8%",
+          "C": "0.7%"
+        }
+      },
+      "total_stars": 490,
+      "total_forks": 94
+    },
+    {
+      "repo": "reakjra/omikuji",
+      "recommendations": [
+        {
+          "repo": "reakjra/omikuji",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Rust": "56.1%",
+              "QML": "42.4%",
+              "Other": "1.5%"
+            }
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {
+          "Rust": "56.1%",
+          "QML": "42.4%",
+          "Other": "1.5%"
+        }
+      },
+      "total_stars": 0,
+      "total_forks": 0
     }
   ]
 }
