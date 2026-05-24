@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T01:57:11.957538+00:00",
+  "generated_at": "2026-05-24T02:05:14.142547+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -884,9 +884,9 @@
         ],
         "languages": {
           "TypeScript": "91.9%",
-          "Swift": "3.7%",
+          "Swift": "3.5%",
           "JavaScript": "2.1%",
-          "Kotlin": "0.9%",
+          "Kotlin": "1.1%",
           "Shell": "0.8%",
           "CSS": "0.4%",
           "Other": "0.2%"
@@ -2279,13 +2279,13 @@
           "lakehouse"
         ],
         "languages": {
-          "C++": "70.2%",
-          "Python": "11.2%",
-          "Assembly": "8.0%",
+          "C++": "70.1%",
+          "Python": "11.3%",
+          "Assembly": "7.9%",
           "Shell": "4.7%",
           "C": "2.0%",
           "Jinja": "1.3%",
-          "Other": "2.6%"
+          "Other": "2.7%"
         }
       },
       "total_stars": 37334,
@@ -4112,7 +4112,8 @@
           "cli-tool",
           "github-copilot",
           "apertre",
-          "ecwoc26"
+          "ecwoc26",
+          "gssoc26"
         ],
         "languages": {
           "Go": "100.0%"
@@ -4147,13 +4148,13 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "95.6%",
-          "CSS": "2.3%",
-          "PLpgSQL": "1.2%",
-          "Other": "0.9%"
+          "TypeScript": "92.0%",
+          "JavaScript": "5.2%",
+          "CSS": "2.2%",
+          "HTML": "0.6%"
         }
       },
-      "total_stars": 32,
+      "total_stars": 0,
       "total_forks": 0
     },
     {
@@ -6948,12 +6949,12 @@
           "cockroachdb"
         ],
         "languages": {
-          "TypeScript": "56.8%",
-          "Vue": "25.8%",
-          "JavaScript": "9.6%",
-          "SCSS": "6.6%",
+          "TypeScript": "57.9%",
+          "Vue": "25.3%",
+          "JavaScript": "9.4%",
+          "SCSS": "6.3%",
           "Shell": "0.7%",
-          "CSS": "0.3%",
+          "CSS": "0.2%",
           "Other": "0.2%"
         }
       },
@@ -8685,8 +8686,8 @@
           "pdf-ocr"
         ],
         "languages": {
-          "JavaScript": "46.9%",
-          "Fluent": "20.8%",
+          "JavaScript": "47.0%",
+          "Fluent": "20.7%",
           "TypeScript": "14.6%",
           "HTML": "14.0%",
           "CSS": "3.5%",
@@ -9480,13 +9481,13 @@
           "custom-agents"
         ],
         "languages": {
-          "Python": "69.2%",
-          "HTML": "8.8%",
-          "JavaScript": "6.8%",
+          "Python": "69.0%",
+          "HTML": "8.7%",
+          "JavaScript": "7.0%",
           "Astro": "4.4%",
           "TypeScript": "4.3%",
           "CSS": "1.8%",
-          "Other": "4.7%"
+          "Other": "4.8%"
         }
       },
       "total_stars": 11064,
@@ -13022,8 +13023,8 @@
           "nushell"
         ],
         "languages": {
-          "Rust": "97.3%",
-          "Nushell": "2.5%",
+          "Rust": "97.2%",
+          "Nushell": "2.6%",
           "Nix": "0.1%",
           "Python": "0.1%",
           "JavaScript": "0.0%",
@@ -15783,11 +15784,11 @@
           "ux-design"
         ],
         "languages": {
-          "Clojure": "74.8%",
+          "Clojure": "74.7%",
           "JavaScript": "7.6%",
           "Rust": "6.0%",
           "SCSS": "5.1%",
-          "TypeScript": "2.6%",
+          "TypeScript": "2.7%",
           "HTML": "1.7%",
           "Other": "2.2%"
         }
@@ -16607,10 +16608,10 @@
           "component-library"
         ],
         "languages": {
-          "TypeScript": "56.1%",
-          "MDX": "35.8%",
-          "CSS": "5.7%",
-          "JavaScript": "2.3%",
+          "TypeScript": "55.5%",
+          "MDX": "36.8%",
+          "CSS": "5.4%",
+          "JavaScript": "2.2%",
           "Other": "0.1%"
         }
       },
@@ -20675,10 +20676,10 @@
           "browser-engine"
         ],
         "languages": {
-          "C++": "55.0%",
-          "HTML": "25.9%",
-          "JavaScript": "12.5%",
-          "Rust": "4.1%",
+          "C++": "54.7%",
+          "HTML": "26.0%",
+          "JavaScript": "12.3%",
+          "Rust": "4.5%",
           "Python": "0.9%",
           "CMake": "0.6%",
           "Other": "1.0%"
@@ -22075,8 +22076,8 @@
         ],
         "languages": {
           "Vue": "45.4%",
-          "JavaScript": "44.1%",
-          "CSS": "8.2%",
+          "JavaScript": "44.2%",
+          "CSS": "8.1%",
           "SCSS": "2.2%",
           "EJS": "0.1%"
         }
@@ -23332,11 +23333,11 @@
           "anymex"
         ],
         "languages": {
-          "Dart": "98.1%",
+          "Dart": "98.0%",
           "C++": "0.7%",
           "CMake": "0.4%",
           "Shell": "0.4%",
-          "Python": "0.2%",
+          "Python": "0.3%",
           "Swift": "0.1%",
           "Other": "0.1%"
         }
@@ -25569,9 +25570,9 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "93.7%",
-          "CSS": "4.8%",
-          "JavaScript": "1.2%",
+          "TypeScript": "93.8%",
+          "CSS": "4.6%",
+          "JavaScript": "1.3%",
           "Other": "0.3%"
         }
       },
@@ -27251,8 +27252,8 @@
         ],
         "languages": {
           "Rust": "55.6%",
-          "TypeScript": "30.1%",
-          "Svelte": "6.7%",
+          "TypeScript": "30.2%",
+          "Svelte": "6.6%",
           "CSS": "3.3%",
           "SCSS": "2.1%",
           "NSIS": "1.4%",
@@ -39474,6 +39475,7 @@
           "ml",
           "agi",
           "vision",
+          "ycombinator",
           "speech-to-text",
           "audio-recording",
           "agents",
@@ -39484,13 +39486,13 @@
           "local-ai"
         ],
         "languages": {
-          "Rust": "59.9%",
-          "TypeScript": "37.4%",
-          "JavaScript": "1.1%",
-          "Swift": "0.7%",
-          "Python": "0.2%",
+          "Rust": "61.5%",
+          "TypeScript": "34.7%",
+          "JavaScript": "2.0%",
+          "Swift": "1.1%",
           "HTML": "0.2%",
-          "Other": "0.5%"
+          "Python": "0.2%",
+          "Other": "0.3%"
         }
       },
       "total_stars": 0,
@@ -41212,8 +41214,8 @@
           "fullstack"
         ],
         "languages": {
-          "Python": "96.9%",
-          "CSS": "1.4%",
+          "Python": "97.0%",
+          "CSS": "1.3%",
           "JavaScript": "1.1%",
           "PowerShell": "0.2%",
           "Shell": "0.2%",
@@ -42112,8 +42114,8 @@
           "qwen3"
         ],
         "languages": {
-          "JavaScript": "98.4%",
-          "CSS": "1.1%",
+          "JavaScript": "98.5%",
+          "CSS": "1.0%",
           "Dockerfile": "0.3%",
           "HTML": "0.1%",
           "Shell": "0.1%",
@@ -44279,9 +44281,9 @@
           "zen-browser"
         ],
         "languages": {
-          "JavaScript": "34.4%",
+          "JavaScript": "34.3%",
           "Fluent": "25.8%",
-          "C++": "25.6%",
+          "C++": "25.7%",
           "HTML": "7.5%",
           "CSS": "4.7%",
           "Python": "0.8%",
@@ -48236,12 +48238,12 @@
           "claude-ai"
         ],
         "languages": {
-          "Python": "62.4%",
-          "TypeScript": "35.8%",
-          "Go Template": "0.9%",
+          "Python": "62.9%",
+          "TypeScript": "35.5%",
+          "Go Template": "0.8%",
           "Jinja": "0.2%",
           "Makefile": "0.2%",
-          "CSS": "0.2%",
+          "CSS": "0.1%",
           "Other": "0.3%"
         }
       },
@@ -50469,8 +50471,8 @@
           "advanced-paste"
         ],
         "languages": {
-          "C#": "60.2%",
-          "C++": "36.9%",
+          "C#": "60.9%",
+          "C++": "36.2%",
           "PowerShell": "1.4%",
           "C": "0.7%",
           "Python": "0.7%",
@@ -52584,10 +52586,10 @@
         ],
         "languages": {
           "TypeScript": "86.8%",
-          "MDX": "7.6%",
+          "MDX": "7.7%",
           "CSS": "2.3%",
-          "JavaScript": "1.4%",
           "HTML": "1.3%",
+          "JavaScript": "1.3%",
           "Shell": "0.3%",
           "Other": "0.3%"
         }
@@ -53268,13 +53270,13 @@
           "localai"
         ],
         "languages": {
-          "TypeScript": "75.2%",
-          "Rust": "19.8%",
-          "Swift": "1.5%",
+          "TypeScript": "75.4%",
+          "Rust": "19.6%",
+          "Swift": "1.7%",
           "Python": "1.4%",
           "JavaScript": "0.8%",
-          "Shell": "0.5%",
-          "Other": "0.8%"
+          "Shell": "0.4%",
+          "Other": "0.7%"
         }
       },
       "total_stars": 28817,
@@ -53569,12 +53571,12 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "96.5%",
-          "JavaScript": "2.9%",
+          "TypeScript": "93.4%",
+          "JavaScript": "5.8%",
           "CSS": "0.4%",
-          "Shell": "0.2%",
-          "HTML": "0.0%",
-          "C": "0.0%"
+          "Shell": "0.3%",
+          "C": "0.1%",
+          "HTML": "0.0%"
         }
       },
       "total_stars": 0,
@@ -53880,14 +53882,15 @@
           "chatgpt",
           "anthropic",
           "claude-code",
+          "codex-cli",
           "openclaw"
         ],
         "languages": {
-          "Python": "88.6%",
-          "TypeScript": "10.9%",
+          "Python": "84.6%",
+          "TypeScript": "14.9%",
           "Shell": "0.2%",
-          "HTML": "0.1%",
           "CSS": "0.1%",
+          "HTML": "0.1%",
           "JavaScript": "0.1%"
         }
       },
@@ -54091,6 +54094,7 @@
           "ml",
           "agi",
           "vision",
+          "ycombinator",
           "speech-to-text",
           "audio-recording",
           "agents",
@@ -54101,13 +54105,13 @@
           "local-ai"
         ],
         "languages": {
-          "Rust": "59.9%",
-          "TypeScript": "37.4%",
-          "JavaScript": "1.1%",
-          "Swift": "0.7%",
-          "Python": "0.2%",
+          "Rust": "61.6%",
+          "TypeScript": "34.6%",
+          "JavaScript": "2.0%",
+          "Swift": "1.1%",
           "HTML": "0.2%",
-          "Other": "0.5%"
+          "Python": "0.2%",
+          "Other": "0.3%"
         }
       },
       "total_stars": 343,
@@ -55246,13 +55250,13 @@
           "second-brain"
         ],
         "languages": {
-          "TypeScript": "93.0%",
+          "TypeScript": "92.8%",
           "Rust": "3.0%",
           "JavaScript": "2.0%",
           "Swift": "0.6%",
           "Shell": "0.6%",
           "Objective-C": "0.5%",
-          "Other": "0.3%"
+          "Other": "0.5%"
         }
       },
       "total_stars": 260,
@@ -55638,12 +55642,12 @@
           "nextjs15"
         ],
         "languages": {
-          "TypeScript": "50.6%",
-          "Rust": "44.9%",
+          "TypeScript": "50.0%",
+          "Rust": "45.2%",
           "JavaScript": "2.2%",
           "MDX": "1.4%",
+          "CSS": "0.5%",
           "WGSL": "0.4%",
-          "CSS": "0.2%",
           "Other": "0.3%"
         }
       },
@@ -58964,26 +58968,26 @@
       "metadata": {
         "description": null,
         "topics": [
+          "nlp",
+          "open-source",
+          "education",
+          "machine-learning",
+          "natural-language-processing",
+          "google",
+          "awesome",
           "ai",
+          "deep-learning",
+          "chatbot",
           "gemini",
           "openai",
-          "grok",
           "codex",
           "claude",
-          "xai",
-          "perplexity",
+          "llm",
           "prompt-engineering",
+          "generative-ai",
           "chatgpt",
-          "gpt-5",
           "anthropic",
-          "system-prompt",
-          "system-prompts",
-          "claude-code",
-          "ai-transparency",
-          "claude-code-cli",
-          "gemini-3-1-pro",
-          "claude-opus-4-7",
-          "gpt-5-5"
+          "claude-code"
         ],
         "languages": {}
       },
@@ -59639,10 +59643,10 @@
           "supercmd"
         ],
         "languages": {
-          "TypeScript": "93.4%",
-          "Swift": "3.9%",
-          "CSS": "2.1%",
-          "JavaScript": "0.5%",
+          "TypeScript": "93.3%",
+          "Swift": "3.4%",
+          "CSS": "1.9%",
+          "JavaScript": "1.3%",
           "Objective-C++": "0.1%",
           "HTML": "0.0%"
         }
@@ -60309,9 +60313,9 @@
           "cursor-skills"
         ],
         "languages": {
-          "Python": "82.4%",
-          "JavaScript": "7.1%",
-          "Shell": "5.2%",
+          "Python": "82.2%",
+          "JavaScript": "7.2%",
+          "Shell": "5.3%",
           "TypeScript": "2.9%",
           "HTML": "1.6%",
           "CSS": "0.2%",
@@ -60560,10 +60564,10 @@
           "playwright"
         ],
         "languages": {
-          "HTML": "55.3%",
-          "TypeScript": "41.9%",
-          "CSS": "1.4%",
-          "Other": "1.4%"
+          "HTML": "59.6%",
+          "TypeScript": "38.8%",
+          "JavaScript": "1.1%",
+          "Other": "0.5%"
         }
       },
       "total_stars": 1207,
@@ -61324,9 +61328,9 @@
           "context-engineering"
         ],
         "languages": {
-          "JavaScript": "72.0%",
-          "TypeScript": "27.5%",
-          "Shell": "0.5%"
+          "JavaScript": "73.1%",
+          "TypeScript": "26.5%",
+          "Shell": "0.4%"
         }
       },
       "total_stars": 8371,
@@ -61652,8 +61656,8 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Python": "94.6%",
-          "Shell": "5.1%",
+          "Python": "94.7%",
+          "Shell": "5.0%",
           "TypeScript": "0.3%"
         }
       },
@@ -62714,8 +62718,8 @@
           "cliamp"
         ],
         "languages": {
-          "Go": "89.1%",
-          "HTML": "8.5%",
+          "Go": "89.2%",
+          "HTML": "8.4%",
           "QML": "1.7%",
           "Other": "0.7%"
         }
@@ -63969,9 +63973,9 @@
           "floss"
         ],
         "languages": {
-          "Shell": "84.1%",
-          "XSLT": "11.2%",
-          "JavaScript": "4.4%",
+          "Shell": "84.2%",
+          "XSLT": "11.0%",
+          "JavaScript": "4.5%",
           "Other": "0.3%"
         }
       },
@@ -65663,12 +65667,13 @@
           "playwright"
         ],
         "languages": {
-          "Zig": "74.7%",
-          "HTML": "23.9%",
+          "Zig": "74.6%",
+          "HTML": "23.8%",
           "Rust": "0.7%",
-          "JavaScript": "0.5%",
+          "JavaScript": "0.6%",
           "Nix": "0.1%",
-          "Makefile": "0.1%"
+          "Makefile": "0.1%",
+          "Other": "0.1%"
         }
       },
       "total_stars": 12797,
@@ -66329,8 +66334,8 @@
           "good-first-contribution"
         ],
         "languages": {
-          "TypeScript": "77.7%",
-          "MDX": "19.7%",
+          "TypeScript": "77.8%",
+          "MDX": "19.6%",
           "JavaScript": "2.2%",
           "CSS": "0.2%",
           "Shell": "0.2%",
@@ -66937,8 +66942,8 @@
           "clawhub"
         ],
         "languages": {
-          "Python": "99.1%",
-          "Shell": "0.9%"
+          "Python": "98.9%",
+          "Shell": "1.1%"
         }
       },
       "total_stars": 3733,
@@ -67853,8 +67858,8 @@
           "emdash"
         ],
         "languages": {
-          "TypeScript": "91.2%",
-          "Astro": "7.1%",
+          "TypeScript": "91.7%",
+          "Astro": "6.6%",
           "JavaScript": "0.9%",
           "CSS": "0.4%",
           "HTML": "0.3%",
@@ -68442,9 +68447,9 @@
           "agent-config"
         ],
         "languages": {
-          "TypeScript": "96.7%",
+          "TypeScript": "96.6%",
           "JavaScript": "2.1%",
-          "Shell": "1.2%"
+          "Shell": "1.3%"
         }
       },
       "total_stars": 115,
@@ -68912,13 +68917,13 @@
           "mangowc"
         ],
         "languages": {
-          "QML": "63.0%",
-          "Go": "29.0%",
-          "CSS": "3.1%",
+          "QML": "62.8%",
+          "Go": "29.1%",
+          "CSS": "3.0%",
           "JavaScript": "1.9%",
           "Shell": "1.4%",
           "Nix": "0.4%",
-          "Other": "1.2%"
+          "Other": "1.4%"
         }
       },
       "total_stars": 1997,
@@ -70889,13 +70894,13 @@
           "nous-research"
         ],
         "languages": {
-          "Python": "88.1%",
-          "TypeScript": "8.8%",
-          "TeX": "1.2%",
-          "Shell": "0.6%",
+          "Python": "88.6%",
+          "TypeScript": "8.5%",
+          "TeX": "1.1%",
+          "Shell": "0.5%",
           "BibTeX Style": "0.4%",
-          "Nix": "0.2%",
-          "Other": "0.7%"
+          "PowerShell": "0.3%",
+          "Other": "0.6%"
         }
       },
       "total_stars": 16546,
@@ -71215,9 +71220,9 @@
           "whatsapp"
         ],
         "languages": {
-          "Go": "94.6%",
-          "JavaScript": "5.0%",
-          "Other": "0.4%"
+          "Go": "95.4%",
+          "JavaScript": "4.3%",
+          "Other": "0.3%"
         }
       },
       "total_stars": 0,
@@ -71484,8 +71489,13 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Python": "98.6%",
-          "Other": "1.4%"
+          "Python": "98.0%",
+          "JavaScript": "0.8%",
+          "CSS": "0.4%",
+          "Shell": "0.3%",
+          "PowerShell": "0.3%",
+          "HTML": "0.1%",
+          "Mermaid": "0.1%"
         }
       },
       "total_stars": 392,
@@ -71519,13 +71529,13 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "69.0%",
-          "JavaScript": "15.0%",
-          "Rust": "13.6%",
+          "TypeScript": "69.3%",
+          "JavaScript": "14.7%",
+          "Rust": "13.7%",
           "Python": "1.1%",
           "CSS": "0.6%",
           "Vue": "0.4%",
-          "Other": "0.3%"
+          "Other": "0.2%"
         }
       },
       "total_stars": 0,
@@ -72514,9 +72524,9 @@
           "wlroots"
         ],
         "languages": {
-          "C": "95.9%",
-          "Nix": "3.1%",
-          "Other": "1.0%"
+          "C": "95.1%",
+          "Nix": "2.9%",
+          "Other": "2.0%"
         }
       },
       "total_stars": 81,
@@ -72964,12 +72974,12 @@
           "claude-code-for-design"
         ],
         "languages": {
-          "TypeScript": "53.4%",
-          "HTML": "33.9%",
-          "CSS": "4.7%",
-          "JavaScript": "3.7%",
-          "Python": "3.5%",
-          "Astro": "0.5%",
+          "TypeScript": "55.3%",
+          "HTML": "31.1%",
+          "CSS": "6.5%",
+          "JavaScript": "3.0%",
+          "Python": "2.6%",
+          "Astro": "1.2%",
           "Other": "0.3%"
         }
       },
@@ -74467,8 +74477,8 @@
           "better-auth"
         ],
         "languages": {
-          "TypeScript": "99.4%",
-          "Other": "0.6%"
+          "TypeScript": "99.5%",
+          "Other": "0.5%"
         }
       },
       "total_stars": 533,
@@ -74507,9 +74517,9 @@
           "whatsapp"
         ],
         "languages": {
-          "Go": "94.6%",
-          "JavaScript": "5.0%",
-          "Other": "0.4%"
+          "Go": "95.4%",
+          "JavaScript": "4.3%",
+          "Other": "0.3%"
         }
       },
       "total_stars": 0,
@@ -74543,12 +74553,12 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "96.5%",
-          "JavaScript": "2.9%",
+          "TypeScript": "93.4%",
+          "JavaScript": "5.8%",
           "CSS": "0.4%",
-          "Shell": "0.2%",
-          "HTML": "0.0%",
-          "C": "0.0%"
+          "Shell": "0.3%",
+          "C": "0.1%",
+          "HTML": "0.0%"
         }
       },
       "total_stars": 0,
@@ -74885,11 +74895,11 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Python": "88.5%",
-          "PowerShell": "6.3%",
-          "Shell": "2.5%",
+          "Python": "87.4%",
+          "PowerShell": "6.0%",
+          "Shell": "4.0%",
           "Batchfile": "1.9%",
-          "Rust": "0.5%",
+          "Rust": "0.4%",
           "Nix": "0.2%",
           "VBScript": "0.1%"
         }
@@ -75167,13 +75177,593 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Rust": "56.1%",
-          "QML": "42.4%",
-          "Other": "1.5%"
+          "Rust": "55.4%",
+          "QML": "41.8%",
+          "Nix": "1.3%",
+          "GLSL": "0.7%",
+          "C++": "0.5%",
+          "JavaScript": "0.2%",
+          "Shell": "0.1%"
         }
       },
       "total_stars": 0,
       "total_forks": 0
+    },
+    {
+      "repo": "datalab-to/marker",
+      "recommendations": [
+        {
+          "repo": "langgenius/dify",
+          "count": 23,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "agent",
+              "workflow",
+              "automation",
+              "ai",
+              "mcp",
+              "nextjs",
+              "orchestration",
+              "gemini",
+              "openai",
+              "gpt",
+              "low-code",
+              "no-code",
+              "rag",
+              "gpt-4",
+              "llm",
+              "genai",
+              "agentic-framework",
+              "agentic-workflow",
+              "agentic-ai"
+            ],
+            "languages": {
+              "TypeScript": "52.8%",
+              "Python": "42.5%",
+              "JavaScript": "2.5%",
+              "MDX": "1.4%",
+              "CSS": "0.4%",
+              "HTML": "0.3%",
+              "Other": "0.1%"
+            }
+          },
+          "total_stars": 114531,
+          "total_forks": 18546,
+          "score": 0.000201
+        },
+        {
+          "repo": "Shubhamsaboo/awesome-llm-apps",
+          "count": 19,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "agents",
+              "rag",
+              "llms"
+            ],
+            "languages": {
+              "Python": "67.7%",
+              "JavaScript": "21.4%",
+              "TypeScript": "8.2%",
+              "CSS": "1.6%",
+              "HTML": "1.0%",
+              "PLpgSQL": "0.1%"
+            }
+          },
+          "total_stars": 65637,
+          "total_forks": 7936,
+          "score": 0.000289
+        },
+        {
+          "repo": "docling-project/docling",
+          "count": 19,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "html",
+              "markdown",
+              "pdf",
+              "ai",
+              "convert",
+              "xlsx",
+              "pdf-converter",
+              "docx",
+              "documents",
+              "pptx",
+              "pdf-to-text",
+              "tables",
+              "document-parser",
+              "pdf-to-json",
+              "document-parsing"
+            ],
+            "languages": {
+              "Python": "99.2%",
+              "Other": "0.8%"
+            }
+          },
+          "total_stars": 17639,
+          "total_forks": 1335,
+          "score": 0.001077
+        },
+        {
+          "repo": "microsoft/markitdown",
+          "count": 19,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "markdown",
+              "pdf",
+              "openai",
+              "microsoft-office",
+              "autogen",
+              "langchain",
+              "autogen-extension"
+            ],
+            "languages": {
+              "Python": "99.7%",
+              "Dockerfile": "0.3%"
+            }
+          },
+          "total_stars": 75080,
+          "total_forks": 4129,
+          "score": 0.000253
+        },
+        {
+          "repo": "infiniflow/ragflow",
+          "count": 17,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ai",
+              "ai-agents",
+              "rag",
+              "context-engine",
+              "retrieval-augmented-generation",
+              "llm-apps",
+              "context-management",
+              "agentic-search",
+              "agentic-ai",
+              "agentic-retrieval"
+            ],
+            "languages": {
+              "Python": "44.1%",
+              "TypeScript": "29.2%",
+              "Go": "17.3%",
+              "C++": "7.8%",
+              "C": "0.8%",
+              "Shell": "0.3%",
+              "Other": "0.5%"
+            }
+          },
+          "total_stars": 63094,
+          "total_forks": 6698,
+          "score": 0.000269
+        },
+        {
+          "repo": "microsoft/autogen",
+          "count": 17,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "framework",
+              "ai",
+              "agents",
+              "autogen",
+              "chatgpt",
+              "llm-agent",
+              "agentic",
+              "llm-framework",
+              "agentic-agi",
+              "autogen-ecosystem"
+            ],
+            "languages": {
+              "Python": "61.7%",
+              "C#": "25.1%",
+              "TypeScript": "12.4%",
+              "HTML": "0.3%",
+              "JavaScript": "0.2%",
+              "Jupyter Notebook": "0.1%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 49145,
+          "total_forks": 7880,
+          "score": 0.000346
+        },
+        {
+          "repo": "BerriAI/litellm",
+          "count": 16,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "gateway",
+              "bedrock",
+              "openai",
+              "vertex-ai",
+              "azure-openai",
+              "llm",
+              "langchain",
+              "llmops",
+              "anthropic",
+              "openai-proxy",
+              "litellm",
+              "ai-gateway",
+              "llm-gateway",
+              "mcp-gateway"
+            ],
+            "languages": {
+              "Python": "84.2%",
+              "TypeScript": "14.1%",
+              "HTML": "1.2%",
+              "JavaScript": "0.2%",
+              "HCL": "0.2%",
+              "Shell": "0.1%"
+            }
+          },
+          "total_stars": 29829,
+          "total_forks": 4622,
+          "score": 0.000536
+        },
+        {
+          "repo": "opendatalab/MinerU",
+          "count": 16,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "pdf",
+              "parser",
+              "ocr",
+              "xlsx",
+              "pdf-converter",
+              "docx",
+              "pptx",
+              "extract-data",
+              "document-analysis",
+              "pdf-parser",
+              "layout-analysis",
+              "ai4science",
+              "pdf-extractor-rag",
+              "pdf-extractor-llm",
+              "pdf-extractor-pretrain"
+            ],
+            "languages": {
+              "Python": "99.3%",
+              "Dockerfile": "0.7%"
+            }
+          },
+          "total_stars": 43845,
+          "total_forks": 3612,
+          "score": 0.000365
+        },
+        {
+          "repo": "unclecode/crawl4ai",
+          "count": 16,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "98.8%",
+              "Other": "1.2%"
+            }
+          },
+          "total_stars": 50629,
+          "total_forks": 5047,
+          "score": 0.000316
+        },
+        {
+          "repo": "geekan/MetaGPT",
+          "count": 16,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "agent",
+              "multi-agent",
+              "gpt",
+              "llm",
+              "metagpt"
+            ],
+            "languages": {
+              "Python": "97.5%",
+              "Other": "2.5%"
+            }
+          },
+          "total_stars": 55104,
+          "total_forks": 6870,
+          "score": 0.00029
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {
+          "Python": "99.7%",
+          "Shell": "0.3%"
+        }
+      },
+      "total_stars": 3433,
+      "total_forks": 275
+    },
+    {
+      "repo": "elementdavv/internet_archive_downloader",
+      "recommendations": [
+        {
+          "repo": "MiniGlome/Archive.org-Downloader",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "100.0%"
+            }
+          },
+          "total_stars": 1123,
+          "total_forks": 158,
+          "score": 0.005343
+        },
+        {
+          "repo": "EbookFoundation/free-programming-books",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "education",
+              "list",
+              "books",
+              "resource",
+              "hacktoberfest"
+            ],
+            "languages": {
+              "Python": "98.9%",
+              "HTML": "1.1%"
+            }
+          },
+          "total_stars": 311891,
+          "total_forks": 54626,
+          "score": 1.9e-05
+        },
+        {
+          "repo": "public-apis/public-apis",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "api",
+              "lists",
+              "open-source",
+              "list",
+              "development",
+              "public",
+              "resources",
+              "dataset",
+              "free",
+              "software",
+              "apis",
+              "public-api",
+              "public-apis"
+            ],
+            "languages": {
+              "Python": "96.8%",
+              "Shell": "3.2%"
+            }
+          },
+          "total_stars": 336083,
+          "total_forks": 37788,
+          "score": 1.5e-05
+        },
+        {
+          "repo": "alyssaxuu/screenity",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "audio",
+              "javascript",
+              "chrome-extension",
+              "editor",
+              "productivity",
+              "design",
+              "video",
+              "camera",
+              "ffmpeg",
+              "annotation",
+              "tensorflow",
+              "screen-recorder",
+              "screen-capture",
+              "recorder",
+              "screencast",
+              "annotation-tool"
+            ],
+            "languages": {
+              "JavaScript": "86.5%",
+              "SCSS": "5.5%",
+              "CSS": "4.4%",
+              "TypeScript": "3.1%",
+              "Other": "0.5%"
+            }
+          },
+          "total_stars": 16597,
+          "total_forks": 1374,
+          "score": 0.000241
+        },
+        {
+          "repo": "trimstray/the-book-of-secret-knowledge",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "linux",
+              "lists",
+              "security",
+              "devops",
+              "awesome",
+              "hacking",
+              "resources",
+              "bsd",
+              "awesome-list",
+              "guidelines",
+              "hacks",
+              "sysops",
+              "cheatsheets",
+              "search-engines",
+              "howtos",
+              "pentesters",
+              "manuals",
+              "one-liners",
+              "security-researchers"
+            ],
+            "languages": {}
+          },
+          "total_stars": 197931,
+          "total_forks": 12003,
+          "score": 2e-05
+        },
+        {
+          "repo": "ytdl-org/youtube-dl",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "99.7%",
+              "Other": "0.3%"
+            }
+          },
+          "total_stars": 103493,
+          "total_forks": 19964,
+          "score": 3.9e-05
+        },
+        {
+          "repo": "massgravel/Microsoft-Activation-Scripts",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "microsoft",
+              "windows",
+              "kms",
+              "powershell",
+              "office",
+              "windows-10",
+              "office365",
+              "activator",
+              "hwid",
+              "windows-11",
+              "microsoft365",
+              "kms38",
+              "massgrave",
+              "massgravel",
+              "ohook",
+              "tsforge"
+            ],
+            "languages": {
+              "Batchfile": "100.0%"
+            }
+          },
+          "total_stars": 151825,
+          "total_forks": 15220,
+          "score": 2.6e-05
+        },
+        {
+          "repo": "ventoy/Ventoy",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "windows",
+              "linux",
+              "unix",
+              "legacy",
+              "usb",
+              "x86-64",
+              "multiboot",
+              "persistence",
+              "bsd",
+              "x86",
+              "uefi",
+              "arm64",
+              "chromeos",
+              "iso-files",
+              "secure-boot",
+              "unattended",
+              "auto-install",
+              "bootable-usb"
+            ],
+            "languages": {
+              "C": "84.6%",
+              "Shell": "5.4%",
+              "HTML": "3.1%",
+              "C++": "2.1%",
+              "CSS": "1.3%",
+              "Makefile": "1.2%",
+              "Other": "2.3%"
+            }
+          },
+          "total_stars": 72875,
+          "total_forks": 5463,
+          "score": 5.5e-05
+        },
+        {
+          "repo": "iperov/DeepFaceLive",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "machine-learning",
+              "streaming",
+              "real-time",
+              "faceswap",
+              "webcam",
+              "videocall",
+              "deepfake"
+            ],
+            "languages": {
+              "Python": "99.8%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 29364,
+          "total_forks": 5388,
+          "score": 0.000136
+        },
+        {
+          "repo": "yt-dlp/yt-dlp",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "python",
+              "cli",
+              "downloader",
+              "youtube-dl",
+              "youtube-downloader",
+              "sponsorblock",
+              "yt-dlp"
+            ],
+            "languages": {
+              "Python": "99.9%",
+              "Other": "0.1%"
+            }
+          },
+          "total_stars": 128026,
+          "total_forks": 12201,
+          "score": 3.1e-05
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {
+          "JavaScript": "96.1%",
+          "HTML": "2.3%",
+          "CSS": "1.6%"
+        }
+      },
+      "total_stars": 949,
+      "total_forks": 58
     }
   ]
 }
