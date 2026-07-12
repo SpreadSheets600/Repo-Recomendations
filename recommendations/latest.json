@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T01:56:44.489202+00:00",
+  "generated_at": "2026-07-12T01:29:46.929855+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -883,13 +883,13 @@
           "openclaw"
         ],
         "languages": {
-          "TypeScript": "91.2%",
-          "Swift": "3.5%",
+          "TypeScript": "89.4%",
+          "Swift": "4.9%",
           "JavaScript": "2.8%",
-          "Kotlin": "1.2%",
+          "Kotlin": "1.5%",
           "Shell": "0.7%",
           "CSS": "0.4%",
-          "Other": "0.2%"
+          "Other": "0.3%"
         }
       },
       "total_stars": 73306,
@@ -2279,10 +2279,10 @@
           "lakehouse"
         ],
         "languages": {
-          "C++": "70.3%",
-          "Python": "11.6%",
-          "Assembly": "7.2%",
-          "Shell": "5.2%",
+          "C++": "70.2%",
+          "Python": "11.7%",
+          "Assembly": "7.1%",
+          "Shell": "5.3%",
           "C": "1.8%",
           "Jinja": "1.2%",
           "Other": "2.7%"
@@ -6953,13 +6953,13 @@
           "cockroachdb"
         ],
         "languages": {
-          "TypeScript": "58.7%",
-          "Vue": "24.2%",
+          "TypeScript": "58.6%",
+          "Vue": "24.1%",
           "JavaScript": "9.5%",
-          "SCSS": "6.0%",
-          "Shell": "1.1%",
+          "SCSS": "5.9%",
+          "Shell": "1.3%",
           "CSS": "0.2%",
-          "Other": "0.3%"
+          "Other": "0.4%"
         }
       },
       "total_stars": 4415,
@@ -7342,8 +7342,8 @@
           "anydesk"
         ],
         "languages": {
-          "Rust": "67.8%",
-          "Dart": "24.2%",
+          "Rust": "67.9%",
+          "Dart": "24.1%",
           "C++": "1.9%",
           "Python": "1.6%",
           "C": "1.4%",
@@ -7377,8 +7377,10 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "98.3%",
-          "Batchfile": "1.5%",
+          "TypeScript": "93.2%",
+          "Python": "3.0%",
+          "Shell": "2.2%",
+          "Batchfile": "1.4%",
           "JavaScript": "0.2%"
         }
       },
@@ -9485,13 +9487,13 @@
           "custom-agents"
         ],
         "languages": {
-          "Python": "57.4%",
-          "JavaScript": "21.1%",
-          "HTML": "5.5%",
-          "TypeScript": "4.4%",
-          "Astro": "3.7%",
-          "PowerShell": "2.6%",
-          "Other": "5.3%"
+          "Python": "53.0%",
+          "JavaScript": "25.5%",
+          "HTML": "5.1%",
+          "Astro": "4.5%",
+          "TypeScript": "4.3%",
+          "PowerShell": "2.4%",
+          "Other": "5.2%"
         }
       },
       "total_stars": 6957,
@@ -14646,8 +14648,8 @@
           "web-browser"
         ],
         "languages": {
-          "C++": "92.1%",
-          "Python": "7.8%",
+          "C++": "92.2%",
+          "Python": "7.7%",
           "Other": "0.1%"
         }
       },
@@ -15205,8 +15207,9 @@
           "videoeditor"
         ],
         "languages": {
-          "TypeScript": "97.9%",
-          "CSS": "2.1%"
+          "TypeScript": "97.2%",
+          "CSS": "2.1%",
+          "Rust": "0.7%"
         }
       },
       "total_stars": 4663,
@@ -15782,11 +15785,11 @@
           "ux-design"
         ],
         "languages": {
-          "Clojure": "72.9%",
-          "JavaScript": "7.6%",
-          "Rust": "6.2%",
-          "SCSS": "4.7%",
-          "TypeScript": "4.4%",
+          "Clojure": "73.0%",
+          "JavaScript": "7.5%",
+          "Rust": "6.1%",
+          "SCSS": "4.6%",
+          "TypeScript": "4.6%",
           "HTML": "1.7%",
           "Other": "2.5%"
         }
@@ -18595,12 +18598,12 @@
           "mcp-client"
         ],
         "languages": {
-          "TypeScript": "98.1%",
+          "TypeScript": "97.9%",
           "JavaScript": "1.7%",
+          "Python": "0.2%",
           "Shell": "0.1%",
           "C#": "0.1%",
-          "HTML": "0.0%",
-          "Dockerfile": "0.0%"
+          "HTML": "0.0%"
         }
       },
       "total_stars": 9795,
@@ -19565,12 +19568,13 @@
           "hianime"
         ],
         "languages": {
-          "Dart": "88.9%",
-          "C": "5.9%",
+          "Dart": "90.0%",
+          "C": "5.1%",
           "Shell": "2.0%",
-          "C++": "1.7%",
-          "CMake": "1.1%",
-          "Java": "0.4%"
+          "C++": "1.4%",
+          "CMake": "1.0%",
+          "Java": "0.4%",
+          "Other": "0.1%"
         }
       },
       "total_stars": 40,
@@ -20673,12 +20677,12 @@
           "browser-engine"
         ],
         "languages": {
-          "C++": "55.9%",
-          "HTML": "22.8%",
-          "JavaScript": "12.2%",
-          "Rust": "5.1%",
-          "Python": "2.3%",
-          "CMake": "0.6%",
+          "C++": "56.1%",
+          "HTML": "23.0%",
+          "JavaScript": "12.1%",
+          "Rust": "5.0%",
+          "Python": "2.2%",
+          "CMake": "0.5%",
           "Other": "1.1%"
         }
       },
@@ -21752,9 +21756,9 @@
           "mal-sync"
         ],
         "languages": {
-          "TypeScript": "67.4%",
-          "Vue": "16.5%",
-          "JavaScript": "10.9%",
+          "TypeScript": "67.7%",
+          "Vue": "16.3%",
+          "JavaScript": "10.8%",
           "Less": "5.1%",
           "HTML": "0.1%"
         }
@@ -22072,8 +22076,8 @@
           "freetube"
         ],
         "languages": {
-          "Vue": "45.1%",
-          "JavaScript": "44.5%",
+          "Vue": "45.3%",
+          "JavaScript": "44.3%",
           "CSS": "8.1%",
           "SCSS": "2.2%",
           "EJS": "0.1%"
@@ -23330,12 +23334,12 @@
           "anymex"
         ],
         "languages": {
-          "Dart": "98.0%",
+          "Dart": "97.8%",
           "C++": "0.7%",
           "CMake": "0.4%",
           "Shell": "0.3%",
           "Python": "0.3%",
-          "Swift": "0.1%",
+          "Kotlin": "0.3%",
           "Other": "0.2%"
         }
       },
@@ -23918,9 +23922,9 @@
           "anime-library"
         ],
         "languages": {
-          "Go": "45.4%",
+          "Go": "45.5%",
           "TypeScript": "38.0%",
-          "GLSL": "14.5%",
+          "GLSL": "14.4%",
           "JavaScript": "1.8%",
           "CSS": "0.2%",
           "HTML": "0.1%"
@@ -24559,10 +24563,10 @@
           "legcord"
         ],
         "languages": {
-          "TypeScript": "81.2%",
-          "CSS": "14.8%",
+          "TypeScript": "81.4%",
+          "CSS": "14.7%",
           "JavaScript": "2.5%",
-          "HTML": "1.5%"
+          "HTML": "1.4%"
         }
       },
       "total_stars": 166,
@@ -25563,8 +25567,8 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "93.6%",
-          "CSS": "4.8%",
+          "TypeScript": "93.4%",
+          "CSS": "5.0%",
           "JavaScript": "1.3%",
           "Other": "0.3%"
         }
@@ -27244,13 +27248,13 @@
           "seelen"
         ],
         "languages": {
-          "Rust": "56.6%",
-          "TypeScript": "26.7%",
-          "Svelte": "9.0%",
-          "CSS": "3.2%",
-          "SCSS": "2.2%",
-          "NSIS": "1.4%",
-          "Other": "0.9%"
+          "Rust": "57.4%",
+          "TypeScript": "26.2%",
+          "Svelte": "8.9%",
+          "CSS": "3.1%",
+          "SCSS": "2.1%",
+          "NSIS": "1.3%",
+          "Other": "1.0%"
         }
       },
       "total_stars": 1524,
@@ -32802,11 +32806,11 @@
           "hacktoberfest"
         ],
         "languages": {
-          "Python": "95.4%",
+          "Python": "95.5%",
           "Go": "1.5%",
           "Shell": "1.3%",
           "JavaScript": "0.9%",
-          "Makefile": "0.7%",
+          "Makefile": "0.6%",
           "Dockerfile": "0.1%",
           "Nix": "0.1%"
         }
@@ -39482,12 +39486,12 @@
           "hermes-agent"
         ],
         "languages": {
-          "Rust": "59.8%",
-          "TypeScript": "36.8%",
+          "Rust": "60.1%",
+          "TypeScript": "36.4%",
           "JavaScript": "1.7%",
           "Swift": "0.8%",
           "Python": "0.4%",
-          "Shell": "0.2%",
+          "Shell": "0.3%",
           "Other": "0.3%"
         }
       },
@@ -42097,18 +42101,22 @@
           "localai",
           "local-ai",
           "agentic-ai",
+          "computer-use",
           "self-hosted-ai",
+          "agent-orchestration",
           "agent-harness",
           "open-claw",
-          "hermes-agent"
+          "hermes-agent",
+          "agent-computer"
         ],
         "languages": {
-          "JavaScript": "98.7%",
-          "CSS": "1.0%",
-          "Dockerfile": "0.2%",
-          "HTML": "0.1%",
-          "Shell": "0.0%",
-          "Go Template": "0.0%"
+          "JavaScript": "94.5%",
+          "TypeScript": "1.9%",
+          "CSS": "1.4%",
+          "HTML": "1.0%",
+          "Shell": "0.6%",
+          "Python": "0.3%",
+          "Other": "0.3%"
         }
       },
       "total_stars": 18203,
@@ -44270,8 +44278,8 @@
           "zen-browser"
         ],
         "languages": {
-          "JavaScript": "34.9%",
-          "Fluent": "26.2%",
+          "JavaScript": "34.8%",
+          "Fluent": "26.3%",
           "C++": "25.1%",
           "HTML": "7.2%",
           "CSS": "4.7%",
@@ -48227,8 +48235,8 @@
           "claude-ai"
         ],
         "languages": {
-          "Python": "64.5%",
-          "TypeScript": "34.1%",
+          "Python": "65.0%",
+          "TypeScript": "33.6%",
           "Go Template": "0.7%",
           "Jinja": "0.2%",
           "Makefile": "0.1%",
@@ -49524,10 +49532,10 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Python": "50.4%",
-          "TypeScript": "48.0%",
+          "Python": "50.1%",
+          "TypeScript": "48.2%",
           "HTML": "0.7%",
-          "CSS": "0.4%",
+          "CSS": "0.5%",
           "JavaScript": "0.3%",
           "Dockerfile": "0.1%",
           "Shell": "0.1%"
@@ -50464,9 +50472,9 @@
           "advanced-paste"
         ],
         "languages": {
-          "C": "55.8%",
-          "C#": "27.0%",
-          "C++": "16.2%",
+          "C": "55.5%",
+          "C#": "27.4%",
+          "C++": "16.1%",
           "PowerShell": "0.6%",
           "Python": "0.3%",
           "JavaScript": "0.1%"
@@ -51005,13 +51013,13 @@
           "coding-agent"
         ],
         "languages": {
-          "Rust": "96.3%",
-          "Python": "2.8%",
+          "Rust": "96.6%",
+          "Python": "2.6%",
           "Starlark": "0.2%",
           "TypeScript": "0.2%",
           "Shell": "0.2%",
           "PowerShell": "0.1%",
-          "Other": "0.2%"
+          "Other": "0.1%"
         }
       },
       "total_stars": 0,
@@ -52584,12 +52592,12 @@
           "infinite"
         ],
         "languages": {
-          "TypeScript": "87.3%",
+          "TypeScript": "87.2%",
           "MDX": "7.4%",
           "CSS": "2.2%",
           "JavaScript": "1.3%",
           "HTML": "1.2%",
-          "Shell": "0.3%",
+          "Shell": "0.4%",
           "Other": "0.3%"
         }
       },
@@ -53256,8 +53264,8 @@
           "localai"
         ],
         "languages": {
-          "TypeScript": "75.8%",
-          "Rust": "19.4%",
+          "TypeScript": "75.5%",
+          "Rust": "19.7%",
           "Swift": "1.6%",
           "Python": "1.3%",
           "JavaScript": "0.7%",
@@ -53872,8 +53880,8 @@
           "openclaw"
         ],
         "languages": {
-          "Python": "79.2%",
-          "TypeScript": "20.2%",
+          "Python": "79.1%",
+          "TypeScript": "20.3%",
           "Shell": "0.2%",
           "CSS": "0.2%",
           "PowerShell": "0.1%",
@@ -54095,12 +54103,12 @@
           "hermes-agent"
         ],
         "languages": {
-          "Rust": "59.8%",
-          "TypeScript": "36.8%",
+          "Rust": "60.1%",
+          "TypeScript": "36.4%",
           "JavaScript": "1.7%",
           "Swift": "0.8%",
           "Python": "0.4%",
-          "Shell": "0.2%",
+          "Shell": "0.3%",
           "Other": "0.3%"
         }
       },
@@ -55240,8 +55248,8 @@
           "second-brain"
         ],
         "languages": {
-          "TypeScript": "93.0%",
-          "Rust": "3.2%",
+          "TypeScript": "92.9%",
+          "Rust": "3.3%",
           "JavaScript": "1.9%",
           "Swift": "0.6%",
           "Objective-C": "0.5%",
@@ -55632,11 +55640,11 @@
           "nextjs15"
         ],
         "languages": {
-          "TypeScript": "51.6%",
-          "Rust": "43.7%",
-          "JavaScript": "2.0%",
-          "MDX": "1.2%",
-          "CSS": "0.8%",
+          "TypeScript": "50.8%",
+          "Rust": "44.6%",
+          "JavaScript": "1.9%",
+          "MDX": "1.3%",
+          "CSS": "0.7%",
           "WGSL": "0.3%",
           "Other": "0.4%"
         }
@@ -59360,11 +59368,11 @@
           "fluxerapp"
         ],
         "languages": {
-          "TypeScript": "68.5%",
+          "TypeScript": "68.7%",
           "Rust": "17.2%",
-          "Erlang": "8.6%",
+          "Erlang": "8.5%",
           "CSS": "3.0%",
-          "JavaScript": "2.0%",
+          "JavaScript": "1.9%",
           "C": "0.2%",
           "Other": "0.5%"
         }
@@ -59398,15 +59406,9 @@
       "metadata": {
         "description": null,
         "topics": [],
-        "languages": {
-          "TypeScript": "80.1%",
-          "Rust": "17.5%",
-          "JavaScript": "1.2%",
-          "CSS": "1.1%",
-          "HTML": "0.1%"
-        }
+        "languages": {}
       },
-      "total_stars": 2,
+      "total_stars": 0,
       "total_forks": 0
     },
     {
@@ -59639,9 +59641,9 @@
           "supercmd"
         ],
         "languages": {
-          "TypeScript": "92.1%",
-          "Swift": "4.0%",
-          "JavaScript": "2.0%",
+          "TypeScript": "90.2%",
+          "JavaScript": "4.1%",
+          "Swift": "3.8%",
           "CSS": "1.8%",
           "Objective-C++": "0.1%",
           "HTML": "0.0%"
@@ -60309,17 +60311,17 @@
           "cursor-skills"
         ],
         "languages": {
-          "Python": "72.1%",
-          "JavaScript": "17.4%",
-          "Shell": "5.1%",
+          "Python": "71.8%",
+          "JavaScript": "17.6%",
+          "Shell": "5.2%",
           "HTML": "2.7%",
           "TypeScript": "2.3%",
           "CSS": "0.2%",
           "Other": "0.2%"
         }
       },
-      "total_stars": 9116,
-      "total_forks": 1420
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "remorses/playwriter",
@@ -60997,8 +60999,8 @@
           "data-analysis"
         ],
         "languages": {
-          "Python": "92.8%",
-          "Cython": "5.3%",
+          "Python": "92.7%",
+          "Cython": "5.4%",
           "C++": "1.0%",
           "Shell": "0.3%",
           "C": "0.3%",
@@ -61652,9 +61654,9 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Python": "94.8%",
-          "Shell": "4.9%",
-          "TypeScript": "0.3%"
+          "Python": "95.6%",
+          "Shell": "4.2%",
+          "TypeScript": "0.2%"
         }
       },
       "total_stars": 2914,
@@ -61848,21 +61850,11 @@
       ],
       "metadata": {
         "description": null,
-        "topics": [
-          "movies",
-          "tv-series",
-          "movies-api",
-          "moviebox",
-          "moviebox-api",
-          "aoneroom-api"
-        ],
-        "languages": {
-          "Python": "99.8%",
-          "Makefile": "0.2%"
-        }
+        "topics": [],
+        "languages": {}
       },
-      "total_stars": 20,
-      "total_forks": 15
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "ashish0kumar/windots",
@@ -62717,10 +62709,10 @@
           "cliamp"
         ],
         "languages": {
-          "Go": "90.0%",
-          "HTML": "7.9%",
-          "QML": "1.5%",
-          "Other": "0.6%"
+          "Go": "90.2%",
+          "HTML": "7.7%",
+          "QML": "1.4%",
+          "Other": "0.7%"
         }
       },
       "total_stars": 409,
@@ -63972,9 +63964,9 @@
           "floss"
         ],
         "languages": {
-          "Shell": "84.2%",
-          "XSLT": "11.0%",
-          "JavaScript": "4.5%",
+          "Shell": "84.0%",
+          "XSLT": "11.1%",
+          "JavaScript": "4.6%",
           "Other": "0.3%"
         }
       },
@@ -66942,9 +66934,9 @@
           "clawhub"
         ],
         "languages": {
-          "Python": "96.9%",
-          "Go": "1.7%",
-          "Other": "1.4%"
+          "Python": "97.2%",
+          "Go": "1.5%",
+          "Other": "1.3%"
         }
       },
       "total_stars": 5216,
@@ -67859,10 +67851,10 @@
           "emdash"
         ],
         "languages": {
-          "TypeScript": "91.5%",
-          "Astro": "6.8%",
-          "JavaScript": "0.9%",
-          "CSS": "0.5%",
+          "TypeScript": "92.1%",
+          "Astro": "6.4%",
+          "JavaScript": "0.8%",
+          "CSS": "0.4%",
           "HTML": "0.2%",
           "Shell": "0.1%"
         }
@@ -68175,7 +68167,7 @@
           "Astro": "0.2%",
           "CSS": "0.1%",
           "PowerShell": "0.0%",
-          "Dockerfile": "0.0%"
+          "Tree-sitter Query": "0.0%"
         }
       },
       "total_stars": 5152,
@@ -68918,13 +68910,13 @@
           "miracle-wm"
         ],
         "languages": {
-          "QML": "64.3%",
-          "Go": "28.0%",
+          "QML": "63.6%",
+          "Go": "28.4%",
           "CSS": "2.7%",
           "JavaScript": "1.9%",
-          "Shell": "1.3%",
-          "GLSL": "0.4%",
-          "Other": "1.4%"
+          "Shell": "1.4%",
+          "Python": "0.5%",
+          "Other": "1.5%"
         }
       },
       "total_stars": 1863,
@@ -69013,9 +69005,9 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Shell": "91.9%",
-          "PowerShell": "4.6%",
-          "sed": "3.5%"
+          "Shell": "92.3%",
+          "PowerShell": "4.4%",
+          "sed": "3.3%"
         }
       },
       "total_stars": 2,
@@ -70898,10 +70890,10 @@
           "nous-research"
         ],
         "languages": {
-          "Python": "82.1%",
-          "TypeScript": "14.2%",
-          "JavaScript": "1.4%",
-          "TeX": "0.7%",
+          "Python": "82.4%",
+          "TypeScript": "14.9%",
+          "TeX": "0.6%",
+          "JavaScript": "0.5%",
           "Shell": "0.4%",
           "PowerShell": "0.3%",
           "Other": "0.9%"
@@ -71224,8 +71216,8 @@
           "whatsapp"
         ],
         "languages": {
-          "Go": "95.3%",
-          "JavaScript": "4.4%",
+          "Go": "85.5%",
+          "JavaScript": "14.2%",
           "Other": "0.3%"
         }
       },
@@ -71493,11 +71485,11 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Python": "97.3%",
-          "PowerShell": "0.9%",
-          "Shell": "0.7%",
-          "JavaScript": "0.6%",
-          "CSS": "0.3%",
+          "Python": "97.5%",
+          "PowerShell": "0.7%",
+          "Shell": "0.6%",
+          "JavaScript": "0.5%",
+          "CSS": "0.5%",
           "HTML": "0.1%",
           "Mermaid": "0.1%"
         }
@@ -71533,8 +71525,8 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "72.4%",
-          "Rust": "13.2%",
+          "TypeScript": "72.6%",
+          "Rust": "13.0%",
           "JavaScript": "12.3%",
           "Python": "0.8%",
           "CSS": "0.6%",
@@ -72528,8 +72520,8 @@
           "wlroots"
         ],
         "languages": {
-          "C": "94.8%",
-          "Nix": "2.7%",
+          "C": "94.7%",
+          "Nix": "2.8%",
           "C++": "1.1%",
           "Meson": "0.7%",
           "Roff": "0.4%",
@@ -72981,10 +72973,10 @@
           "cursor-design"
         ],
         "languages": {
-          "TypeScript": "66.3%",
-          "HTML": "24.7%",
-          "CSS": "4.3%",
-          "JavaScript": "1.9%",
+          "TypeScript": "67.4%",
+          "HTML": "23.8%",
+          "CSS": "4.2%",
+          "JavaScript": "1.8%",
           "Astro": "1.5%",
           "Python": "1.0%",
           "Other": "0.3%"
@@ -73832,8 +73824,8 @@
         "description": null,
         "topics": [],
         "languages": {
-          "C++": "48.4%",
-          "Shell": "43.6%",
+          "C++": "48.1%",
+          "Shell": "43.9%",
           "Dockerfile": "8.0%"
         }
       },
@@ -74484,8 +74476,8 @@
           "better-auth"
         ],
         "languages": {
-          "TypeScript": "99.5%",
-          "Other": "0.5%"
+          "TypeScript": "99.4%",
+          "Other": "0.6%"
         }
       },
       "total_stars": 757,
@@ -74524,8 +74516,8 @@
           "whatsapp"
         ],
         "languages": {
-          "Go": "95.3%",
-          "JavaScript": "4.4%",
+          "Go": "85.5%",
+          "JavaScript": "14.2%",
           "Other": "0.3%"
         }
       },
@@ -74902,8 +74894,8 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Python": "86.5%",
-          "PowerShell": "4.6%",
+          "Python": "86.4%",
+          "PowerShell": "4.7%",
           "Shell": "4.0%",
           "HTML": "2.2%",
           "Batchfile": "1.2%",
@@ -75184,11 +75176,11 @@
         "description": null,
         "topics": [],
         "languages": {
-          "Rust": "56.1%",
-          "QML": "40.6%",
+          "Rust": "56.8%",
+          "QML": "40.0%",
           "Nix": "1.2%",
           "Shell": "0.7%",
-          "GLSL": "0.7%",
+          "GLSL": "0.6%",
           "C++": "0.5%",
           "JavaScript": "0.2%"
         }
@@ -77659,9 +77651,9 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "92.9%",
-          "HTML": "5.7%",
-          "Other": "1.4%"
+          "TypeScript": "93.6%",
+          "HTML": "5.3%",
+          "Other": "1.1%"
         }
       },
       "total_stars": 2,
@@ -78547,7 +78539,11 @@
         ],
         "languages": {
           "Dart": "99.5%",
-          "Other": "0.5%"
+          "C++": "0.3%",
+          "CMake": "0.2%",
+          "Swift": "0.0%",
+          "Ruby": "0.0%",
+          "C": "0.0%"
         }
       },
       "total_stars": 34,
@@ -79571,13 +79567,13 @@
           "coding-agent"
         ],
         "languages": {
-          "Rust": "96.3%",
-          "Python": "2.8%",
+          "Rust": "96.6%",
+          "Python": "2.6%",
           "Starlark": "0.2%",
           "TypeScript": "0.2%",
           "Shell": "0.2%",
           "PowerShell": "0.1%",
-          "Other": "0.2%"
+          "Other": "0.1%"
         }
       },
       "total_stars": 12,
@@ -79930,12 +79926,12 @@
           "athas"
         ],
         "languages": {
-          "TypeScript": "80.4%",
-          "Rust": "14.7%",
+          "TypeScript": "80.5%",
+          "Rust": "14.6%",
           "Tree-sitter Query": "2.2%",
           "HTML": "1.1%",
           "CSS": "0.9%",
-          "Shell": "0.3%",
+          "JavaScript": "0.3%",
           "Other": "0.4%"
         }
       },
@@ -82122,12 +82118,12 @@
           "p2p",
           "torrent-client",
           "zero-configuration",
+          "crossplatform",
           "magnet-links"
         ],
         "languages": {
-          "TypeScript": "98.3%",
-          "Nix": "1.2%",
-          "JavaScript": "0.5%"
+          "TypeScript": "98.2%",
+          "Other": "1.8%"
         }
       },
       "total_stars": 58,
@@ -82388,8 +82384,8 @@
         "description": null,
         "topics": [],
         "languages": {
-          "TypeScript": "54.6%",
-          "JavaScript": "45.4%"
+          "TypeScript": "84.1%",
+          "JavaScript": "15.9%"
         }
       },
       "total_stars": 42,
@@ -82431,6 +82427,349 @@
         ],
         "languages": {
           "Python": "100.0%"
+        }
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "shanselman/winget-tui",
+      "recommendations": [
+        {
+          "repo": "Jackeish/asciinema",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Rust": "91.4%",
+              "Shell": "6.5%",
+              "Other": "2.1%"
+            }
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        },
+        {
+          "repo": "dcrebbin/cursor-unchained",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "TypeScript": "85.5%",
+              "Svelte": "12.4%",
+              "JavaScript": "1.4%",
+              "Other": "0.7%"
+            }
+          },
+          "total_stars": 65,
+          "total_forks": 8,
+          "score": 0.015385
+        },
+        {
+          "repo": "pacbypass/CVE-2025-11001",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "100.0%"
+            }
+          },
+          "total_stars": 64,
+          "total_forks": 1,
+          "score": 0.015625
+        },
+        {
+          "repo": "yohey-w/multi-agent-shogun",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "tmux",
+              "automation",
+              "multi-agent",
+              "shogun",
+              "parallel-processing",
+              "samurai",
+              "ai-agent",
+              "llm",
+              "anthropic",
+              "claude-code"
+            ],
+            "languages": {
+              "Shell": "78.9%",
+              "Kotlin": "16.0%",
+              "Python": "3.2%",
+              "Other": "1.9%"
+            }
+          },
+          "total_stars": 340,
+          "total_forks": 110,
+          "score": 0.002941
+        },
+        {
+          "repo": "pgplex/pgtui",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "go",
+              "cli",
+              "terminal",
+              "database",
+              "postgresql",
+              "tui"
+            ],
+            "languages": {
+              "Go": "99.7%",
+              "Makefile": "0.3%"
+            }
+          },
+          "total_stars": 5,
+          "total_forks": 1,
+          "score": 0.2
+        },
+        {
+          "repo": "Nut-Squad/viztracer",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        },
+        {
+          "repo": "akshayaggarwal99/jarvis-ai-assistant",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "mac",
+              "ai",
+              "voice",
+              "ironman",
+              "assistant",
+              "jarvis",
+              "dictation",
+              "jarvis-ai",
+              "jarvisai",
+              "ironman-mode"
+            ],
+            "languages": {
+              "TypeScript": "77.7%",
+              "Swift": "7.5%",
+              "HTML": "4.1%",
+              "Objective-C++": "2.4%",
+              "Python": "2.4%",
+              "Makefile": "2.1%",
+              "Other": "3.8%"
+            }
+          },
+          "total_stars": 183,
+          "total_forks": 25,
+          "score": 0.005464
+        },
+        {
+          "repo": "Jackeish/etingof_pysnmp",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        },
+        {
+          "repo": "ggml-org/llama.cpp",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "ggml"
+            ],
+            "languages": {
+              "C++": "55.8%",
+              "C": "16.9%",
+              "Python": "7.1%",
+              "Cuda": "5.0%",
+              "TypeScript": "3.5%",
+              "HTML": "2.4%",
+              "Other": "9.3%"
+            }
+          },
+          "total_stars": 6759,
+          "total_forks": 1135,
+          "score": 0.000148
+        },
+        {
+          "repo": "Jackeish/strawberry",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {
+              "Python": "98.4%",
+              "TypeScript": "1.1%",
+              "HTML": "0.3%",
+              "CSS": "0.2%",
+              "JavaScript": "0.0%",
+              "Dockerfile": "0.0%"
+            }
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {
+          "Rust": "100.0%"
+        }
+      },
+      "total_stars": 68,
+      "total_forks": 5
+    },
+    {
+      "repo": "armync/ArminC-Windows-Debloat",
+      "recommendations": [
+        {
+          "repo": "armync/ArminC-Windows-Debloat",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "windows",
+              "privacy",
+              "guide",
+              "iso",
+              "rufus",
+              "annoying",
+              "enhance",
+              "debloat",
+              "bloat",
+              "windows11"
+            ],
+            "languages": {
+              "Assembly": "65.3%",
+              "BitBake": "34.7%"
+            }
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [
+          "windows",
+          "privacy",
+          "guide",
+          "iso",
+          "rufus",
+          "annoying",
+          "enhance",
+          "debloat",
+          "bloat",
+          "windows11"
+        ],
+        "languages": {
+          "Assembly": "65.3%",
+          "BitBake": "34.7%"
+        }
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "recommendations": [
+        {
+          "repo": "sickn33/agentic-awesome-skills",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [
+              "mcp",
+              "developer-tools",
+              "cursor",
+              "ai-agents",
+              "ai-workflows",
+              "gemini-cli",
+              "antigravity",
+              "ai-coding",
+              "agent-skills",
+              "claude-code",
+              "codex-cli",
+              "kiro",
+              "claude-code-skills",
+              "codex-skills",
+              "gemini-skills",
+              "agentic-skills",
+              "ai-agent-skills",
+              "antigravity-skills",
+              "skill-library",
+              "cursor-skills"
+            ],
+            "languages": {
+              "Python": "71.8%",
+              "JavaScript": "17.6%",
+              "Shell": "5.2%",
+              "HTML": "2.7%",
+              "TypeScript": "2.3%",
+              "CSS": "0.2%",
+              "Other": "0.2%"
+            }
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [
+          "mcp",
+          "developer-tools",
+          "cursor",
+          "ai-agents",
+          "ai-workflows",
+          "gemini-cli",
+          "antigravity",
+          "ai-coding",
+          "agent-skills",
+          "claude-code",
+          "codex-cli",
+          "kiro",
+          "claude-code-skills",
+          "codex-skills",
+          "gemini-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "antigravity-skills",
+          "skill-library",
+          "cursor-skills"
+        ],
+        "languages": {
+          "Python": "71.8%",
+          "JavaScript": "17.6%",
+          "Shell": "5.2%",
+          "HTML": "2.7%",
+          "TypeScript": "2.3%",
+          "CSS": "0.2%",
+          "Other": "0.2%"
         }
       },
       "total_stars": 0,
