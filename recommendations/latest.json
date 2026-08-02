@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T01:44:10.556457+00:00",
+  "generated_at": "2026-08-02T01:43:30.872133+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -78973,6 +78973,188 @@
       },
       "total_stars": 0,
       "total_forks": 0
+    },
+    {
+      "repo": "mesamirh/MovieBox-Tui",
+      "recommendations": [
+        {
+          "repo": "mesamirh/MovieBox-Tui",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "noFAYZ/zuno",
+      "recommendations": [
+        {
+          "repo": "noFAYZ/zuno",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "qbittorrent/qBittorrent",
+      "recommendations": [
+        {
+          "repo": "arvidn/libtorrent",
+          "count": 38,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 922,
+          "total_forks": 150,
+          "score": 0.041215
+        },
+        {
+          "repo": "AUTOMATIC1111/stable-diffusion-webui",
+          "count": 33,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 106203,
+          "total_forks": 21597,
+          "score": 0.000311
+        },
+        {
+          "repo": "Yidadaa/ChatGPT-Next-Web",
+          "count": 26,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 52076,
+          "total_forks": 56019,
+          "score": 0.000499
+        },
+        {
+          "repo": "obsproject/obs-studio",
+          "count": 23,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 14270,
+          "total_forks": 1849,
+          "score": 0.001612
+        },
+        {
+          "repo": "practical-tutorials/project-based-learning",
+          "count": 22,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 98605,
+          "total_forks": 12548,
+          "score": 0.000223
+        },
+        {
+          "repo": "FFmpeg/FFmpeg",
+          "count": 21,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 12120,
+          "total_forks": 1971,
+          "score": 0.001733
+        },
+        {
+          "repo": "rustdesk/rustdesk",
+          "count": 21,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 35217,
+          "total_forks": 7278,
+          "score": 0.000596
+        },
+        {
+          "repo": "jellyfin/jellyfin",
+          "count": 21,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 14519,
+          "total_forks": 1512,
+          "score": 0.001446
+        },
+        {
+          "repo": "EbookFoundation/free-programming-books",
+          "count": 20,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 74360,
+          "total_forks": 9982,
+          "score": 0.000269
+        },
+        {
+          "repo": "godotengine/godot",
+          "count": 20,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 33820,
+          "total_forks": 11324,
+          "score": 0.000591
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 9058,
+      "total_forks": 862
     }
   ]
 }
