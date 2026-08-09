@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T01:43:30.872133+00:00",
+  "generated_at": "2026-08-09T00:50:52.345130+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -79155,6 +79155,104 @@
       },
       "total_stars": 9058,
       "total_forks": 862
+    },
+    {
+      "repo": "Murchi1k/obsidian-lorebase-plugin",
+      "recommendations": [
+        {
+          "repo": "Murchi1k/obsidian-lorebase-plugin",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "bigspawn/anilist-mal-sync",
+      "recommendations": [
+        {
+          "repo": "yasasbanukaofficial/claude-code",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 568,
+          "total_forks": 733,
+          "score": 0.001761
+        },
+        {
+          "repo": "muesli/docker-backup",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 89,
+          "total_forks": 15,
+          "score": 0.011236
+        },
+        {
+          "repo": "Guilouz/Creality-Helper-Script-Wiki",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 81,
+          "total_forks": 12,
+          "score": 0.012346
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 9,
+      "total_forks": 1
+    },
+    {
+      "repo": "thinkter/rust-meow",
+      "recommendations": [
+        {
+          "repo": "thinkter/rust-meow",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
     }
   ]
 }
