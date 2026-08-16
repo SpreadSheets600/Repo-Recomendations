@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T00:50:52.345130+00:00",
+  "generated_at": "2026-08-16T00:36:29.104769+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -5329,8 +5329,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 179,
-      "total_forks": 37
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "ai-for-developers/awesome-ai-coding-tools",
@@ -79234,6 +79234,288 @@
       "recommendations": [
         {
           "repo": "thinkter/rust-meow",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "udit-001/opencode-glasses",
+      "recommendations": [
+        {
+          "repo": "udit-001/opencode-glasses",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "pc-style/cool-my-skills",
+      "recommendations": [
+        {
+          "repo": "pc-style/cool-my-skills",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "recommendations": [
+        {
+          "repo": "deepseek-ai/deepseek-harness",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "HostServer001/jee_mains_pyqs_data_base",
+      "recommendations": [
+        {
+          "repo": "HostServer001/jee_mains_pyqs_data_base",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 2,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 2,
+      "total_forks": 0
+    },
+    {
+      "repo": "oliverschwendener/ueli",
+      "recommendations": [
+        {
+          "repo": "localsend/localsend",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 39429,
+          "total_forks": 2138,
+          "score": 0.000101
+        },
+        {
+          "repo": "1Panel-dev/1Panel",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 20434,
+          "total_forks": 1974,
+          "score": 0.000196
+        },
+        {
+          "repo": "immich-app/immich",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 35281,
+          "total_forks": 2003,
+          "score": 8.5e-05
+        },
+        {
+          "repo": "Yidadaa/ChatGPT-Next-Web",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 52076,
+          "total_forks": 56019,
+          "score": 5.8e-05
+        },
+        {
+          "repo": "BeyondDimension/SteamTools",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 7787,
+          "total_forks": 569,
+          "score": 0.000385
+        },
+        {
+          "repo": "BililiveRecorder/BililiveRecorder",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 1370,
+          "total_forks": 112,
+          "score": 0.00219
+        },
+        {
+          "repo": "NVIDIA/TensorRT",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 3168,
+          "total_forks": 507,
+          "score": 0.000947
+        },
+        {
+          "repo": "imartinez/privateGPT",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 47154,
+          "total_forks": 6380,
+          "score": 6.4e-05
+        },
+        {
+          "repo": "phidatahq/phidata",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 9274,
+          "total_forks": 1325,
+          "score": 0.000323
+        },
+        {
+          "repo": "danny-avila/LibreChat",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 12999,
+          "total_forks": 2896,
+          "score": 0.000231
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 846,
+      "total_forks": 56
+    },
+    {
+      "repo": "ilyamiro/serpantinum",
+      "recommendations": [
+        {
+          "repo": "ilyamiro/serpantinum",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "awesome-vibe-coding/awesome-vibe-coding",
+      "recommendations": [
+        {
+          "repo": "awesome-vibe-coding/awesome-vibe-coding",
           "count": 0,
           "metadata": {
             "description": null,
