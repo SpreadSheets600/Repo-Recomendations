@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T01:45:30.514070+00:00",
+  "generated_at": "2026-09-13T01:53:26.956001+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -70888,8 +70888,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 757,
-      "total_forks": 130
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "openclaw/wacli",
@@ -79879,6 +79879,320 @@
       "recommendations": [
         {
           "repo": "PythonicVarun/labpress",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "JustVugg/colibri",
+      "recommendations": [
+        {
+          "repo": "JustVugg/colibri",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "recommendations": [
+        {
+          "repo": "donnemartin/system-design-primer",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 63076,
+          "total_forks": 8897,
+          "score": 1.6e-05
+        },
+        {
+          "repo": "openai/openai-cookbook",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 49300,
+          "total_forks": 8796,
+          "score": 2e-05
+        },
+        {
+          "repo": "EveryInc/compound-knowledge-plugin",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 35,
+          "total_forks": 4,
+          "score": 0.028571
+        },
+        {
+          "repo": "dipakkr/A-to-Z-Resources-for-Students",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 2789,
+          "total_forks": 261,
+          "score": 0.000359
+        },
+        {
+          "repo": "springframeworkguru/testing-junit5-mockito",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 6,
+          "total_forks": 84,
+          "score": 0.166667
+        },
+        {
+          "repo": "peteonrails/voxtype",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 204,
+          "total_forks": 19,
+          "score": 0.004902
+        },
+        {
+          "repo": "Pimzino/spec-workflow-mcp",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 792,
+          "total_forks": 41,
+          "score": 0.001263
+        },
+        {
+          "repo": "Ido-Levi/claude-code-tamagotchi",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 41,
+          "total_forks": 11,
+          "score": 0.02439
+        },
+        {
+          "repo": "atomicmemory/llm-wiki-compiler",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 168,
+          "total_forks": 16,
+          "score": 0.005952
+        },
+        {
+          "repo": "diet103/claude-code-infrastructure-showcase",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 3877,
+          "total_forks": 94,
+          "score": 0.000258
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 18,
+      "total_forks": 2
+    },
+    {
+      "repo": "remvze/moodist",
+      "recommendations": [
+        {
+          "repo": "toeverything/AFFiNE",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 27450,
+          "total_forks": 2409,
+          "score": 0.000182
+        },
+        {
+          "repo": "lobehub/lobe-chat",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 34555,
+          "total_forks": 10246,
+          "score": 8.7e-05
+        },
+        {
+          "repo": "Stirling-Tools/Stirling-PDF",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 18875,
+          "total_forks": 1493,
+          "score": 0.000159
+        },
+        {
+          "repo": "DIYgod/RSSHub",
+          "count": 3,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 9570,
+          "total_forks": 4342,
+          "score": 0.000313
+        },
+        {
+          "repo": "Yidadaa/ChatGPT-Next-Web",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 52076,
+          "total_forks": 56019,
+          "score": 3.8e-05
+        },
+        {
+          "repo": "abi/screenshot-to-code",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 52130,
+          "total_forks": 6210,
+          "score": 3.8e-05
+        },
+        {
+          "repo": "serverless-dns/serverless-dns",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 968,
+          "total_forks": 1668,
+          "score": 0.002066
+        },
+        {
+          "repo": "lxfater/inpaint-web",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 4580,
+          "total_forks": 512,
+          "score": 0.000437
+        },
+        {
+          "repo": "penpot/penpot",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 11126,
+          "total_forks": 753,
+          "score": 0.00018
+        },
+        {
+          "repo": "pacexy/flow",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 971,
+          "total_forks": 99,
+          "score": 0.00206
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 597,
+      "total_forks": 45
+    },
+    {
+      "repo": "reactive-resume/reactive-resume",
+      "recommendations": [
+        {
+          "repo": "reactive-resume/reactive-resume",
           "count": 0,
           "metadata": {
             "description": null,
