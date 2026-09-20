@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T01:53:26.956001+00:00",
+  "generated_at": "2026-09-20T02:10:46.131451+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -80193,6 +80193,238 @@
       "recommendations": [
         {
           "repo": "reactive-resume/reactive-resume",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "TheoLeeCJ/SemIf",
+      "recommendations": [
+        {
+          "repo": "TheoLeeCJ/SemIf",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "thtbee/graphite",
+      "recommendations": [
+        {
+          "repo": "thtbee/graphite",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "presenton/presenton",
+      "recommendations": [
+        {
+          "repo": "langgenius/dify",
+          "count": 10,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 40579,
+          "total_forks": 5684,
+          "score": 0.000246
+        },
+        {
+          "repo": "garrytan/gstack",
+          "count": 9,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 16887,
+          "total_forks": 2359,
+          "score": 0.000533
+        },
+        {
+          "repo": "paperclipai/paperclip",
+          "count": 8,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 12251,
+          "total_forks": 2164,
+          "score": 0.000653
+        },
+        {
+          "repo": "Yidadaa/ChatGPT-Next-Web",
+          "count": 7,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 52076,
+          "total_forks": 56019,
+          "score": 0.000134
+        },
+        {
+          "repo": "obra/superpowers",
+          "count": 7,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 44454,
+          "total_forks": 3511,
+          "score": 0.000157
+        },
+        {
+          "repo": "msitarzewski/agency-agents",
+          "count": 7,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 19296,
+          "total_forks": 2926,
+          "score": 0.000363
+        },
+        {
+          "repo": "HKUDS/DeepTutor",
+          "count": 7,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 6628,
+          "total_forks": 860,
+          "score": 0.001056
+        },
+        {
+          "repo": "clawdbot/clawdbot",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 19371,
+          "total_forks": 2382,
+          "score": 0.00031
+        },
+        {
+          "repo": "anomalyco/opencode",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 32765,
+          "total_forks": 4198,
+          "score": 0.000183
+        },
+        {
+          "repo": "openclaw/openclaw",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 73306,
+          "total_forks": 16810,
+          "score": 8.2e-05
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 1104,
+      "total_forks": 179
+    },
+    {
+      "repo": "andreumassanet/impasto",
+      "recommendations": [
+        {
+          "repo": "andreumassanet/impasto",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "crmne/spotifast",
+      "recommendations": [
+        {
+          "repo": "crmne/spotifast",
           "count": 0,
           "metadata": {
             "description": null,
