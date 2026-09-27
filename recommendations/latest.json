@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T02:10:46.131451+00:00",
+  "generated_at": "2026-09-27T02:20:37.422703+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -3858,8 +3858,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 27,
-      "total_forks": 20
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "EveningLantern/velvet-ideas",
@@ -80425,6 +80425,263 @@
       "recommendations": [
         {
           "repo": "crmne/spotifast",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "amosblomqvist/learn",
+      "recommendations": [
+        {
+          "repo": "amosblomqvist/learn",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "zeronsh/zeron",
+      "recommendations": [
+        {
+          "repo": "zeronsh/zeron",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "NandhaKishorM/laya",
+      "recommendations": [
+        {
+          "repo": "NandhaKishorM/laya",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "elvisun/newsjack",
+      "recommendations": [
+        {
+          "repo": "quant-science/sunday-quant-scientist",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 433,
+          "total_forks": 84,
+          "score": 0.002309
+        },
+        {
+          "repo": "Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 2311,
+          "total_forks": 325,
+          "score": 0.000433
+        },
+        {
+          "repo": "MCPCat/webmcp-react",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 6,
+          "total_forks": 1,
+          "score": 0.166667
+        },
+        {
+          "repo": "DrLHS/awesome-llm-apps",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        },
+        {
+          "repo": "carlvellotti/claude-code-pm-course",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 586,
+          "total_forks": 80,
+          "score": 0.001706
+        },
+        {
+          "repo": "affaan-m/everything-claude-code",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 39887,
+          "total_forks": 5556,
+          "score": 2.5e-05
+        },
+        {
+          "repo": "jeffrey94/jeffrey-skills",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 1,
+          "total_forks": 1,
+          "score": 1.0
+        },
+        {
+          "repo": "https-deeplearning-ai/starting-ragchatbot-codebase",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 58,
+          "total_forks": 365,
+          "score": 0.017241
+        },
+        {
+          "repo": "github/spec-kit",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 22059,
+          "total_forks": 1488,
+          "score": 4.5e-05
+        },
+        {
+          "repo": "topoteretes/cognee",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 3734,
+          "total_forks": 334,
+          "score": 0.000268
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 11,
+      "total_forks": 1
+    },
+    {
+      "repo": "browser-use/jev-ultrafast",
+      "recommendations": [
+        {
+          "repo": "browser-use/jev-ultrafast",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "TheoLeeCJ/SemIf-OpenJev",
+      "recommendations": [
+        {
+          "repo": "TheoLeeCJ/SemIf-OpenJev",
           "count": 0,
           "metadata": {
             "description": null,
