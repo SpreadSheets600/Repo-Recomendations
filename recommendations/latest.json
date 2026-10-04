@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T02:20:37.422703+00:00",
+  "generated_at": "2026-10-04T03:16:01.537710+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -64929,8 +64929,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 5152,
-      "total_forks": 1325
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "caliber-ai-org/ai-setup",
@@ -80682,6 +80682,467 @@
       "recommendations": [
         {
           "repo": "TheoLeeCJ/SemIf-OpenJev",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "nykooi1/vibe-wise",
+      "recommendations": [
+        {
+          "repo": "nykooi1/vibe-wise",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "Archimetrix/Youtube-Pro-Plus",
+      "recommendations": [
+        {
+          "repo": "Archimetrix/Youtube-Pro-Plus",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 6,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 6,
+      "total_forks": 0
+    },
+    {
+      "repo": "udit-001/pi-zen",
+      "recommendations": [
+        {
+          "repo": "udit-001/pi-zen",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "WinIslandProject/WinIsland",
+      "recommendations": [
+        {
+          "repo": "WinIslandProject/WinIsland",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "SehajveerSingh2005/bloom",
+      "recommendations": [
+        {
+          "repo": "StormAnon/zen-auto-expand-sidebar",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 1,
+          "total_forks": 1,
+          "score": 1.0
+        },
+        {
+          "repo": "k00lagin/zen-second-sidebar",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 9,
+          "total_forks": 1,
+          "score": 0.111111
+        },
+        {
+          "repo": "Vertex-Mods/Zen-Live-Calendar",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 1,
+          "total_forks": 1,
+          "score": 1.0
+        },
+        {
+          "repo": "dusklinux/dusky",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 680,
+          "total_forks": 32,
+          "score": 0.001471
+        },
+        {
+          "repo": "SehajveerSingh2005/zen-wireframe-2.0",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 8,
+          "total_forks": 2,
+          "score": 0.125
+        },
+        {
+          "repo": "JustAdumbPrsn/BetterZenGradientPicker",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 6,
+          "total_forks": 1,
+          "score": 0.166667
+        },
+        {
+          "repo": "Darsh-A/Quick-Tabs",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 1,
+          "total_forks": 1,
+          "score": 1.0
+        },
+        {
+          "repo": "octaviusz/zen-drop-link",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        },
+        {
+          "repo": "dinnoyow/zen-tidy-popup",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        },
+        {
+          "repo": "sam-astro/Z-Sharp",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 223,
+          "total_forks": 40,
+          "score": 0.004484
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 4,
+      "total_forks": 1
+    },
+    {
+      "repo": "nolly-studio/cult-ui",
+      "recommendations": [
+        {
+          "repo": "langgenius/dify",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 40579,
+          "total_forks": 5684,
+          "score": 0.000123
+        },
+        {
+          "repo": "2noise/ChatTTS",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 19606,
+          "total_forks": 2000,
+          "score": 0.000255
+        },
+        {
+          "repo": "saasfly/saasfly",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 1173,
+          "total_forks": 103,
+          "score": 0.004263
+        },
+        {
+          "repo": "all-in-aigc/aicover",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 1356,
+          "total_forks": 273,
+          "score": 0.00295
+        },
+        {
+          "repo": "HeyPuter/puter",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 19927,
+          "total_forks": 1395,
+          "score": 0.000201
+        },
+        {
+          "repo": "twentyhq/twenty",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 16279,
+          "total_forks": 2072,
+          "score": 0.000246
+        },
+        {
+          "repo": "CapSoftware/Cap",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 4268,
+          "total_forks": 242,
+          "score": 0.000937
+        },
+        {
+          "repo": "mendableai/firecrawl",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 5390,
+          "total_forks": 385,
+          "score": 0.000742
+        },
+        {
+          "repo": "microsoft/generative-ai-for-beginners",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 47808,
+          "total_forks": 26218,
+          "score": 8.4e-05
+        },
+        {
+          "repo": "heyform/heyform",
+          "count": 4,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 5626,
+          "total_forks": 413,
+          "score": 0.000711
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 887,
+      "total_forks": 41
+    },
+    {
+      "repo": "tobagin/karere",
+      "recommendations": [
+        {
+          "repo": "rundeck/rundeck",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 688,
+          "total_forks": 98,
+          "score": 0.001453
+        },
+        {
+          "repo": "super-productivity/super-productivity",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 658,
+          "total_forks": 75,
+          "score": 0.00152
+        },
+        {
+          "repo": "MicrosoftDocs/pipelines-java",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 43,
+          "total_forks": 2526,
+          "score": 0.023256
+        },
+        {
+          "repo": "cloudsoft/winrm4j",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 14,
+          "total_forks": 9,
+          "score": 0.071429
+        },
+        {
+          "repo": "flatpak/xdg-desktop-portal",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 228,
+          "total_forks": 70,
+          "score": 0.004386
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 29,
+      "total_forks": 2
+    },
+    {
+      "repo": "Twigpine/openclaude",
+      "recommendations": [
+        {
+          "repo": "Twigpine/openclaude",
           "count": 0,
           "metadata": {
             "description": null,
