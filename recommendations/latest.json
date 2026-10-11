@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T03:16:01.537710+00:00",
+  "generated_at": "2026-10-11T02:43:12.490201+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -81143,6 +81143,238 @@
       "recommendations": [
         {
           "repo": "Twigpine/openclaude",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "storytold/photocraft",
+      "recommendations": [
+        {
+          "repo": "storytold/photocraft",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "storytold/filmcraft",
+      "recommendations": [
+        {
+          "repo": "storytold/filmcraft",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "thtbee/nectarlink",
+      "recommendations": [
+        {
+          "repo": "thtbee/nectarlink",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "itsfatduck/optimizerDuck",
+      "recommendations": [
+        {
+          "repo": "alibaba/zvec",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 2983,
+          "total_forks": 178,
+          "score": 0.00067
+        },
+        {
+          "repo": "imthenachoman/How-To-Secure-A-Linux-Server",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 5951,
+          "total_forks": 283,
+          "score": 0.000336
+        },
+        {
+          "repo": "donnemartin/system-design-primer",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 63076,
+          "total_forks": 8897,
+          "score": 3.2e-05
+        },
+        {
+          "repo": "Tencent/WeKnora",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 3198,
+          "total_forks": 349,
+          "score": 0.000625
+        },
+        {
+          "repo": "microsoft/ai-agents-for-beginners",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 7037,
+          "total_forks": 1939,
+          "score": 0.000284
+        },
+        {
+          "repo": "microsoft/VibeVoice",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 8951,
+          "total_forks": 869,
+          "score": 0.000223
+        },
+        {
+          "repo": "davila7/claude-code-templates",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 6445,
+          "total_forks": 509,
+          "score": 0.00031
+        },
+        {
+          "repo": "comet-ml/opik-openclaw",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 105,
+          "total_forks": 14,
+          "score": 0.019048
+        },
+        {
+          "repo": "VisoMasterFusion/VisoMaster-Fusion",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 147,
+          "total_forks": 26,
+          "score": 0.013605
+        },
+        {
+          "repo": "harry0703/MoneyPrinterTurbo",
+          "count": 2,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 20855,
+          "total_forks": 2893,
+          "score": 9.6e-05
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 300,
+      "total_forks": 19
+    },
+    {
+      "repo": "rehan-remade/universal-modder",
+      "recommendations": [
+        {
+          "repo": "rehan-remade/universal-modder",
           "count": 0,
           "metadata": {
             "description": null,
