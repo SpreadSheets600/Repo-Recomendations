@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T02:43:12.490201+00:00",
+  "generated_at": "2026-10-18T01:58:05.725253+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -62877,8 +62877,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 43,
-      "total_forks": 2
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "lingdojo/kana-dojo",
@@ -78125,8 +78125,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 58,
-      "total_forks": 5
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "langchain-ai/openwiki",
@@ -81375,6 +81375,131 @@
       "recommendations": [
         {
           "repo": "rehan-remade/universal-modder",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "wheresryan22/anatomy",
+      "recommendations": [
+        {
+          "repo": "wheresryan22/anatomy",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "Shib-Sankar-Das/Smart-Irrigation-System",
+      "recommendations": [
+        {
+          "repo": "Shib-Sankar-Das/Smart-Irrigation-System",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 1,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 1,
+      "total_forks": 0
+    },
+    {
+      "repo": "Shib-Sankar-Das/LoRa-GPS-Tracker",
+      "recommendations": [
+        {
+          "repo": "Shib-Sankar-Das/LoRa-GPS-Tracker",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "morluto/rea",
+      "recommendations": [
+        {
+          "repo": "morluto/rea",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "devangshekhawat/Fedora-45-Post-Install-Guide",
+      "recommendations": [
+        {
+          "repo": "devangshekhawat/Fedora-45-Post-Install-Guide",
           "count": 0,
           "metadata": {
             "description": null,
