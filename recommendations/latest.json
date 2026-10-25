@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T01:58:05.725253+00:00",
+  "generated_at": "2026-10-25T02:09:10.565073+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -65632,8 +65632,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 1863,
-      "total_forks": 93
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "e18lab/NHApp",
@@ -78125,8 +78125,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 0,
-      "total_forks": 0
+      "total_stars": 58,
+      "total_forks": 5
     },
     {
       "repo": "langchain-ai/openwiki",
@@ -81500,6 +81500,420 @@
       "recommendations": [
         {
           "repo": "devangshekhawat/Fedora-45-Post-Install-Guide",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "ARahim3/DigUp",
+      "recommendations": [
+        {
+          "repo": "ARahim3/DigUp",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "HazyResearch/ncm",
+      "recommendations": [
+        {
+          "repo": "HazyResearch/ncm",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "Graphify-Labs/graphify",
+      "recommendations": [
+        {
+          "repo": "Graphify-Labs/graphify",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "Arindam200/awesome-ai-apps",
+      "recommendations": [
+        {
+          "repo": "Shubhamsaboo/awesome-llm-apps",
+          "count": 11,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 14566,
+          "total_forks": 1759,
+          "score": 0.000755
+        },
+        {
+          "repo": "public-apis/public-apis",
+          "count": 8,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 95043,
+          "total_forks": 9956,
+          "score": 8.4e-05
+        },
+        {
+          "repo": "BloopAI/vibe-kanban",
+          "count": 7,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 7427,
+          "total_forks": 757,
+          "score": 0.000943
+        },
+        {
+          "repo": "e2b-dev/awesome-ai-agents",
+          "count": 7,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 9023,
+          "total_forks": 726,
+          "score": 0.000776
+        },
+        {
+          "repo": "thedotmack/claude-mem",
+          "count": 7,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 18474,
+          "total_forks": 1401,
+          "score": 0.000379
+        },
+        {
+          "repo": "sickn33/antigravity-awesome-skills",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 9116,
+          "total_forks": 1420,
+          "score": 0.000658
+        },
+        {
+          "repo": "affaan-m/everything-claude-code",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 39887,
+          "total_forks": 5556,
+          "score": 0.00015
+        },
+        {
+          "repo": "Alishahryar1/free-claude-code",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 4300,
+          "total_forks": 617,
+          "score": 0.001395
+        },
+        {
+          "repo": "openclaw/openclaw",
+          "count": 6,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 73306,
+          "total_forks": 16810,
+          "score": 8.2e-05
+        },
+        {
+          "repo": "vercel-labs/agent-skills",
+          "count": 5,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 8518,
+          "total_forks": 794,
+          "score": 0.000587
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 1481,
+      "total_forks": 145
+    },
+    {
+      "repo": "aakarim/OpenLore",
+      "recommendations": [
+        {
+          "repo": "aakarim/OpenLore",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "Supermedo/bloodborne_pc",
+      "recommendations": [
+        {
+          "repo": "Supermedo/bloodborne_pc",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "mattpocock/skills",
+      "recommendations": [
+        {
+          "repo": "affaan-m/everything-claude-code",
+          "count": 40,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 39887,
+          "total_forks": 5556,
+          "score": 0.001003
+        },
+        {
+          "repo": "obra/superpowers",
+          "count": 38,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 44454,
+          "total_forks": 3511,
+          "score": 0.000855
+        },
+        {
+          "repo": "garrytan/gstack",
+          "count": 33,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 16887,
+          "total_forks": 2359,
+          "score": 0.001954
+        },
+        {
+          "repo": "msitarzewski/agency-agents",
+          "count": 30,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 19296,
+          "total_forks": 2926,
+          "score": 0.001555
+        },
+        {
+          "repo": "openclaw/openclaw",
+          "count": 25,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 73306,
+          "total_forks": 16810,
+          "score": 0.000341
+        },
+        {
+          "repo": "anthropics/skills",
+          "count": 24,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 39895,
+          "total_forks": 3697,
+          "score": 0.000602
+        },
+        {
+          "repo": "forrestchang/andrej-karpathy-skills",
+          "count": 22,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 18319,
+          "total_forks": 1664,
+          "score": 0.001201
+        },
+        {
+          "repo": "NousResearch/hermes-agent",
+          "count": 20,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 27362,
+          "total_forks": 4171,
+          "score": 0.000731
+        },
+        {
+          "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+          "count": 18,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 20418,
+          "total_forks": 2027,
+          "score": 0.000882
+        },
+        {
+          "repo": "xai-org/grok-1",
+          "count": 17,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 46648,
+          "total_forks": 7952,
+          "score": 0.000364
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 13566,
+      "total_forks": 1157
+    },
+    {
+      "repo": "duxlabs-dev/dux-shell",
+      "recommendations": [
+        {
+          "repo": "duxlabs-dev/dux-shell",
           "count": 0,
           "metadata": {
             "description": null,
