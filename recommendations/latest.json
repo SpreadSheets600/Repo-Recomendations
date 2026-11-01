@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T02:09:10.565073+00:00",
+  "generated_at": "2026-11-01T03:00:45.316126+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -81914,6 +81914,188 @@
       "recommendations": [
         {
           "repo": "duxlabs-dev/dux-shell",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "AlteriaX/WuWa-Configs",
+      "recommendations": [
+        {
+          "repo": "kaze-mio/NahidaRenderProject",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 274,
+          "total_forks": 69,
+          "score": 0.00365
+        },
+        {
+          "repo": "FZBZ-StudentUnion/2025SportsMeetingWeb",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        },
+        {
+          "repo": "huangserva/claude-code-cli",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 93,
+          "total_forks": 195,
+          "score": 0.010753
+        },
+        {
+          "repo": "koishijs/koishi-plugin-puppeteer",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 6,
+          "total_forks": 7,
+          "score": 0.166667
+        },
+        {
+          "repo": "bkwhite12/KawaiiPhysics",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        },
+        {
+          "repo": "xiaoyaocz/dart_simple_live",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 5538,
+          "total_forks": 658,
+          "score": 0.000181
+        },
+        {
+          "repo": "srk24/mpv-winbuild-cmake",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 1,
+          "score": 0.0
+        },
+        {
+          "repo": "yenpuren/WMI-Fixer-Tool",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 17,
+          "total_forks": 2,
+          "score": 0.058824
+        },
+        {
+          "repo": "nilaoda/BBDown",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 4757,
+          "total_forks": 774,
+          "score": 0.00021
+        },
+        {
+          "repo": "Anthogonyst/UnityToGodot",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 156,
+          "total_forks": 19,
+          "score": 0.00641
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 210,
+      "total_forks": 11
+    },
+    {
+      "repo": "elayadesign/ai-design-skills",
+      "recommendations": [
+        {
+          "repo": "elayadesign/ai-design-skills",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "medium-gh/scancore",
+      "recommendations": [
+        {
+          "repo": "medium-gh/scancore",
           "count": 0,
           "metadata": {
             "description": null,
