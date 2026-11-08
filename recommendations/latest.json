@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T03:00:45.316126+00:00",
+  "generated_at": "2026-11-08T03:08:50.949714+00:00",
   "username": "SpreadSheets600",
   "results": [
     {
@@ -46739,8 +46739,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 449,
-      "total_forks": 185
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "SaverinOnRails/Dynamo",
@@ -75103,8 +75103,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 10686,
-      "total_forks": 882
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "RyanCodrai/turbovec",
@@ -80931,8 +80931,8 @@
         "topics": [],
         "languages": {}
       },
-      "total_stars": 4,
-      "total_forks": 1
+      "total_stars": 0,
+      "total_forks": 0
     },
     {
       "repo": "nolly-studio/cult-ui",
@@ -82096,6 +82096,238 @@
       "recommendations": [
         {
           "repo": "medium-gh/scancore",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "Shrey113/Android-Dex",
+      "recommendations": [
+        {
+          "repo": "IMXEren/rvx-builds",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 12,
+          "total_forks": 30,
+          "score": 0.083333
+        },
+        {
+          "repo": "dokar3/upnext-gpt-web",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 7,
+          "total_forks": 9,
+          "score": 0.142857
+        },
+        {
+          "repo": "janxland/LuminaryLore",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 2,
+          "total_forks": 1,
+          "score": 0.5
+        },
+        {
+          "repo": "savethepolarbears/jules-mcp-server",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 3,
+          "total_forks": 2,
+          "score": 0.333333
+        },
+        {
+          "repo": "e-roy/gemini-pro-vision-playground",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 77,
+          "total_forks": 75,
+          "score": 0.012987
+        },
+        {
+          "repo": "qqlittleice233/KernelSU_Action",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 2,
+          "total_forks": 1,
+          "score": 0.5
+        },
+        {
+          "repo": "readyplayerme/Example-Android-Kotlin",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 9,
+          "total_forks": 6,
+          "score": 0.111111
+        },
+        {
+          "repo": "xjunz/AutoTask",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 211,
+          "total_forks": 28,
+          "score": 0.004739
+        },
+        {
+          "repo": "Acode-Foundation/Acode",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 418,
+          "total_forks": 111,
+          "score": 0.002392
+        },
+        {
+          "repo": "lchh5/GeminiPro-Next-Web",
+          "count": 1,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 180,
+          "total_forks": 32,
+          "score": 0.005556
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 26,
+      "total_forks": 3
+    },
+    {
+      "repo": "caru-ini/stack-diagram",
+      "recommendations": [
+        {
+          "repo": "caru-ini/stack-diagram",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "Arjun-Ingole/hop",
+      "recommendations": [
+        {
+          "repo": "Arjun-Ingole/hop",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "little-systems/bloom",
+      "recommendations": [
+        {
+          "repo": "little-systems/bloom",
+          "count": 0,
+          "metadata": {
+            "description": null,
+            "topics": [],
+            "languages": {}
+          },
+          "total_stars": 0,
+          "total_forks": 0,
+          "score": 0.0,
+          "non_normalized": true
+        }
+      ],
+      "metadata": {
+        "description": null,
+        "topics": [],
+        "languages": {}
+      },
+      "total_stars": 0,
+      "total_forks": 0
+    },
+    {
+      "repo": "Lulu5239/view-loggers",
+      "recommendations": [
+        {
+          "repo": "Lulu5239/view-loggers",
           "count": 0,
           "metadata": {
             "description": null,
